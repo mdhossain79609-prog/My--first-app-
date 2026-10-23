@@ -1,108 +1,113 @@
+
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমার প্রথম অ্যাপ</title>
 
-    <title>My First App</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #e3f2fd, #fce4ec);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .app {
+      width: 90%;
+      max-width: 400px;
+      background: white;
+      padding: 35px 20px;
+      border-radius: 25px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
 
-        .app {
-            width: 92%;
-            max-width: 430px;
-            background: white;
-            border-radius: 25px;
-            padding: 30px 20px;
-            text-align: center;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-        }
+    h1 {
+      margin-bottom: 10px;
+      color: #333;
+    }
 
-        h1 {
-            color: #1565c0;
-            margin-bottom: 10px;
-        }
+    p {
+      color: #666;
+      margin-bottom: 30px;
+    }
 
-        p {
-            color: #555;
-            font-size: 17px;
-        }
+    button {
+      width: 100%;
+      padding: 16px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
 
-        .button {
-            display: block;
-            width: 100%;
-            padding: 16px;
-            margin-top: 15px;
-            border: none;
-            border-radius: 15px;
-            font-size: 18px;
-            font-weight: bold;
-            color: white;
-            background: #1976d2;
-            cursor: pointer;
-        }
+    .learn {
+      background: #4CAF50;
+      color: white;
+    }
 
-        .button:active {
-            transform: scale(0.97);
-        }
+    .quiz {
+      background: #FF9800;
+      color: white;
+    }
 
-        .about {
-            background: #43a047;
-        }
+    .about {
+      background: #2196F3;
+      color: white;
+    }
 
-        #message {
-            margin-top: 20px;
-            font-size: 18px;
-            color: #d81b60;
-            font-weight: bold;
-        }
-    </style>
+    #message {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
 </head>
 
 <body>
 
-    <div class="app">
+  <div class="app">
 
-        <h1>📱 আমার প্রথম অ্যাপ</h1>
+    <h1>📱 আমার প্রথম অ্যাপ</h1>
+    <p>স্বাগতম! নিচ থেকে একটি অপশন নির্বাচন করুন।</p>
 
-        <p>স্বাগতম! 🎉</p>
+    <button class="learn" onclick="learn()">📚 শিখুন</button>
 
-        <button class="button" onclick="startApp()">
-            🚀 শুরু করুন
-        </button>
+    <button class="quiz" onclick="quiz()">🎯 কুইজ খেলুন</button>
 
-        <button class="button about" onclick="aboutApp()">
-            ℹ️ আমাদের সম্পর্কে
-        </button>
+    <button class="about" onclick="about()">ℹ️ আমাদের সম্পর্কে</button>
 
-        <div id="message"></div>
+    <div id="message"></div>
 
-    </div>
+  </div>
 
-    <script>
-        function startApp() {
-            document.getElementById("message").innerHTML =
-                "🎉 আপনি সফলভাবে শুরু করেছেন!";
-        }
+  <script>
+    function learn() {
+      document.getElementById("message").innerHTML =
+      "📚 শেখার অংশে আপনাকে স্বাগতম!";
+    }
 
-        function aboutApp() {
-            document.getElementById("message").innerHTML =
-                "এই অ্যাপটি মোবাইল দিয়ে তৈরি করা হচ্ছে। ❤️";
-        }
-    </script>
+    function quiz() {
+      document.getElementById("message").innerHTML =
+      "🎯 কুইজ শুরু করার জন্য প্রস্তুত হন!";
+    }
+
+    function about() {
+      document.getElementById("message").innerHTML =
+      "ℹ️ এই অ্যাপটি মোবাইল দিয়ে তৈরি করা হচ্ছে।";
+    }
+  </script>
 
 </body>
 </html>
