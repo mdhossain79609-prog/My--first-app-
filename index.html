@@ -8,93 +8,93 @@
 <title>World Quiz Challenge</title>
 
 <style>
-* { box-sizing: border-box; }
+*{box-sizing:border-box}
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #4b6cb7, #182848);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:linear-gradient(135deg,#16222A,#3A6073);
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-.app {
-  width: 92%;
-  max-width: 430px;
-  background: white;
-  padding: 25px;
-  border-radius: 24px;
-  text-align: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+.app{
+  width:92%;
+  max-width:450px;
+  background:white;
+  padding:25px;
+  border-radius:22px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
-h1 { margin-bottom: 5px; }
-h2 { color: #222; }
+h1{margin-bottom:5px}
 
-.subtitle {
-  color: #666;
-  margin-bottom: 25px;
+.subtitle{
+  color:#666;
+  margin-bottom:20px;
 }
 
-button {
-  width: 100%;
-  padding: 15px;
-  margin: 7px 0;
-  border: none;
-  border-radius: 12px;
-  font-size: 17px;
-  cursor: pointer;
+button{
+  width:100%;
+  padding:14px;
+  margin:6px 0;
+  border:none;
+  border-radius:12px;
+  font-size:16px;
+  cursor:pointer;
 }
 
-.category {
-  background: #eef2ff;
-  color: #222;
+.category{
+  background:#edf2ff;
+  color:#222;
 }
 
-.category:hover {
-  background: #dfe6ff;
+.answer{
+  background:#f1f1f1;
+  color:#222;
 }
 
-.answer {
-  background: #f1f1f1;
-  color: #222;
+.next{
+  background:#16a34a;
+  color:white;
 }
 
-.next {
-  background: #4CAF50;
-  color: white;
+.home{
+  background:#2563eb;
+  color:white;
 }
 
-.home {
-  background: #673AB7;
-  color: white;
+#quizPage,#resultPage{
+  display:none;
 }
 
-#quizPage, #resultPage {
-  display: none;
+.top{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:15px;
+  font-weight:bold;
+  color:#555;
 }
 
-.topbar {
-  display: flex;
-  justify-content: space-between;
-  color: #666;
-  font-weight: bold;
-  margin-bottom: 15px;
+#feedback{
+  min-height:30px;
+  font-size:18px;
+  font-weight:bold;
+  margin-top:10px;
 }
 
-#feedback {
-  min-height: 30px;
-  font-weight: bold;
-  font-size: 18px;
-  margin-top: 10px;
+.score{
+  font-size:45px;
+  font-weight:bold;
+  margin:20px 0;
 }
 
-.scoreBig {
-  font-size: 42px;
-  font-weight: bold;
-  color: #4CAF50;
+#loading{
+  color:#666;
+  font-weight:bold;
 }
 </style>
 </head>
@@ -103,46 +103,30 @@ button {
 
 <div class="app">
 
-<!-- HOME PAGE -->
+<!-- HOME -->
 <div id="homePage">
 
 <h1>🌍 World Quiz Challenge</h1>
-<p class="subtitle">Test your knowledge. Challenge yourself!</p>
+<p class="subtitle">International Knowledge & Professional Quiz</p>
 
 <h2>Choose a Category</h2>
 
-<button class="category" onclick="startQuiz('world')">
-🌍 World Knowledge
-</button>
+<div id="loading">Loading categories...</div>
 
-<button class="category" onclick="startQuiz('science')">
-🔬 Science
-</button>
-
-<button class="category" onclick="startQuiz('geography')">
-🗺️ Geography
-</button>
-
-<button class="category" onclick="startQuiz('technology')">
-💻 Technology
-</button>
-
-<button class="category" onclick="startQuiz('sports')">
-⚽ Sports
-</button>
+<div id="categories"></div>
 
 </div>
 
 
-<!-- QUIZ PAGE -->
+<!-- QUIZ -->
 <div id="quizPage">
 
-<div class="topbar">
+<div class="top">
 <span id="progress"></span>
-<span id="scoreTop"></span>
+<span id="topScore"></span>
 </div>
 
-<h2 id="categoryTitle"></h2>
+<h2 id="categoryName"></h2>
 
 <h3 id="question"></h3>
 
@@ -150,22 +134,29 @@ button {
 
 <div id="feedback"></div>
 
-<button id="nextButton" class="next"
-onclick="nextQuestion()" style="display:none;">
+<button
+id="nextButton"
+class="next"
+onclick="nextQuestion()"
+style="display:none">
 Next Question ➜
+</button>
+
+<button class="home" onclick="goHome()">
+🏠 Categories
 </button>
 
 </div>
 
 
-<!-- RESULT PAGE -->
+<!-- RESULT -->
 <div id="resultPage">
 
 <h1>🏆 Quiz Complete!</h1>
 
 <p>Your Score</p>
 
-<div class="scoreBig" id="finalScore"></div>
+<div class="score" id="finalScore"></div>
 
 <p id="finalMessage"></p>
 
@@ -174,7 +165,7 @@ Next Question ➜
 </button>
 
 <button class="home" onclick="goHome()">
-🏠 Choose Another Category
+🏠 Choose Category
 </button>
 
 </div>
@@ -184,332 +175,316 @@ Next Question ➜
 
 <script>
 
-const quizzes = {
-
-world: [
-{
-q:"Which is the largest ocean on Earth?",
-options:["Atlantic Ocean","Indian Ocean","Pacific Ocean","Arctic Ocean"],
-answer:2
-},
-{
-q:"How many continents are there?",
-options:["5","6","7","8"],
-answer:2
-},
-{
-q:"Which country is famous for the Eiffel Tower?",
-options:["Italy","France","Spain","Germany"],
-answer:1
-},
-{
-q:"Which is the largest country in the world by area?",
-options:["Canada","China","Russia","USA"],
-answer:2
-},
-{
-q:"Which planet is known as the Red Planet?",
-options:["Venus","Mars","Jupiter","Mercury"],
-answer:1
-}
-],
-
-science: [
-{
-q:"What gas do humans need to breathe?",
-options:["Carbon Dioxide","Oxygen","Hydrogen","Nitrogen"],
-answer:1
-},
-{
-q:"What is H2O commonly called?",
-options:["Salt","Water","Oxygen","Hydrogen"],
-answer:1
-},
-{
-q:"Which organ pumps blood around the human body?",
-options:["Brain","Lungs","Heart","Kidney"],
-answer:2
-},
-{
-q:"What is the center of our solar system?",
-options:["Earth","Moon","Sun","Mars"],
-answer:2
-},
-{
-q:"How many legs does an insect have?",
-options:["4","6","8","10"],
-answer:1
-}
-],
-
-geography: [
-{
-q:"What is the capital of Japan?",
-options:["Tokyo","Seoul","Beijing","Bangkok"],
-answer:0
-},
-{
-q:"Which continent is Egypt in?",
-options:["Asia","Europe","Africa","Australia"],
-answer:2
-},
-{
-q:"Which is the world's largest continent?",
-options:["Africa","Asia","Europe","South America"],
-answer:1
-},
-{
-q:"Mount Everest is part of which mountain range?",
-options:["Alps","Andes","Himalayas","Rockies"],
-answer:2
-},
-{
-q:"Which country has the city of Sydney?",
-options:["Canada","Australia","USA","New Zealand"],
-answer:1
-}
-],
-
-technology: [
-{
-q:"What does CPU stand for?",
-options:[
-"Central Processing Unit",
-"Computer Personal Unit",
-"Central Program Utility",
-"Computer Processing User"
-],
-answer:0
-},
-{
-q:"Which company developed Android?",
-options:["Apple","Google","Microsoft","Sony"],
-answer:1
-},
-{
-q:"What does WWW stand for?",
-options:[
-"World Wide Web",
-"World Web Window",
-"Wide World Wire",
-"Web World Wide"
-],
-answer:0
-},
-{
-q:"Which device is commonly used to type on a computer?",
-options:["Monitor","Keyboard","Speaker","Printer"],
-answer:1
-},
-{
-q:"Which of these is a web browser?",
-options:["Chrome","Excel","Photoshop","PowerPoint"],
-answer:0
-}
-],
-
-sports: [
-{
-q:"How many players does a soccer team have on the field?",
-options:["9","10","11","12"],
-answer:2
-},
-{
-q:"Which sport uses a racket and a shuttlecock?",
-options:["Tennis","Badminton","Cricket","Golf"],
-answer:1
-},
-{
-q:"How many rings are in the Olympic symbol?",
-options:["4","5","6","7"],
-answer:1
-},
-{
-q:"Which sport uses a bat, ball and wickets?",
-options:["Basketball","Cricket","Golf","Hockey"],
-answer:1
-},
-{
-q:"In which sport is Wimbledon famous?",
-options:["Football","Tennis","Cricket","Swimming"],
-answer:1
-}
-]
-
-};
-
-
-const titles = {
-world:"🌍 World Knowledge",
-science:"🔬 Science",
-geography:"🗺️ Geography",
-technology:"💻 Technology",
-sports:"⚽ Sports"
-};
-
+let database = {};
 let currentCategory = "";
+let questions = [];
 let currentQuestion = 0;
 let score = 0;
 let answered = false;
 
 
-function startQuiz(category){
+/* LOAD QUESTIONS.JSON */
 
-currentCategory = category;
-currentQuestion = 0;
-score = 0;
+fetch("questions.json")
+.then(response => {
 
-document.getElementById("homePage").style.display="none";
-document.getElementById("resultPage").style.display="none";
-document.getElementById("quizPage").style.display="block";
+  if(!response.ok){
+    throw new Error("Database could not be loaded.");
+  }
 
-showQuestion();
+  return response.json();
+
+})
+.then(data => {
+
+  database = data;
+
+  document.getElementById("loading").style.display="none";
+
+  createCategories();
+
+})
+.catch(error => {
+
+  document.getElementById("loading").innerHTML =
+  "❌ Could not load question database.";
+
+  console.error(error);
+
+});
+
+
+/* CREATE CATEGORY BUTTONS AUTOMATICALLY */
+
+function createCategories(){
+
+  const box = document.getElementById("categories");
+  box.innerHTML = "";
+
+  Object.keys(database).forEach(category => {
+
+    const button = document.createElement("button");
+
+    button.className = "category";
+
+    button.innerText =
+    getIcon(category) + " " + category +
+    " (" + database[category].length + ")";
+
+    button.onclick = function(){
+      startQuiz(category);
+    };
+
+    box.appendChild(button);
+
+  });
+
 }
 
+
+/* CATEGORY ICONS */
+
+function getIcon(category){
+
+  const name = category.toLowerCase();
+
+  if(name.includes("medical")) return "🩺";
+  if(name.includes("mechanical")) return "🔧";
+  if(name.includes("electrical")) return "⚡";
+  if(name.includes("engineering")) return "⚙️";
+  if(name.includes("computer")) return "💻";
+  if(name.includes("technology")) return "💻";
+  if(name.includes("science")) return "🔬";
+  if(name.includes("geography")) return "🗺️";
+  if(name.includes("history")) return "📜";
+  if(name.includes("space")) return "🚀";
+  if(name.includes("sports")) return "⚽";
+  if(name.includes("math")) return "➗";
+  if(name.includes("biology")) return "🧬";
+  if(name.includes("chemistry")) return "🧪";
+  if(name.includes("physics")) return "⚛️";
+
+  return "🌍";
+}
+
+
+/* START QUIZ */
+
+function startQuiz(category){
+
+  currentCategory = category;
+
+  questions = [...database[category]];
+
+  shuffle(questions);
+
+  currentQuestion = 0;
+  score = 0;
+
+  document.getElementById("homePage").style.display="none";
+  document.getElementById("resultPage").style.display="none";
+  document.getElementById("quizPage").style.display="block";
+
+  showQuestion();
+
+}
+
+
+/* SHOW QUESTION */
 
 function showQuestion(){
 
-answered = false;
+  answered = false;
 
-const quiz = quizzes[currentCategory];
-const item = quiz[currentQuestion];
+  const item = questions[currentQuestion];
 
-document.getElementById("categoryTitle").innerText =
-titles[currentCategory];
+  document.getElementById("categoryName").innerText =
+  currentCategory;
 
-document.getElementById("progress").innerText =
-"Question " + (currentQuestion + 1) + "/" + quiz.length;
+  document.getElementById("progress").innerText =
+  "Question " +
+  (currentQuestion + 1) +
+  "/" +
+  questions.length;
 
-document.getElementById("scoreTop").innerText =
-"Score: " + score;
+  document.getElementById("topScore").innerText =
+  "Score: " + score;
 
-document.getElementById("question").innerText = item.q;
+  document.getElementById("question").innerText =
+  item.question;
 
-document.getElementById("feedback").innerText = "";
+  document.getElementById("feedback").innerText = "";
 
-document.getElementById("nextButton").style.display="none";
+  document.getElementById("nextButton").style.display =
+  "none";
 
-const answers = document.getElementById("answers");
-answers.innerHTML = "";
+  const answerBox =
+  document.getElementById("answers");
 
-item.options.forEach((option,index)=>{
+  answerBox.innerHTML = "";
 
-const button = document.createElement("button");
+  item.options.forEach(option => {
 
-button.className = "answer";
-button.innerText = option;
+    const button =
+    document.createElement("button");
 
-button.onclick = function(){
-checkAnswer(index,button);
-};
+    button.className = "answer";
 
-answers.appendChild(button);
+    button.innerText = option;
 
-});
+    button.onclick = function(){
+      checkAnswer(option,button);
+    };
+
+    answerBox.appendChild(button);
+
+  });
+
+}
+
+
+/* CHECK ANSWER */
+
+function checkAnswer(selected,selectedButton){
+
+  if(answered) return;
+
+  answered = true;
+
+  const item = questions[currentQuestion];
+
+  const buttons =
+  document.querySelectorAll(".answer");
+
+  buttons.forEach(button => {
+
+    button.disabled = true;
+
+    if(button.innerText === item.answer){
+
+      button.style.background="#16a34a";
+      button.style.color="white";
+
+    }
+
+  });
+
+  if(selected === item.answer){
+
+    score++;
+
+    document.getElementById("feedback").innerText =
+    "✅ Correct!";
+
+  }else{
+
+    selectedButton.style.background="#dc2626";
+    selectedButton.style.color="white";
+
+    document.getElementById("feedback").innerText =
+    "❌ Wrong! Correct answer: " + item.answer;
+
+  }
+
+  document.getElementById("topScore").innerText =
+  "Score: " + score;
+
+  document.getElementById("nextButton").style.display =
+  "block";
 
 }
 
 
-function checkAnswer(index,button){
-
-if(answered) return;
-
-answered = true;
-
-const item = quizzes[currentCategory][currentQuestion];
-
-const buttons = document.querySelectorAll(".answer");
-
-buttons.forEach((btn,i)=>{
-
-btn.disabled = true;
-
-if(i === item.answer){
-btn.style.background = "#4CAF50";
-btn.style.color = "white";
-}
-
-});
-
-if(index === item.answer){
-
-score++;
-
-document.getElementById("feedback").innerText =
-"✅ Correct!";
-
-}else{
-
-button.style.background = "#f44336";
-button.style.color = "white";
-
-document.getElementById("feedback").innerText =
-"❌ Wrong!";
-
-}
-
-document.getElementById("scoreTop").innerText =
-"Score: " + score;
-
-document.getElementById("nextButton").style.display="block";
-
-}
-
+/* NEXT */
 
 function nextQuestion(){
 
-currentQuestion++;
+  currentQuestion++;
 
-if(currentQuestion < quizzes[currentCategory].length){
+  if(currentQuestion < questions.length){
 
-showQuestion();
+    showQuestion();
 
-}else{
+  }else{
 
-showResult();
+    showResult();
+
+  }
 
 }
 
-}
 
+/* RESULT */
 
 function showResult(){
 
-document.getElementById("quizPage").style.display="none";
-document.getElementById("resultPage").style.display="block";
+  document.getElementById("quizPage").style.display =
+  "none";
 
-const total = quizzes[currentCategory].length;
+  document.getElementById("resultPage").style.display =
+  "block";
 
-document.getElementById("finalScore").innerText =
-score + " / " + total;
+  document.getElementById("finalScore").innerText =
+  score + " / " + questions.length;
 
-let message="";
+  const percent =
+  Math.round((score/questions.length)*100);
 
-if(score === total){
-message="🌟 Perfect! Excellent work!";
+  let message = "";
+
+  if(percent >= 80)
+    message = "🌟 Excellent! " + percent + "%";
+
+  else if(percent >= 50)
+    message = "👏 Good Job! " + percent + "%";
+
+  else
+    message = "💪 Keep Learning! " + percent + "%";
+
+  document.getElementById("finalMessage").innerText =
+  message;
+
 }
-else if(score >= 3){
-message="👏 Great job! Keep learning!";
-}
-else{
-message="💪 Good try! Play again and improve your score.";
-}
 
-document.getElementById("finalMessage").innerText=message;
 
-}
-
+/* PLAY AGAIN */
 
 function playAgain(){
-startQuiz(currentCategory);
+
+  startQuiz(currentCategory);
+
 }
 
+
+/* HOME */
 
 function goHome(){
 
-document.getElementById("resultPage").style.display="none";
-document.getElementById("quizPage").style.display="none";
-document.getElementById("homePage").style.display="block";
+  document.getElementById("quizPage").style.display =
+  "none";
+
+  document.getElementById("resultPage").style.display =
+  "none";
+
+  document.getElementById("homePage").style.display =
+  "block";
+
+}
+
+
+/* RANDOMIZE QUESTIONS */
+
+function shuffle(array){
+
+  for(let i=array.length-1;i>0;i--){
+
+    const j =
+    Math.floor(Math.random()*(i+1));
+
+    [array[i],array[j]] =
+    [array[j],array[i]];
+
+  }
 
 }
 
