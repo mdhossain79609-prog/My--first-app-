@@ -1,54 +1,100 @@
 
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>আমার প্রথম অ্যাপ</title>
+
+<title>World Quiz Challenge</title>
 
 <style>
-body{
-  margin:0;
-  font-family:Arial,sans-serif;
-  background:linear-gradient(135deg,#6a11cb,#2575fc);
-  min-height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.app{
-  width:90%;
-  max-width:400px;
-  background:white;
-  padding:25px;
-  border-radius:25px;
-  text-align:center;
-  box-shadow:0 10px 30px rgba(0,0,0,.25);
+.app {
+  width: 92%;
+  max-width: 430px;
+  background: white;
+  padding: 25px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
 }
 
-button{
-  width:100%;
-  padding:15px;
-  margin:7px 0;
-  border:none;
-  border-radius:12px;
-  font-size:17px;
-  cursor:pointer;
+h1 { margin-bottom: 5px; }
+h2 { color: #222; }
+
+.subtitle {
+  color: #666;
+  margin-bottom: 25px;
 }
 
-.learn{background:#4CAF50;color:white;}
-.quiz{background:#FF9800;color:white;}
-.about{background:#2196F3;color:white;}
-.answer{background:#eeeeee;color:#222;}
-.home{background:#673AB7;color:white;}
+button {
+  width: 100%;
+  padding: 15px;
+  margin: 7px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  cursor: pointer;
+}
 
-#quizPage{display:none;}
+.category {
+  background: #eef2ff;
+  color: #222;
+}
 
-#result{
-  font-weight:bold;
-  font-size:18px;
-  margin-top:12px;
+.category:hover {
+  background: #dfe6ff;
+}
+
+.answer {
+  background: #f1f1f1;
+  color: #222;
+}
+
+.next {
+  background: #4CAF50;
+  color: white;
+}
+
+.home {
+  background: #673AB7;
+  color: white;
+}
+
+#quizPage, #resultPage {
+  display: none;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#feedback {
+  min-height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.scoreBig {
+  font-size: 42px;
+  font-weight: bold;
+  color: #4CAF50;
 }
 </style>
 </head>
@@ -57,85 +103,327 @@ button{
 
 <div class="app">
 
+<!-- HOME PAGE -->
 <div id="homePage">
 
-<h1>📱 আমার প্রথম অ্যাপ</h1>
-<p>স্বাগতম! নিচ থেকে একটি অপশন নির্বাচন করুন।</p>
+<h1>🌍 World Quiz Challenge</h1>
+<p class="subtitle">Test your knowledge. Challenge yourself!</p>
 
-<button class="learn"
-onclick="alert('📚 শেখার অংশ শিগগিরই আসছে')">
-📚 শিখুন
+<h2>Choose a Category</h2>
+
+<button class="category" onclick="startQuiz('world')">
+🌍 World Knowledge
 </button>
 
-<button class="quiz" onclick="startQuiz()">
-🎯 কুইজ খেলুন
+<button class="category" onclick="startQuiz('science')">
+🔬 Science
 </button>
 
-<button class="about"
-onclick="alert('এই অ্যাপটি মোবাইল দিয়ে তৈরি করা হচ্ছে।')">
-ℹ️ আমাদের সম্পর্কে
+<button class="category" onclick="startQuiz('geography')">
+🗺️ Geography
+</button>
+
+<button class="category" onclick="startQuiz('technology')">
+💻 Technology
+</button>
+
+<button class="category" onclick="startQuiz('sports')">
+⚽ Sports
 </button>
 
 </div>
 
+
+<!-- QUIZ PAGE -->
 <div id="quizPage">
 
-<h2>🎯 সাধারণ জ্ঞান কুইজ</h2>
+<div class="topbar">
+<span id="progress"></span>
+<span id="scoreTop"></span>
+</div>
 
-<p><b>প্রশ্ন:</b> বাংলাদেশের রাজধানীর নাম কী?</p>
+<h2 id="categoryTitle"></h2>
 
-<button class="answer" onclick="checkAnswer(false)">
-চট্টগ্রাম
+<h3 id="question"></h3>
+
+<div id="answers"></div>
+
+<div id="feedback"></div>
+
+<button id="nextButton" class="next"
+onclick="nextQuestion()" style="display:none;">
+Next Question ➜
 </button>
 
-<button class="answer" onclick="checkAnswer(true)">
-ঢাকা
-</button>
+</div>
 
-<button class="answer" onclick="checkAnswer(false)">
-রাজশাহী
-</button>
 
-<button class="answer" onclick="checkAnswer(false)">
-খুলনা
-</button>
+<!-- RESULT PAGE -->
+<div id="resultPage">
 
-<div id="result"></div>
+<h1>🏆 Quiz Complete!</h1>
+
+<p>Your Score</p>
+
+<div class="scoreBig" id="finalScore"></div>
+
+<p id="finalMessage"></p>
+
+<button class="next" onclick="playAgain()">
+🔄 Play Again
+</button>
 
 <button class="home" onclick="goHome()">
-🏠 হোমে ফিরে যান
+🏠 Choose Another Category
 </button>
 
 </div>
 
 </div>
+
 
 <script>
 
-function startQuiz(){
- document.getElementById("homePage").style.display="none";
- document.getElementById("quizPage").style.display="block";
- document.getElementById("result").innerHTML="";
+const quizzes = {
+
+world: [
+{
+q:"Which is the largest ocean on Earth?",
+options:["Atlantic Ocean","Indian Ocean","Pacific Ocean","Arctic Ocean"],
+answer:2
+},
+{
+q:"How many continents are there?",
+options:["5","6","7","8"],
+answer:2
+},
+{
+q:"Which country is famous for the Eiffel Tower?",
+options:["Italy","France","Spain","Germany"],
+answer:1
+},
+{
+q:"Which is the largest country in the world by area?",
+options:["Canada","China","Russia","USA"],
+answer:2
+},
+{
+q:"Which planet is known as the Red Planet?",
+options:["Venus","Mars","Jupiter","Mercury"],
+answer:1
+}
+],
+
+science: [
+{
+q:"What gas do humans need to breathe?",
+options:["Carbon Dioxide","Oxygen","Hydrogen","Nitrogen"],
+answer:1
+},
+{
+q:"What is H2O commonly called?",
+options:["Salt","Water","Oxygen","Hydrogen"],
+answer:1
+},
+{
+q:"Which organ pumps blood around the human body?",
+options:["Brain","Lungs","Heart","Kidney"],
+answer:2
+},
+{
+q:"What is the center of our solar system?",
+options:["Earth","Moon","Sun","Mars"],
+answer:2
+},
+{
+q:"How many legs does an insect have?",
+options:["4","6","8","10"],
+answer:1
+}
+],
+
+geography: [
+{
+q:"What is the capital of Japan?",
+options:["Tokyo","Seoul","Beijing","Bangkok"],
+answer:0
+},
+{
+q:"Which continent is Egypt in?",
+options:["Asia","Europe","Africa","Australia"],
+answer:2
+},
+{
+q:"Which is the world's largest continent?",
+options:["Africa","Asia","Europe","South America"],
+answer:1
+},
+{
+q:"Mount Everest is part of which mountain range?",
+options:["Alps","Andes","Himalayas","Rockies"],
+answer:2
+},
+{
+q:"Which country has the city of Sydney?",
+options:["Canada","Australia","USA","New Zealand"],
+answer:1
+}
+],
+
+technology: [
+{
+q:"What does CPU stand for?",
+options:[
+"Central Processing Unit",
+"Computer Personal Unit",
+"Central Program Utility",
+"Computer Processing User"
+],
+answer:0
+},
+{
+q:"Which company developed Android?",
+options:["Apple","Google","Microsoft","Sony"],
+answer:1
+},
+{
+q:"What does WWW stand for?",
+options:[
+"World Wide Web",
+"World Web Window",
+"Wide World Wire",
+"Web World Wide"
+],
+answer:0
+},
+{
+q:"Which device is commonly used to type on a computer?",
+options:["Monitor","Keyboard","Speaker","Printer"],
+answer:1
+},
+{
+q:"Which of these is a web browser?",
+options:["Chrome","Excel","Photoshop","PowerPoint"],
+answer:0
+}
+],
+
+sports: [
+{
+q:"How many players does a soccer team have on the field?",
+options:["9","10","11","12"],
+answer:2
+},
+{
+q:"Which sport uses a racket and a shuttlecock?",
+options:["Tennis","Badminton","Cricket","Golf"],
+answer:1
+},
+{
+q:"How many rings are in the Olympic symbol?",
+options:["4","5","6","7"],
+answer:1
+},
+{
+q:"Which sport uses a bat, ball and wickets?",
+options:["Basketball","Cricket","Golf","Hockey"],
+answer:1
+},
+{
+q:"In which sport is Wimbledon famous?",
+options:["Football","Tennis","Cricket","Swimming"],
+answer:1
+}
+]
+
+};
+
+
+const titles = {
+world:"🌍 World Knowledge",
+science:"🔬 Science",
+geography:"🗺️ Geography",
+technology:"💻 Technology",
+sports:"⚽ Sports"
+};
+
+let currentCategory = "";
+let currentQuestion = 0;
+let score = 0;
+let answered = false;
+
+
+function startQuiz(category){
+
+currentCategory = category;
+currentQuestion = 0;
+score = 0;
+
+document.getElementById("homePage").style.display="none";
+document.getElementById("resultPage").style.display="none";
+document.getElementById("quizPage").style.display="block";
+
+showQuestion();
 }
 
-function checkAnswer(correct){
 
- if(correct){
-  document.getElementById("result").innerHTML=
-  "✅ সঠিক উত্তর! ঢাকা।";
- }else{
-  document.getElementById("result").innerHTML=
-  "❌ ভুল উত্তর। আবার চেষ্টা করুন।";
- }
+function showQuestion(){
+
+answered = false;
+
+const quiz = quizzes[currentCategory];
+const item = quiz[currentQuestion];
+
+document.getElementById("categoryTitle").innerText =
+titles[currentCategory];
+
+document.getElementById("progress").innerText =
+"Question " + (currentQuestion + 1) + "/" + quiz.length;
+
+document.getElementById("scoreTop").innerText =
+"Score: " + score;
+
+document.getElementById("question").innerText = item.q;
+
+document.getElementById("feedback").innerText = "";
+
+document.getElementById("nextButton").style.display="none";
+
+const answers = document.getElementById("answers");
+answers.innerHTML = "";
+
+item.options.forEach((option,index)=>{
+
+const button = document.createElement("button");
+
+button.className = "answer";
+button.innerText = option;
+
+button.onclick = function(){
+checkAnswer(index,button);
+};
+
+answers.appendChild(button);
+
+});
 
 }
 
-function goHome(){
- document.getElementById("quizPage").style.display="none";
- document.getElementById("homePage").style.display="block";
-}
 
-</script>
+function checkAnswer(index,button){
 
-</body>
-</html>
+if(answered) return;
+
+answered = true;
+
+const item = quizzes[currentCategory][currentQuestion];
+
+const buttons = document.querySelectorAll(".answer");
+
+buttons.forEach((btn,i)=>{
+
+btn.disabled = true;
+
+if(i === item.answer){
+btn.style.background = "#4CAF50";
+btn.style.color = "white
