@@ -1,0 +1,58 @@
+HTML
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First App</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>আমার প্রথম অ্যাপ</h1>
+    <p>স্বাগতম! 🎉</p>
+
+    <button onclick="showMessage()">এখানে চাপ দিন</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("অভিনন্দন! আপনার অ্যাপ কাজ করছে।");
+    }
+  </script>
+
+</body>
+</html>
