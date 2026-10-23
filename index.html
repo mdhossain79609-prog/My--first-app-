@@ -426,4 +426,94 @@ btn.disabled = true;
 
 if(i === item.answer){
 btn.style.background = "#4CAF50";
-btn.style.color = "white
+btn.style.color = "white";
+}
+
+});
+
+if(index === item.answer){
+
+score++;
+
+document.getElementById("feedback").innerText =
+"✅ Correct!";
+
+}else{
+
+button.style.background = "#f44336";
+button.style.color = "white";
+
+document.getElementById("feedback").innerText =
+"❌ Wrong!";
+
+}
+
+document.getElementById("scoreTop").innerText =
+"Score: " + score;
+
+document.getElementById("nextButton").style.display="block";
+
+}
+
+
+function nextQuestion(){
+
+currentQuestion++;
+
+if(currentQuestion < quizzes[currentCategory].length){
+
+showQuestion();
+
+}else{
+
+showResult();
+
+}
+
+}
+
+
+function showResult(){
+
+document.getElementById("quizPage").style.display="none";
+document.getElementById("resultPage").style.display="block";
+
+const total = quizzes[currentCategory].length;
+
+document.getElementById("finalScore").innerText =
+score + " / " + total;
+
+let message="";
+
+if(score === total){
+message="🌟 Perfect! Excellent work!";
+}
+else if(score >= 3){
+message="👏 Great job! Keep learning!";
+}
+else{
+message="💪 Good try! Play again and improve your score.";
+}
+
+document.getElementById("finalMessage").innerText=message;
+
+}
+
+
+function playAgain(){
+startQuiz(currentCategory);
+}
+
+
+function goHome(){
+
+document.getElementById("resultPage").style.display="none";
+document.getElementById("quizPage").style.display="none";
+document.getElementById("homePage").style.display="block";
+
+}
+
+</script>
+
+</body>
+</html>
