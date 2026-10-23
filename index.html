@@ -1,58 +1,108 @@
-HTML
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
-      color: white;
-      text-align: center;
-    }
+    <title>My First App</title>
 
-    .container {
-      padding: 50px 20px;
-    }
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-    h1 {
-      font-size: 32px;
-      margin-bottom: 15px;
-    }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    p {
-      font-size: 18px;
-    }
+        .app {
+            width: 92%;
+            max-width: 430px;
+            background: white;
+            border-radius: 25px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
 
-    button {
-      margin-top: 30px;
-      padding: 15px 30px;
-      font-size: 18px;
-      border: none;
-      border-radius: 12px;
-      cursor: pointer;
-    }
-  </style>
+        h1 {
+            color: #1565c0;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 17px;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background: #1976d2;
+            cursor: pointer;
+        }
+
+        .button:active {
+            transform: scale(0.97);
+        }
+
+        .about {
+            background: #43a047;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #d81b60;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
 
-  <div class="container">
-    <h1>আমার প্রথম অ্যাপ</h1>
-    <p>স্বাগতম! 🎉</p>
+    <div class="app">
 
-    <button onclick="showMessage()">এখানে চাপ দিন</button>
-  </div>
+        <h1>📱 আমার প্রথম অ্যাপ</h1>
 
-  <script>
-    function showMessage() {
-      alert("অভিনন্দন! আপনার অ্যাপ কাজ করছে।");
-    }
-  </script>
+        <p>স্বাগতম! 🎉</p>
+
+        <button class="button" onclick="startApp()">
+            🚀 শুরু করুন
+        </button>
+
+        <button class="button about" onclick="aboutApp()">
+            ℹ️ আমাদের সম্পর্কে
+        </button>
+
+        <div id="message"></div>
+
+    </div>
+
+    <script>
+        function startApp() {
+            document.getElementById("message").innerHTML =
+                "🎉 আপনি সফলভাবে শুরু করেছেন!";
+        }
+
+        function aboutApp() {
+            document.getElementById("message").innerHTML =
+                "এই অ্যাপটি মোবাইল দিয়ে তৈরি করা হচ্ছে। ❤️";
+        }
+    </script>
 
 </body>
 </html>
