@@ -101,7 +101,58 @@
 }
 ],
  
-  "Medical Science": [],
+  "Medical Science": [
+{
+  "question": "What is the largest organ in the human body?",
+  "options": ["Heart", "Liver", "Skin", "Lungs"],
+  "answer": "Skin"
+},
+{
+  "question": "Which organ pumps blood throughout the human body?",
+  "options": ["Brain", "Heart", "Kidney", "Liver"],
+  "answer": "Heart"
+},
+{
+  "question": "How many chambers are there in the human heart?",
+  "options": ["Two", "Three", "Four", "Five"],
+  "answer": "Four"
+},
+{
+  "question": "Which blood cells help the body fight infections?",
+  "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+  "answer": "White blood cells"
+},
+{
+  "question": "Which vitamin is mainly produced in the skin through sunlight exposure?",
+  "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+  "answer": "Vitamin D"
+},
+{
+  "question": "Which organ is primarily responsible for filtering waste from the blood?",
+  "options": ["Heart", "Kidneys", "Lungs", "Stomach"],
+  "answer": "Kidneys"
+},
+{
+  "question": "What is the normal average human body temperature?",
+  "options": ["35°C", "37°C", "39°C", "41°C"],
+  "answer": "37°C"
+},
+{
+  "question": "Which part of the human body contains the smallest bones?",
+  "options": ["Hand", "Foot", "Ear", "Nose"],
+  "answer": "Ear"
+},
+{
+  "question": "Which mineral is essential for healthy bones and teeth?",
+  "options": ["Iron", "Calcium", "Sodium", "Potassium"],
+  "answer": "Calcium"
+},
+{
+  "question": "Which organ produces insulin in the human body?",
+  "options": ["Liver", "Pancreas", "Kidney", "Stomach"],
+  "answer": "Pancreas"
+}
+  ]
   "Engineering Fundamentals": [],
   "Mechanical Engineering": [],
   "Mechanical Technician": [],
