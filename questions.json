@@ -1,5 +1,56 @@
-{
-  "World General Knowledge": [],
+{"World General Knowledge": [
+  {
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "question": "Which is the largest continent in the world?",
+    "options": ["Africa", "Europe", "Asia", "North America"],
+    "answer": "Asia"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Seoul", "Tokyo", "Beijing", "Bangkok"],
+    "answer": "Tokyo"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the largest country in the world by area?",
+    "options": ["Canada", "China", "Russia", "United States"],
+    "answer": "Russia"
+  },
+  {
+    "question": "Which is the smallest continent by land area?",
+    "options": ["Europe", "Australia", "Antarctica", "South America"],
+    "answer": "Australia"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa"
+  },
+  {
+    "question": "Which language has the most native speakers worldwide?",
+    "options": ["English", "Spanish", "Mandarin Chinese", "Arabic"],
+    "answer": "Mandarin Chinese"
+  },
+  {
+    "question": "Which country is home to the Great Pyramid of Giza?",
+    "options": ["Greece", "Egypt", "Italy", "Mexico"],
+    "answer": "Egypt"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": ["Won", "Yuan", "Yen", "Dollar"],
+    "answer": "Yen"
+  }
+],
+ 
   "Medical Science": [],
   "Engineering Fundamentals": [],
   "Mechanical Engineering": [],
