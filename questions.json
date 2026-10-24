@@ -152,7 +152,7 @@
   "options": ["Liver", "Pancreas", "Kidney", "Stomach"],
   "answer": "Pancreas"
 }
-  ],
+],
   
   "Engineering Fundamentals": [
   {
@@ -205,7 +205,7 @@
     "options": ["Watt", "Newton", "Joule", "Pascal"],
     "answer": "Joule"
   }
-],
+  ],
 
   "Mechanical Engineering": [
   {
@@ -258,7 +258,7 @@
     "options": ["Welding", "Casting", "Forging", "Machining"],
     "answer": "Welding"
   }
-],
+  ],
 
   "Mechanical Technician": [
   {
@@ -311,7 +311,7 @@
     "options": ["Move fluids", "Cut metals", "Measure voltage", "Produce heat"],
     "answer": "Move fluids"
   }
-],
+  ],
     
   "Electrical & Engineering": [
   {
@@ -364,7 +364,7 @@
     "options": ["Generator", "Electric motor", "Transformer", "Battery"],
     "answer": "Electric motor"
   }
-],
+  ],
     
   "Civil Engineering": [
   {
@@ -417,7 +417,7 @@
     "options": ["Steel", "Paper", "Rubber", "Glass"],
     "answer": "Steel"
   }
-],
+  ],
 
   "Computer & Technology": [
   {
@@ -470,7 +470,7 @@
     "options": ["Keyboard", "Monitor", "Microphone", "Scanner"],
     "answer": "Monitor"
   }
-],
+  ],
 
   "General Science": [
   {
@@ -523,7 +523,7 @@
     "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
     "answer": "Nitrogen"
   }
-],
+  ],
 
   "Physics": [
   {
@@ -576,7 +576,7 @@
     "options": ["Watt", "Newton", "Joule", "Volt"],
     "answer": "Joule"
   }
-],
+  ],
 
   "Chemistry": [
   {
@@ -629,7 +629,7 @@
     "options": ["Solid", "Liquid", "Gas", "Plasma"],
     "answer": "Liquid"
   }
-],
+  ],
 
   "Biology": [
   {
@@ -682,7 +682,7 @@
     "options": ["Protein", "DNA", "Glucose", "Water"],
     "answer": "DNA"
   }
-],
+  ],
 
   "Mathematics": [
   {
@@ -735,7 +735,7 @@
     "options": ["90°", "180°", "270°", "360°"],
     "answer": "180°"
   }
-],
+  ],
     
   "Geography": [
   {
@@ -788,7 +788,7 @@
     "options": ["Europe", "Australia", "Antarctica", "South America"],
     "answer": "Australia"
   }
-],
+  ],
 
   "World History": [
   {
@@ -841,7 +841,7 @@
     "options": ["1943", "1944", "1945", "1946"],
     "answer": "1945"
   }
-],
+  ],
 
   "Space & Astronomy": [
   {
@@ -894,7 +894,7 @@
     "options": ["Friction", "Magnetism", "Gravity", "Electricity"],
     "answer": "Gravity"
   }
-],
+  ],
 
   "Government & Competitive Exams": [
   {
@@ -947,7 +947,7 @@
     "options": ["A system of government administration", "A type of election", "A military strategy", "A political speech"],
     "answer": "A system of government administration"
   }
-],
+  ],
 
   "Business & Economics": [
   {
@@ -1000,7 +1000,7 @@
     "options": ["The process of starting and managing a business", "The process of collecting taxes", "The study of weather", "The process of making laws"],
     "answer": "The process of starting and managing a business"
   }
-],
+  ],
 
   "Sports": [
   {
@@ -1053,7 +1053,7 @@
     "options": ["Basketball", "Volleyball", "Handball", "Football"],
     "answer": "Basketball"
   }
-],
+  ],
 
   "Brain & Logic": [
   {
@@ -1106,6 +1106,6 @@
     "options": ["3", "7", "10", "0"],
     "answer": "3"
   }
-],
+  ],
 
 }
