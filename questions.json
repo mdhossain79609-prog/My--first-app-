@@ -207,57 +207,6 @@
   }
   ],
 
-  "Mechanical Engineering": [
-  {
-    "question": "What is the main function of a bearing?",
-    "options": ["To increase friction", "To reduce friction", "To increase temperature", "To produce electricity"],
-    "answer": "To reduce friction"
-  },
-  {
-    "question": "Which engine converts heat energy into mechanical energy?",
-    "options": ["Electric motor", "Heat engine", "Generator", "Transformer"],
-    "answer": "Heat engine"
-  },
-  {
-    "question": "What is the SI unit of torque?",
-    "options": ["Newton", "Newton-meter", "Watt", "Pascal"],
-    "answer": "Newton-meter"
-  },
-  {
-    "question": "Which device is used to measure rotational speed?",
-    "options": ["Tachometer", "Thermometer", "Barometer", "Ammeter"],
-    "answer": "Tachometer"
-  },
-  {
-    "question": "What is the primary function of a gear?",
-    "options": ["Transfer motion and torque", "Measure temperature", "Store electricity", "Reduce pressure"],
-    "answer": "Transfer motion and torque"
-  },
-  {
-    "question": "Which metal is commonly used to manufacture engine blocks?",
-    "options": ["Aluminum alloy", "Copper", "Silver", "Gold"],
-    "answer": "Aluminum alloy"
-  },
-  {
-    "question": "What does CNC stand for?",
-    "options": ["Computer Numerical Control", "Central Network Control", "Computer Network Circuit", "Controlled Numeric Computer"],
-    "answer": "Computer Numerical Control"
-  },
-  {
-    "question": "Which machine tool is commonly used to produce cylindrical parts?",
-    "options": ["Lathe", "Drill press", "Grinder", "Press"],
-    "answer": "Lathe"
-  },
-  {
-    "question": "What is the purpose of a flywheel in an engine?",
-    "options": ["Store rotational energy", "Cool the engine", "Measure fuel", "Increase electrical voltage"],
-    "answer": "Store rotational energy"
-  },
-  {
-    "question": "Which process is used to join two metal parts using heat?",
-    "options": ["Welding", "Casting", "Forging", "Machining"],
-    "answer": "Welding"
-  }
-  ],
+
 
   
