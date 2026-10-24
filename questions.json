@@ -48,7 +48,8 @@
     "question": "What is the currency of Japan?",
     "options": ["Won", "Yuan", "Yen", "Dollar"],
     "answer": "Yen"
-  }{
+  },
+  {
   "question": "What is the largest ocean in the world?",
   "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
   "answer": "Pacific Ocean"
