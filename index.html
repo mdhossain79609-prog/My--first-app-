@@ -1,1 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>World Quiz Challenge</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#eef7ff,#f8f5ff,#effff7);
+    color:#263238;
+    min-height:100vh;
+}
+
+/* Header */
+
+header{
+    background:linear-gradient(135deg,#4f8cff,#6c63ff);
+    color:white;
+    text-align:center;
+    padding:22px 15px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.12);
+}
+
+header h1{
+    margin:0;
+    font-size:28px;
+}
+
+header p{
+    margin:8px 0 0;
+    font-size:15px;
+    opacity:0.95;
+}
+
+/* Main */
+
+.container{
+    width:94%;
+    max-width:800px;
+    margin:25px auto;
+}
+
+/* Cards */
+
+.screen{
+    background:rgba(255,255,255,0.92);
+    border-radius:18px;
+    padding:22px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+h2{
+    text-align:center;
+    margin-top:0;
+    color:#34495e;
+}
+
+/* Loading */
+
+#loading{
+    text-align:center;
+    padding:20px;
+    color:#555;
+}
+
+/* Error */
+
+#error{
+    color:#d32f2f;
+    font-weight:bold;
+    text-align:center;
+    margin:15px 0;
+}
+
+/* Categories */
+
+#categories{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    margin-top:20px;
+}
+
+.category-btn{
+    border:none;
+    padding:16px 10px;
+    border-radius:14px;
+    background:#ffffff;
+    color:#263238;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    transition:0.2s;
+}
+
+.category-btn:hover{
+    transform:translateY(-2px);
+    background:#eef5ff;
+}
+
+.category-btn:active{
+    transform:scale(0.98);
+}
+
+/* Quiz */
+
+#quiz{
+    display:none;
+}
+
+#categoryTitle{
+    text-align:center;
+    color:#4169e1;
+    margin-top:0;
+}
+
+.question-info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f2f7ff;
+    padding:12px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-weight:bold;
+}
+
+#questionText{
+    font-size:20px;
+    font-weight:bold;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+
+/* Answers */
+
+#answers{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.answer-btn{
+    width:100%;
+    padding:15px;
+    border:2px solid #dce6f2;
+    border-radius:12px;
+    background:white;
+    color:#263238;
+    text-align:left;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.answer-btn:hover{
+    background:#f2f7ff;
+    border-color:#6c8cff;
+}
+
+.answer-btn.correct{
+    background:#d9f8df;
+    border-color:#25a244;
+    color:#146c2e;
+}
+
+.answer-btn.wrong{
+    background:#ffe0e0;
+    border-color:#e53935;
+    color:#a41414;
+}
+
+.answer-btn:disabled{
+    cursor:not-allowed;
+}
+
+/* Result */
+
+#result{
+    display:none;
+    text-align:center;
+}
+
+.score-box{
+    background:#f1f8ff;
+    border-radius:15px;
+    padding:25px;
+    margin:20px 0;
+}
+
+.score-number{
+    font-size:42px;
+    font-weight:bold;
+    color:#4169e1;
+}
+
+/* Buttons */
+
+.main-btn{
+    border:none;
+    padding:14px 24px;
+    border-radius:12px;
+    background:#4169e1;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    margin:5px;
+}
+
+.main-btn:hover{
+    background:#3155c9;
+}
+
+#nextBtn{
+    display:none;
+    margin-top:20px;
+    width:100%;
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    header h1{
+        font-size:23px;
+    }
+
+    header p{
+        font-size:13px;
+    }
+
+    .container{
+        width:94%;
+        margin:18px auto;
+    }
+
+    .screen{
+        padding:16px;
+    }
+
+    #categories{
+        grid-template-columns:1fr;
+    }
+
+    #questionText{
+        font-size:18px;
+    }
+
+    .answer-btn{
+        font-size:15px;
+        padding:14px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>🌍 World Quiz Challenge</h1>
+
+    <p>
+        International Knowledge & Professional Quiz
+    </p>
+
+</header>
+
+
+<div class="container">
+
+    <!-- CATEGORY SCREEN -->
+
+    <div id="categoryScreen" class="screen">
+
+        <h2>📚 Choose a Category</h2>
+
+        <p id="loading">
+            Loading categories...
+        </p>
+
+        <p id="error"></p>
+
+        <div id="categories"></div>
+
+    </div>
+
+
+    <!-- QUIZ SCREEN -->
+
+    <div id="quiz" class="screen">
+
+        <h2 id="categoryTitle"></h2>
+
+        <div class="question-info">
+
+            <span>
+                Question
+                <span id="questionNumber">1</span>
+            </span>
+
+            <span>
+                Score:
+                <span id="score">0</span>
+            </span>
+
+        </div>
+
+
+        <div id="questionText">
+            Question loading...
+        </div>
+
+
+        <div id="answers"></div>
+
+
+        <button
+            id="nextBtn"
+            class="main-btn">
+            ➡️ Next Question
+        </button>
+
+    </div>
+
+
+    <!-- RESULT SCREEN -->
+
+    <div id="result" class="screen">
+
+        <h2>🎉 Quiz Complete!</h2>
+
+        <div class="score-box">
+
+            <div>
+                Your Score
+            </div>
+
+            <div
+                id="finalScore"
+                class="score-number">
+                0
+            </div>
+
+            <div id="resultMessage"></div>
+
+        </div>
+
+        <button
+            class="main-btn"
+            onclick="restartQuiz()">
+            🔄 Try Again
+        </button>
+
+        <button
+            class="main-btn"
+            onclick="showCategories()">
+            📚 Categories
+        </button>
+
+    </div>
+
+</div>
+
+
+<script>
+
+/* ==========================================
+   WORLD QUIZ CHALLENGE
+   ========================================== */
+
+let quizData = {};
+
+let currentCategory = "";
+
+let currentQuestions = [];
+
+let currentQuestionIndex = 0;
+
+let score = 0;
+
+let answered = false;
+
+
+/* ==========================================
+   LOAD QUESTIONS
+   ========================================== */
+
+async function loadQuestions(){
+
+    const loading =
+        document.getElementById("loading");
+
+    const error =
+        document.getElementById("error");
+
+    try{
+
+        const response =
+            await fetch("questions.json");
+
+        if(!response.ok){
+
+            throw new Error(
+                "questions.json পাওয়া যায়নি"
+            );
+
+        }
+
+        const data =
+            await response.json();
+
+        quizData = data;
+
+        loading.style.display = "none";
+
+        createCategories();
+
+    }
+
+    catch(err){
+
+        loading.style.display = "none";
+
+        error.innerHTML =
+            "❌ প্রশ্ন লোড করা যাচ্ছে না।<br><br>" +
+            "দয়া করে নিশ্চিত করুন যে <b>questions.json</b> " +
+            "ফাইলটি একই Repository-তে আছে।";
+
+        console.error(err);
+
+    }
+
+}
+
+
+/* ==========================================
+   CREATE CATEGORIES
+   ========================================== */
+
+function createCategories(){
+
+    const container =
+        document.getElementById("categories");
+
+    container.innerHTML = "";
+
+    let categories = [];
+
+
+    /*
+       Supported JSON formats:
+
+       1.
+       {
+          "Science":[...],
+          "Math":[...]
+       }
+
+       2.
+       {
+          "categories":{
+             "Science":[...],
+             "Math":[...]
+          }
+       }
+    */
+
+
+    if(
+        quizData.categories &&
+        typeof quizData.categories === "object"
+    ){
+
+        quizData = quizData.categories;
+
+    }
+
+
+    categories =
+        Object.keys(quizData);
+
+
+    if(categories.length === 0){
+
+        document.getElementById("error").innerHTML =
+            "❌ কোনো Category পাওয়া যায়নি।";
+
+        return;
+
+    }
+
+
+    categories.forEach(function(category){
+
+        const button =
+            document.createElement("button");
+
+        button.className =
+            "category-btn";
+
+        button.textContent =
+            "📘 " + category;
+
+        button.onclick =
+            function(){
+
+                startQuiz(category);
+
+            };
+
+        container.appendChild(button);
+
+    });
+
+}
+
+
+/* ==========================================
+   START QUIZ
+   ========================================== */
+
+function startQuiz(category){
+
+    currentCategory =
+        category;
+
+    currentQuestions =
+        quizData[category];
+
+
+    if(
+        !Array.isArray(currentQuestions) ||
+        currentQuestions.length === 0
+    ){
+
+        alert(
+            "এই Category-তে এখনো কোনো প্রশ্ন নেই।"
+        );
+
+        return;
+
+    }
+
+
+    currentQuestionIndex = 0;
+
+    score = 0;
+
+    answered = false;
+
+
+    document.getElementById(
+        "categoryScreen"
+    ).style.display = "none";
+
+
+    document.getElementById(
+        "result"
+    ).style.display = "none";
+
+
+    document.getElementById(
+        "quiz"
+    ).style.display = "block";
+
+
+    document.getElementById(
+        "categoryTitle"
+    ).textContent =
+        "📚 " + category;
+
+
+    showQuestion();
+
+}
+
+
+/* ==========================================
+   SHOW QUESTION
+   ========================================== */
+
+function showQuestion(){
+
+    answered = false;
+
+    const question =
+        currentQuestions[currentQuestionIndex];
+
+
+    document.getElementById(
+        "questionNumber"
+    ).textContent =
+        (currentQuestionIndex + 1)
+        + " / "
+        + currentQuestions.length;
+
+
+    document.getElementById(
+        "score"
+    ).textContent =
+        score;
+
+
+    /*
+       Supports:
+
+       {
+          "question":"...",
+          "options":["A","B","C","D"],
+          "answer":"A"
+       }
+
+       Also supports answer as index:
+
+       "answer":0
+    */
+
+
+    const questionText =
+        question.question ||
+        question.questionText ||
+        question.q ||
+        "";
+
+
+    document.getElementById(
+        "questionText"
+    ).textContent =
+        questionText;
+
+
+    const answers =
+        document.getElementById(
+            "answers"
+        );
+
+    answers.innerHTML = "";
+
+
+    let options =
+        question.options ||
+        question.answers ||
+        question.choices ||
+        [];
+
+
+    options.forEach(
+        function(option,index){
+
+            const button =
+                document.createElement("button");
+
+            button.className =
+                "answer-btn";
+
+            button.textContent =
+                option;
+
+
+            button.onclick =
+                function(){
+
+                    checkAnswer(
+                        index,
+                        option,
+                        question
+                    );
+
+                };
+
+
+            answers.appendChild(button);
+
+        }
+    );
+
+
+    document.getElementById(
+        "nextBtn"
+    ).style.display =
+        "none";
+
+}
+
+
+/* ==========================================
+   CHECK ANSWER
+   ========================================== */
+
+function checkAnswer(
+    selectedIndex,
+    selectedOption,
+    question
+){
+
+    if(answered){
+        return;
+    }
+
+    answered = true;
+
+
+    let correctAnswer =
+        question.answer;
+
+
+    if(correctAnswer === undefined){
+
+        correctAnswer =
+            question.correctAnswer;
+
+    }
+
+
+    const buttons =
+        document.querySelectorAll(
+            ".answer-btn"
+        );
+
+
+    let correctIndex = -1;
+
+
+    /* Answer as number */
+
+    if(
+        typeof correctAnswer === "number"
+    ){
+
+        correctIndex =
+            correctAnswer;
+
+    }
+
+
+    /* Answer as text */
+
+    else if(
+        typeof correctAnswer === "string"
+    ){
+
+        buttons.forEach(
+            function(button,index){
+
+                if(
+                    button.textContent.trim()
+                    ===
+                    correctAnswer.trim()
+                ){
+
+                    correctIndex =
+                        index;
+
+                }
+
+            }
+        );
+
+
+        /*
+           Also supports A/B/C/D
+        */
+
+        if(correctIndex === -1){
+
+            const letter =
+                correctAnswer
+                .trim()
+                .toUpperCase();
+
+
+            if(
+                letter === "A"
+            ) correctIndex = 0;
+
+            if(
+                letter === "B"
+            ) correctIndex = 1;
+
+            if(
+                letter === "C"
+            ) correctIndex = 2;
+
+            if(
+                letter === "D"
+            ) correctIndex = 3;
+
+        }
+
+    }
+
+
+    buttons.forEach(
+        function(button,index){
+
+            button.disabled = true;
+
+
+            if(index === correctIndex){
+
+                button.classList.add(
+                    "correct"
+                );
+
+            }
+
+        }
+    );
+
+
+    if(
+        selectedIndex === correctIndex
+    ){
+
+        score++;
+
+    }
+
+    else{
+
+        if(
+            buttons[selectedIndex]
+        ){
+
+            buttons[selectedIndex]
+                .classList.add(
+                    "wrong"
+                );
+
+        }
+
+    }
+
+
+    document.getElementById(
+        "score"
+    ).textContent =
+        score;
+
+
+    document.getElementById(
+        "nextBtn"
+    ).style.display =
+        "block";
+
+}
+
+
+/* ==========================================
+   NEXT QUESTION
+   ========================================== */
+
+document.getElementById(
+    "nextBtn"
+).onclick = function(){
+
+    currentQuestionIndex++;
+
+
+    if(
+        currentQuestionIndex
+        >=
+        currentQuestions.length
+    ){
+
+        showResult();
+
+    }
+
+    else{
+
+        showQuestion();
+
+    }
+
+};
+
+
+/* ==========================================
+   SHOW RESULT
+   ========================================== */
+
+function showResult(){
+
+    document.getElementById(
+        "quiz"
+    ).style.display =
+        "none";
+
+
+    document.getElementById(
+        "result"
+    ).style.display =
+        "block";
+
+
+    const total =
+        currentQuestions.length;
+
+
+    document.getElementById(
+        "finalScore"
+    ).textContent =
+        score + " / " + total;
+
+
+    const percentage =
+        Math.round(
+            (score / total) * 100
+        );
+
+
+    let message = "";
+
+
+    if(percentage >= 90){
+
+        message =
+            "🏆 Excellent! অসাধারণ ফলাফল!";
+
+    }
+
+    else if(percentage >= 70){
+
+        message =
+            "👏 Great Job! খুব ভালো!";
+
+    }
+
+    else if(percentage >= 50){
+
+        message =
+            "👍 Good! আরও একটু চেষ্টা করুন।";
+
+    }
+
+    else{
+
+        message =
+            "💪 Keep Practicing! আবার চেষ্টা করুন।";
+
+    }
+
+
+    document.getElementById(
+        "resultMessage"
+    ).innerHTML =
+        message +
+        "<br><br>" +
+        "Percentage: " +
+        percentage +
+        "%";
+
+}
+
+
+/* ==========================================
+   RESTART
+   ========================================== */
+
+function restartQuiz(){
+
+    currentQuestionIndex = 0;
+
+    score = 0;
+
+    answered = false;
+
+    document.getElementById(
+        "result"
+    ).style.display =
+        "none";
+
+    document.getElementById(
+        "quiz"
+    ).style.display =
+        "block";
+
+    showQuestion();
+
+}
+
+
+/* ==========================================
+   SHOW CATEGORIES
+   ========================================== */
+
+function showCategories(){
+
+    document.getElementById(
+        "quiz"
+    ).style.display =
+        "none";
+
+
+    document.getElementById(
+        "result"
+    ).style.display =
+        "none";
+
+
+    document.getElementById(
+        "categoryScreen"
+    ).style.display =
+        "block";
+
+}
+
+
+/* ==========================================
+   START
+   ========================================== */
+
+loadQuestions();
+
+</script>
+
+</body>
+</html>
