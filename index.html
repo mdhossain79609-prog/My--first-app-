@@ -338,8 +338,20 @@ h2{
    <button
     id="categoryBtn"
     class="main-btn">
-    Back to Categories
-   </button>
+    ← Back to Categories
+</button>
+
+<script>
+
+document.getElementById("categoryBtn").onclick = function(){
+
+    document.getElementById("quizScreen").style.display = "none";
+
+    document.getElementById("categoryScreen").style.display = "block";
+
+};
+
+</script>
 
 </div>
 
