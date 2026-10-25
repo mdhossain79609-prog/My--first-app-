@@ -269,24 +269,225 @@ h2{
     }
 
 }
+/* ==============================
+   WORLD QUIZ HEADER
+   ============================== */
 
+.main-header{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:145px;
+    padding:20px 55px;
+    background:linear-gradient(135deg,#6d4acb,#8b5cf6);
+    color:white;
+    border-radius:0 0 28px 28px;
+    box-shadow:0 5px 15px rgba(70,40,130,0.20);
+}
+
+.header-title{
+    text-align:center;
+}
+
+.world-logo{
+    font-size:48px;
+    line-height:1;
+    margin-bottom:5px;
+}
+
+.header-title h1{
+    margin:0;
+    font-size:27px;
+    font-weight:bold;
+}
+
+.menu-btn,
+.settings-btn{
+    position:absolute;
+    top:20px;
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:rgba(255,255,255,0.18);
+    color:white;
+    font-size:23px;
+    cursor:pointer;
+}
+
+.menu-btn{
+    left:15px;
+}
+
+.settings-btn{
+    right:15px;
+}
+
+.menu-btn:active,
+.settings-btn:active{
+    transform:scale(0.94);
+}
+    /* ==============================
+   MENU PANEL
+   ============================== */
+
+.menu-panel{
+    position:fixed;
+    top:0;
+    left:-290px;
+    width:270px;
+    height:100vh;
+    background:#DCE6F0;
+    padding:25px 18px;
+    z-index:9999;
+    box-shadow:5px 0 20px rgba(0,0,0,0.18);
+    transition:0.3s ease;
+}
+
+.menu-panel.active{
+    left:0;
+}
+
+.close-menu{
+    float:right;
+    border:none;
+    background:none;
+    font-size:25px;
+    color:#5B35C8;
+    cursor:pointer;
+}
+
+.menu-panel h2{
+    color:#5B35C8;
+    margin-top:50px;
+    text-align:center;
+}
+
+.menu-item{
+    display:block;
+    width:100%;
+    margin:15px 0;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:white;
+    color:#5B35C8;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 3px 8px rgba(0,0,0,0.08);
+}
+    /* ==============================
+   SETTINGS PANEL
+   ============================== */
+
+.settings-panel{
+    position:fixed;
+    top:0;
+    right:-290px;
+    width:270px;
+    height:100vh;
+    background:#DCE6F0;
+    padding:25px 18px;
+    z-index:9999;
+    box-shadow:-5px 0 20px rgba(0,0,0,0.18);
+    transition:0.3s ease;
+}
+
+.settings-panel.active{
+    right:0;
+}
+
+.close-settings{
+    float:right;
+    border:none;
+    background:none;
+    font-size:25px;
+    color:#5B35C8;
+    cursor:pointer;
+}
+
+.settings-panel h2{
+    color:#5B35C8;
+    margin-top:50px;
+    text-align:center;
+}
+
+.setting-item{
+    display:block;
+    width:100%;
+    margin:15px 0;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:white;
+    color:#5B35C8;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
 </style>
 </head>
 
 <body>
 
-<header>
+<header class="main-header">
 
-    <h1>🌍 World Quiz Challenge</h1>
+    <button class="menu-btn" id="menuBtn">☰</button>
 
-    <p>
-        International Knowledge & Professional Quiz
-    </p>
+    <div class="header-title">
+        <div class="world-logo">🌍</div>
+        <h1>World Quiz Challenge</h1>
+    </div>
+
+    <button class="settings-btn" id="settingsBtn">⚙️</button>
 
 </header>
 
 
 <div class="container">
+    <!-- MENU PANEL -->
+
+<div id="menuPanel" class="menu-panel">
+<!-- SETTINGS PANEL -->
+
+<div id="settingsPanel" class="settings-panel">
+
+    <button id="closeSettings" class="close-settings">✕</button>
+
+    <h2>⚙️ Settings</h2>
+
+    <button class="setting-item">
+        🔊 Sound
+    </button>
+
+    <button class="setting-item">
+        🌐 Language
+    </button>
+
+    <button class="setting-item">
+        🔔 Notifications
+    </button>
+
+</div>
+    <button id="closeMenu" class="close-menu">✕</button>
+
+    <h2>☰ Menu</h2>
+
+    <button class="menu-item" id="homeMenuBtn">
+        🏠 Home
+    </button>
+
+    <button class="menu-item" id="profileMenuBtn">
+        👤 Profile
+    </button>
+
+    <button class="menu-item" id="settingsMenuBtn">
+        ⚙️ Settings
+    </button>
+
+</div>
 <!-- HOME SCREEN -->
 
 <div id="homeScreen" class="screen">
@@ -423,7 +624,44 @@ let answered = false;
 /* BACK TO CATEGORIES */
 
 document.getElementById("categoryBtn").onclick = function(){
+/* ==============================
+   MENU BUTTON
+   ============================== */
 
+document.getElementById("menuBtn").onclick = function(){
+
+    document.getElementById("menuPanel")
+        .classList.add("active");
+
+};
+
+
+/* CLOSE MENU */
+
+document.getElementById("closeMenu").onclick = function(){
+
+    document.getElementById("menuPanel")
+        .classList.remove("active");
+
+};
+    /* SETTINGS BUTTON */
+
+document.getElementById("settingsBtn").onclick = function(){
+
+    document.getElementById("settingsPanel")
+        .classList.add("active");
+
+};
+
+
+/* CLOSE SETTINGS */
+
+document.getElementById("closeSettings").onclick = function(){
+
+    document.getElementById("settingsPanel")
+        .classList.remove("active");
+
+};
     document.getElementById("quiz").style.display = "none";
     document.getElementById("result").style.display = "none";
     document.getElementById("homeScreen").style.display = "none";
