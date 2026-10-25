@@ -399,51 +399,60 @@ let answered = false;
    LOAD QUESTIONS
    ========================================== */
 
-async function loadQuestions(){
+async function loadQuestions() {
 
-    const loading =
-        document.getElementById("loading");
+    const loading = document.getElementById("loading");
+    const error = document.getElementById("error");
 
-    const error =
-        document.getElementById("error");
+    try {
 
-    try{
+        // questions.json ফাইল লোড করবে
+        // Date.now() ব্যবহারে পুরোনো cached JSON নেওয়ার ঝুঁকি কমবে
+        const response = await fetch(
+            "./questions.json?v=" + Date.now()
+        );
 
-        const response =
-            await ;fetch("./questions.json?version=2");
-
-        if(!response.ok){
-
+        if (!response.ok) {
             throw new Error(
-                "questions.json পাওয়া যায়নি"
+                "HTTP Error: " + response.status
             );
-
         }
 
-        const data =
-            await response.json();
+        const data = await response.json();
+
+        // JSON ঠিকমতো পাওয়া গেছে কি না পরীক্ষা
+        if (
+            !data ||
+            typeof data !== "object" ||
+            Array.isArray(data)
+        ) {
+            throw new Error(
+                "questions.json format is not correct"
+            );
+        }
 
         quizData = data;
 
+        // Loading লেখা বন্ধ
         loading.style.display = "none";
+        error.innerHTML = "";
 
+        // Category তৈরি
         createCategories();
 
-    }
-
-    catch(err){
+    } catch (err) {
 
         loading.style.display = "none";
 
         error.innerHTML =
-            "❌ প্রশ্ন লোড করা যাচ্ছে না।<br><br>" +
-            "দয়া করে নিশ্চিত করুন যে <b>questions.json</b> " +
-            "ফাইলটি একই Repository-তে আছে।";
+            "❌ Questions could not be loaded.<br>" +
+            "Error: " + err.message;
 
-        console.error(err);
-
+        console.error(
+            "Questions loading error:",
+            err
+        );
     }
-
 }
 
 
