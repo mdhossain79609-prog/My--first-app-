@@ -343,16 +343,15 @@ h2{
 <script>
 document.getElementById("categoryBtn").onclick = function(){
 
-    document.querySelectorAll(".screen").forEach(function(screen){
-        screen.classList.remove("active");
-    });
+    document.getElementById("quiz").style.display = "none";
 
-    document.getElementById("categories").classList.add("active");
+    document.getElementById("result").style.display = "none";
+
+    document.getElementById("categoryScreen").style.display = "block";
 
 };
 </script>
-
-</div>
+        </div>
 
 <!-- RESULT SCREEN -->
 
