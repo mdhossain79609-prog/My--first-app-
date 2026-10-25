@@ -417,21 +417,30 @@ let currentQuestions = [];
 let currentQuestionIndex = 0;
 
 let score = 0;
+let answered = false;
 
-let answered =false;
+
+/* BACK TO CATEGORIES */
+
 document.getElementById("categoryBtn").onclick = function(){
 
     document.getElementById("quiz").style.display = "none";
     document.getElementById("result").style.display = "none";
-    one";
-    .getElementById("categoryScreen").style.display = "bloanswere
-        document.getElementById("startQuizBtn").onclick = function(){
+    document.getElementById("homeScreen").style.display = "none";
+    document.getElementById("categoryScreen").style.display = "block";
+
+};
+
+
+/* START QUIZ */
+
+document.getElementById("startQuizBtn").onclick = function(){
 
     document.getElementById("homeScreen").style.display = "none";
     document.getElementById("categoryScreen").style.display = "block";
 
 };
-/* ========================================
+/* ==============================
    LOAD QUESTIONS
    ========================================== */
 
