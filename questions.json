@@ -101,7 +101,18 @@
     "answer": "Africa"
   }
 ],
-  "Medical Science": [],
+  "Medical Science": [
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": ["Heart", "Liver", "Skin", "Lung"],
+    "answer": "Skin"
+  },
+  {
+    "question": "Which organ pumps blood?",
+    "options": ["Brain", "Heart", "Liver", "Kidney"],
+    "answer": "Heart"
+  }
+],
   "Engineering Fundamentals": [],
   "Mechanical Engineering": [],
   "Mechanical Technician": [],
