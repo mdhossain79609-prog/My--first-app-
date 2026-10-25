@@ -338,20 +338,8 @@ h2{
     style="width:100%; background:#22c55e; color:white;"
 >
     Back to Categories
-</button>
-
-<script>
-document.getElementById("categoryBtn").onclick = function(){
-
-    document.getElementById("quiz").style.display = "none";
-
-    document.getElementById("result").style.display = "none";
-
-    document.getElementById("categoryScreen").style.display = "block";
-
-};
-</script>
-        </div>
+        </button>
+        /div>
 
 <!-- RESULT SCREEN -->
 
@@ -408,9 +396,12 @@ let currentQuestionIndex = 0;
 
 let score = 0;
 
-let answered = false;
+let answered =false;
+document.getElementById("categoryBtn").onclick = function(){
 
-
+    document.getElementById("quiz").style.display = "none";
+    document.getElementById("result").style.display = "none";
+    document.getElementById("categoryScreen").style.display = "bloanswere
 /* ==========================================
    LOAD QUESTIONS
    ========================================== */
