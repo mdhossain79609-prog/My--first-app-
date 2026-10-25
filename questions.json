@@ -1,5 +1,106 @@
 {
-  "World General Knowledge": [],
+  "World General Knowledge": [
+  {
+    "question": "Which is the largest continent by land area?",
+    "options": ["Africa", "Asia", "Europe", "North America"],
+    "answer": "Asia"
+  },
+  {
+    "question": "Which is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Seoul", "Tokyo", "Beijing", "Bangkok"],
+    "answer": "Tokyo"
+  },
+  {
+    "question": "Which organization is primarily responsible for international peace and security?",
+    "options": ["United Nations", "World Bank", "WTO", "WHO"],
+    "answer": "United Nations"
+  },
+  {
+    "question": "Where is the headquarters of the United Nations located?",
+    "options": ["Geneva", "Paris", "New York City", "London"],
+    "answer": "New York City"
+  },
+  {
+    "question": "Which country has the largest land area in the world?",
+    "options": ["Canada", "China", "United States", "Russia"],
+    "answer": "Russia"
+  },
+  {
+    "question": "Which currency is used in Japan?",
+    "options": ["Won", "Yuan", "Yen", "Baht"],
+    "answer": "Yen"
+  },
+  {
+    "question": "Which language has the most native speakers worldwide?",
+    "options": ["English", "Spanish", "Mandarin Chinese", "Arabic"],
+    "answer": "Mandarin Chinese"
+  },
+  {
+    "question": "Which country is home to Machu Picchu?",
+    "options": ["Mexico", "Peru", "Chile", "Brazil"],
+    "answer": "Peru"
+  },
+  {
+    "question": "Which international organization focuses on global public health?",
+    "options": ["WHO", "WTO", "IMF", "UNESCO"],
+    "answer": "WHO"
+  },
+  {
+    "question": "What does GDP stand for?",
+    "options": ["Global Development Plan", "Gross Domestic Product", "General Domestic Price", "Gross Development Percentage"],
+    "answer": "Gross Domestic Product"
+  },
+  {
+    "question": "Which is the smallest continent by land area?",
+    "options": ["Europe", "Antarctica", "Australia", "South America"],
+    "answer": "Australia"
+  },
+  {
+    "question": "Which country is famous for the ancient pyramids of Giza?",
+    "options": ["Egypt", "Greece", "Italy", "India"],
+    "answer": "Egypt"
+  },
+  {
+    "question": "Which line divides Earth into the Northern and Southern Hemispheres?",
+    "options": ["Prime Meridian", "Equator", "Tropic of Cancer", "International Date Line"],
+    "answer": "Equator"
+  },
+  {
+    "question": "What is the world's highest mountain above sea level?",
+    "options": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
+    "answer": "Mount Everest"
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "options": ["France", "Spain", "Germany", "Italy"],
+    "answer": "France"
+  },
+  {
+    "question": "Which city is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "answer": "Canberra"
+  },
+  {
+    "question": "Which international organization establishes rules for trade between nations?",
+    "options": ["WHO", "WTO", "UNICEF", "UNESCO"],
+    "answer": "WTO"
+  },
+  {
+    "question": "Which renewable energy source uses moving air to generate electricity?",
+    "options": ["Solar energy", "Wind energy", "Geothermal energy", "Hydropower"],
+    "answer": "Wind energy"
+  },
+  {
+    "question": "Which continent contains the greatest number of countries?",
+    "options": ["Asia", "Europe", "Africa", "South America"],
+    "answer": "Africa"
+  }
+],
   "Medical Science": [],
   "Engineering Fundamentals": [],
   "Mechanical Engineering": [],
