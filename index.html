@@ -329,22 +329,23 @@ h2{
 
 
         <button
-        <button
-    id="nextBtn"
-    class="main-btn">
-    ➡️ Next Question
+    id="categoryBtn"
+    class="main-btn"
+    style="width:100%; background:#22c55e; color:white;"
+>
+    Back to Categories
 </button>
 
-  <button
-id="categoryBtn"
-class="main-btn"
-style="width:100%; background:#22c55e; color:white; border:none; text-align:center;">
-Back to Categories
-</button>
 <script>
+document.getElementById("categoryBtn").onclick = function(){
+
+    document.querySelectorAll(".screen").forEach(function(screen){
+        screen.classList.remove("active");
+    });
+
+    document.getElementById("categories").classList.add("active");
 
 };
-
 </script>
 
 </div>
