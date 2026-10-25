@@ -221,7 +221,13 @@ h2{
 .main-btn:hover{
     background:#3155c9;
 }
+#homeScreen{
+    display:block;
+}
 
+#categoryScreen{
+    display:none;
+}
 #nextBtn{
     display:none;
     margin-top:20px;
@@ -281,7 +287,23 @@ h2{
 
 
 <div class="container">
+<!-- HOME SCREEN -->
 
+<div id="homeScreen" class="screen">
+
+    <h2>🌍 World Quiz Challenge</h2>
+
+    <p>
+        Test your knowledge and challenge yourself!
+    </p>
+
+    <button
+        id="startQuizBtn"
+        class="main-btn">
+        Start Quiz
+    </button>
+
+</div>
     <!-- CATEGORY SCREEN -->
 
     <div id="categoryScreen" class="screen">
@@ -401,8 +423,15 @@ document.getElementById("categoryBtn").onclick = function(){
 
     document.getElementById("quiz").style.display = "none";
     document.getElementById("result").style.display = "none";
-    document.getElementById("categoryScreen").style.display = "bloanswere
-/* ==========================================
+    one";
+    .getElementById("categoryScreen").style.display = "bloanswere
+        document.getElementById("startQuizBtn").onclick = function(){
+
+    document.getElementById("homeScreen").style.display = "none";
+    document.getElementById("categoryScreen").style.display = "block";
+
+};
+/* ========================================
    LOAD QUESTIONS
    ========================================== */
 
