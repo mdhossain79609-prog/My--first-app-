@@ -199,23 +199,18 @@ h2{
     opacity:0.85;
 }
 
-.main-header{
-    position:relative;
-    display:flex;
-    align-items:flex-start;
-    justify-content:center;
-    height:70px;
-    padding:18px 55px 10px;
-    background:linear-gradient(135deg,#6d4acb,#8b5cf6);
-    color:white;
-    border-radius:0 0 28px 28px;
-    box-shadow:0 5px 15px rgba(70,40,130,0.20);
-}
-
 .header-title{
     text-align:center;
 }
-
+    
+.header-title{
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+    
 .new-world-logo{
     font-size:150px;
     line-height:1;
@@ -223,14 +218,13 @@ h2{
     top:20px;
     z-index:2;
 }
-
 .header-title h1{
     margin:0;
     position:relative;
     top:0;
     z-index:3;
     text-align:center;
-    line-height:1.05;
+    line-height:1.1;
 }
 
 .world-title{
@@ -391,6 +385,7 @@ h2{
     cursor:pointer;
 }
     .main-btn{
+    display:block; 
     border:none;
     padding:16px 35px;
     border-radius:14px;
