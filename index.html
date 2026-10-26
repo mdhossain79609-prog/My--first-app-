@@ -168,13 +168,16 @@ h2{
     border-color:#6c8cff;
 }
 
-.answer-btn.correct{
-    background:#d9f8df;
-    border-color:#25a244;
-    color:#146c2e;
+.answer-btn.wrong{
+    background:#ffe0e0;
+    border-color:#e53935;
+    color:#a41414;
 }
 
-================== */
+.answer-btn:disabled{
+    cursor:not-allowed;
+    opacity:0.85;
+}
 
 .main-header{
     position:relative;
@@ -341,6 +344,27 @@ h2{
     font-size:16px;
     font-weight:bold;
     cursor:pointer;
+}
+    .main-btn{
+    border:none;
+    padding:16px 35px;
+    border-radius:14px;
+    background:#22c55e;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    margin:5px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.15);
+    transition:0.2s;
+}
+
+.main-btn:hover{
+    transform:scale(1.03);
+}
+
+.main-btn:active{
+    transform:scale(0.97);
 }
 </style>
 </head>
