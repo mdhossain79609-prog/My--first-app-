@@ -501,7 +501,7 @@ h2{
 >
     Back to Categories
         </button>
-        /div>
+        </div>
 
 <!-- RESULT SCREEN -->
 
@@ -539,9 +539,6 @@ h2{
 
     </div>
 
-</div>
-
-
 <script>
 
 /* ==========================================
@@ -563,14 +560,11 @@ let answered = false;
 /* BACK TO CATEGORIES */
 
 document.getElementById("categoryBtn").onclick = function(){
-/* ==============================
-   MENU BUTTON
-   ============================== */
 
-document.getElementById("menuBtn").onclick = function(){
-
-    document.getElementById("menuPanel")
-        .classList.add("active");
+    document.getElementById("quiz").style.display = "none";
+    document.getElementById("result").style.display = "none";
+    document.getElementById("homeScreen").style.display = "none";
+    document.getElementById("categoryScreen").style.display = "block";
 
 };
 
@@ -601,15 +595,8 @@ document.getElementById("closeSettings").onclick = function(){
         .classList.remove("active");
 
 };
-    document.getElementById("quiz").style.display = "none";
-    document.getElementById("result").style.display = "none";
-    document.getElementById("homeScreen").style.display = "none";
-    document.getElementById("categoryScreen").style.display = "block";
-
-};
-
-
-/* START QUIZ */
+    
+    /* START QUIZ */
 
 document.getElementById("startQuizBtn").onclick = function(){
 
@@ -640,7 +627,8 @@ async function loadQuestions() {
             );
         }
 
-        const data = await response.json();
+      i
+const data = await response.json();
 
         // JSON ঠিকমতো পাওয়া গেছে কি না পরীক্ষা
         if (
