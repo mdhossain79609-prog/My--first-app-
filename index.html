@@ -321,12 +321,24 @@ h2{
 }
 
 .settings-btn{
-    right:15px;
+    left:15px;
 }
 
 .menu-btn:active,
 .settings-btn:active{
     transform:scale(0.94);
+}
+    .points-box{
+    position:absolute;
+    top:25px;
+    right:15px;
+    padding:7px 12px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.18);
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    white-space:nowrap;
 }
     /* ==============================
    MENU PANEL
@@ -434,14 +446,14 @@ h2{
 
 <header class="main-header">
 
-    <button class="menu-btn" id="menuBtn">☰</button>
+    <button class="settings-btn" id="settingsBtn">⚙️</button>
 
     <div class="header-title">
         <div class="world-logo">🌍</div>
         <h1>World Quiz Challenge</h1>
     </div>
 
-    <button class="settings-btn" id="settingsBtn">⚙️</button>
+    <div class="points-box" id="pointsBox">🪙 <span id="points">0</span></div>
 
 </header>
 
