@@ -2143,6 +2143,208 @@
     "answer": "$0.50"
   }
 ],
-  "Medical": [],
-  "Military & Warfare History": []
+ "Medical": [
+  {
+    "question": "Which organ pumps blood throughout the human body?",
+    "options": ["Liver", "Heart", "Kidney", "Lung"],
+    "answer": "Heart"
+  },
+  {
+    "question": "What is the normal number of chambers in the human heart?",
+    "options": ["Two", "Three", "Four", "Five"],
+    "answer": "Four"
+  },
+  {
+    "question": "Which blood cells primarily help fight infections?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma cells"],
+    "answer": "White blood cells"
+  },
+  {
+    "question": "Which organ is primarily responsible for filtering waste from the blood?",
+    "options": ["Heart", "Kidneys", "Lungs", "Stomach"],
+    "answer": "Kidneys"
+  },
+  {
+    "question": "What is the largest organ of the human body?",
+    "options": ["Liver", "Brain", "Skin", "Lung"],
+    "answer": "Skin"
+  },
+  {
+    "question": "Which vitamin is produced in the skin when exposed to sunlight?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "Which part of the blood is mainly responsible for clotting?",
+    "options": ["Platelets", "Red blood cells", "White blood cells", "Plasma"],
+    "answer": "Platelets"
+  },
+  {
+    "question": "What is the medical term for high blood pressure?",
+    "options": ["Hypotension", "Hypertension", "Hyperglycemia", "Anemia"],
+    "answer": "Hypertension"
+  },
+  {
+    "question": "Which organ produces insulin?",
+    "options": ["Pancreas", "Liver", "Kidney", "Spleen"],
+    "answer": "Pancreas"
+  },
+  {
+    "question": "Which mineral is especially important for healthy bones and teeth?",
+    "options": ["Iron", "Calcium", "Sodium", "Potassium"],
+    "answer": "Calcium"
+  },
+  {
+    "question": "What is the main function of red blood cells?",
+    "options": ["Fight infection", "Carry oxygen", "Produce hormones", "Digest nutrients"],
+    "answer": "Carry oxygen"
+  },
+  {
+    "question": "Which part of the human body contains the femur?",
+    "options": ["Arm", "Thigh", "Chest", "Skull"],
+    "answer": "Thigh"
+  },
+  {
+    "question": "Which organ is mainly responsible for gas exchange in the human body?",
+    "options": ["Heart", "Lungs", "Liver", "Kidneys"],
+    "answer": "Lungs"
+  },
+  {
+    "question": "What is the basic structural and functional unit of the nervous system?",
+    "options": ["Neuron", "Nephron", "Alveolus", "Platelet"],
+    "answer": "Neuron"
+  },
+  {
+    "question": "Which blood type is commonly known as the universal red-cell donor?",
+    "options": ["A positive", "B positive", "AB positive", "O negative"],
+    "answer": "O negative"
+  },
+  {
+    "question": "Which blood type is commonly known as the universal red-cell recipient?",
+    "options": ["O negative", "A negative", "AB positive", "B negative"],
+    "answer": "AB positive"
+  },
+  {
+    "question": "What is the medical term for a deficiency of red blood cells or hemoglobin?",
+    "options": ["Anemia", "Asthma", "Arthritis", "Diabetes"],
+    "answer": "Anemia"
+  },
+  {
+    "question": "Which organ stores bile produced by the liver?",
+    "options": ["Pancreas", "Gallbladder", "Kidney", "Spleen"],
+    "answer": "Gallbladder"
+  },
+  {
+    "question": "Which structure connects muscles to bones?",
+    "options": ["Ligaments", "Tendons", "Cartilage", "Nerves"],
+    "answer": "Tendons"
+  },
+  {
+    "question": "Which part of the brain is mainly responsible for balance and coordination?",
+    "options": ["Cerebellum", "Medulla", "Hypothalamus", "Frontal lobe"],
+    "answer": "Cerebellum"
+  }
+], 
+  "Military & Warfare History": [
+  {
+    "question": "In which year did World War I begin?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "answer": "1914"
+  },
+  {
+    "question": "In which year did World War II begin in Europe?",
+    "options": ["1937", "1938", "1939", "1941"],
+    "answer": "1939"
+  },
+  {
+    "question": "Which event triggered the beginning of World War I?",
+    "options": ["The invasion of Poland", "The assassination of Archduke Franz Ferdinand", "The attack on Pearl Harbor", "The Russian Revolution"],
+    "answer": "The assassination of Archduke Franz Ferdinand"
+  },
+  {
+    "question": "Which country did Germany invade in 1939, leading Britain and France to declare war?",
+    "options": ["Belgium", "Poland", "Norway", "France"],
+    "answer": "Poland"
+  },
+  {
+    "question": "Which battle in 1815 marked Napoleon Bonaparte's final defeat?",
+    "options": ["Battle of Waterloo", "Battle of Trafalgar", "Battle of Austerlitz", "Battle of Leipzig"],
+    "answer": "Battle of Waterloo"
+  },
+  {
+    "question": "Who commanded the Macedonian army during its conquest of the Persian Empire?",
+    "options": ["Julius Caesar", "Alexander the Great", "Hannibal", "Leonidas"],
+    "answer": "Alexander the Great"
+  },
+  {
+    "question": "Which ancient Carthaginian general famously crossed the Alps with elephants?",
+    "options": ["Hannibal", "Scipio", "Spartacus", "Pompey"],
+    "answer": "Hannibal"
+  },
+  {
+    "question": "The Battle of Hastings took place in which year?",
+    "options": ["1066", "1099", "1215", "1415"],
+    "answer": "1066"
+  },
+  {
+    "question": "Who defeated King Harold II at the Battle of Hastings?",
+    "options": ["Richard the Lionheart", "William the Conqueror", "Henry V", "Edward I"],
+    "answer": "William the Conqueror"
+  },
+  {
+    "question": "Which battle was a major turning point against Germany on the Eastern Front during World War II?",
+    "options": ["Battle of Stalingrad", "Battle of Waterloo", "Battle of Hastings", "Battle of Trafalgar"],
+    "answer": "Battle of Stalingrad"
+  },
+  {
+    "question": "What was the Allied invasion of Normandy in 1944 commonly called?",
+    "options": ["D-Day", "V-J Day", "Blitzkrieg", "Operation Torch"],
+    "answer": "D-Day"
+  },
+  {
+    "question": "Which naval battle in 1805 established British naval dominance during the Napoleonic Wars?",
+    "options": ["Battle of Trafalgar", "Battle of Jutland", "Battle of Midway", "Battle of Salamis"],
+    "answer": "Battle of Trafalgar"
+  },
+  {
+    "question": "Which battle in 480 BCE is famous for the stand of King Leonidas and his Spartan forces?",
+    "options": ["Battle of Thermopylae", "Battle of Marathon", "Battle of Gaugamela", "Battle of Actium"],
+    "answer": "Battle of Thermopylae"
+  },
+  {
+    "question": "Which war was fought between the northern and southern states of the United States from 1861 to 1865?",
+    "options": ["American Civil War", "War of 1812", "Mexican-American War", "Spanish-American War"],
+    "answer": "American Civil War"
+  },
+  {
+    "question": "Which battle in 1942 is widely regarded as a major turning point in the Pacific War?",
+    "options": ["Battle of Midway", "Battle of Verdun", "Battle of Somme", "Battle of Dunkirk"],
+    "answer": "Battle of Midway"
+  },
+  {
+    "question": "Which empire was ruled by Genghis Khan in the early 13th century?",
+    "options": ["Roman Empire", "Mongol Empire", "Ottoman Empire", "Byzantine Empire"],
+    "answer": "Mongol Empire"
+  },
+  {
+    "question": "The Hundred Years' War was primarily fought between which two kingdoms?",
+    "options": ["England and France", "Spain and Portugal", "France and Germany", "England and Scotland"],
+    "answer": "England and France"
+  },
+  {
+    "question": "Which battle in 1916 became one of the longest battles of World War I?",
+    "options": ["Battle of Verdun", "Battle of Waterloo", "Battle of Midway", "Battle of El Alamein"],
+    "answer": "Battle of Verdun"
+  },
+  {
+    "question": "Which conflict from 1950 to 1953 involved North Korea and South Korea?",
+    "options": ["Korean War", "Vietnam War", "Crimean War", "Gulf War"],
+    "answer": "Korean War"
+  },
+  {
+    "question": "Which treaty formally ended the state of war between Germany and most of the Allied powers after World War I?",
+    "options": ["Treaty of Versailles", "Treaty of Paris", "Treaty of Utrecht", "Treaty of Tordesillas"],
+    "answer": "Treaty of Versailles"
+  }
+],
 }
