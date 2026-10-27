@@ -2043,6 +2043,426 @@
 ],
   "Brain & Logic": [
   {
+    "question": "What comes next: 2, 4, 8, 16, ?",
+    "options": ["24", "32", "34", "36"],
+    "answer": "32"
+  },
+  {
+    "question": "What comes next: 3, 6, 12, 24, ?",
+    "options": ["36", "42", "48", "52"],
+    "answer": "48"
+  },
+  {
+    "question": "What comes next: 5, 10, 20, 40, ?",
+    "options": ["60", "70", "80", "90"],
+    "answer": "80"
+  },
+  {
+    "question": "What comes next: 1, 4, 9, 16, ?",
+    "options": ["20", "25", "30", "36"],
+    "answer": "25"
+  },
+  {
+    "question": "What comes next: 2, 5, 10, 17, 26, ?",
+    "options": ["35", "36", "37", "38"],
+    "answer": "37"
+  },
+  {
+    "question": "What comes next: 100, 90, 80, 70, ?",
+    "options": ["50", "55", "60", "65"],
+    "answer": "60"
+  },
+  {
+    "question": "What comes next: 1, 1, 2, 3, 5, 8, ?",
+    "options": ["11", "12", "13", "14"],
+    "answer": "13"
+  },
+  {
+    "question": "What comes next: 10, 20, 30, 50, 80, ?",
+    "options": ["110", "120", "130", "140"],
+    "answer": "130"
+  },
+  {
+    "question": "What comes next: 81, 27, 9, 3, ?",
+    "options": ["0", "1", "2", "6"],
+    "answer": "1"
+  },
+  {
+    "question": "What comes next: 7, 14, 28, 56, ?",
+    "options": ["84", "98", "112", "120"],
+    "answer": "112"
+  },
+  {
+    "question": "If CAT is coded as DBU, how is DOG coded?",
+    "options": ["EPH", "EOG", "FPH", "DPH"],
+    "answer": "EPH"
+  },
+  {
+    "question": "If A = 1, B = 2, C = 3, what is the value of CAB?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "If BOOK is coded as CPPL, how is TREE coded?",
+    "options": ["USFF", "UQFF", "TSFF", "URFF"],
+    "answer": "USFF"
+  },
+  {
+    "question": "If SUN is coded as 54, what is the value of CAT using A=1, B=2, etc.?",
+    "options": ["24", "26", "28", "30"],
+    "answer": "24"
+  },
+  {
+    "question": "Which word does not belong?",
+    "options": ["Apple", "Mango", "Carrot", "Banana"],
+    "answer": "Carrot"
+  },
+  {
+    "question": "Which number does not belong?",
+    "options": ["9", "16", "25", "30"],
+    "answer": "30"
+  },
+  {
+    "question": "Which shape has no corners?",
+    "options": ["Triangle", "Square", "Circle", "Rectangle"],
+    "answer": "Circle"
+  },
+  {
+    "question": "Which is different from the others?",
+    "options": ["Dog", "Cat", "Cow", "Rose"],
+    "answer": "Rose"
+  },
+  {
+    "question": "Which number is the odd one out?",
+    "options": ["12", "18", "24", "31"],
+    "answer": "31"
+  },
+  {
+    "question": "Which one is different?",
+    "options": ["Monday", "Tuesday", "January", "Friday"],
+    "answer": "January"
+  },
+  {
+    "question": "If all roses are flowers and some flowers fade quickly, which statement must be true?",
+    "options": ["All roses fade quickly", "Roses are flowers", "No roses fade", "All flowers are roses"],
+    "answer": "Roses are flowers"
+  },
+  {
+    "question": "If all cats are animals and Tom is a cat, what must be true?",
+    "options": ["Tom is a plant", "Tom is an animal", "All animals are cats", "Tom is a dog"],
+    "answer": "Tom is an animal"
+  },
+  {
+    "question": "A is taller than B. B is taller than C. Who is shortest?",
+    "options": ["A", "B", "C", "Cannot tell"],
+    "answer": "C"
+  },
+  {
+    "question": "John is older than Mike. Mike is older than Sam. Who is youngest?",
+    "options": ["John", "Mike", "Sam", "Cannot tell"],
+    "answer": "Sam"
+  },
+  {
+    "question": "If today is Monday, what day will it be after 10 days?",
+    "options": ["Wednesday", "Thursday", "Friday", "Saturday"],
+    "answer": "Thursday"
+  },
+  {
+    "question": "If yesterday was Friday, what day is tomorrow?",
+    "options": ["Saturday", "Sunday", "Monday", "Tuesday"],
+    "answer": "Sunday"
+  },
+  {
+    "question": "A clock shows 3:00. What is the angle between the hour and minute hands?",
+    "options": ["60°", "90°", "120°", "180°"],
+    "answer": "90°"
+  },
+  {
+    "question": "How many months have 28 days?",
+    "options": ["1", "2", "6", "12"],
+    "answer": "12"
+  },
+  {
+    "question": "If 5 machines make 5 items in 5 minutes, how long would 1 machine take to make 1 item?",
+    "options": ["1 minute", "5 minutes", "10 minutes", "25 minutes"],
+    "answer": "5 minutes"
+  },
+  {
+    "question": "A farmer has 10 sheep. All but 3 run away. How many remain?",
+    "options": ["3", "7", "10", "0"],
+    "answer": "3"
+  },
+  {
+    "question": "You have 3 apples and take away 2. How many apples do you have?",
+    "options": ["1", "2", "3", "5"],
+    "answer": "2"
+  },
+  {
+    "question": "If 2 + 3 = 10, 3 + 4 = 21, then 4 + 5 = ?",
+    "options": ["32", "36", "40", "45"],
+    "answer": "36"
+  },
+  {
+    "question": "What number should replace ?: 4, 8, 12, 16, ?",
+    "options": ["18", "20", "22", "24"],
+    "answer": "20"
+  },
+  {
+    "question": "What number should replace ?: 50, 45, 40, 35, ?",
+    "options": ["25", "28", "30", "32"],
+    "answer": "30"
+  },
+  {
+    "question": "What number should replace ?: 6, 12, 18, 24, ?",
+    "options": ["28", "30", "32", "36"],
+    "answer": "30"
+  },
+  {
+    "question": "What number should replace ?: 3, 9, 27, ?",
+    "options": ["54", "72", "81", "90"],
+    "answer": "81"
+  },
+  {
+    "question": "What number should replace ?: 64, 32, 16, 8, ?",
+    "options": ["2", "4", "6", "10"],
+    "answer": "4"
+  },
+  {
+    "question": "What number should replace ?: 11, 22, 44, 88, ?",
+    "options": ["132", "166", "176", "188"],
+    "answer": "176"
+  },
+  {
+    "question": "What number should replace ?: 2, 6, 12, 20, 30, ?",
+    "options": ["40", "42", "44", "46"],
+    "answer": "42"
+  },
+  {
+    "question": "What number should replace ?: 1, 8, 27, 64, ?",
+    "options": ["100", "125", "144", "216"],
+    "answer": "125"
+  },
+  {
+    "question": "What number should replace ?: 121, 100, 81, 64, ?",
+    "options": ["49", "36", "25", "16"],
+    "answer": "49"
+  },
+  {
+    "question": "A man walks 5 km north and then 5 km south. How far is he from his starting point?",
+    "options": ["0 km", "5 km", "10 km", "25 km"],
+    "answer": "0 km"
+  },
+  {
+    "question": "A person walks east and then turns right. Which direction is he facing?",
+    "options": ["North", "South", "East", "West"],
+    "answer": "South"
+  },
+  {
+    "question": "If you face north and turn left, which direction are you facing?",
+    "options": ["East", "West", "South", "North"],
+    "answer": "West"
+  },
+  {
+    "question": "If you face south and turn left, which direction are you facing?",
+    "options": ["East", "West", "North", "South"],
+    "answer": "East"
+  },
+  {
+    "question": "A is to the left of B. B is to the left of C. Who is in the middle?",
+    "options": ["A", "B", "C", "Cannot tell"],
+    "answer": "B"
+  },
+  {
+    "question": "If P is taller than Q and R is taller than P, who is tallest?",
+    "options": ["P", "Q", "R", "Cannot tell"],
+    "answer": "R"
+  },
+  {
+    "question": "Sara is the sister of Tom. Tom is the brother of Jack. What is Sara to Jack?",
+    "options": ["Mother", "Sister", "Aunt", "Cousin"],
+    "answer": "Sister"
+  },
+  {
+    "question": "A father is 40 years old and his son is 10. How many years older is the father?",
+    "options": ["20", "25", "30", "35"],
+    "answer": "30"
+  },
+  {
+    "question": "If 3 pencils cost $6, how much does 1 pencil cost?",
+    "options": ["$1", "$2", "$3", "$4"],
+    "answer": "$2"
+  },
+  {
+    "question": "If 4 books cost $20, how much do 6 books cost at the same rate?",
+    "options": ["$25", "$30", "$35", "$40"],
+    "answer": "$30"
+  },
+  {
+    "question": "A train travels 60 km in 1 hour. How far will it travel in 3 hours?",
+    "options": ["120 km", "150 km", "180 km", "240 km"],
+    "answer": "180 km"
+  },
+  {
+    "question": "If a shirt costs $50 and is discounted by $10, what is the new price?",
+    "options": ["$30", "$35", "$40", "$45"],
+    "answer": "$40"
+  },
+  {
+    "question": "What is half of 80?",
+    "options": ["20", "30", "40", "50"],
+    "answer": "40"
+  },
+  {
+    "question": "What is one quarter of 100?",
+    "options": ["20", "25", "30", "40"],
+    "answer": "25"
+  },
+  {
+    "question": "If 7 + 7 = 14, what is 14 + 14?",
+    "options": ["21", "28", "32", "35"],
+    "answer": "28"
+  },
+  {
+    "question": "Which number is exactly between 20 and 30?",
+    "options": ["24", "25", "26", "27"],
+    "answer": "25"
+  },
+  {
+    "question": "Which number is greatest?",
+    "options": ["0.7", "0.07", "0.77", "0.707"],
+    "answer": "0.77"
+  },
+  {
+    "question": "Which fraction is the largest?",
+    "options": ["1/2", "2/3", "3/5", "1/4"],
+    "answer": "2/3"
+  },
+  {
+    "question": "If a dozen eggs contains 12 eggs, how many eggs are in two dozen?",
+    "options": ["18", "20", "24", "30"],
+    "answer": "24"
+  },
+  {
+    "question": "A box contains 5 red balls and 5 blue balls. How many balls are there altogether?",
+    "options": ["5", "8", "10", "15"],
+    "answer": "10"
+  },
+  {
+    "question": "If you have 10 coins and give away 4, how many remain?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "6"
+  },
+  {
+    "question": "Which word can be formed by rearranging the letters of 'LISTEN'?",
+    "options": ["SILENT", "LITTLE", "LINE", "STONE"],
+    "answer": "SILENT"
+  },
+  {
+    "question": "Which word is the opposite of 'ancient'?",
+    "options": ["Old", "Modern", "Historic", "Past"],
+    "answer": "Modern"
+  },
+  {
+    "question": "Which word is the odd one out?",
+    "options": ["Run", "Walk", "Jump", "Blue"],
+    "answer": "Blue"
+  },
+  {
+    "question": "Which letter comes next: A, C, E, G, ?",
+    "options": ["H", "I", "J", "K"],
+    "answer": "I"
+  },
+  {
+    "question": "Which letter comes next: B, D, F, H, ?",
+    "options": ["I", "J", "K", "L"],
+    "answer": "J"
+  },
+  {
+    "question": "Which letter comes next: Z, X, V, T, ?",
+    "options": ["R", "S", "Q", "P"],
+    "answer": "R"
+  },
+  {
+    "question": "Which letter comes next: A, D, G, J, ?",
+    "options": ["K", "L", "M", "N"],
+    "answer": "M"
+  },
+  {
+    "question": "If all squares are rectangles, which statement is true?",
+    "options": ["Every rectangle is a square", "Every square is a rectangle", "No square is a rectangle", "Squares have no sides"],
+    "answer": "Every square is a rectangle"
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "How many sides does an octagon have?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "question": "If one triangle has 3 sides, how many sides do 4 separate triangles have in total?",
+    "options": ["9", "10", "12", "16"],
+    "answer": "12"
+  },
+  {
+    "question": "A cube has how many faces?",
+    "options": ["4", "6", "8", "12"],
+    "answer": "6"
+  },
+  {
+    "question": "A standard dice has how many faces?",
+    "options": ["4", "6", "8", "10"],
+    "answer": "6"
+  },
+  {
+    "question": "If a clock shows 12:00, where are both hands pointing?",
+    "options": ["At 3", "At 6", "At 9", "At 12"],
+    "answer": "At 12"
+  },
+  {
+    "question": "If today is Wednesday, what day was it 3 days ago?",
+    "options": ["Sunday", "Monday", "Tuesday", "Saturday"],
+    "answer": "Sunday"
+  },
+  {
+    "question": "If today is Sunday, what day will it be 5 days later?",
+    "options": ["Wednesday", "Thursday", "Friday", "Saturday"],
+    "answer": "Friday"
+  },
+  {
+    "question": "A basket has 20 oranges. Half are removed. How many remain?",
+    "options": ["5", "8", "10", "15"],
+    "answer": "10"
+  },
+  {
+    "question": "If 5 + 5 × 2 = ? using standard order of operations, what is the answer?",
+    "options": ["20", "15", "10", "25"],
+    "answer": "15"
+  },
+  {
+    "question": "What is the missing number: 9, 18, 27, 36, ?",
+    "options": ["40", "45", "48", "54"],
+    "answer": "45"
+  },
+  {
+    "question": "What is the missing number: 15, 30, 45, 60, ?",
+    "options": ["65", "70", "75", "80"],
+    "answer": "75"
+  },
+  {
+    "question": "What is the missing number: 3, 7, 11, 15, ?",
+    "options": ["17", "18", "19", "20"],
+    "answer": "19"
+  },
+  {
+    "question": "What is the missing number: 20, 18, 16, 14, ?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "12"
+  },
+  {
     "question": "What comes next in the sequence: 2, 4, 8, 16, ?",
     "options": ["20", "24", "30", "32"],
     "answer": "32"
