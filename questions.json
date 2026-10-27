@@ -305,7 +305,108 @@
     "answer": "Transmission"
   }
 ],
-  "Mechanical Technician": [],
+  "Mechanical Technician": [
+  {
+    "question": "Which tool is commonly used to tighten or loosen nuts and bolts?",
+    "options": ["Spanner", "Hammer", "File", "Chisel"],
+    "answer": "Spanner"
+  },
+  {
+    "question": "Which instrument is used to measure small external dimensions accurately?",
+    "options": ["Micrometer", "Hammer", "Pliers", "Screwdriver"],
+    "answer": "Micrometer"
+  },
+  {
+    "question": "What is the main purpose of a bench vise?",
+    "options": ["Hold a workpiece securely", "Measure temperature", "Cut threads", "Measure speed"],
+    "answer": "Hold a workpiece securely"
+  },
+  {
+    "question": "Which tool is used to cut internal threads in a hole?",
+    "options": ["Tap", "Die", "File", "Reamer"],
+    "answer": "Tap"
+  },
+  {
+    "question": "Which tool is used to cut external threads on a rod?",
+    "options": ["Tap", "Die", "Drill", "Punch"],
+    "answer": "Die"
+  },
+  {
+    "question": "What is the primary purpose of a reamer?",
+    "options": ["Finish and accurately size a drilled hole", "Cut external threads", "Measure pressure", "Join metal plates"],
+    "answer": "Finish and accurately size a drilled hole"
+  },
+  {
+    "question": "Which tool is commonly used to remove small amounts of material by hand?",
+    "options": ["File", "Spanner", "Pliers", "Wrench"],
+    "answer": "File"
+  },
+  {
+    "question": "What is the main function of a bearing?",
+    "options": ["Reduce friction between moving parts", "Increase vibration", "Increase friction", "Stop lubrication"],
+    "answer": "Reduce friction between moving parts"
+  },
+  {
+    "question": "Which lubricant is commonly used for bearings where grease lubrication is specified?",
+    "options": ["Grease", "Water", "Petrol", "Kerosene"],
+    "answer": "Grease"
+  },
+  {
+    "question": "Which instrument is used to check very small gaps or clearances?",
+    "options": ["Feeler gauge", "Steel rule", "Protractor", "Try square"],
+    "answer": "Feeler gauge"
+  },
+  {
+    "question": "Which tool is used to check whether two surfaces are at a right angle?",
+    "options": ["Try square", "Divider", "Caliper", "Punch"],
+    "answer": "Try square"
+  },
+  {
+    "question": "What is preventive maintenance?",
+    "options": ["Maintenance performed before failure occurs", "Repair only after complete failure", "Painting a machine", "Replacing every machine daily"],
+    "answer": "Maintenance performed before failure occurs"
+  },
+  {
+    "question": "Which machine is mainly used for drilling circular holes?",
+    "options": ["Drilling machine", "Lathe", "Shaper", "Grinding machine"],
+    "answer": "Drilling machine"
+  },
+  {
+    "question": "Which machine is commonly used for producing cylindrical workpieces?",
+    "options": ["Lathe machine", "Drilling machine", "Power press", "Surface grinder"],
+    "answer": "Lathe machine"
+  },
+  {
+    "question": "What is the main purpose of a grinding machine?",
+    "options": ["Remove material by abrasion and improve surface finish", "Measure voltage", "Pump liquids", "Generate electricity"],
+    "answer": "Remove material by abrasion and improve surface finish"
+  },
+  {
+    "question": "Which device is used to measure rotational speed?",
+    "options": ["Tachometer", "Manometer", "Thermometer", "Voltmeter"],
+    "answer": "Tachometer"
+  },
+  {
+    "question": "What does PPE stand for in workshop safety?",
+    "options": ["Personal Protective Equipment", "Power Production Equipment", "Personal Power Engine", "Pressure Protection Element"],
+    "answer": "Personal Protective Equipment"
+  },
+  {
+    "question": "Which PPE is primarily used to protect the eyes during grinding?",
+    "options": ["Safety goggles", "Safety shoes", "Ear plugs", "Apron"],
+    "answer": "Safety goggles"
+  },
+  {
+    "question": "What is the purpose of a gasket between two mating surfaces?",
+    "options": ["Prevent leakage", "Increase vibration", "Increase speed", "Measure pressure"],
+    "answer": "Prevent leakage"
+  },
+  {
+    "question": "What is the main purpose of a torque wrench?",
+    "options": ["Tighten fasteners to a specified torque", "Measure temperature", "Cut metal sheets", "Measure rotational speed"],
+    "answer": "Tighten fasteners to a specified torque"
+  }
+],
   "Electrical & Electrician": [],
   "Civil Engineering": [],
   "Computer & Technology": [],
