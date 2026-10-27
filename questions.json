@@ -101,7 +101,108 @@
     "answer": "Africa"
   }
 ],
-  "Engineering Fundamentals": [],
+  "Engineering Fundamentals": [
+  {
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": "Newton"
+  },
+  {
+    "question": "What is the SI unit of power?",
+    "options": ["Watt", "Joule", "Newton", "Volt"],
+    "answer": "Watt"
+  },
+  {
+    "question": "Which law states that every action has an equal and opposite reaction?",
+    "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Ohm's Law"],
+    "answer": "Newton's Third Law"
+  },
+  {
+    "question": "What is the SI unit of electrical resistance?",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "answer": "Ohm"
+  },
+  {
+    "question": "Which instrument is used to measure electric current?",
+    "options": ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+    "answer": "Ammeter"
+  },
+  {
+    "question": "Which equation represents Ohm's Law?",
+    "options": ["V = IR", "P = VI", "F = ma", "E = mc²"],
+    "answer": "V = IR"
+  },
+  {
+    "question": "Which of these materials is a good conductor of electricity?",
+    "options": ["Rubber", "Glass", "Copper", "Plastic"],
+    "answer": "Copper"
+  },
+  {
+    "question": "What is the SI unit of pressure?",
+    "options": ["Newton", "Pascal", "Joule", "Watt"],
+    "answer": "Pascal"
+  },
+  {
+    "question": "Which device converts mechanical energy into electrical energy?",
+    "options": ["Motor", "Generator", "Transformer", "Battery"],
+    "answer": "Generator"
+  },
+  {
+    "question": "Which device converts electrical energy into mechanical energy?",
+    "options": ["Generator", "Transformer", "Motor", "Capacitor"],
+    "answer": "Motor"
+  },
+  {
+    "question": "What is the basic formula for mechanical work?",
+    "options": ["W = F × d", "W = m × a", "W = V × I", "W = P × V"],
+    "answer": "W = F × d"
+  },
+  {
+    "question": "Which type of electric current periodically changes direction?",
+    "options": ["DC", "AC", "Static Current", "Linear Current"],
+    "answer": "AC"
+  },
+  {
+    "question": "What is the SI unit of frequency?",
+    "options": ["Hertz", "Watt", "Joule", "Tesla"],
+    "answer": "Hertz"
+  },
+  {
+    "question": "Which electrical component stores electric charge?",
+    "options": ["Resistor", "Capacitor", "Transformer", "Diode"],
+    "answer": "Capacitor"
+  },
+  {
+    "question": "Which metal is commonly used for electrical wiring?",
+    "options": ["Lead", "Copper", "Mercury", "Tin"],
+    "answer": "Copper"
+  },
+  {
+    "question": "What does CAD stand for in engineering?",
+    "options": ["Computer-Aided Design", "Computer Automatic Development", "Controlled Application Design", "Computer Analysis Device"],
+    "answer": "Computer-Aided Design"
+  },
+  {
+    "question": "Which engineering branch mainly deals with machines and mechanical systems?",
+    "options": ["Civil Engineering", "Chemical Engineering", "Mechanical Engineering", "Software Engineering"],
+    "answer": "Mechanical Engineering"
+  },
+  {
+    "question": "Which engineering branch primarily deals with buildings, roads, and bridges?",
+    "options": ["Electrical Engineering", "Civil Engineering", "Computer Engineering", "Chemical Engineering"],
+    "answer": "Civil Engineering"
+  },
+  {
+    "question": "What is the main purpose of a transformer?",
+    "options": ["Store electrical energy", "Change AC voltage levels", "Produce mechanical motion", "Measure current"],
+    "answer": "Change AC voltage levels"
+  },
+  {
+    "question": "Which simple machine consists of a wheel with a grooved rim and a rope?",
+    "options": ["Lever", "Pulley", "Wedge", "Screw"],
+    "answer": "Pulley"
+  }
+],
   "Mechanical Engineering": [],
   "Mechanical Technician": [],
   "Electrical & Electrician": [],
