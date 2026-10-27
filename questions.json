@@ -1941,6 +1941,406 @@
 ],
   "Sports": [
   {
+    "question": "How many players are there in a soccer team on the field?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11"
+  },
+  {
+    "question": "Which country is widely regarded as the birthplace of modern football?",
+    "options": ["Brazil", "England", "Spain", "Germany"],
+    "answer": "England"
+  },
+  {
+    "question": "How long is a standard football match, excluding added time?",
+    "options": ["60 minutes", "80 minutes", "90 minutes", "120 minutes"],
+    "answer": "90 minutes"
+  },
+  {
+    "question": "What is awarded when a defender commits a foul inside their own penalty area?",
+    "options": ["Corner kick", "Penalty kick", "Throw-in", "Goal kick"],
+    "answer": "Penalty kick"
+  },
+  {
+    "question": "Which player is allowed to use their hands within their own penalty area?",
+    "options": ["Striker", "Defender", "Goalkeeper", "Midfielder"],
+    "answer": "Goalkeeper"
+  },
+  {
+    "question": "How many points is a goal worth in football?",
+    "options": ["1", "2", "3", "5"],
+    "answer": "1"
+  },
+  {
+    "question": "Which card means a player is sent off in football?",
+    "options": ["Blue", "Yellow", "Red", "Green"],
+    "answer": "Red"
+  },
+  {
+    "question": "What is a hat-trick in football?",
+    "options": ["Two assists", "Three goals by one player", "Three yellow cards", "Three saves"],
+    "answer": "Three goals by one player"
+  },
+  {
+    "question": "Which country won the 2022 FIFA World Cup?",
+    "options": ["France", "Brazil", "Argentina", "Germany"],
+    "answer": "Argentina"
+  },
+  {
+    "question": "Which trophy is awarded to the winner of the FIFA World Cup?",
+    "options": ["Golden Boot", "FIFA World Cup Trophy", "Champions League Trophy", "FA Cup"],
+    "answer": "FIFA World Cup Trophy"
+  },
+  {
+    "question": "How many players are on the court for one basketball team at a time?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "question": "How many points is a free throw worth in basketball?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1"
+  },
+  {
+    "question": "How many points is a shot worth from beyond the three-point line?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "question": "How high is a regulation basketball hoop?",
+    "options": ["8 feet", "9 feet", "10 feet", "12 feet"],
+    "answer": "10 feet"
+  },
+  {
+    "question": "Which organization governs professional basketball in the United States and Canada?",
+    "options": ["FIFA", "NBA", "ICC", "ATP"],
+    "answer": "NBA"
+  },
+  {
+    "question": "What is it called when a basketball player scores without missing a shot from the field for a period?",
+    "options": ["Assist", "Hot streak", "Steal", "Block"],
+    "answer": "Hot streak"
+  },
+  {
+    "question": "What is a rebound in basketball?",
+    "options": ["A successful pass", "Recovering the ball after a missed shot", "A foul", "A timeout"],
+    "answer": "Recovering the ball after a missed shot"
+  },
+  {
+    "question": "What is dribbling in basketball?",
+    "options": ["Shooting the ball", "Bouncing the ball while moving", "Passing overhead", "Blocking a shot"],
+    "answer": "Bouncing the ball while moving"
+  },
+  {
+    "question": "How many quarters are normally played in an NBA game?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "Which country is famous for producing many NBA basketball stars?",
+    "options": ["United States", "Iceland", "Nepal", "Egypt"],
+    "answer": "United States"
+  },
+  {
+    "question": "How many players are on court for one volleyball team?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "How many touches is a team normally allowed before sending the ball over the net in volleyball?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "What is a volleyball serve?",
+    "options": ["A defensive block", "The action that starts a rally", "A substitution", "A timeout"],
+    "answer": "The action that starts a rally"
+  },
+  {
+    "question": "Which player wears a different-colored jersey in volleyball?",
+    "options": ["Setter", "Libero", "Captain", "Server"],
+    "answer": "Libero"
+  },
+  {
+    "question": "What is a spike in volleyball?",
+    "options": ["A powerful attacking hit", "A defensive save", "A serve receive", "A timeout"],
+    "answer": "A powerful attacking hit"
+  },
+  {
+    "question": "How many sets does a team generally need to win a standard best-of-five volleyball match?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "What is the maximum number of players a volleyball team has on court at one time?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "Which country hosted the first modern Olympic Games in 1896?",
+    "options": ["France", "Greece", "Italy", "United Kingdom"],
+    "answer": "Greece"
+  },
+  {
+    "question": "How often are the Summer Olympic Games normally held?",
+    "options": ["Every 2 years", "Every 3 years", "Every 4 years", "Every 5 years"],
+    "answer": "Every 4 years"
+  },
+  {
+    "question": "What symbol is featured on the Olympic flag?",
+    "options": ["Five rings", "A torch only", "A star", "A crown"],
+    "answer": "Five rings"
+  },
+  {
+    "question": "Which sport is associated with the Olympic rings?",
+    "options": ["Football only", "The Olympic Games", "Tennis only", "Boxing only"],
+    "answer": "The Olympic Games"
+  },
+  {
+    "question": "Which sport uses a bat, ball and wickets?",
+    "options": ["Baseball", "Cricket", "Hockey", "Tennis"],
+    "answer": "Cricket"
+  },
+  {
+    "question": "How many players are on the field for one cricket team?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11"
+  },
+  {
+    "question": "How many balls are there in a standard over in cricket?",
+    "options": ["4", "5", "6", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "How many runs are scored when the ball reaches the boundary without bouncing?",
+    "options": ["2", "4", "5", "6"],
+    "answer": "6"
+  },
+  {
+    "question": "How many runs are normally awarded when a batsman hits the ball to the boundary after it bounces?",
+    "options": ["2", "3", "4", "6"],
+    "answer": "4"
+  },
+  {
+    "question": "What is a century in cricket?",
+    "options": ["50 runs", "75 runs", "100 runs", "150 runs"],
+    "answer": "100 runs"
+  },
+  {
+    "question": "What is a duck in cricket?",
+    "options": ["A wicketkeeper", "A score of zero", "Six runs", "A type of ball"],
+    "answer": "A score of zero"
+  },
+  {
+    "question": "Which country won the 2023 Cricket World Cup?",
+    "options": ["India", "Australia", "England", "New Zealand"],
+    "answer": "Australia"
+  },
+  {
+    "question": "Which cricket format traditionally has the longest matches?",
+    "options": ["T20", "ODI", "Test cricket", "The Hundred"],
+    "answer": "Test cricket"
+  },
+  {
+    "question": "How many players are on a baseball team on the field?",
+    "options": ["7", "8", "9", "10"],
+    "answer": "9"
+  },
+  {
+    "question": "How many strikes usually result in a strikeout in baseball?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "How many bases are there in baseball?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "question": "What is a home run in baseball?",
+    "options": ["A foul ball", "A hit that allows the batter to circle all bases", "A strike", "A pitching error"],
+    "answer": "A hit that allows the batter to circle all bases"
+  },
+  {
+    "question": "Which sport uses a puck?",
+    "options": ["Field hockey", "Ice hockey", "Lacrosse", "Rugby"],
+    "answer": "Ice hockey"
+  },
+  {
+    "question": "How many players from one team are normally on the ice in ice hockey, including the goalie?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "Which sport is played at Wimbledon?",
+    "options": ["Golf", "Tennis", "Cricket", "Rugby"],
+    "answer": "Tennis"
+  },
+  {
+    "question": "Which surface is traditionally associated with Wimbledon?",
+    "options": ["Clay", "Grass", "Hard court", "Carpet"],
+    "answer": "Grass"
+  },
+  {
+    "question": "What is the score called when a tennis game reaches 40-40?",
+    "options": ["Match point", "Deuce", "Love", "Advantage"],
+    "answer": "Deuce"
+  },
+  {
+    "question": "What is a score of zero called in tennis?",
+    "options": ["Nil", "Love", "Duck", "Blank"],
+    "answer": "Love"
+  },
+  {
+    "question": "How many Grand Slam tournaments are there in tennis each year?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "Which tennis Grand Slam is played on clay?",
+    "options": ["Wimbledon", "US Open", "French Open", "Australian Open"],
+    "answer": "French Open"
+  },
+  {
+    "question": "Which sport is associated with the Tour de France?",
+    "options": ["Running", "Cycling", "Swimming", "Rowing"],
+    "answer": "Cycling"
+  },
+  {
+    "question": "What type of bicycle is primarily used in road racing?",
+    "options": ["Road bicycle", "Mountain bicycle", "BMX bicycle", "Unicycle"],
+    "answer": "Road bicycle"
+  },
+  {
+    "question": "Which sport features a marathon?",
+    "options": ["Swimming", "Athletics", "Boxing", "Golf"],
+    "answer": "Athletics"
+  },
+  {
+    "question": "What is the official marathon distance?",
+    "options": ["40 km", "41.195 km", "42.195 km", "45 km"],
+    "answer": "42.195 km"
+  },
+  {
+    "question": "How many lanes are commonly used in an Olympic 100-meter sprint final?",
+    "options": ["6", "7", "8", "10"],
+    "answer": "8"
+  },
+  {
+    "question": "Which event involves clearing a horizontal bar without knocking it down?",
+    "options": ["Long jump", "High jump", "Shot put", "Discus"],
+    "answer": "High jump"
+  },
+  {
+    "question": "Which event involves throwing a heavy metal ball?",
+    "options": ["Javelin", "Shot put", "Discus", "Hammer throw"],
+    "answer": "Shot put"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": ["Badminton", "Tennis", "Squash", "Table tennis"],
+    "answer": "Badminton"
+  },
+  {
+    "question": "How many players are on court for one doubles badminton team?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "question": "Which sport uses a small ball and a racket on a table?",
+    "options": ["Badminton", "Table tennis", "Squash", "Golf"],
+    "answer": "Table tennis"
+  },
+  {
+    "question": "What is another name for table tennis?",
+    "options": ["Ping-pong", "Stickball", "Paddleball", "Netball"],
+    "answer": "Ping-pong"
+  },
+  {
+    "question": "Which sport is played with clubs and a small ball on a course?",
+    "options": ["Golf", "Hockey", "Cricket", "Bowling"],
+    "answer": "Golf"
+  },
+  {
+    "question": "What is one stroke under par called in golf?",
+    "options": ["Eagle", "Birdie", "Bogey", "Albatross"],
+    "answer": "Birdie"
+  },
+  {
+    "question": "What is two strokes under par called in golf?",
+    "options": ["Birdie", "Eagle", "Bogey", "Par"],
+    "answer": "Eagle"
+  },
+  {
+    "question": "Which sport involves throwing a heavy object attached to a chain?",
+    "options": ["Hammer throw", "Javelin", "Shot put", "Discus"],
+    "answer": "Hammer throw"
+  },
+  {
+    "question": "Which sport is associated with the term 'checkmate'?",
+    "options": ["Boxing", "Chess", "Fencing", "Wrestling"],
+    "answer": "Chess"
+  },
+  {
+    "question": "How many squares are on a standard chessboard?",
+    "options": ["32", "48", "64", "81"],
+    "answer": "64"
+  },
+  {
+    "question": "How many pieces does each player start with in chess?",
+    "options": ["12", "14", "16", "18"],
+    "answer": "16"
+  },
+  {
+    "question": "Which chess piece moves in an L-shape?",
+    "options": ["Bishop", "Knight", "Rook", "Queen"],
+    "answer": "Knight"
+  },
+  {
+    "question": "Which chess piece can move any number of squares horizontally, vertically, or diagonally?",
+    "options": ["King", "Queen", "Knight", "Pawn"],
+    "answer": "Queen"
+  },
+  {
+    "question": "Which sport is known for punches, rounds and a ring?",
+    "options": ["Boxing", "Swimming", "Cycling", "Golf"],
+    "answer": "Boxing"
+  },
+  {
+    "question": "Which sport uses a foil, épée or sabre?",
+    "options": ["Fencing", "Archery", "Wrestling", "Judo"],
+    "answer": "Fencing"
+  },
+  {
+    "question": "Which sport originated in Japan and involves throws and holds?",
+    "options": ["Judo", "Cricket", "Baseball", "Polo"],
+    "answer": "Judo"
+  },
+  {
+    "question": "Which sport uses a bow and arrows?",
+    "options": ["Archery", "Fencing", "Curling", "Diving"],
+    "answer": "Archery"
+  },
+  {
+    "question": "Which sport involves sliding stones on ice toward a target?",
+    "options": ["Curling", "Ice hockey", "Skiing", "Bobsleigh"],
+    "answer": "Curling"
+  },
+  {
+    "question": "Which sport combines skiing with rifle shooting?",
+    "options": ["Biathlon", "Triathlon", "Pentathlon", "Decathlon"],
+    "answer": "Biathlon"
+  },
+  {
+    "question": "Which sport is traditionally associated with a pommel horse?",
+    "options": ["Gymnastics", "Equestrian", "Wrestling", "Diving"],
+    "answer": "Gymnastics"
+  },
+  {
+    "question": "Which swimming stroke is named after an insect?",
+    "options": ["Freestyle", "Backstroke", "Butterfly", "Breaststroke"],
+    "answer": "Butterfly"
+  },
+  {
     "question": "How many players are on the field for one football (soccer) team at the start of a match?",
     "options": ["9", "10", "11", "12"],
     "answer": "11"
