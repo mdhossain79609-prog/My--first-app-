@@ -2246,6 +2246,406 @@
   }
 ], 
   "Military & Warfare History": [
+    {
+  "question": "Which battle in 216 BCE is famous for Hannibal's double-envelopment of a much larger Roman army?",
+  "options": ["Battle of Cannae", "Battle of Zama", "Battle of Pydna", "Battle of Carrhae"],
+  "answer": "Battle of Cannae"
+},
+{
+  "question": "Which Roman army suffered a major defeat against the Parthians at the Battle of Carrhae in 53 BCE?",
+  "options": ["Crassus's army", "Caesar's army", "Augustus's army", "Trajan's army"],
+  "answer": "Crassus's army"
+},
+{
+  "question": "Which 1260 battle halted a major Mongol advance into the Levant?",
+  "options": ["Battle of Ain Jalut", "Battle of Manzikert", "Battle of Hattin", "Battle of Varna"],
+  "answer": "Battle of Ain Jalut"
+},
+{
+  "question": "Which battle in 1071 resulted in a major Byzantine defeat by the Seljuk Turks?",
+  "options": ["Battle of Manzikert", "Battle of Tours", "Battle of Nicopolis", "Battle of Lepanto"],
+  "answer": "Battle of Manzikert"
+},
+{
+  "question": "Which 1709 battle was a decisive defeat for Sweden during the Great Northern War?",
+  "options": ["Battle of Poltava", "Battle of Narva", "Battle of Blenheim", "Battle of Ramillies"],
+  "answer": "Battle of Poltava"
+},
+{
+  "question": "Which battle in 1757 established a major British East India Company advantage in Bengal?",
+  "options": ["Battle of Plassey", "Battle of Panipat", "Battle of Buxar", "Battle of Assaye"],
+  "answer": "Battle of Plassey"
+},
+{
+  "question": "Which naval battle in 1571 saw the Holy League defeat an Ottoman fleet?",
+  "options": ["Battle of Lepanto", "Battle of Salamis", "Battle of Jutland", "Battle of Actium"],
+  "answer": "Battle of Lepanto"
+},
+{
+  "question": "Which 732 battle is traditionally associated with Charles Martel's victory over an Umayyad force?",
+  "options": ["Battle of Tours", "Battle of Agincourt", "Battle of Poitiers 1356", "Battle of Bosworth"],
+  "answer": "Battle of Tours"
+},
+{
+  "question": "Which battle in 1410 saw Poland and Lithuania defeat the Teutonic Order?",
+  "options": ["Battle of Grunwald", "Battle of Kosovo", "Battle of Varna", "Battle of Mohacs"],
+  "answer": "Battle of Grunwald"
+},
+{
+  "question": "Which battle in 1526 resulted in a decisive Ottoman victory over the Kingdom of Hungary?",
+  "options": ["Battle of Mohacs", "Battle of Vienna", "Battle of Kosovo", "Battle of Varna"],
+  "answer": "Battle of Mohacs"
+},
+{
+  "question": "Which Japanese battle in 1600 helped Tokugawa Ieyasu secure political supremacy?",
+  "options": ["Battle of Sekigahara", "Battle of Nagashino", "Battle of Dan-no-ura", "Battle of Kawanakajima"],
+  "answer": "Battle of Sekigahara"
+},
+{
+  "question": "Which battle in 1704 was a major Allied victory during the War of the Spanish Succession?",
+  "options": ["Battle of Blenheim", "Battle of Fontenoy", "Battle of Rocroi", "Battle of Dettingen"],
+  "answer": "Battle of Blenheim"
+},
+{
+  "question": "Which 1746 battle effectively ended the Jacobite rising in Britain?",
+  "options": ["Battle of Culloden", "Battle of Prestonpans", "Battle of Falkirk", "Battle of Bannockburn"],
+  "answer": "Battle of Culloden"
+},
+{
+  "question": "Which battle in 1809 was Napoleon's first major personal defeat on the battlefield?",
+  "options": ["Battle of Aspern-Essling", "Battle of Jena", "Battle of Wagram", "Battle of Friedland"],
+  "answer": "Battle of Aspern-Essling"
+},
+{
+  "question": "Which 1866 battle helped establish Prussian dominance over Austria in German affairs?",
+  "options": ["Battle of Koniggratz", "Battle of Sedan", "Battle of Solferino", "Battle of Leipzig"],
+  "answer": "Battle of Koniggratz"
+},
+{
+  "question": "Which battle in 1870 resulted in the capture of French Emperor Napoleon III?",
+  "options": ["Battle of Sedan", "Battle of Metz", "Battle of Gravelotte", "Battle of Mars-la-Tour"],
+  "answer": "Battle of Sedan"
+},
+{
+  "question": "Which 1896 battle saw Ethiopian forces decisively defeat an invading Italian army?",
+  "options": ["Battle of Adwa", "Battle of Omdurman", "Battle of Isandlwana", "Battle of Majuba Hill"],
+  "answer": "Battle of Adwa"
+},
+{
+  "question": "Which 1879 battle resulted in a major Zulu victory over British forces?",
+  "options": ["Battle of Isandlwana", "Battle of Rorke's Drift", "Battle of Ulundi", "Battle of Blood River"],
+  "answer": "Battle of Isandlwana"
+},
+{
+  "question": "Which 1905 naval battle was a decisive Japanese victory over the Russian Baltic Fleet?",
+  "options": ["Battle of Tsushima", "Battle of Port Arthur", "Battle of the Yellow Sea", "Battle of Chemulpo Bay"],
+  "answer": "Battle of Tsushima"
+},
+{
+  "question": "Which World War I campaign attempted to force passage through the Dardanelles?",
+  "options": ["Gallipoli Campaign", "Somme Offensive", "Brusilov Offensive", "Meuse-Argonne Offensive"],
+  "answer": "Gallipoli Campaign"
+},
+{
+  "question": "Which ancient battle ended with Alexander the Great decisively defeating Darius III in 331 BCE?",
+  "options": ["Battle of Gaugamela", "Battle of Marathon", "Battle of Plataea", "Battle of Chaeronea"],
+  "answer": "Battle of Gaugamela"
+},
+{
+  "question": "Which Roman commander defeated Hannibal at the Battle of Zama?",
+  "options": ["Scipio Africanus", "Julius Caesar", "Pompey", "Marcus Aurelius"],
+  "answer": "Scipio Africanus"
+},
+{
+  "question": "Which battle in 31 BCE helped Octavian become the dominant ruler of the Roman world?",
+  "options": ["Battle of Actium", "Battle of Pharsalus", "Battle of Philippi", "Battle of Cannae"],
+  "answer": "Battle of Actium"
+},
+{
+  "question": "Which battle in 451 CE involved Roman-led forces fighting Attila's Huns?",
+  "options": ["Battle of the Catalaunian Plains", "Battle of Adrianople", "Battle of Milvian Bridge", "Battle of Chalons 1814"],
+  "answer": "Battle of the Catalaunian Plains"
+},
+{
+  "question": "Which battle in 1187 resulted in a major victory for Saladin over the Crusader forces?",
+  "options": ["Battle of Hattin", "Battle of Arsuf", "Battle of Antioch", "Battle of Acre"],
+  "answer": "Battle of Hattin"
+},
+{
+  "question": "Who led the Norman conquest of England in 1066?",
+  "options": ["William the Conqueror", "Edward the Confessor", "Henry II", "Richard I"],
+  "answer": "William the Conqueror"
+},
+{
+  "question": "Which battle in 1214 strengthened the position of French King Philip II?",
+  "options": ["Battle of Bouvines", "Battle of Crecy", "Battle of Agincourt", "Battle of Orleans"],
+  "answer": "Battle of Bouvines"
+},
+{
+  "question": "Which battle in 1346 was a major English victory during the Hundred Years' War?",
+  "options": ["Battle of Crecy", "Battle of Tours", "Battle of Castillon", "Battle of Patay"],
+  "answer": "Battle of Crecy"
+},
+{
+  "question": "Which 1415 battle was a famous victory for Henry V of England?",
+  "options": ["Battle of Agincourt", "Battle of Bosworth", "Battle of Tewkesbury", "Battle of Towton"],
+  "answer": "Battle of Agincourt"
+},
+{
+  "question": "Which city fell to the Ottoman Empire in 1453?",
+  "options": ["Constantinople", "Rome", "Vienna", "Venice"],
+  "answer": "Constantinople"
+},
+{
+  "question": "Who was the Ottoman sultan responsible for the conquest of Constantinople in 1453?",
+  "options": ["Mehmed II", "Suleiman I", "Selim I", "Bayezid I"],
+  "answer": "Mehmed II"
+},
+{
+  "question": "Which battle in 1515 was a major French victory during the Italian Wars?",
+  "options": ["Battle of Marignano", "Battle of Pavia", "Battle of Ravenna", "Battle of Fornovo"],
+  "answer": "Battle of Marignano"
+},
+{
+  "question": "At which battle in 1525 was King Francis I of France captured?",
+  "options": ["Battle of Pavia", "Battle of Marignano", "Battle of Cerignola", "Battle of Ravenna"],
+  "answer": "Battle of Pavia"
+},
+{
+  "question": "Which fleet attempted to invade England in 1588?",
+  "options": ["Spanish Armada", "Dutch Armada", "French Atlantic Fleet", "Holy League Fleet"],
+  "answer": "Spanish Armada"
+},
+{
+  "question": "The Thirty Years' War began in which year?",
+  "options": ["1618", "1603", "1642", "1688"],
+  "answer": "1618"
+},
+{
+  "question": "Which treaty settlement ended the Thirty Years' War in 1648?",
+  "options": ["Peace of Westphalia", "Treaty of Utrecht", "Treaty of Paris", "Peace of Augsburg"],
+  "answer": "Peace of Westphalia"
+},
+{
+  "question": "Which battle in 1645 was a decisive Parliamentarian victory in the English Civil War?",
+  "options": ["Battle of Naseby", "Battle of Edgehill", "Battle of Marston Moor", "Battle of Worcester"],
+  "answer": "Battle of Naseby"
+},
+{
+  "question": "Which English military and political leader commanded the New Model Army during the English Civil War?",
+  "options": ["Oliver Cromwell", "Charles I", "James II", "Thomas More"],
+  "answer": "Oliver Cromwell"
+},
+{
+  "question": "Which battle in 1683 ended the Ottoman siege of Vienna?",
+  "options": ["Battle of Vienna", "Battle of Mohacs", "Battle of Varna", "Battle of Kosovo"],
+  "answer": "Battle of Vienna"
+},
+{
+  "question": "Which Polish king played a major role in relieving Vienna in 1683?",
+  "options": ["John III Sobieski", "Sigismund III Vasa", "Casimir III", "Wladyslaw II Jagiello"],
+  "answer": "John III Sobieski"
+},
+{
+  "question": "The Seven Years' War was fought primarily during which period?",
+  "options": ["1756-1763", "1701-1714", "1775-1783", "1812-1815"],
+  "answer": "1756-1763"
+},
+{
+  "question": "Which Prussian king became famous for his military leadership during the Seven Years' War?",
+  "options": ["Frederick the Great", "William I", "Frederick William IV", "William II"],
+  "answer": "Frederick the Great"
+},
+{
+  "question": "Which 1759 battle led to British control of Quebec during the Seven Years' War?",
+  "options": ["Battle of the Plains of Abraham", "Battle of Saratoga", "Battle of Yorktown", "Battle of Monongahela"],
+  "answer": "Battle of the Plains of Abraham"
+},
+{
+  "question": "Which battle in 1777 is often considered a turning point in the American Revolutionary War?",
+  "options": ["Battle of Saratoga", "Battle of Bunker Hill", "Battle of Trenton", "Battle of Lexington"],
+  "answer": "Battle of Saratoga"
+},
+{
+  "question": "Which 1781 battle effectively ended major fighting in the American Revolutionary War?",
+  "options": ["Battle of Yorktown", "Battle of Princeton", "Battle of Camden", "Battle of Brandywine"],
+  "answer": "Battle of Yorktown"
+},
+{
+  "question": "Who commanded the Continental Army during the American Revolutionary War?",
+  "options": ["George Washington", "Thomas Jefferson", "Benjamin Franklin", "John Adams"],
+  "answer": "George Washington"
+},
+{
+  "question": "Which battle in 1798 destroyed much of the French fleet during Napoleon's Egyptian campaign?",
+  "options": ["Battle of the Nile", "Battle of Trafalgar", "Battle of Copenhagen", "Battle of Cape St Vincent"],
+  "answer": "Battle of the Nile"
+},
+{
+  "question": "Who commanded the British fleet at the Battle of the Nile?",
+  "options": ["Horatio Nelson", "Arthur Wellesley", "John Jervis", "Thomas Cochrane"],
+  "answer": "Horatio Nelson"
+},
+{
+  "question": "Which 1805 battle is considered one of Napoleon's greatest land victories?",
+  "options": ["Battle of Austerlitz", "Battle of Borodino", "Battle of Leipzig", "Battle of Waterloo"],
+  "answer": "Battle of Austerlitz"
+},
+{
+  "question": "Which battle in 1806 resulted in a crushing Prussian defeat by Napoleon?",
+  "options": ["Battle of Jena-Auerstedt", "Battle of Wagram", "Battle of Eylau", "Battle of Dresden"],
+  "answer": "Battle of Jena-Auerstedt"
+},
+{
+  "question": "Napoleon launched his invasion of Russia in which year?",
+  "options": ["1812", "1805", "1810", "1815"],
+  "answer": "1812"
+},
+{
+  "question": "Which major battle was fought near Moscow during Napoleon's invasion of Russia?",
+  "options": ["Battle of Borodino", "Battle of Smolensk", "Battle of Leipzig", "Battle of Friedland"],
+  "answer": "Battle of Borodino"
+},
+{
+  "question": "Which 1813 battle is also known as the Battle of the Nations?",
+  "options": ["Battle of Leipzig", "Battle of Dresden", "Battle of Ligny", "Battle of Quatre Bras"],
+  "answer": "Battle of Leipzig"
+},
+{
+  "question": "Which conflict from 1853 to 1856 involved Russia fighting an alliance that included the Ottoman Empire, Britain, and France?",
+  "options": ["Crimean War", "Franco-Prussian War", "Russo-Japanese War", "Balkan War"],
+  "answer": "Crimean War"
+},
+{
+  "question": "The Charge of the Light Brigade occurred during which war?",
+  "options": ["Crimean War", "Boer War", "Napoleonic Wars", "World War I"],
+  "answer": "Crimean War"
+},
+{
+  "question": "Which 1859 battle was a major engagement in the Second Italian War of Independence?",
+  "options": ["Battle of Solferino", "Battle of Magenta", "Battle of Novara", "Battle of Custozza"],
+  "answer": "Battle of Solferino"
+},
+{
+  "question": "Which American Civil War battle in 1863 is widely considered a major turning point?",
+  "options": ["Battle of Gettysburg", "Battle of Antietam", "Battle of Shiloh", "Battle of Bull Run"],
+  "answer": "Battle of Gettysburg"
+},
+{
+  "question": "Which Confederate general surrendered to Ulysses S. Grant at Appomattox Court House in 1865?",
+  "options": ["Robert E. Lee", "Stonewall Jackson", "J.E.B. Stuart", "Braxton Bragg"],
+  "answer": "Robert E. Lee"
+},
+{
+  "question": "Which 1862 battle is often described as the bloodiest single-day battle in American history?",
+  "options": ["Battle of Antietam", "Battle of Gettysburg", "Battle of Shiloh", "Battle of Fredericksburg"],
+  "answer": "Battle of Antietam"
+},
+{
+  "question": "The Franco-Prussian War began in which year?",
+  "options": ["1870", "1861", "1882", "1890"],
+  "answer": "1870"
+},
+{
+  "question": "Which conflict from 1899 to 1902 was fought between Britain and the Boer republics in southern Africa?",
+  "options": ["Second Boer War", "Crimean War", "Mahdist War", "Anglo-Zulu War"],
+  "answer": "Second Boer War"
+},
+{
+  "question": "The Russo-Japanese War was fought primarily during which years?",
+  "options": ["1904-1905", "1898-1899", "1910-1911", "1914-1915"],
+  "answer": "1904-1905"
+},
+{
+  "question": "Which World War I battle began in July 1916 and became known for enormous casualties?",
+  "options": ["Battle of the Somme", "Battle of Tannenberg", "Battle of Ypres", "Battle of Cambrai"],
+  "answer": "Battle of the Somme"
+},
+{
+  "question": "Which 1914 battle was a major German victory over Russian forces in East Prussia?",
+  "options": ["Battle of Tannenberg", "Battle of Galicia", "Battle of Lodz", "Battle of Riga"],
+  "answer": "Battle of Tannenberg"
+},
+{
+  "question": "Which 1916 Russian offensive achieved major early successes against Austria-Hungary?",
+  "options": ["Brusilov Offensive", "Kerensky Offensive", "Gorlice-Tarnow Offensive", "Spring Offensive"],
+  "answer": "Brusilov Offensive"
+},
+{
+  "question": "Which weapon was first deployed on a large scale by the British at the Battle of the Somme in 1916?",
+  "options": ["Tank", "Jet aircraft", "Helicopter", "Ballistic missile"],
+  "answer": "Tank"
+},
+{
+  "question": "Which battle in 1917 became particularly associated with harsh muddy conditions in Flanders?",
+  "options": ["Battle of Passchendaele", "Battle of Amiens", "Battle of Mons", "Battle of Caporetto"],
+  "answer": "Battle of Passchendaele"
+},
+{
+  "question": "Which 1917 battle was a disastrous defeat for Italy during World War I?",
+  "options": ["Battle of Caporetto", "Battle of Vittorio Veneto", "Battle of Isonzo", "Battle of Piave"],
+  "answer": "Battle of Caporetto"
+},
+{
+  "question": "Which battle in 1918 helped mark the beginning of the Allied Hundred Days Offensive?",
+  "options": ["Battle of Amiens", "Battle of Cambrai", "Battle of Verdun", "Battle of Gallipoli"],
+  "answer": "Battle of Amiens"
+},
+{
+  "question": "What was the German term for the rapid combined-arms style of warfare associated with early World War II campaigns?",
+  "options": ["Blitzkrieg", "Lebensraum", "Kulturkampf", "Realpolitik"],
+  "answer": "Blitzkrieg"
+},
+{
+  "question": "Which 1940 campaign resulted in the evacuation of large numbers of Allied troops from northern France?",
+  "options": ["Dunkirk evacuation", "Operation Torch", "Operation Husky", "Operation Market Garden"],
+  "answer": "Dunkirk evacuation"
+},
+{
+  "question": "Which 1940 air campaign was fought primarily between the British Royal Air Force and Germany's Luftwaffe?",
+  "options": ["Battle of Britain", "Battle of the Atlantic", "Battle of Crete", "Battle of France"],
+  "answer": "Battle of Britain"
+},
+{
+  "question": "What was the code name for Germany's 1941 invasion of the Soviet Union?",
+  "options": ["Operation Barbarossa", "Operation Sea Lion", "Operation Overlord", "Operation Torch"],
+  "answer": "Operation Barbarossa"
+},
+{
+  "question": "Which 1942 battle was a major Allied victory in North Africa?",
+  "options": ["Second Battle of El Alamein", "Battle of Tobruk", "Battle of Kasserine Pass", "Battle of Gazala"],
+  "answer": "Second Battle of El Alamein"
+},
+{
+  "question": "Which British commander led the Eighth Army at the Second Battle of El Alamein?",
+  "options": ["Bernard Montgomery", "Harold Alexander", "Claude Auchinleck", "Alan Brooke"],
+  "answer": "Bernard Montgomery"
+},
+{
+  "question": "Which 1943 battle is widely regarded as the largest tank battle of World War II?",
+  "options": ["Battle of Kursk", "Battle of Moscow", "Battle of Berlin", "Battle of Kharkov"],
+  "answer": "Battle of Kursk"
+},
+{
+  "question": "What was the Allied code name for the 1943 invasion of Sicily?",
+  "options": ["Operation Husky", "Operation Torch", "Operation Avalanche", "Operation Neptune"],
+  "answer": "Operation Husky"
+},
+{
+  "question": "Which operation was the unsuccessful Allied airborne offensive in the Netherlands in 1944?",
+  "options": ["Operation Market Garden", "Operation Overlord", "Operation Dragoon", "Operation Torch"],
+  "answer": "Operation Market Garden"
+},
+{
+  "question": "Which battle from December 1944 to January 1945 was Germany's last major offensive in the West?",
+  "options": ["Battle of the Bulge", "Battle of Berlin", "Battle of Anzio", "Battle of Monte Cassino"],
+  "answer": "Battle of the Bulge"
+},
+{
+  "question": "Which 1945 battle was one of the final major battles in Europe during World War II?",
+  "options": ["Battle of Berlin", "Battle of Crete", "Battle of Dunkirk", "Battle of Sicily"],
+  "answer": "Battle of Berlin"
+}
   {
     "question": "In which year did World War I begin?",
     "options": ["1912", "1914", "1916", "1918"],
