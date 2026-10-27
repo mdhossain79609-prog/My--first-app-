@@ -203,7 +203,108 @@
     "answer": "Pulley"
   }
 ],
-  "Mechanical Engineering": [],
+  "Mechanical Engineering": [
+  {
+    "question": "What is the SI unit of torque?",
+    "options": ["Newton", "Newton-meter", "Joule", "Pascal"],
+    "answer": "Newton-meter"
+  },
+  {
+    "question": "Which device is used to measure rotational speed?",
+    "options": ["Tachometer", "Barometer", "Ammeter", "Manometer"],
+    "answer": "Tachometer"
+  },
+  {
+    "question": "Which component is commonly used to transmit power between rotating shafts?",
+    "options": ["Gear", "Piston", "Valve", "Nozzle"],
+    "answer": "Gear"
+  },
+  {
+    "question": "What is the main function of a bearing?",
+    "options": ["Increase friction", "Reduce friction", "Increase temperature", "Stop rotation"],
+    "answer": "Reduce friction"
+  },
+  {
+    "question": "Which engine uses a spark plug for ignition?",
+    "options": ["Petrol engine", "Diesel engine", "Steam engine", "Jet engine"],
+    "answer": "Petrol engine"
+  },
+  {
+    "question": "Which engine normally uses compression ignition?",
+    "options": ["Petrol engine", "Diesel engine", "Steam engine", "Electric motor"],
+    "answer": "Diesel engine"
+  },
+  {
+    "question": "What is the main function of a flywheel?",
+    "options": ["Store rotational energy", "Measure pressure", "Reduce temperature", "Pump fuel"],
+    "answer": "Store rotational energy"
+  },
+  {
+    "question": "Which instrument is commonly used to measure pressure?",
+    "options": ["Manometer", "Tachometer", "Caliper", "Thermocouple"],
+    "answer": "Manometer"
+  },
+  {
+    "question": "Which tool is used for precise measurement of external and internal dimensions?",
+    "options": ["Hammer", "Vernier caliper", "Spanner", "Screwdriver"],
+    "answer": "Vernier caliper"
+  },
+  {
+    "question": "What is the main purpose of lubrication in machines?",
+    "options": ["Increase friction", "Reduce friction and wear", "Increase weight", "Increase vibration"],
+    "answer": "Reduce friction and wear"
+  },
+  {
+    "question": "Which process is commonly used to join metal parts permanently?",
+    "options": ["Welding", "Drilling", "Grinding", "Turning"],
+    "answer": "Welding"
+  },
+  {
+    "question": "Which machine tool is primarily used to produce cylindrical components?",
+    "options": ["Lathe machine", "Drilling machine", "Shaper", "Press"],
+    "answer": "Lathe machine"
+  },
+  {
+    "question": "What does CNC stand for?",
+    "options": ["Computer Numerical Control", "Central Network Control", "Computer Network Circuit", "Controlled Number Calculation"],
+    "answer": "Computer Numerical Control"
+  },
+  {
+    "question": "Which thermodynamic law is associated with conservation of energy?",
+    "options": ["Zeroth Law", "First Law", "Second Law", "Third Law"],
+    "answer": "First Law"
+  },
+  {
+    "question": "What is the SI unit of temperature?",
+    "options": ["Celsius", "Fahrenheit", "Kelvin", "Joule"],
+    "answer": "Kelvin"
+  },
+  {
+    "question": "Which component controls the flow of fluid in a piping system?",
+    "options": ["Valve", "Bearing", "Gear", "Flywheel"],
+    "answer": "Valve"
+  },
+  {
+    "question": "What is the function of a pump?",
+    "options": ["Move fluids", "Measure speed", "Generate light", "Measure voltage"],
+    "answer": "Move fluids"
+  },
+  {
+    "question": "Which type of stress acts perpendicular to a surface?",
+    "options": ["Normal stress", "Shear stress", "Torsional stress", "Thermal stress"],
+    "answer": "Normal stress"
+  },
+  {
+    "question": "What is the main function of a clutch in a vehicle?",
+    "options": ["Connect and disconnect engine power from transmission", "Cool the engine", "Charge the battery", "Control steering"],
+    "answer": "Connect and disconnect engine power from transmission"
+  },
+  {
+    "question": "Which component transfers power from the engine to the driving wheels through different gear ratios?",
+    "options": ["Radiator", "Transmission", "Battery", "Muffler"],
+    "answer": "Transmission"
+  }
+],
   "Mechanical Technician": [],
   "Electrical & Electrician": [],
   "Civil Engineering": [],
