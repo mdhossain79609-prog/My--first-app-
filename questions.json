@@ -1838,6 +1838,406 @@
   }
 ],
   "Business & Economics": [
+{
+  "question": "What does GDP stand for?",
+  "options": ["Gross Domestic Product", "General Domestic Price", "Global Development Product", "Gross Development Plan"],
+  "answer": "Gross Domestic Product"
+},
+{
+  "question": "What is inflation?",
+  "options": ["A fall in prices", "A general rise in prices", "A rise in unemployment only", "A fall in production only"],
+  "answer": "A general rise in prices"
+},
+{
+  "question": "What is a business primarily created to do?",
+  "options": ["Provide goods or services", "Print money", "Set government laws", "Control weather"],
+  "answer": "Provide goods or services"
+},
+{
+  "question": "What is profit?",
+  "options": ["Revenue minus costs", "Costs minus revenue", "Total sales only", "Total expenses only"],
+  "answer": "Revenue minus costs"
+},
+{
+  "question": "What is revenue?",
+  "options": ["Money earned from sales", "Money borrowed from a bank", "Taxes paid", "Business losses"],
+  "answer": "Money earned from sales"
+},
+{
+  "question": "What is a market?",
+  "options": ["A place or system where buyers and sellers interact", "Only a shopping mall", "A government office", "A bank account"],
+  "answer": "A place or system where buyers and sellers interact"
+},
+{
+  "question": "What is supply?",
+  "options": ["The amount producers are willing to sell", "The amount consumers want to buy", "The amount of taxes collected", "The amount of money printed"],
+  "answer": "The amount producers are willing to sell"
+},
+{
+  "question": "What is demand?",
+  "options": ["The amount consumers are willing and able to buy", "The amount businesses produce", "The amount of money banks hold", "The amount of goods exported"],
+  "answer": "The amount consumers are willing and able to buy"
+},
+{
+  "question": "What usually happens to demand when the price of a normal good rises, all else equal?",
+  "options": ["Demand generally falls", "Demand always doubles", "Demand always rises", "Demand becomes zero"],
+  "answer": "Demand generally falls"
+},
+{
+  "question": "What usually happens to supply when the selling price rises, all else equal?",
+  "options": ["Supply generally increases", "Supply always decreases", "Supply becomes zero", "Supply never changes"],
+  "answer": "Supply generally increases"
+},
+{
+  "question": "What is an entrepreneur?",
+  "options": ["A person who starts or manages a business venture", "A government judge", "A bank customer only", "A professional athlete"],
+  "answer": "A person who starts or manages a business venture"
+},
+{
+  "question": "What is entrepreneurship?",
+  "options": ["The process of creating and developing business opportunities", "The process of collecting taxes", "The process of printing currency", "The process of writing laws"],
+  "answer": "The process of creating and developing business opportunities"
+},
+{
+  "question": "What is a startup?",
+  "options": ["A newly established business", "An old government agency", "A type of tax", "A bank loan"],
+  "answer": "A newly established business"
+},
+{
+  "question": "What is a business plan?",
+  "options": ["A document describing business goals and strategies", "A personal diary", "A tax receipt", "A bank statement"],
+  "answer": "A document describing business goals and strategies"
+},
+{
+  "question": "What is a target market?",
+  "options": ["The specific group of customers a business aims to serve", "All government employees", "Only business owners", "A company's competitors"],
+  "answer": "The specific group of customers a business aims to serve"
+},
+{
+  "question": "What is branding?",
+  "options": ["Creating a recognizable identity for a business or product", "Reducing employee salaries", "Closing a company", "Borrowing money"],
+  "answer": "Creating a recognizable identity for a business or product"
+},
+{
+  "question": "What is marketing?",
+  "options": ["Activities used to promote and sell products or services", "Only manufacturing products", "Only paying taxes", "Only hiring employees"],
+  "answer": "Activities used to promote and sell products or services"
+},
+{
+  "question": "What is advertising?",
+  "options": ["Paid promotion of products or services", "Free government funding", "Employee training", "Inventory storage"],
+  "answer": "Paid promotion of products or services"
+},
+{
+  "question": "What is a customer?",
+  "options": ["A person or organization that buys goods or services", "A company's competitor", "A government regulator", "A bank manager"],
+  "answer": "A person or organization that buys goods or services"
+},
+{
+  "question": "What is customer satisfaction?",
+  "options": ["How well a product or service meets customer expectations", "The company's total profit", "The number of employees", "The amount of tax paid"],
+  "answer": "How well a product or service meets customer expectations"
+},
+{
+  "question": "What is a monopoly?",
+  "options": ["A market dominated by a single seller", "A market with many sellers", "A market with no buyers", "A market with no products"],
+  "answer": "A market dominated by a single seller"
+},
+{
+  "question": "What is a competitive market?",
+  "options": ["A market with multiple buyers and sellers", "A market with only one seller", "A market controlled by one customer", "A market with no competition"],
+  "answer": "A market with multiple buyers and sellers"
+},
+{
+  "question": "What is a price?",
+  "options": ["The amount of money charged for a good or service", "A company's total profit", "An employee's salary", "A business license"],
+  "answer": "The amount of money charged for a good or service"
+},
+{
+  "question": "What is a fixed cost?",
+  "options": ["A cost that generally does not change with short-term production", "A cost that always equals revenue", "A tax refund", "A sales discount"],
+  "answer": "A cost that generally does not change with short-term production"
+},
+{
+  "question": "Which is an example of a fixed cost for many businesses?",
+  "options": ["Rent", "Raw materials per unit", "Sales commission per sale", "Packaging per product"],
+  "answer": "Rent"
+},
+{
+  "question": "What is a variable cost?",
+  "options": ["A cost that changes with the level of production or sales", "A cost that never changes", "A government grant", "A business asset"],
+  "answer": "A cost that changes with the level of production or sales"
+},
+{
+  "question": "What is an asset?",
+  "options": ["Something of economic value owned or controlled by a business", "A business expense only", "A customer complaint", "A tax penalty"],
+  "answer": "Something of economic value owned or controlled by a business"
+},
+{
+  "question": "What is a liability?",
+  "options": ["A financial obligation or debt", "A business's cash only", "A company's brand name", "A product advertisement"],
+  "answer": "A financial obligation or debt"
+},
+{
+  "question": "What is equity in accounting?",
+  "options": ["The owner's residual interest in a business", "Total business debt", "Total sales", "Employee wages"],
+  "answer": "The owner's residual interest in a business"
+},
+{
+  "question": "What is a balance sheet?",
+  "options": ["A statement of assets, liabilities and equity", "A list of advertisements", "A sales brochure", "A customer survey"],
+  "answer": "A statement of assets, liabilities and equity"
+},
+{
+  "question": "What is cash flow?",
+  "options": ["The movement of money into and out of a business", "The number of products sold", "The number of employees", "The company's brand value"],
+  "answer": "The movement of money into and out of a business"
+},
+{
+  "question": "What is an investment?",
+  "options": ["Putting money or resources into something with an expectation of future benefit", "Spending money only on food", "Paying a fine", "Borrowing without repayment"],
+  "answer": "Putting money or resources into something with an expectation of future benefit"
+},
+{
+  "question": "What is a shareholder?",
+  "options": ["A person or entity that owns shares in a company", "A company's customer only", "A government employee", "A bank teller"],
+  "answer": "A person or entity that owns shares in a company"
+},
+{
+  "question": "What is a stock or share?",
+  "options": ["A unit representing ownership in a company", "A business loan", "A tax bill", "A product warranty"],
+  "answer": "A unit representing ownership in a company"
+},
+{
+  "question": "What is a dividend?",
+  "options": ["A payment a company may make to shareholders", "A bank loan", "A business tax", "An employee's salary"],
+  "answer": "A payment a company may make to shareholders"
+},
+{
+  "question": "What is a stock exchange?",
+  "options": ["A marketplace for trading securities", "A supermarket", "A government hospital", "A shipping company"],
+  "answer": "A marketplace for trading securities"
+},
+{
+  "question": "What does IPO stand for?",
+  "options": ["Initial Public Offering", "International Price Order", "Internal Product Operation", "Investment Purchase Option"],
+  "answer": "Initial Public Offering"
+},
+{
+  "question": "What is an IPO?",
+  "options": ["The first public sale of a company's shares", "A company closing its business", "A government tax", "A private bank loan"],
+  "answer": "The first public sale of a company's shares"
+},
+{
+  "question": "What is a bond?",
+  "options": ["A debt investment", "A company logo", "A business license", "A type of currency"],
+  "answer": "A debt investment"
+},
+{
+  "question": "What is interest?",
+  "options": ["The cost of borrowing money or the return earned on savings", "A type of tax only", "A business loss", "A product price"],
+  "answer": "The cost of borrowing money or the return earned on savings"
+},
+{
+  "question": "What is a loan?",
+  "options": ["Money borrowed that is generally expected to be repaid", "A business profit", "A dividend", "A sales discount"],
+  "answer": "Money borrowed that is generally expected to be repaid"
+},
+{
+  "question": "What is a bank?",
+  "options": ["A financial institution that provides services such as deposits and loans", "A manufacturing factory", "A sports club", "A retail store"],
+  "answer": "A financial institution that provides services such as deposits and loans"
+},
+{
+  "question": "What is a central bank?",
+  "options": ["An institution responsible for monetary policy and other central banking functions", "A supermarket", "A private school", "An insurance company"],
+  "answer": "An institution responsible for monetary policy and other central banking functions"
+},
+{
+  "question": "What is monetary policy?",
+  "options": ["Actions by a central bank to influence money and credit conditions", "A company's marketing plan", "A government's road plan", "A business hiring policy"],
+  "answer": "Actions by a central bank to influence money and credit conditions"
+},
+{
+  "question": "What is fiscal policy?",
+  "options": ["Government decisions about taxation and spending", "Bank advertising", "Company recruitment", "Stock trading only"],
+  "answer": "Government decisions about taxation and spending"
+},
+{
+  "question": "What is unemployment?",
+  "options": ["The condition of people without jobs who are actively seeking work", "Everyone who does not own a business", "People who are retired only", "People who are studying only"],
+  "answer": "The condition of people without jobs who are actively seeking work"
+},
+{
+  "question": "What is economic growth?",
+  "options": ["An increase in the production of goods and services over time", "A decrease in population only", "A fall in business activity", "A decrease in trade"],
+  "answer": "An increase in the production of goods and services over time"
+},
+{
+  "question": "What is a recession?",
+  "options": ["A significant decline in economic activity", "A rapid rise in population", "A period of unlimited growth", "A permanent increase in wages"],
+  "answer": "A significant decline in economic activity"
+},
+{
+  "question": "What is a trade surplus?",
+  "options": ["When exports exceed imports", "When imports exceed exports", "When taxes exceed spending", "When spending equals income"],
+  "answer": "When exports exceed imports"
+},
+{
+  "question": "What is a trade deficit?",
+  "options": ["When imports exceed exports", "When exports exceed imports", "When wages exceed profits", "When savings exceed investment"],
+  "answer": "When imports exceed exports"
+},
+{
+  "question": "What are exports?",
+  "options": ["Goods and services sold to other countries", "Goods bought from other countries", "Domestic taxes", "Bank deposits"],
+  "answer": "Goods and services sold to other countries"
+},
+{
+  "question": "What are imports?",
+  "options": ["Goods and services purchased from other countries", "Goods sold abroad", "Domestic investments", "Government salaries"],
+  "answer": "Goods and services purchased from other countries"
+},
+{
+  "question": "What is international trade?",
+  "options": ["Trade between countries", "Trade within one company only", "Trade between employees", "Trade within one household"],
+  "answer": "Trade between countries"
+},
+{
+  "question": "What is a tariff?",
+  "options": ["A tax imposed on imported goods", "A company salary", "A bank deposit", "A stock dividend"],
+  "answer": "A tax imposed on imported goods"
+},
+{
+  "question": "What is a subsidy?",
+  "options": ["Financial support provided by a government", "A private business loan only", "A customer complaint", "A stock market crash"],
+  "answer": "Financial support provided by a government"
+},
+{
+  "question": "What is opportunity cost?",
+  "options": ["The value of the next best alternative given up", "The total price of a product", "A company's revenue", "A government tax"],
+  "answer": "The value of the next best alternative given up"
+},
+{
+  "question": "What does scarcity mean in economics?",
+  "options": ["Resources are limited relative to wants", "Money is unlimited", "All goods are free", "Demand does not exist"],
+  "answer": "Resources are limited relative to wants"
+},
+{
+  "question": "What is productivity?",
+  "options": ["Output produced per unit of input", "Total amount of money in a bank", "Number of customers only", "Amount of tax collected"],
+  "answer": "Output produced per unit of input"
+},
+{
+  "question": "What is specialization?",
+  "options": ["Focusing on a particular task or type of production", "Producing everything alone", "Avoiding trade", "Increasing taxes"],
+  "answer": "Focusing on a particular task or type of production"
+},
+{
+  "question": "What is division of labor?",
+  "options": ["Dividing production into specialized tasks", "Dividing profits equally in every business", "Splitting a bank account", "Reducing product quality"],
+  "answer": "Dividing production into specialized tasks"
+},
+{
+  "question": "What is a franchise?",
+  "options": ["A business model where a franchisee operates using a franchisor's brand and system", "A government department", "A type of bank account", "A stock exchange"],
+  "answer": "A business model where a franchisee operates using a franchisor's brand and system"
+},
+{
+  "question": "What is a merger?",
+  "options": ["When two or more companies combine", "When a company hires one employee", "When a product is discounted", "When a bank closes an account"],
+  "answer": "When two or more companies combine"
+},
+{
+  "question": "What is an acquisition?",
+  "options": ["When one company purchases another company or a controlling interest", "When a company reduces prices", "When customers change brands", "When employees receive training"],
+  "answer": "When one company purchases another company or a controlling interest"
+},
+{
+  "question": "What is a corporation?",
+  "options": ["A legally recognized business entity separate from its owners", "A personal savings account", "A government tax", "A product advertisement"],
+  "answer": "A legally recognized business entity separate from its owners"
+},
+{
+  "question": "What is a sole proprietorship?",
+  "options": ["A business owned by one person", "A business owned by thousands of shareholders", "A government agency", "A nonprofit hospital"],
+  "answer": "A business owned by one person"
+},
+{
+  "question": "What is a partnership?",
+  "options": ["A business owned by two or more partners", "A company owned by one person only", "A government office", "A bank account"],
+  "answer": "A business owned by two or more partners"
+},
+{
+  "question": "What is a nonprofit organization?",
+  "options": ["An organization that operates without distributing profits to private owners", "A company that cannot earn revenue", "A government bank", "A business with no employees"],
+  "answer": "An organization that operates without distributing profits to private owners"
+},
+{
+  "question": "What is a budget?",
+  "options": ["A plan for expected income and expenses", "A company's logo", "A type of investment", "A sales receipt"],
+  "answer": "A plan for expected income and expenses"
+},
+{
+  "question": "What is saving?",
+  "options": ["Setting aside income for future use", "Spending all income immediately", "Borrowing money", "Paying business taxes"],
+  "answer": "Setting aside income for future use"
+},
+{
+  "question": "What is a credit score generally used to assess?",
+  "options": ["Creditworthiness", "Physical fitness", "Academic ability", "Product quality"],
+  "answer": "Creditworthiness"
+},
+{
+  "question": "What is insurance?",
+  "options": ["A contract that provides financial protection against specified risks", "A guaranteed investment profit", "A business license", "A government salary"],
+  "answer": "A contract that provides financial protection against specified risks"
+},
+{
+  "question": "What is diversification in investing?",
+  "options": ["Spreading investments across different assets or investments", "Putting all money into one asset", "Avoiding all investments", "Borrowing money to spend"],
+  "answer": "Spreading investments across different assets or investments"
+},
+{
+  "question": "What is risk in investment?",
+  "options": ["The possibility that actual results may differ from expectations, including loss", "A guaranteed profit", "A fixed salary", "A government subsidy"],
+  "answer": "The possibility that actual results may differ from expectations, including loss"
+},
+{
+  "question": "What is a recessionary period often associated with?",
+  "options": ["Lower economic activity", "Unlimited economic growth", "Zero unemployment", "Guaranteed higher profits"],
+  "answer": "Lower economic activity"
+},
+{
+  "question": "What is consumer behavior?",
+  "options": ["How consumers make decisions about buying goods and services", "How banks print money", "How governments create laws", "How factories build machines"],
+  "answer": "How consumers make decisions about buying goods and services"
+},
+{
+  "question": "What is e-commerce?",
+  "options": ["Buying and selling goods or services online", "Trading only in physical markets", "Government taxation", "Manufacturing electronics"],
+  "answer": "Buying and selling goods or services online"
+},
+{
+  "question": "What is a supply chain?",
+  "options": ["The network involved in producing and delivering a product or service", "A company's bank account", "A marketing slogan", "A government tax system"],
+  "answer": "The network involved in producing and delivering a product or service"
+},
+{
+  "question": "What is inventory?",
+  "options": ["Goods and materials held by a business for sale or use", "A company's debt", "A bank interest rate", "A customer review"],
+  "answer": "Goods and materials held by a business for sale or use"
+},
+{
+  "question": "What is break-even point?",
+  "options": ["The point where total revenue equals total costs", "The point where revenue becomes zero", "The point where taxes double", "The point where inventory disappears"],
+  "answer": "The point where total revenue equals total costs"
+},
+{
+  "question": "What is a recession different from inflation?",
+  "options": ["A recession is a decline in economic activity, while inflation is a general rise in prices", "They are exactly the same", "Inflation always means unemployment is zero", "A recession always means prices rise"],
+  "answer": "A recession is a decline in economic activity, while inflation is a general rise in prices"
+ },
   {
     "question": "What does GDP stand for?",
     "options": ["Gross Domestic Product", "General Development Plan", "Global Domestic Price", "Gross Development Profit"],
