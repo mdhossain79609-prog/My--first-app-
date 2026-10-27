@@ -2143,7 +2143,410 @@
     "answer": "$0.50"
   }
 ],
- "Medical": [
+  "Medical": [
+  {
+    "question": "Which organ pumps blood throughout the human body?",
+    "options": ["Liver", "Heart", "Lung", "Kidney"],
+    "answer": "Heart"
+  },
+  {
+    "question": "What is the largest organ of the human body?",
+    "options": ["Liver", "Skin", "Lung", "Brain"],
+    "answer": "Skin"
+  },
+  {
+    "question": "Which blood cells are primarily responsible for fighting infections?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma cells"],
+    "answer": "White blood cells"
+  },
+  {
+    "question": "Which blood cells carry oxygen around the body?",
+    "options": ["White blood cells", "Platelets", "Red blood cells", "Lymphocytes"],
+    "answer": "Red blood cells"
+  },
+  {
+    "question": "What substance in red blood cells binds oxygen?",
+    "options": ["Insulin", "Hemoglobin", "Keratin", "Collagen"],
+    "answer": "Hemoglobin"
+  },
+  {
+    "question": "Which organ is primarily responsible for filtering waste from the blood?",
+    "options": ["Heart", "Kidney", "Stomach", "Pancreas"],
+    "answer": "Kidney"
+  },
+  {
+    "question": "Which organ produces bile?",
+    "options": ["Pancreas", "Liver", "Gallbladder", "Stomach"],
+    "answer": "Liver"
+  },
+  {
+    "question": "Where is bile stored before being released into the small intestine?",
+    "options": ["Pancreas", "Gallbladder", "Liver", "Appendix"],
+    "answer": "Gallbladder"
+  },
+  {
+    "question": "Which organ produces insulin?",
+    "options": ["Liver", "Pancreas", "Kidney", "Spleen"],
+    "answer": "Pancreas"
+  },
+  {
+    "question": "Which hormone helps regulate blood glucose levels by lowering them?",
+    "options": ["Adrenaline", "Insulin", "Thyroxine", "Cortisol"],
+    "answer": "Insulin"
+  },
+  {
+    "question": "What is the normal primary function of the lungs?",
+    "options": ["Digest food", "Exchange oxygen and carbon dioxide", "Produce insulin", "Filter urine"],
+    "answer": "Exchange oxygen and carbon dioxide"
+  },
+  {
+    "question": "Which structure prevents food from entering the windpipe during swallowing?",
+    "options": ["Larynx", "Epiglottis", "Uvula", "Tonsil"],
+    "answer": "Epiglottis"
+  },
+  {
+    "question": "What is the main muscle responsible for breathing?",
+    "options": ["Biceps", "Diaphragm", "Triceps", "Quadriceps"],
+    "answer": "Diaphragm"
+  },
+  {
+    "question": "Which part of the brain controls balance and coordination?",
+    "options": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
+    "answer": "Cerebellum"
+  },
+  {
+    "question": "Which part of the brain is mainly responsible for higher cognitive functions?",
+    "options": ["Cerebrum", "Cerebellum", "Medulla", "Spinal cord"],
+    "answer": "Cerebrum"
+  },
+  {
+    "question": "What is the basic functional unit of the nervous system?",
+    "options": ["Neuron", "Nephron", "Alveolus", "Platelet"],
+    "answer": "Neuron"
+  },
+  {
+    "question": "What is the basic functional unit of the kidney?",
+    "options": ["Neuron", "Nephron", "Alveolus", "Villus"],
+    "answer": "Nephron"
+  },
+  {
+    "question": "What are the tiny air sacs in the lungs called?",
+    "options": ["Nephrons", "Alveoli", "Villi", "Bronchi"],
+    "answer": "Alveoli"
+  },
+  {
+    "question": "Which blood vessels carry blood away from the heart?",
+    "options": ["Veins", "Arteries", "Capillaries", "Venules"],
+    "answer": "Arteries"
+  },
+  {
+    "question": "Which blood vessels usually carry blood toward the heart?",
+    "options": ["Arteries", "Veins", "Arterioles", "Capillaries"],
+    "answer": "Veins"
+  },
+
+  {
+    "question": "Which blood component is mainly responsible for clotting?",
+    "options": ["Red blood cells", "Platelets", "Plasma", "White blood cells"],
+    "answer": "Platelets"
+  },
+  {
+    "question": "What is the liquid portion of blood called?",
+    "options": ["Plasma", "Serum", "Lymph", "Hemoglobin"],
+    "answer": "Plasma"
+  },
+  {
+    "question": "Which blood group is commonly known as the universal red-cell donor?",
+    "options": ["AB positive", "O negative", "A positive", "B negative"],
+    "answer": "O negative"
+  },
+  {
+    "question": "Which blood group is commonly known as the universal red-cell recipient?",
+    "options": ["O negative", "AB positive", "A negative", "B positive"],
+    "answer": "AB positive"
+  },
+  {
+    "question": "What is the medical term for high blood pressure?",
+    "options": ["Hypotension", "Hypertension", "Hemophilia", "Hyperglycemia"],
+    "answer": "Hypertension"
+  },
+  {
+    "question": "What is the medical term for abnormally low blood pressure?",
+    "options": ["Hypertension", "Hypotension", "Hyperglycemia", "Tachycardia"],
+    "answer": "Hypotension"
+  },
+  {
+    "question": "What is an abnormally fast heart rate called?",
+    "options": ["Bradycardia", "Tachycardia", "Arrhythmia", "Hypotension"],
+    "answer": "Tachycardia"
+  },
+  {
+    "question": "What is an abnormally slow heart rate called?",
+    "options": ["Tachycardia", "Bradycardia", "Hypertension", "Angina"],
+    "answer": "Bradycardia"
+  },
+  {
+    "question": "Which condition is characterized by persistently elevated blood glucose?",
+    "options": ["Diabetes mellitus", "Anemia", "Asthma", "Arthritis"],
+    "answer": "Diabetes mellitus"
+  },
+  {
+    "question": "Which vitamin deficiency commonly causes scurvy?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin C"
+  },
+  {
+    "question": "Which vitamin is essential for normal blood clotting?",
+    "options": ["Vitamin C", "Vitamin K", "Vitamin D", "Vitamin B1"],
+    "answer": "Vitamin K"
+  },
+  {
+    "question": "Which vitamin is important for calcium absorption and bone health?",
+    "options": ["Vitamin D", "Vitamin C", "Vitamin B6", "Vitamin K"],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "Which mineral is a major component of hemoglobin?",
+    "options": ["Calcium", "Iron", "Sodium", "Potassium"],
+    "answer": "Iron"
+  },
+  {
+    "question": "Iron-deficiency most commonly leads to which type of anemia?",
+    "options": ["Iron-deficiency anemia", "Hemolytic anemia", "Aplastic anemia", "Sickle cell anemia"],
+    "answer": "Iron-deficiency anemia"
+  },
+  {
+    "question": "Which disease is caused by a deficiency of insulin or impaired insulin action?",
+    "options": ["Diabetes mellitus", "Tuberculosis", "Malaria", "Scurvy"],
+    "answer": "Diabetes mellitus"
+  },
+  {
+    "question": "Which disease primarily affects the airways and can cause wheezing?",
+    "options": ["Asthma", "Hepatitis", "Gastritis", "Arthritis"],
+    "answer": "Asthma"
+  },
+  {
+    "question": "Which chronic lung disease is strongly associated with long-term smoking?",
+    "options": ["COPD", "Appendicitis", "Migraine", "Osteoporosis"],
+    "answer": "COPD"
+  },
+  {
+    "question": "Which disease is caused by the bacterium Mycobacterium tuberculosis?",
+    "options": ["Malaria", "Tuberculosis", "Influenza", "Measles"],
+    "answer": "Tuberculosis"
+  },
+  {
+    "question": "Which disease is caused by Plasmodium parasites?",
+    "options": ["Malaria", "Cholera", "Tuberculosis", "Dengue"],
+    "answer": "Malaria"
+  },
+  {
+    "question": "Which insect commonly transmits malaria?",
+    "options": ["Male mosquito", "Female Anopheles mosquito", "Housefly", "Tick"],
+    "answer": "Female Anopheles mosquito"
+  },
+
+  {
+    "question": "Which virus causes AIDS?",
+    "options": ["HIV", "HBV", "HPV", "HCV"],
+    "answer": "HIV"
+  },
+  {
+    "question": "What does HIV primarily attack?",
+    "options": ["Red blood cells", "CD4 immune cells", "Bone cells", "Liver cells"],
+    "answer": "CD4 immune cells"
+  },
+  {
+    "question": "Which virus is commonly associated with hepatitis B?",
+    "options": ["HBV", "HIV", "HPV", "HAV"],
+    "answer": "HBV"
+  },
+  {
+    "question": "Which disease is caused by Vibrio cholerae?",
+    "options": ["Cholera", "Malaria", "Influenza", "Measles"],
+    "answer": "Cholera"
+  },
+  {
+    "question": "Which disease commonly causes severe watery diarrhea?",
+    "options": ["Cholera", "Asthma", "Arthritis", "Migraine"],
+    "answer": "Cholera"
+  },
+  {
+    "question": "Which microorganism causes influenza?",
+    "options": ["Virus", "Bacterium", "Fungus", "Protozoan"],
+    "answer": "Virus"
+  },
+  {
+    "question": "Which type of microorganism causes athlete's foot?",
+    "options": ["Virus", "Fungus", "Bacterium", "Protozoan"],
+    "answer": "Fungus"
+  },
+  {
+    "question": "Which type of organism is Candida?",
+    "options": ["Fungus", "Virus", "Bacterium", "Protozoan"],
+    "answer": "Fungus"
+  },
+  {
+    "question": "Which antibiotic is commonly used to treat bacterial infections but does not work against viruses?",
+    "options": ["Amoxicillin", "Paracetamol", "Insulin", "Aspirin"],
+    "answer": "Amoxicillin"
+  },
+  {
+    "question": "Why do antibiotics generally not treat viral infections?",
+    "options": ["Viruses are too large", "Antibiotics target bacterial structures or processes", "Viruses have no DNA", "Antibiotics only reduce fever"],
+    "answer": "Antibiotics target bacterial structures or processes"
+  },
+  {
+    "question": "What is vaccination primarily designed to do?",
+    "options": ["Cure every infection", "Train the immune system to recognize a pathogen", "Lower blood pressure", "Replace red blood cells"],
+    "answer": "Train the immune system to recognize a pathogen"
+  },
+  {
+    "question": "Which immune cells produce antibodies?",
+    "options": ["B lymphocytes", "Red blood cells", "Platelets", "Neutrophils"],
+    "answer": "B lymphocytes"
+  },
+  {
+    "question": "What is inflammation generally a response to?",
+    "options": ["Tissue injury or infection", "Normal digestion only", "Low blood pressure only", "Bone growth only"],
+    "answer": "Tissue injury or infection"
+  },
+  {
+    "question": "What is the body's first physical barrier against many pathogens?",
+    "options": ["Skin", "Bone marrow", "Pancreas", "Kidney"],
+    "answer": "Skin"
+  },
+  {
+    "question": "Which organ is a major part of the immune and lymphatic system and helps filter blood?",
+    "options": ["Spleen", "Stomach", "Thyroid", "Gallbladder"],
+    "answer": "Spleen"
+  },
+  {
+    "question": "Which gland produces thyroxine?",
+    "options": ["Thyroid gland", "Pituitary gland", "Pancreas", "Adrenal gland"],
+    "answer": "Thyroid gland"
+  },
+  {
+    "question": "Which hormone is often called the 'fight-or-flight' hormone?",
+    "options": ["Insulin", "Adrenaline", "Melatonin", "Estrogen"],
+    "answer": "Adrenaline"
+  },
+  {
+    "question": "Which gland produces melatonin?",
+    "options": ["Pineal gland", "Thyroid gland", "Adrenal gland", "Pancreas"],
+    "answer": "Pineal gland"
+  },
+  {
+    "question": "Which hormone helps regulate the sleep-wake cycle?",
+    "options": ["Melatonin", "Insulin", "Adrenaline", "Glucagon"],
+    "answer": "Melatonin"
+  },
+  {
+    "question": "Which hormone raises blood glucose when it becomes too low?",
+    "options": ["Glucagon", "Insulin", "Melatonin", "Thyroxine"],
+    "answer": "Glucagon"
+  },
+
+  {
+    "question": "What is the main function of the stomach?",
+    "options": ["Pump blood", "Begin digestion of food", "Filter blood", "Produce urine"],
+    "answer": "Begin digestion of food"
+  },
+  {
+    "question": "Where does most nutrient absorption occur?",
+    "options": ["Stomach", "Small intestine", "Large intestine", "Esophagus"],
+    "answer": "Small intestine"
+  },
+  {
+    "question": "Which organ absorbs much of the remaining water from undigested food?",
+    "options": ["Large intestine", "Stomach", "Pancreas", "Esophagus"],
+    "answer": "Large intestine"
+  },
+  {
+    "question": "Which enzyme begins carbohydrate digestion in the mouth?",
+    "options": ["Pepsin", "Amylase", "Lipase", "Trypsin"],
+    "answer": "Amylase"
+  },
+  {
+    "question": "Which enzyme begins protein digestion in the stomach?",
+    "options": ["Amylase", "Pepsin", "Lipase", "Lactase"],
+    "answer": "Pepsin"
+  },
+  {
+    "question": "Which enzyme primarily digests fats?",
+    "options": ["Lipase", "Amylase", "Pepsin", "Maltase"],
+    "answer": "Lipase"
+  },
+  {
+    "question": "Which structure connects the mouth to the stomach?",
+    "options": ["Trachea", "Esophagus", "Bronchus", "Ureter"],
+    "answer": "Esophagus"
+  },
+  {
+    "question": "Which tube carries urine from a kidney to the bladder?",
+    "options": ["Urethra", "Ureter", "Esophagus", "Trachea"],
+    "answer": "Ureter"
+  },
+  {
+    "question": "Which organ stores urine before it is expelled?",
+    "options": ["Kidney", "Urinary bladder", "Ureter", "Liver"],
+    "answer": "Urinary bladder"
+  },
+  {
+    "question": "Which tube carries urine from the bladder out of the body?",
+    "options": ["Ureter", "Urethra", "Nephron", "Bronchus"],
+    "answer": "Urethra"
+  },
+  {
+    "question": "What is the process by which the kidneys remove waste from the blood?",
+    "options": ["Filtration", "Photosynthesis", "Respiration", "Digestion"],
+    "answer": "Filtration"
+  },
+  {
+    "question": "Which organ helps regulate body temperature through sweating?",
+    "options": ["Skin", "Pancreas", "Spleen", "Gallbladder"],
+    "answer": "Skin"
+  },
+  {
+    "question": "What is the average normal body temperature often cited for humans?",
+    "options": ["35°C", "37°C", "39°C", "41°C"],
+    "answer": "37°C"
+  },
+  {
+    "question": "What is a fever?",
+    "options": ["Abnormally elevated body temperature", "Low blood sugar", "Low blood pressure", "Reduced heart rate"],
+    "answer": "Abnormally elevated body temperature"
+  },
+  {
+    "question": "Which instrument is commonly used to measure blood pressure?",
+    "options": ["Thermometer", "Sphygmomanometer", "Stethoscope", "Otoscope"],
+    "answer": "Sphygmomanometer"
+  },
+  {
+    "question": "Which instrument is commonly used to listen to heart and lung sounds?",
+    "options": ["Stethoscope", "Thermometer", "Ophthalmoscope", "Syringe"],
+    "answer": "Stethoscope"
+  },
+  {
+    "question": "Which medical imaging technique uses X-rays to create images of bones?",
+    "options": ["X-ray radiography", "Ultrasound", "MRI", "ECG"],
+    "answer": "X-ray radiography"
+  },
+  {
+    "question": "Which test records the electrical activity of the heart?",
+    "options": ["EEG", "ECG", "MRI", "CT scan"],
+    "answer": "ECG"
+  },
+  {
+    "question": "Which test records electrical activity in the brain?",
+    "options": ["ECG", "EEG", "X-ray", "Ultrasound"],
+    "answer": "EEG"
+  },
+  {
+    "question": "What does MRI primarily use to produce detailed images of body tissues?",
+    "options": ["Magnetic fields and radio waves", "Only X-rays", "Sound waves only", "Visible light"],
+    "answer": "Magnetic fields and radio waves"
+  },
   {
     "question": "Which organ pumps blood throughout the human body?",
     "options": ["Liver", "Heart", "Kidney", "Lung"],
