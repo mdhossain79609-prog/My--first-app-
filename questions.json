@@ -1121,13 +1121,216 @@
     "answer": "Small intestine"
   }
 ],
-  "Mathematics": [],
-  "Geography": [],
+  "Mathematics": [
+  {
+    "question": "What is 15 + 27?",
+    "options": ["40", "42", "44", "46"],
+    "answer": "42"
+  },
+  {
+    "question": "What is 12 × 8?",
+    "options": ["86", "94", "96", "108"],
+    "answer": "96"
+  },
+  {
+    "question": "What is 144 ÷ 12?",
+    "options": ["10", "11", "12", "14"],
+    "answer": "12"
+  },
+  {
+    "question": "What is the square root of 81?",
+    "options": ["7", "8", "9", "10"],
+    "answer": "9"
+  },
+  {
+    "question": "What is 5 squared?",
+    "options": ["10", "20", "25", "30"],
+    "answer": "25"
+  },
+  {
+    "question": "What is 25% of 200?",
+    "options": ["25", "40", "50", "75"],
+    "answer": "50"
+  },
+  {
+    "question": "What is the value of 3 + 4 × 2?",
+    "options": ["14", "11", "10", "8"],
+    "answer": "11"
+  },
+  {
+    "question": "If x + 5 = 12, what is the value of x?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "question": "If 3x = 21, what is the value of x?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "7"
+  },
+  {
+    "question": "What is the perimeter of a square with a side length of 6 cm?",
+    "options": ["12 cm", "18 cm", "24 cm", "36 cm"],
+    "answer": "24 cm"
+  },
+  {
+    "question": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "options": ["13 cm²", "26 cm²", "40 cm²", "80 cm²"],
+    "answer": "40 cm²"
+  },
+  {
+    "question": "What is the area of a triangle with base 10 cm and height 6 cm?",
+    "options": ["16 cm²", "30 cm²", "60 cm²", "80 cm²"],
+    "answer": "30 cm²"
+  },
+  {
+    "question": "How many degrees are in a right angle?",
+    "options": ["45°", "60°", "90°", "180°"],
+    "answer": "90°"
+  },
+  {
+    "question": "What is the sum of the interior angles of a triangle?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "answer": "180°"
+  },
+  {
+    "question": "Which of these numbers is a prime number?",
+    "options": ["9", "15", "17", "21"],
+    "answer": "17"
+  },
+  {
+    "question": "What is the greatest common divisor of 12 and 18?",
+    "options": ["2", "3", "6", "9"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the least common multiple of 4 and 6?",
+    "options": ["8", "10", "12", "24"],
+    "answer": "12"
+  },
+  {
+    "question": "What is 0.75 expressed as a percentage?",
+    "options": ["7.5%", "25%", "50%", "75%"],
+    "answer": "75%"
+  },
+  {
+    "question": "What is 3/4 expressed as a decimal?",
+    "options": ["0.25", "0.50", "0.75", "1.25"],
+    "answer": "0.75"
+  },
+  {
+    "question": "What is the approximate value of π (pi) to two decimal places?",
+    "options": ["2.14", "3.14", "3.41", "4.13"],
+    "answer": "3.14"
+  }
+],
+  "Geography": [
+  {
+    "question": "What is the largest continent by land area?",
+    "options": ["Africa", "Asia", "Europe", "North America"],
+    "answer": "Asia"
+  },
+  {
+    "question": "What is the smallest continent by land area?",
+    "options": ["Europe", "Antarctica", "Australia", "South America"],
+    "answer": "Australia"
+  },
+  {
+    "question": "Which is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "question": "Which is the smallest ocean on Earth?",
+    "options": ["Indian Ocean", "Atlantic Ocean", "Southern Ocean", "Arctic Ocean"],
+    "answer": "Arctic Ocean"
+  },
+  {
+    "question": "Mount Everest is part of which mountain range?",
+    "options": ["Andes", "Alps", "Himalayas", "Rocky Mountains"],
+    "answer": "Himalayas"
+  },
+  {
+    "question": "Which is the largest hot desert in the world?",
+    "options": ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Kalahari Desert"],
+    "answer": "Sahara Desert"
+  },
+  {
+    "question": "Which country has the largest land area in the world?",
+    "options": ["Canada", "China", "United States", "Russia"],
+    "answer": "Russia"
+  },
+  {
+    "question": "What is the capital city of Japan?",
+    "options": ["Kyoto", "Tokyo", "Osaka", "Nagoya"],
+    "answer": "Tokyo"
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "answer": "Canberra"
+  },
+  {
+    "question": "Which river flows through Egypt?",
+    "options": ["Amazon River", "Nile River", "Danube River", "Mississippi River"],
+    "answer": "Nile River"
+  },
+  {
+    "question": "Which continent contains the most countries?",
+    "options": ["Asia", "Africa", "Europe", "South America"],
+    "answer": "Africa"
+  },
+  {
+    "question": "Which imaginary line divides Earth into the Northern and Southern Hemispheres?",
+    "options": ["Prime Meridian", "Equator", "Tropic of Cancer", "International Date Line"],
+    "answer": "Equator"
+  },
+  {
+    "question": "The Prime Meridian passes through which location in the United Kingdom?",
+    "options": ["Oxford", "Greenwich", "Manchester", "Liverpool"],
+    "answer": "Greenwich"
+  },
+  {
+    "question": "Which continent is located at the South Pole?",
+    "options": ["Asia", "Australia", "Antarctica", "South America"],
+    "answer": "Antarctica"
+  },
+  {
+    "question": "Which country is famous for the Great Barrier Reef?",
+    "options": ["Australia", "Brazil", "India", "Mexico"],
+    "answer": "Australia"
+  },
+  {
+    "question": "Which mountain range runs along the western side of South America?",
+    "options": ["Alps", "Andes", "Himalayas", "Rocky Mountains"],
+    "answer": "Andes"
+  },
+  {
+    "question": "Which ocean lies between Africa, Asia, and Australia?",
+    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "answer": "Indian Ocean"
+  },
+  {
+    "question": "What is the capital city of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa"
+  },
+  {
+    "question": "Which country is located in both Europe and Asia?",
+    "options": ["Portugal", "Turkey", "Ireland", "Iceland"],
+    "answer": "Turkey"
+  },
+  {
+    "question": "Which sea separates Europe from Africa?",
+    "options": ["Baltic Sea", "Mediterranean Sea", "Black Sea", "Red Sea"],
+    "answer": "Mediterranean Sea"
+  }
+],
   "World History": [],
   "Space & Astronomy": [],
   "Government & Competitive Exams": [],
   "Business & Economics": [],
     "Sports": [],
   "Brain & Logic": [],
-  "Medical": []
+  "Medical": [],
+  "Military & Warfare History": []
 }
