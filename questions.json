@@ -1627,7 +1627,8 @@
   "question": "What is the explosion of a massive star at the end of its life called?",
   "options": ["Eclipse", "Supernova", "Nebula", "Solar Flare"],
   "answer": "Supernova"
-},
+}
+],
 "Government & Competitive Exam": [
   {
     "question": "What is the primary purpose of a constitution?",
@@ -1828,9 +1829,111 @@
     "question": "What does 'term of office' mean?",
     "options": ["The fixed period an official holds a position", "The location of a government office", "The salary of an elected official", "The number of political parties"],
     "answer": "The fixed period an official holds a position"
+  }
+],
+  "Business & Economics": [
+  {
+    "question": "What does GDP stand for?",
+    "options": ["Gross Domestic Product", "General Development Plan", "Global Domestic Price", "Gross Development Profit"],
+    "answer": "Gross Domestic Product"
   },
   {
-  "Business & Economics": [],
+    "question": "What is inflation?",
+    "options": ["A general rise in prices", "A fall in population", "An increase in exports only", "A decrease in production only"],
+    "answer": "A general rise in prices"
+  },
+  {
+    "question": "What is profit?",
+    "options": ["Revenue minus costs", "Total business expenses", "Money borrowed from a bank", "Total number of products sold"],
+    "answer": "Revenue minus costs"
+  },
+  {
+    "question": "What is a monopoly?",
+    "options": ["A market with many equal sellers", "A market dominated by a single seller", "A nonprofit organization", "A government tax system"],
+    "answer": "A market dominated by a single seller"
+  },
+  {
+    "question": "What does supply refer to in economics?",
+    "options": ["The quantity of a product sellers are willing to offer", "The amount consumers want to buy", "The total tax collected", "The number of workers in a country"],
+    "answer": "The quantity of a product sellers are willing to offer"
+  },
+  {
+    "question": "What does demand mean in economics?",
+    "options": ["The desire and ability to buy goods or services", "The cost of producing goods", "The amount of tax paid", "The number of factories"],
+    "answer": "The desire and ability to buy goods or services"
+  },
+  {
+    "question": "What is an entrepreneur?",
+    "options": ["A person who starts and manages a business", "A government judge", "A bank customer", "A factory machine operator"],
+    "answer": "A person who starts and manages a business"
+  },
+  {
+    "question": "What is revenue?",
+    "options": ["Money earned from sales before expenses are deducted", "Money spent only on salaries", "A business loan", "A government subsidy"],
+    "answer": "Money earned from sales before expenses are deducted"
+  },
+  {
+    "question": "What is a budget?",
+    "options": ["A plan for income and expenses", "A type of business ownership", "A stock market index", "A method of advertising"],
+    "answer": "A plan for income and expenses"
+  },
+  {
+    "question": "What is unemployment?",
+    "options": ["A situation where people willing and able to work cannot find jobs", "A rise in product prices", "A decrease in exports", "An increase in business profits"],
+    "answer": "A situation where people willing and able to work cannot find jobs"
+  },
+  {
+    "question": "What is an import?",
+    "options": ["A good or service bought from another country", "A good sold to another country", "A locally produced product", "A government-owned company"],
+    "answer": "A good or service bought from another country"
+  },
+  {
+    "question": "What is an export?",
+    "options": ["A good or service sold to another country", "A product bought from abroad", "A domestic tax", "A bank deposit"],
+    "answer": "A good or service sold to another country"
+  },
+  {
+    "question": "What is interest in banking?",
+    "options": ["The cost of borrowing money or return on savings", "A government fine", "The price of a company's products", "A type of business tax"],
+    "answer": "The cost of borrowing money or return on savings"
+  },
+  {
+    "question": "What is a shareholder?",
+    "options": ["A person or entity that owns shares in a company", "A customer who buys products", "A government tax officer", "A person who lends money only"],
+    "answer": "A person or entity that owns shares in a company"
+  },
+  {
+    "question": "What is the stock market?",
+    "options": ["A market where shares of companies are bought and sold", "A market only for agricultural goods", "A government employment office", "A place where currencies are printed"],
+    "answer": "A market where shares of companies are bought and sold"
+  },
+  {
+    "question": "What is a central bank primarily responsible for?",
+    "options": ["Managing monetary policy and the money supply", "Selling consumer products", "Running private factories", "Managing supermarkets"],
+    "answer": "Managing monetary policy and the money supply"
+  },
+  {
+    "question": "What is a recession?",
+    "options": ["A significant decline in economic activity", "A rapid increase in population", "A permanent rise in wages", "An increase in international tourism"],
+    "answer": "A significant decline in economic activity"
+  },
+  {
+    "question": "What is capital in business?",
+    "options": ["Resources or money used to operate and grow a business", "Only the profit earned by employees", "A government election fund", "Only the taxes paid by a company"],
+    "answer": "Resources or money used to operate and grow a business"
+  },
+  {
+    "question": "What is competition in a market?",
+    "options": ["Rivalry among businesses for customers", "An agreement to eliminate all businesses", "A government ban on trade", "A type of bank loan"],
+    "answer": "Rivalry among businesses for customers"
+  },
+  {
+    "question": "What is opportunity cost?",
+    "options": ["The value of the next best alternative given up", "The total cost of all products", "The amount of business tax", "The price of imported goods"],
+    "answer": "The value of the next best alternative given up"
+  }
+],
+  
     "Sports": [],
   "Brain & Logic": [],
   "Medical": [],
