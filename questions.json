@@ -1224,6 +1224,106 @@
   }
 ],
   "Animals & Wildlife": [
+    {
+  "question": "Which animal has the longest pregnancy period?",
+  "options": ["Elephant", "Giraffe", "Rhinoceros", "Hippopotamus"],
+  "answer": "Elephant"
+},
+{
+  "question": "Which bird can fly backward?",
+  "options": ["Eagle", "Hummingbird", "Parrot", "Falcon"],
+  "answer": "Hummingbird"
+},
+{
+  "question": "What is a group of lions called?",
+  "options": ["Pack", "Herd", "Pride", "Colony"],
+  "answer": "Pride"
+},
+{
+  "question": "Which animal is known for changing its color to blend with its surroundings?",
+  "options": ["Chameleon", "Iguana", "Gecko", "Crocodile"],
+  "answer": "Chameleon"
+},
+{
+  "question": "Which is the largest species of penguin?",
+  "options": ["King Penguin", "Emperor Penguin", "Adelie Penguin", "Gentoo Penguin"],
+  "answer": "Emperor Penguin"
+},
+{
+  "question": "Which animal has fingerprints very similar to those of humans?",
+  "options": ["Koala", "Panda", "Sloth", "Kangaroo"],
+  "answer": "Koala"
+},
+{
+  "question": "Which mammal is covered with protective scales?",
+  "options": ["Armadillo", "Pangolin", "Porcupine", "Hedgehog"],
+  "answer": "Pangolin"
+},
+{
+  "question": "Which animal is the largest member of the deer family?",
+  "options": ["Reindeer", "Elk", "Moose", "Red Deer"],
+  "answer": "Moose"
+},
+{
+  "question": "Which bird has the largest wingspan among living birds?",
+  "options": ["Bald Eagle", "Wandering Albatross", "Condor", "Pelican"],
+  "answer": "Wandering Albatross"
+},
+{
+  "question": "Which animal is known for building dams in rivers?",
+  "options": ["Otter", "Beaver", "Muskrat", "Mink"],
+  "answer": "Beaver"
+},
+{
+  "question": "Which animal carries its young in a pouch?",
+  "options": ["Kangaroo", "Rabbit", "Deer", "Lemur"],
+  "answer": "Kangaroo"
+},
+{
+  "question": "Which animal has the largest eyes in the animal kingdom?",
+  "options": ["Blue Whale", "Giant Squid", "Ostrich", "Elephant"],
+  "answer": "Giant Squid"
+},
+{
+  "question": "Which bird is famous for its ability to mimic human speech?",
+  "options": ["Parrot", "Swan", "Penguin", "Ostrich"],
+  "answer": "Parrot"
+},
+{
+  "question": "Which animal uses echolocation to navigate and hunt?",
+  "options": ["Bat", "Eagle", "Wolf", "Giraffe"],
+  "answer": "Bat"
+},
+{
+  "question": "Which animal is known for having black skin beneath its white fur?",
+  "options": ["Polar Bear", "Arctic Fox", "Snow Leopard", "White Tiger"],
+  "answer": "Polar Bear"
+},
+{
+  "question": "Which sea animal has three hearts?",
+  "options": ["Octopus", "Shark", "Dolphin", "Jellyfish"],
+  "answer": "Octopus"
+},
+{
+  "question": "Which animal is the largest living primate?",
+  "options": ["Chimpanzee", "Orangutan", "Gorilla", "Baboon"],
+  "answer": "Gorilla"
+},
+{
+  "question": "Which bird lays the largest egg of any living bird?",
+  "options": ["Ostrich", "Emu", "Eagle", "Swan"],
+  "answer": "Ostrich"
+},
+{
+  "question": "Which animal is famous for its long sticky tongue used to catch ants and termites?",
+  "options": ["Anteater", "Badger", "Wombat", "Mongoose"],
+  "answer": "Anteater"
+},
+{
+  "question": "Which marine mammal is known for having a long spiral tusk?",
+  "options": ["Narwhal", "Walrus", "Manatee", "Seal"],
+  "answer": "Narwhal"
+},
   {
     "question": "What is the largest living animal on Earth?",
     "options": ["African Elephant", "Blue Whale", "Giraffe", "Whale Shark"],
@@ -1426,9 +1526,310 @@
     "options": ["1985", "1987", "1989", "1991"],
     "answer": "1989"
   }
-],
-  "Space & Astronomy": [],
-  "Government & Competitive Exams": [],
+  ],
+  "Space & Astronomy": [
+  {
+  "question": "Which planet is closest to the Sun?",
+  "options": ["Venus", "Mercury", "Earth", "Mars"],
+  "answer": "Mercury"
+},
+{
+  "question": "Which planet is known as the Red Planet?",
+  "options": ["Jupiter", "Mars", "Venus", "Saturn"],
+  "answer": "Mars"
+},
+{
+  "question": "What is the largest planet in our Solar System?",
+  "options": ["Saturn", "Neptune", "Jupiter", "Earth"],
+  "answer": "Jupiter"
+},
+{
+  "question": "Which planet is famous for its prominent ring system?",
+  "options": ["Mars", "Saturn", "Mercury", "Venus"],
+  "answer": "Saturn"
+},
+{
+  "question": "What is the name of Earth's natural satellite?",
+  "options": ["Titan", "Europa", "The Moon", "Phobos"],
+  "answer": "The Moon"
+},
+{
+  "question": "Which galaxy contains our Solar System?",
+  "options": ["Andromeda Galaxy", "Milky Way Galaxy", "Whirlpool Galaxy", "Sombrero Galaxy"],
+  "answer": "Milky Way Galaxy"
+},
+{
+  "question": "What is the star at the center of our Solar System?",
+  "options": ["Sirius", "Polaris", "The Sun", "Betelgeuse"],
+  "answer": "The Sun"
+},
+{
+  "question": "Who was the first human to walk on the Moon?",
+  "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"],
+  "answer": "Neil Armstrong"
+},
+{
+  "question": "Which planet is the hottest in our Solar System?",
+  "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+  "answer": "Venus"
+},
+{
+  "question": "What is the largest moon in our Solar System?",
+  "options": ["Titan", "Ganymede", "Europa", "Callisto"],
+  "answer": "Ganymede"
+},
+{
+  "question": "Which planet rotates on its side?",
+  "options": ["Mars", "Uranus", "Jupiter", "Mercury"],
+  "answer": "Uranus"
+},
+{
+  "question": "What force keeps planets in orbit around the Sun?",
+  "options": ["Magnetism", "Gravity", "Friction", "Electricity"],
+  "answer": "Gravity"
+},
+{
+  "question": "Which planet has the Great Red Spot?",
+  "options": ["Jupiter", "Saturn", "Neptune", "Mars"],
+  "answer": "Jupiter"
+},
+{
+  "question": "What is a rocky object that enters Earth's atmosphere and produces a streak of light called?",
+  "options": ["Meteor", "Comet", "Planet", "Moon"],
+  "answer": "Meteor"
+},
+{
+  "question": "What is the boundary around a black hole beyond which nothing can escape called?",
+  "options": ["Asteroid Belt", "Event Horizon", "Solar Wind", "Kuiper Belt"],
+  "answer": "Event Horizon"
+},
+{
+  "question": "Which dwarf planet was once classified as the ninth planet?",
+  "options": ["Ceres", "Eris", "Pluto", "Haumea"],
+  "answer": "Pluto"
+},
+{
+  "question": "Who was the first human to travel into space?",
+  "options": ["Neil Armstrong", "Yuri Gagarin", "Alan Shepard", "Buzz Aldrin"],
+  "answer": "Yuri Gagarin"
+},
+{
+  "question": "What is the name of the first artificial satellite sent into space?",
+  "options": ["Sputnik 1", "Explorer 1", "Voyager 1", "Luna 1"],
+  "answer": "Sputnik 1"
+},
+{
+  "question": "Which planet is farthest from the Sun?",
+  "options": ["Saturn", "Uranus", "Neptune", "Jupiter"],
+  "answer": "Neptune"
+},
+{
+  "question": "What is the explosion of a massive star at the end of its life called?",
+  "options": ["Eclipse", "Supernova", "Nebula", "Solar Flare"],
+  "answer": "Supernova"
+},
+"Government & Competitive Exam": [
+  {
+    "question": "What is the primary purpose of a constitution?",
+    "options": ["To regulate international trade", "To establish the fundamental principles of government", "To control private businesses", "To manage local transportation"],
+    "answer": "To establish the fundamental principles of government"
+  },
+  {
+    "question": "Which branch of government is generally responsible for making laws?",
+    "options": ["Executive", "Judicial", "Legislative", "Administrative"],
+    "answer": "Legislative"
+  },
+  {
+    "question": "Which branch of government is responsible for interpreting laws?",
+    "options": ["Legislative", "Judicial", "Executive", "Electoral"],
+    "answer": "Judicial"
+  },
+  {
+    "question": "What does democracy primarily mean?",
+    "options": ["Rule by the military", "Rule by hereditary monarchs", "Government by the people", "Government without laws"],
+    "answer": "Government by the people"
+  },
+  {
+    "question": "What is a referendum?",
+    "options": ["A court judgment", "A direct vote by citizens on a specific issue", "A military order", "A diplomatic meeting"],
+    "answer": "A direct vote by citizens on a specific issue"
+  },
+  {
+    "question": "Where is the headquarters of the United Nations located?",
+    "options": ["Geneva", "Paris", "New York City", "London"],
+    "answer": "New York City"
+  },
+  {
+    "question": "How many permanent members are there on the United Nations Security Council?",
+    "options": ["4", "5", "6", "10"],
+    "answer": "5"
+  },
+  {
+    "question": "Which international organization was established in 1945 to promote global peace and cooperation?",
+    "options": ["NATO", "United Nations", "European Union", "World Trade Organization"],
+    "answer": "United Nations"
+  },
+  {
+    "question": "What is the minimum voting age in most democratic countries?",
+    "options": ["16", "18", "20", "21"],
+    "answer": "18"
+  },
+  {
+    "question": "What does the term 'separation of powers' refer to?",
+    "options": ["Dividing a country into states", "Dividing government authority among different branches", "Separating citizens by profession", "Dividing political parties"],
+    "answer": "Dividing government authority among different branches"
+  },
+  {
+    "question": "What is a bicameral legislature?",
+    "options": ["A legislature with two chambers", "A legislature with one chamber", "A legislature with no elected members", "A legislature controlled by courts"],
+    "answer": "A legislature with two chambers"
+  },
+  {
+    "question": "Which document was adopted by the United Nations in 1948?",
+    "options": ["Magna Carta", "Universal Declaration of Human Rights", "Treaty of Versailles", "Geneva Protocol"],
+    "answer": "Universal Declaration of Human Rights"
+  },
+  {
+    "question": "What is universal suffrage?",
+    "options": ["The right of adult citizens to vote", "The right to free education", "The right to own property", "The right to travel internationally"],
+    "answer": "The right of adult citizens to vote"
+  },
+  {
+    "question": "Which term describes a government ruled by a king or queen?",
+    "options": ["Republic", "Monarchy", "Federation", "Democracy"],
+    "answer": "Monarchy"
+  },
+  {
+    "question": "What is a federal system of government?",
+    "options": ["A system where all power belongs to one city", "A system where power is divided between central and regional governments", "A system without a central government", "A system governed entirely by judges"],
+    "answer": "A system where power is divided between central and regional governments"
+  },
+  {
+    "question": "What does the rule of law mean?",
+    "options": ["Only politicians must obey laws", "Everyone is subject to the law", "Judges can ignore laws", "Laws apply only during elections"],
+    "answer": "Everyone is subject to the law"
+  },
+  {
+    "question": "Which term refers to the official removal of a public official for misconduct?",
+    "options": ["Nomination", "Impeachment", "Referendum", "Arbitration"],
+    "answer": "Impeachment"
+  },
+  {
+    "question": "What is a coalition government?",
+    "options": ["A government formed by multiple political parties", "A government run by the military", "A government without elections", "A government ruled by one family"],
+    "answer": "A government formed by multiple political parties"
+  },
+  {
+    "question": "Which principle allows courts to examine whether laws are constitutional?",
+    "options": ["Judicial review", "Universal suffrage", "Diplomatic immunity", "Federalism"],
+    "answer": "Judicial review"
+  },
+  {
+    "question": "What is the main function of an election commission?",
+    "options": ["To make criminal laws", "To conduct and oversee elections", "To control the judiciary", "To negotiate international treaties"],
+    "answer": "To conduct and oversee   "questiona
+  },
+   {
+    "is the term for the head of government in many parliamentary systems?",
+    "options": ["Governor", "Prime Minister", "Chief Justice", "Ambassador"],
+    "answer": "Prime Minister"
+  },
+  {
+    "question": "What is a written proposal for a new law called?",
+    "options": ["Bill", "Treaty", "Decree", "Petition"],
+    "answer": "Bill"
+  },
+  {
+    "question": "Which term refers to the right to vote in political elections?",
+    "options": ["Suffrage", "Sovereignty", "Jurisdiction", "Diplomacy"],
+    "answer": "Suffrage"
+  },
+  {
+    "question": "What is the main role of the executive branch of government?",
+    "options": ["To interpret laws", "To implement and enforce laws", "To amend constitutions only", "To conduct private business"],
+    "answer": "To implement and enforce laws"
+  },
+  {
+    "question": "What does 'veto' mean in government?",
+    "options": ["To approve a law automatically", "To reject or block a proposed decision or law", "To dissolve a court", "To hold an election"],
+    "answer": "To reject or block a proposed decision or law"
+  },
+  {
+    "question": "What is a government called when supreme power is held by elected representatives rather than a monarch?",
+    "options": ["Republic", "Monarchy", "Colony", "Oligarchy"],
+    "answer": "Republic"
+  },
+  {
+    "question": "Which term describes the power of a state to govern itself?",
+    "options": ["Sovereignty", "Immunity", "Bureaucracy", "Legislation"],
+    "answer": "Sovereignty"
+  },
+  {
+    "question": "What is the main purpose of checks and balances?",
+    "options": ["To increase taxes", "To prevent one branch of government from becoming too powerful", "To eliminate elections", "To control international trade"],
+    "answer": "To prevent one branch of government from becoming too powerful"
+  },
+  {
+    "question": "What is an ambassador?",
+    "options": ["A military commander", "A country's official diplomatic representative", "A judge of the highest court", "A local government officer"],
+    "answer": "A country's official diplomatic representative"
+  },
+  {
+    "question": "What is the term for a formal agreement between countries?",
+    "options": ["Treaty", "Verdict", "Manifesto", "Ballot"],
+    "answer": "Treaty"
+  },
+  {
+    "question": "What is a secret ballot?",
+    "options": ["A vote whose choice is kept private", "A vote conducted only by judges", "A vote without candidates", "A vote held outside a country"],
+    "answer": "A vote whose choice is kept private"
+  },
+  {
+    "question": "What does 'legislation' mean?",
+    "options": ["The process of making laws", "The process of electing judges", "The management of armed forces", "The negotiation of trade prices"],
+    "answer": "The process of making laws"
+  },
+  {
+    "question": "What is a constituency?",
+    "options": ["An area whose voters elect a representative", "A national court", "A government ministry", "An international organization"],
+    "answer": "An area whose voters elect a representative"
+  },
+  {
+    "question": "What is the term for government administration carried out by departments and officials?",
+    "options": ["Bureaucracy", "Monarchy", "Referendum", "Suffrage"],
+    "answer": "Bureaucracy"
+  },
+  {
+    "question": "What is a cabinet in a government?",
+    "options": ["A group of senior ministers who advise and assist the head of government", "A group of judges", "A national election committee", "A group of military commanders only"],
+    "answer": "A group of senior ministers who advise and assist the head of government"
+  },
+  {
+    "question": "What is the main purpose of diplomatic immunity?",
+    "options": ["To give diplomats certain legal protections while performing official duties abroad", "To allow diplomats to vote in every country", "To make diplomats military officers", "To allow diplomats to create laws"],
+    "answer": "To give diplomats certain legal protections while performing official duties abroad"
+  },
+  {
+    "question": "What is a census?",
+    "options": ["An official count and survey of a population", "A national court hearing", "A military exercise", "A parliamentary debate"],
+    "answer": "An official count and survey of a population"
+  },
+  {
+    "question": "Which term refers to a proposed change to a constitution or law?",
+    "options": ["Amendment", "Embargo", "Coalition", "Sanction"],
+    "answer": "Amendment"
+  },
+  {
+    "question": "What is the purpose of an opposition party in a democracy?",
+    "options": ["To scrutinize and challenge the government", "To abolish all elections", "To control the courts", "To command the armed forces"],
+    "answer": "To scrutinize and challenge the government"
+  },
+  {
+    "question": "What does 'term of office' mean?",
+    "options": ["The fixed period an official holds a position", "The location of a government office", "The salary of an elected official", "The number of political parties"],
+    "answer": "The fixed period an official holds a position"
+  },
+  {
   "Business & Economics": [],
     "Sports": [],
   "Brain & Logic": [],
