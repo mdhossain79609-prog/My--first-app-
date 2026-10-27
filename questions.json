@@ -1667,7 +1667,7 @@
   },
   {
     "question": "Which international organization was established in 1945 to promote global peace and cooperation?",
-    "options": ["NATO", "United Nations", "European Union", "World Trade Organization"],
+    "options": ["NATO\"options\": [\"To regulate international trade\", \"To establish the fundamental principles of government\", \"To control private businesses\", \"To manage local transportation\"],", "United Nations", "European Union", "World Trade Organization"],
     "answer": "United Nations"
   },
   {
@@ -1725,11 +1725,17 @@
     "options": ["Judicial review", "Universal suffrage", "Diplomatic immunity", "Federalism"],
     "answer": "Judicial review"
   },
-  {
-    "question": "What is the main function of an election commission?",
-    "options": [\"question\": \"What does the rule of law mean?\",\"question\": \"What does the rule of law mean?\","To make criminal laws", "To conduct and oversee elections", "To control the judiciary", "To negotiate international treaties"],
-    "answer": "To conduct and oversee   "
-  },
+  
+{
+  "question": "What is the main function of an election commission?",
+  "options": [
+    "To make criminal laws",
+    "To conduct and oversee elections",
+    "To control the judiciary",
+    "To negotiate international treaties"
+  ],
+  "answer": "To conduct and oversee elections"
+},
    {
     "question": "is the term for the head of government in many parliamentary systems?",
     "options": ["Governor", "Prime Minister", "Chief Justice", "Ambassador"],
