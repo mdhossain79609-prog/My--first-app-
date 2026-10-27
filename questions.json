@@ -815,9 +815,312 @@
     "answer": "They generally expand"
   }
 ],
-  "Physics": [],
-  "Chemistry": [],
-  "Biology": [],
+"Physics": [
+  {
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": "Newton"
+  },
+  {
+    "question": "What is the SI unit of energy?",
+    "options": ["Newton", "Joule", "Watt", "Volt"],
+    "answer": "Joule"
+  },
+  {
+    "question": "What is the SI unit of power?",
+    "options": ["Joule", "Watt", "Newton", "Pascal"],
+    "answer": "Watt"
+  },
+  {
+    "question": "What is the speed of light in vacuum approximately?",
+    "options": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "3 × 10⁴ m/s"],
+    "answer": "3 × 10⁸ m/s"
+  },
+  {
+    "question": "Which law states that an object remains at rest or in uniform motion unless acted upon by an external force?",
+    "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Ohm's Law"],
+    "answer": "Newton's First Law"
+  },
+  {
+    "question": "What is the formula for Newton's Second Law of Motion?",
+    "options": ["F = ma", "V = IR", "P = VI", "E = mc²"],
+    "answer": "F = ma"
+  },
+  {
+    "question": "Which law states that every action has an equal and opposite reaction?",
+    "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Kepler's Law"],
+    "answer": "Newton's Third Law"
+  },
+  {
+    "question": "What is the acceleration due to gravity on Earth approximately?",
+    "options": ["4.9 m/s²", "9.8 m/s²", "19.6 m/s²", "98 m/s²"],
+    "answer": "9.8 m/s²"
+  },
+  {
+    "question": "What type of energy does a moving object possess?",
+    "options": ["Potential energy", "Kinetic energy", "Chemical energy", "Nuclear energy"],
+    "answer": "Kinetic energy"
+  },
+  {
+    "question": "What type of energy is stored in an object because of its position?",
+    "options": ["Kinetic energy", "Potential energy", "Electrical energy", "Sound energy"],
+    "answer": "Potential energy"
+  },
+  {
+    "question": "Which instrument is used to measure electric current?",
+    "options": ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+    "answer": "Ammeter"
+  },
+  {
+    "question": "What is the SI unit of electric charge?",
+    "options": ["Volt", "Ampere", "Coulomb", "Ohm"],
+    "answer": "Coulomb"
+  },
+  {
+    "question": "Which phenomenon explains the bending of light when it passes from one medium to another?",
+    "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+    "answer": "Refraction"
+  },
+  {
+    "question": "What is the bouncing back of light from a surface called?",
+    "options": ["Refraction", "Reflection", "Dispersion", "Absorption"],
+    "answer": "Reflection"
+  },
+  {
+    "question": "Which type of wave requires a medium to travel?",
+    "options": ["Mechanical wave", "Electromagnetic wave", "Light wave", "Radio wave"],
+    "answer": "Mechanical wave"
+  },
+  {
+    "question": "Which electromagnetic wave has the highest frequency?",
+    "options": ["Radio waves", "Microwaves", "X-rays", "Gamma rays"],
+    "answer": "Gamma rays"
+  },
+  {
+    "question": "What is the SI unit of frequency?",
+    "options": ["Hertz", "Watt", "Joule", "Tesla"],
+    "answer": "Hertz"
+  },
+  {
+    "question": "Which force opposes motion between two surfaces in contact?",
+    "options": ["Gravity", "Friction", "Magnetism", "Buoyancy"],
+    "answer": "Friction"
+  },
+  {
+    "question": "Which principle states that pressure applied to an enclosed fluid is transmitted equally in all directions?",
+    "options": ["Pascal's Principle", "Archimedes' Principle", "Bernoulli's Principle", "Hooke's Law"],
+    "answer": "Pascal's Principle"
+  },
+  {
+    "question": "Which device converts electrical energy into mechanical energy?",
+    "options": ["Generator", "Electric motor", "Transformer", "Battery"],
+    "answer": "Electric motor"
+  }
+],
+  "Chemistry": [
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "options": ["O", "Ox", "Og", "C"],
+    "answer": "O"
+  },
+  {
+    "question": "What is the chemical symbol for hydrogen?",
+    "options": ["H", "Hy", "Hg", "He"],
+    "answer": "H"
+  },
+  {
+    "question": "What is the chemical formula of carbon dioxide?",
+    "options": ["CO", "CO2", "C2O", "C2O2"],
+    "answer": "CO2"
+  },
+  {
+    "question": "What is the chemical formula of common salt?",
+    "options": ["NaCl", "KCl", "NaOH", "CaCl2"],
+    "answer": "NaCl"
+  },
+  {
+    "question": "What is the pH of a neutral solution at room temperature?",
+    "options": ["0", "5", "7", "14"],
+    "answer": "7"
+  },
+  {
+    "question": "Which element has the atomic number 1?",
+    "options": ["Helium", "Hydrogen", "Oxygen", "Carbon"],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "Which gas is necessary for combustion?",
+    "options": ["Nitrogen", "Oxygen", "Hydrogen", "Carbon dioxide"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which acid is commonly found in vinegar?",
+    "options": ["Hydrochloric acid", "Sulfuric acid", "Acetic acid", "Nitric acid"],
+    "answer": "Acetic acid"
+  },
+  {
+    "question": "Which acid is present in lemons?",
+    "options": ["Citric acid", "Acetic acid", "Sulfuric acid", "Carbonic acid"],
+    "answer": "Citric acid"
+  },
+  {
+    "question": "Which element is represented by the symbol Fe?",
+    "options": ["Fluorine", "Iron", "Francium", "Fermium"],
+    "answer": "Iron"
+  },
+  {
+    "question": "Which element is represented by the symbol Au?",
+    "options": ["Silver", "Gold", "Aluminum", "Argon"],
+    "answer": "Gold"
+  },
+  {
+    "question": "Which element is represented by the symbol Ag?",
+    "options": ["Gold", "Silver", "Argon", "Aluminum"],
+    "answer": "Silver"
+  },
+  {
+    "question": "What is the smallest unit of an element that retains its chemical properties?",
+    "options": ["Molecule", "Atom", "Cell", "Compound"],
+    "answer": "Atom"
+  },
+  {
+    "question": "Which state of matter has a definite volume but no definite shape?",
+    "options": ["Solid", "Liquid", "Gas", "Plasma"],
+    "answer": "Liquid"
+  },
+  {
+    "question": "Which state of matter has neither a definite shape nor a definite volume?",
+    "options": ["Solid", "Liquid", "Gas", "Crystal"],
+    "answer": "Gas"
+  },
+  {
+    "question": "What is the process of changing a liquid into a gas called?",
+    "options": ["Condensation", "Freezing", "Evaporation", "Melting"],
+    "answer": "Evaporation"
+  },
+  {
+    "question": "What is the process of changing a gas into a liquid called?",
+    "options": ["Evaporation", "Condensation", "Sublimation", "Melting"],
+    "answer": "Condensation"
+  },
+  {
+    "question": "Which gas is commonly used in balloons because it is lighter than air and non-flammable?",
+    "options": ["Oxygen", "Helium", "Nitrogen", "Carbon dioxide"],
+    "answer": "Helium"
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Iron", "Mercury", "Copper", "Aluminum"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What type of reaction occurs when an acid reacts with a base to form salt and water?",
+    "options": ["Combustion", "Neutralization", "Oxidation", "Decomposition"],
+    "answer": "Neutralization"
+  }
+],
+"Biology": [
+  {
+    "question": "What is the basic unit of life?",
+    "options": ["Atom", "Cell", "Tissue", "Organ"],
+    "answer": "Cell"
+  },
+  {
+    "question": "Which organ pumps blood throughout the human body?",
+    "options": ["Lungs", "Heart", "Liver", "Kidney"],
+    "answer": "Heart"
+  },
+  {
+    "question": "Which organ is primarily responsible for breathing?",
+    "options": ["Heart", "Lungs", "Stomach", "Brain"],
+    "answer": "Lungs"
+  },
+  {
+    "question": "Which organ controls most activities of the human body?",
+    "options": ["Heart", "Brain", "Liver", "Pancreas"],
+    "answer": "Brain"
+  },
+  {
+    "question": "Which part of a plant absorbs water and minerals from the soil?",
+    "options": ["Leaf", "Root", "Flower", "Fruit"],
+    "answer": "Root"
+  },
+  {
+    "question": "What process do green plants use to make their own food?",
+    "options": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"],
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "Which pigment gives plants their green color?",
+    "options": ["Hemoglobin", "Chlorophyll", "Melanin", "Keratin"],
+    "answer": "Chlorophyll"
+  },
+  {
+    "question": "Which gas do plants mainly absorb during photosynthesis?",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "Which gas is released by plants during photosynthesis?",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which blood cells help protect the body from infections?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "answer": "White blood cells"
+  },
+  {
+    "question": "What is the main function of red blood cells?",
+    "options": ["Fight infections", "Carry oxygen", "Clot blood", "Produce hormones"],
+    "answer": "Carry oxygen"
+  },
+  {
+    "question": "Which blood component helps in clotting?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "answer": "Platelets"
+  },
+  {
+    "question": "Which organ filters waste products from the blood?",
+    "options": ["Heart", "Kidney", "Lung", "Stomach"],
+    "answer": "Kidney"
+  },
+  {
+    "question": "Which organ produces bile and helps process nutrients?",
+    "options": ["Liver", "Heart", "Lung", "Brain"],
+    "answer": "Liver"
+  },
+  {
+    "question": "Which system is responsible for transporting blood throughout the body?",
+    "options": ["Digestive system", "Circulatory system", "Respiratory system", "Nervous system"],
+    "answer": "Circulatory system"
+  },
+  {
+    "question": "Which system is responsible for taking in oxygen and removing carbon dioxide?",
+    "options": ["Digestive system", "Respiratory system", "Skeletal system", "Endocrine system"],
+    "answer": "Respiratory system"
+  },
+  {
+    "question": "What is the genetic material found in most living cells?",
+    "options": ["DNA", "ATP", "Glucose", "Water"],
+    "answer": "DNA"
+  },
+  {
+    "question": "Which structure contains most of the genetic material in a human cell?",
+    "options": ["Cell wall", "Nucleus", "Cytoplasm", "Ribosome"],
+    "answer": "Nucleus"
+  },
+  {
+    "question": "Which nutrient is mainly used by the body for growth and repair of tissues?",
+    "options": ["Protein", "Water", "Mineral salts", "Fiber"],
+    "answer": "Protein"
+  },
+  {
+    "question": "Which part of the digestive system absorbs most nutrients from food?",
+    "options": ["Stomach", "Small intestine", "Large intestine", "Esophagus"],
+    "answer": "Small intestine"
+  }
+],
   "Mathematics": [],
   "Geography": [],
   "World History": [],
