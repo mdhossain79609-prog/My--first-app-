@@ -1223,109 +1223,210 @@
     "answer": "3.14"
   }
 ],
-  "Geography": [
+  "Animals & Wildlife": [
   {
-    "question": "What is the largest continent by land area?",
-    "options": ["Africa", "Asia", "Europe", "North America"],
-    "answer": "Asia"
+    "question": "What is the largest living animal on Earth?",
+    "options": ["African Elephant", "Blue Whale", "Giraffe", "Whale Shark"],
+    "answer": "Blue Whale"
   },
   {
-    "question": "What is the smallest continent by land area?",
-    "options": ["Europe", "Antarctica", "Australia", "South America"],
-    "answer": "Australia"
+    "question": "Which is the fastest land animal?",
+    "options": ["Lion", "Cheetah", "Leopard", "Gazelle"],
+    "answer": "Cheetah"
   },
   {
-    "question": "Which is the largest ocean on Earth?",
-    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
-    "answer": "Pacific Ocean"
+    "question": "Which animal is the tallest living land animal?",
+    "options": ["African Elephant", "Giraffe", "Camel", "Ostrich"],
+    "answer": "Giraffe"
   },
   {
-    "question": "Which is the smallest ocean on Earth?",
-    "options": ["Indian Ocean", "Atlantic Ocean", "Southern Ocean", "Arctic Ocean"],
-    "answer": "Arctic Ocean"
+    "question": "Which is the largest living bird?",
+    "options": ["Emu", "Ostrich", "Albatross", "Eagle"],
+    "answer": "Ostrich"
   },
   {
-    "question": "Mount Everest is part of which mountain range?",
-    "options": ["Andes", "Alps", "Himalayas", "Rocky Mountains"],
-    "answer": "Himalayas"
+    "question": "Which mammal is capable of true sustained flight?",
+    "options": ["Flying Squirrel", "Bat", "Sugar Glider", "Colugo"],
+    "answer": "Bat"
   },
   {
-    "question": "Which is the largest hot desert in the world?",
-    "options": ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Kalahari Desert"],
-    "answer": "Sahara Desert"
+    "question": "Which animal is known for changing its skin color for communication and camouflage?",
+    "options": ["Iguana", "Chameleon", "Crocodile", "Tortoise"],
+    "answer": "Chameleon"
   },
   {
-    "question": "Which country has the largest land area in the world?",
-    "options": ["Canada", "China", "United States", "Russia"],
-    "answer": "Russia"
+    "question": "Which bird is especially known for its ability to mimic human speech?",
+    "options": ["Parrot", "Penguin", "Falcon", "Swan"],
+    "answer": "Parrot"
   },
   {
-    "question": "What is the capital city of Japan?",
-    "options": ["Kyoto", "Tokyo", "Osaka", "Nagoya"],
-    "answer": "Tokyo"
+    "question": "Which animal carries its young in a pouch?",
+    "options": ["Kangaroo", "Tiger", "Zebra", "Gorilla"],
+    "answer": "Kangaroo"
   },
   {
-    "question": "What is the capital city of Australia?",
-    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
-    "answer": "Canberra"
+    "question": "Which animal has black skin beneath its white fur?",
+    "options": ["Arctic Fox", "Polar Bear", "Snow Leopard", "Harp Seal"],
+    "answer": "Polar Bear"
   },
   {
-    "question": "Which river flows through Egypt?",
-    "options": ["Amazon River", "Nile River", "Danube River", "Mississippi River"],
-    "answer": "Nile River"
+    "question": "Which marine animal has three hearts?",
+    "options": ["Dolphin", "Octopus", "Shark", "Sea Turtle"],
+    "answer": "Octopus"
   },
   {
-    "question": "Which continent contains the most countries?",
-    "options": ["Asia", "Africa", "Europe", "South America"],
-    "answer": "Africa"
+    "question": "Which animal is famous for building dams in rivers and streams?",
+    "options": ["Otter", "Beaver", "Mink", "Badger"],
+    "answer": "Beaver"
   },
   {
-    "question": "Which imaginary line divides Earth into the Northern and Southern Hemispheres?",
-    "options": ["Prime Meridian", "Equator", "Tropic of Cancer", "International Date Line"],
-    "answer": "Equator"
+    "question": "Which bird can fly backward?",
+    "options": ["Hummingbird", "Eagle", "Sparrow", "Owl"],
+    "answer": "Hummingbird"
   },
   {
-    "question": "The Prime Meridian passes through which location in the United Kingdom?",
-    "options": ["Oxford", "Greenwich", "Manchester", "Liverpool"],
-    "answer": "Greenwich"
+    "question": "Which animal has a distinctive pattern of black and white stripes?",
+    "options": ["Zebra", "Giraffe", "Antelope", "Hyena"],
+    "answer": "Zebra"
   },
   {
-    "question": "Which continent is located at the South Pole?",
-    "options": ["Asia", "Australia", "Antarctica", "South America"],
-    "answer": "Antarctica"
+    "question": "Which bird is strongly adapted for swimming and cannot fly?",
+    "options": ["Penguin", "Pelican", "Flamingo", "Seagull"],
+    "answer": "Penguin"
   },
   {
-    "question": "Which country is famous for the Great Barrier Reef?",
-    "options": ["Australia", "Brazil", "India", "Mexico"],
-    "answer": "Australia"
+    "question": "Which animal is known for having a very long lifespan and a protective shell?",
+    "options": ["Giant Tortoise", "Iguana", "Armadillo", "Pangolin"],
+    "answer": "Giant Tortoise"
   },
   {
-    "question": "Which mountain range runs along the western side of South America?",
-    "options": ["Alps", "Andes", "Himalayas", "Rocky Mountains"],
-    "answer": "Andes"
+    "question": "Which animal primarily eats bamboo?",
+    "options": ["Giant Panda", "Koala", "Sloth", "Raccoon"],
+    "answer": "Giant Panda"
   },
   {
-    "question": "Which ocean lies between Africa, Asia, and Australia?",
-    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
-    "answer": "Indian Ocean"
+    "question": "Which animal uses echolocation to navigate and hunt underwater?",
+    "options": ["Dolphin", "Sea Turtle", "Penguin", "Walrus"],
+    "answer": "Dolphin"
   },
   {
-    "question": "What is the capital city of Canada?",
-    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
-    "answer": "Ottawa"
+    "question": "Which animal is covered with protective scales made largely of keratin?",
+    "options": ["Pangolin", "Otter", "Meerkat", "Capybara"],
+    "answer": "Pangolin"
   },
   {
-    "question": "Which country is located in both Europe and Asia?",
-    "options": ["Portugal", "Turkey", "Ireland", "Iceland"],
-    "answer": "Turkey"
+    "question": "Which bird is known for its large colorful tail display?",
+    "options": ["Peacock", "Crow", "Falcon", "Stork"],
+    "answer": "Peacock"
   },
   {
-    "question": "Which sea separates Europe from Africa?",
-    "options": ["Baltic Sea", "Mediterranean Sea", "Black Sea", "Red Sea"],
-    "answer": "Mediterranean Sea"
+    "question": "Which animal is the largest living species of lizard?",
+    "options": ["Green Iguana", "Komodo Dragon", "Gila Monster", "Monitor Lizard"],
+    "answer": "Komodo Dragon"
   }
 ],
-  "World History": [],
+  "World History": [
+  {
+    "question": "Which ancient civilization built Machu Picchu?",
+    "options": ["Maya", "Inca", "Aztec", "Roman"],
+    "answer": "Inca"
+  },
+  {
+    "question": "Who was the first emperor of the Roman Empire?",
+    "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+    "answer": "Augustus"
+  },
+  {
+    "question": "In which year did World War I begin?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "answer": "1914"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "options": ["1943", "1944", "1945", "1946"],
+    "answer": "1945"
+  },
+  {
+    "question": "Which event directly triggered World War I?",
+    "options": ["The invasion of Poland", "The assassination of Archduke Franz Ferdinand", "The Russian Revolution", "The attack on Pearl Harbor"],
+    "answer": "The assassination of Archduke Franz Ferdinand"
+  },
+  {
+    "question": "Which treaty formally ended the state of war between Germany and most Allied Powers after World War I?",
+    "options": ["Treaty of Paris", "Treaty of Versailles", "Treaty of Rome", "Treaty of Vienna"],
+    "answer": "Treaty of Versailles"
+  },
+  {
+    "question": "The Renaissance began in which European country?",
+    "options": ["France", "Italy", "Germany", "Spain"],
+    "answer": "Italy"
+  },
+  {
+    "question": "Who wrote the Ninety-five Theses associated with the Protestant Reformation?",
+    "options": ["Martin Luther", "John Locke", "Isaac Newton", "Galileo Galilei"],
+    "answer": "Martin Luther"
+  },
+  {
+    "question": "Which revolution began in France in 1789?",
+    "options": ["Industrial Revolution", "French Revolution", "Glorious Revolution", "Russian Revolution"],
+    "answer": "French Revolution"
+  },
+  {
+    "question": "Who became Emperor of the French in 1804?",
+    "options": ["Louis XVI", "Napoleon Bonaparte", "Charlemagne", "Louis XIV"],
+    "answer": "Napoleon Bonaparte"
+  },
+  {
+    "question": "Which ancient people developed democracy in Athens?",
+    "options": ["Romans", "Greeks", "Persians", "Phoenicians"],
+    "answer": "Greeks"
+  },
+  {
+    "question": "Which empire used Constantinople as its capital for most of its history?",
+    "options": ["Byzantine Empire", "Mongol Empire", "Aztec Empire", "British Empire"],
+    "answer": "Byzantine Empire"
+  },
+  {
+    "question": "Who founded the Mongol Empire in 1206?",
+    "options": ["Kublai Khan", "Genghis Khan", "Timur", "Attila"],
+    "answer": "Genghis Khan"
+  },
+  {
+    "question": "Which civilization developed a writing system known as hieroglyphs?",
+    "options": ["Ancient Egyptians", "Vikings", "Spartans", "Mongols"],
+    "answer": "Ancient Egyptians"
+  },
+  {
+    "question": "The Magna Carta was sealed in England in which year?",
+    "options": ["1066", "1215", "1492", "1648"],
+    "answer": "1215"
+  },
+  {
+    "question": "Which major historical event began in Russia in 1917?",
+    "options": ["Russian Revolution", "Crimean War", "Seven Years' War", "Thirty Years' War"],
+    "answer": "Russian Revolution"
+  },
+  {
+    "question": "Which city was buried by the eruption of Mount Vesuvius in AD 79?",
+    "options": ["Athens", "Pompeii", "Sparta", "Alexandria"],
+    "answer": "Pompeii"
+  },
+  {
+    "question": "Which ancient civilization created the Code of Hammurabi?",
+    "options": ["Babylonian", "Roman", "Greek", "Inca"],
+    "answer": "Babylonian"
+  },
+  {
+    "question": "Which period of rapid mechanization began in Britain in the 18th century?",
+    "options": ["Scientific Revolution", "Industrial Revolution", "Neolithic Revolution", "Cultural Revolution"],
+    "answer": "Industrial Revolution"
+  },
+  {
+    "question": "The Berlin Wall fell in which year?",
+    "options": ["1985", "1987", "1989", "1991"],
+    "answer": "1989"
+  }
+],
   "Space & Astronomy": [],
   "Government & Competitive Exams": [],
   "Business & Economics": [],
