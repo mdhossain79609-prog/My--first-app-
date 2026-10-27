@@ -407,7 +407,108 @@
     "answer": "Tighten fasteners to a specified torque"
   }
 ],
-  "Electrical & Electrician": [],
+  "Electrical & Electrician": [
+  {
+    "question": "What is the SI unit of electric current?",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "answer": "Ampere"
+  },
+  {
+    "question": "What is the SI unit of electrical voltage?",
+    "options": ["Ampere", "Ohm", "Volt", "Watt"],
+    "answer": "Volt"
+  },
+  {
+    "question": "What is the SI unit of electrical resistance?",
+    "options": ["Volt", "Ampere", "Ohm", "Joule"],
+    "answer": "Ohm"
+  },
+  {
+    "question": "Which instrument is used to measure voltage?",
+    "options": ["Ammeter", "Voltmeter", "Wattmeter", "Ohmmeter"],
+    "answer": "Voltmeter"
+  },
+  {
+    "question": "Which instrument is used to measure electric current?",
+    "options": ["Voltmeter", "Ammeter", "Wattmeter", "Megger"],
+    "answer": "Ammeter"
+  },
+  {
+    "question": "Which law states that V = IR?",
+    "options": ["Faraday's Law", "Ohm's Law", "Kirchhoff's Law", "Lenz's Law"],
+    "answer": "Ohm's Law"
+  },
+  {
+    "question": "Which material is commonly used for electrical wiring?",
+    "options": ["Rubber", "Copper", "Glass", "Wood"],
+    "answer": "Copper"
+  },
+  {
+    "question": "What is the main purpose of a fuse?",
+    "options": ["Increase voltage", "Protect a circuit from excessive current", "Store electrical energy", "Measure current"],
+    "answer": "Protect a circuit from excessive current"
+  },
+  {
+    "question": "Which device automatically opens a circuit when excessive current flows?",
+    "options": ["Switch", "MCB", "Transformer", "Capacitor"],
+    "answer": "MCB"
+  },
+  {
+    "question": "What does MCB stand for?",
+    "options": ["Main Circuit Board", "Miniature Circuit Breaker", "Maximum Current Box", "Motor Control Battery"],
+    "answer": "Miniature Circuit Breaker"
+  },
+  {
+    "question": "Which device is used to change AC voltage from one level to another?",
+    "options": ["Motor", "Transformer", "Generator", "Relay"],
+    "answer": "Transformer"
+  },
+  {
+    "question": "Which type of current changes direction periodically?",
+    "options": ["DC", "AC", "Static current", "Pulse current"],
+    "answer": "AC"
+  },
+  {
+    "question": "Which type of current normally flows in one direction?",
+    "options": ["AC", "DC", "Alternating current", "Induced current"],
+    "answer": "DC"
+  },
+  {
+    "question": "What is the main function of an electrical switch?",
+    "options": ["Measure voltage", "Open or close a circuit", "Increase resistance", "Store charge"],
+    "answer": "Open or close a circuit"
+  },
+  {
+    "question": "Which component stores electrical energy in an electric field?",
+    "options": ["Resistor", "Capacitor", "Diode", "Fuse"],
+    "answer": "Capacitor"
+  },
+  {
+    "question": "Which component is designed to limit electric current?",
+    "options": ["Resistor", "Transformer", "Motor", "Generator"],
+    "answer": "Resistor"
+  },
+  {
+    "question": "What is the main purpose of electrical grounding?",
+    "options": ["Increase voltage", "Provide a safe path for fault current", "Increase power consumption", "Store electricity"],
+    "answer": "Provide a safe path for fault current"
+  },
+  {
+    "question": "Which device converts electrical energy into mechanical energy?",
+    "options": ["Generator", "Electric motor", "Transformer", "Battery"],
+    "answer": "Electric motor"
+  },
+  {
+    "question": "Which device converts mechanical energy into electrical energy?",
+    "options": ["Motor", "Generator", "Resistor", "Capacitor"],
+    "answer": "Generator"
+  },
+  {
+    "question": "Which safety equipment protects an electrician from electric shock?",
+    "options": ["Insulated gloves", "Metal gloves", "Wet cloth", "Bare hands"],
+    "answer": "Insulated gloves"
+  }
+],
   "Civil Engineering": [],
   "Computer & Technology": [],
   "General Science": [],
@@ -422,4 +523,5 @@
   "Business & Economics": [],
   "Sports": [],
   "Brain & Logic": []
+  "Medical": []
 }
