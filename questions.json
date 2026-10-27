@@ -509,9 +509,312 @@
     "answer": "Insulated gloves"
   }
 ],
-  "Civil Engineering": [],
-  "Computer & Technology": [],
-  "General Science": [],
+  "Civil Engineering": [
+  {
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Newton", "Pascal", "Watt"],
+    "answer": "Newton"
+  },
+  {
+    "question": "What is the main purpose of a foundation?",
+    "options": ["Decorate a building", "Transfer building loads safely to the ground", "Increase roof height", "Reduce wall thickness"],
+    "answer": "Transfer building loads safely to the ground"
+  },
+  {
+    "question": "Which material is commonly used as reinforcement in reinforced concrete?",
+    "options": ["Steel", "Glass", "Plastic", "Wood"],
+    "answer": "Steel"
+  },
+  {
+    "question": "What does RCC stand for?",
+    "options": ["Reinforced Cement Concrete", "Rapid Construction Concrete", "Rigid Cement Column", "Reinforced Clay Concrete"],
+    "answer": "Reinforced Cement Concrete"
+  },
+  {
+    "question": "Which test is commonly used to measure the workability of fresh concrete?",
+    "options": ["Slump test", "Tensile test", "Impact test", "Hardness test"],
+    "answer": "Slump test"
+  },
+  {
+    "question": "Which instrument is commonly used for measuring horizontal and vertical angles in surveying?",
+    "options": ["Theodolite", "Thermometer", "Barometer", "Ammeter"],
+    "answer": "Theodolite"
+  },
+  {
+    "question": "What is the main purpose of surveying?",
+    "options": ["Measure and map land features", "Manufacture cement", "Test electrical circuits", "Produce steel"],
+    "answer": "Measure and map land features"
+  },
+  {
+    "question": "Which type of foundation is commonly used when good bearing soil is near the surface?",
+    "options": ["Shallow foundation", "Deep foundation", "Floating foundation", "Suspended foundation"],
+    "answer": "Shallow foundation"
+  },
+  {
+    "question": "Which foundation transfers loads to deeper layers of soil?",
+    "options": ["Deep foundation", "Strip foundation", "Pad foundation", "Slab foundation"],
+    "answer": "Deep foundation"
+  },
+  {
+    "question": "What is the primary binding material in ordinary Portland cement concrete?",
+    "options": ["Cement", "Sand", "Gravel", "Water"],
+    "answer": "Cement"
+  },
+  {
+    "question": "What is the main function of aggregates in concrete?",
+    "options": ["Provide bulk and strength", "Prevent all cracking", "Replace cement completely", "Increase electrical conductivity"],
+    "answer": "Provide bulk and strength"
+  },
+  {
+    "question": "Which type of load acts vertically downward on a structure?",
+    "options": ["Dead load", "Wind load", "Seismic load", "Lateral load"],
+    "answer": "Dead load"
+  },
+  {
+    "question": "What is a dead load?",
+    "options": ["Permanent load of the structure", "Temporary moving load", "Wind pressure", "Earthquake force"],
+    "answer": "Permanent load of the structure"
+  },
+  {
+    "question": "What is a live load?",
+    "options": ["Permanent structural weight", "Movable or variable load", "Foundation weight", "Wall material weight"],
+    "answer": "Movable or variable load"
+  },
+  {
+    "question": "Which structural member primarily carries transverse loads and resists bending?",
+    "options": ["Beam", "Column", "Footing", "Pile"],
+    "answer": "Beam"
+  },
+  {
+    "question": "Which structural member primarily carries compressive loads vertically?",
+    "options": ["Column", "Beam", "Slab", "Lintel"],
+    "answer": "Column"
+  },
+  {
+    "question": "What is the main purpose of drainage systems in civil engineering?",
+    "options": ["Remove excess water safely", "Increase soil weight", "Increase traffic speed", "Strengthen electrical wiring"],
+    "answer": "Remove excess water safely"
+  },
+  {
+    "question": "Which material is commonly used to construct flexible road pavements?",
+    "options": ["Asphalt", "Glass", "Timber", "Aluminum"],
+    "answer": "Asphalt"
+  },
+  {
+    "question": "What is the main purpose of curing concrete?",
+    "options": ["Maintain moisture for proper strength development", "Remove all water immediately", "Change concrete color", "Reduce cement content"],
+    "answer": "Maintain moisture for proper strength development"
+  },
+  {
+    "question": "Which branch of civil engineering deals primarily with water resources and hydraulic systems?",
+    "options": ["Hydraulic Engineering", "Structural Engineering", "Geotechnical Engineering", "Transportation Engineering"],
+    "answer": "Hydraulic Engineering"
+  }
+],
+  "Computer & Technology": [
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Control Processing User"],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "question": "Which component is known as the main memory of a computer?",
+    "options": ["RAM", "CPU", "GPU", "Hard Drive"],
+    "answer": "RAM"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": ["Random Access Memory", "Read Access Module", "Rapid Application Memory", "Remote Access Machine"],
+    "answer": "Random Access Memory"
+  },
+  {
+    "question": "Which device is primarily used to store data permanently?",
+    "options": ["RAM", "SSD", "CPU", "Cache"],
+    "answer": "SSD"
+  },
+  {
+    "question": "What does USB stand for?",
+    "options": ["Universal Serial Bus", "United System Board", "Universal Storage Block", "User Service Bus"],
+    "answer": "Universal Serial Bus"
+  },
+  {
+    "question": "Which language is primarily used to structure web pages?",
+    "options": ["HTML", "Python", "SQL", "C++"],
+    "answer": "HTML"
+  },
+  {
+    "question": "Which language is commonly used to add interactivity to web pages?",
+    "options": ["HTML", "JavaScript", "SQL", "XML"],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": ["Uniform Resource Locator", "Universal Routing Link", "User Resource Language", "Unified Reference Location"],
+    "answer": "Uniform Resource Locator"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["Hypertext Transfer Protocol", "High Transfer Text Program", "Hyperlink Transmission Process", "Host Transfer Technology Protocol"],
+    "answer": "Hypertext Transfer Protocol"
+  },
+  {
+    "question": "Which device connects multiple devices within a local network?",
+    "options": ["Switch", "Monitor", "Printer", "Scanner"],
+    "answer": "Switch"
+  },
+  {
+    "question": "What is an IP address used for?",
+    "options": ["Identify a device on a network", "Increase screen brightness", "Store passwords only", "Control keyboard lights"],
+    "answer": "Identify a device on a network"
+  },
+  {
+    "question": "Which technology provides wireless network connectivity over a local area?",
+    "options": ["Wi-Fi", "HDMI", "USB", "VGA"],
+    "answer": "Wi-Fi"
+  },
+  {
+    "question": "What does AI stand for?",
+    "options": ["Artificial Intelligence", "Automated Internet", "Advanced Interface", "Application Integration"],
+    "answer": "Artificial Intelligence"
+  },
+  {
+    "question": "Which programming language is widely used in data science and artificial intelligence?",
+    "options": ["Python", "HTML", "CSS", "SQL"],
+    "answer": "Python"
+  },
+  {
+    "question": "What is cloud computing?",
+    "options": ["Using remote computing resources over a network", "Repairing computer hardware", "Cleaning computer components", "Printing documents"],
+    "answer": "Using remote computing resources over a network"
+  },
+  {
+    "question": "Which technology is commonly used for short-range wireless communication between devices?",
+    "options": ["Bluetooth", "Ethernet", "HDMI", "Fiber optic"],
+    "answer": "Bluetooth"
+  },
+  {
+    "question": "What does SSD stand for?",
+    "options": ["Solid State Drive", "System Storage Device", "Secure System Disk", "Software Storage Drive"],
+    "answer": "Solid State Drive"
+  },
+  {
+    "question": "Which component is primarily responsible for rendering graphics?",
+    "options": ["GPU", "CPU", "RAM", "PSU"],
+    "answer": "GPU"
+  },
+  {
+    "question": "What does GPU stand for?",
+    "options": ["Graphics Processing Unit", "General Processing Utility", "Graphics Program User", "Global Processing Unit"],
+    "answer": "Graphics Processing Unit"
+  },
+  {
+    "question": "Which system software manages computer hardware and applications?",
+    "options": ["Operating system", "Web browser", "Text editor", "Media player"],
+    "answer": "Operating system"
+  }
+],
+  "General Science": [
+  {
+    "question": "What is the basic unit of life?",
+    "options": ["Atom", "Cell", "Tissue", "Organ"],
+    "answer": "Cell"
+  },
+  {
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "What is the chemical formula of water?",
+    "options": ["CO2", "H2O", "O2", "NaCl"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What force keeps objects attracted to Earth?",
+    "options": ["Magnetic force", "Friction", "Gravity", "Electric force"],
+    "answer": "Gravity"
+  },
+  {
+    "question": "Which organ pumps blood throughout the human body?",
+    "options": ["Lung", "Brain", "Heart", "Kidney"],
+    "answer": "Heart"
+  },
+  {
+    "question": "What is the boiling point of water at standard atmospheric pressure?",
+    "options": ["0°C", "50°C", "100°C", "150°C"],
+    "answer": "100°C"
+  },
+  {
+    "question": "Which vitamin is mainly produced in the skin when exposed to sunlight?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "Which part of a plant absorbs water and minerals from the soil?",
+    "options": ["Leaf", "Flower", "Root", "Stem"],
+    "answer": "Root"
+  },
+  {
+    "question": "What is the process by which green plants make food using sunlight?",
+    "options": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"],
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "Which gas do humans primarily need for respiration?",
+    "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Helium"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "What is the nearest star to Earth?",
+    "options": ["Sirius", "Polaris", "The Sun", "Betelgeuse"],
+    "answer": "The Sun"
+  },
+  {
+    "question": "Which substance has a pH of approximately 7?",
+    "options": ["Strong acid", "Neutral substance", "Strong base", "Salt only"],
+    "answer": "Neutral substance"
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Iron", "Copper", "Mercury", "Aluminum"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What is the hardest natural substance?",
+    "options": ["Gold", "Iron", "Diamond", "Quartz"],
+    "answer": "Diamond"
+  },
+  {
+    "question": "Which blood cells help fight infections?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "answer": "White blood cells"
+  },
+  {
+    "question": "Which instrument is used to measure temperature?",
+    "options": ["Barometer", "Thermometer", "Hygrometer", "Ammeter"],
+    "answer": "Thermometer"
+  },
+  {
+    "question": "What is the main source of energy for Earth?",
+    "options": ["The Moon", "The Sun", "Wind", "Oceans"],
+    "answer": "The Sun"
+  },
+  {
+    "question": "Which part of the human body is primarily responsible for thinking and controlling the nervous system?",
+    "options": ["Heart", "Brain", "Liver", "Stomach"],
+    "answer": "Brain"
+  },
+  {
+    "question": "What happens to most materials when they are heated?",
+    "options": ["They always shrink", "They generally expand", "They disappear", "They become weightless"],
+    "answer": "They generally expand"
+  }
+],
   "Physics": [],
   "Chemistry": [],
   "Biology": [],
