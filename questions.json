@@ -1727,11 +1727,11 @@
   },
   {
     "question": "What is the main function of an election commission?",
-    "options": ["To make criminal laws", "To conduct and oversee elections", "To control the judiciary", "To negotiate international treaties"],
+    "options": [\"question\": \"What does the rule of law mean?\",\"question\": \"What does the rule of law mean?\","To make criminal laws", "To conduct and oversee elections", "To control the judiciary", "To negotiate international treaties"],
     "answer": "To conduct and oversee   "
   },
    {
-    "is the term for the head of government in many parliamentary systems?",
+    "question": "is the term for the head of government in many parliamentary systems?",
     "options": ["Governor", "Prime Minister", "Chief Justice", "Ambassador"],
     "answer": "Prime Minister"
   },
@@ -1933,9 +1933,210 @@
     "answer": "The value of the next best alternative given up"
   }
 ],
-  
-    "Sports": [],
-  "Brain & Logic": [],
+  "Sports": [
+  {
+    "question": "How many players are on the field for one football (soccer) team at the start of a match?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11"
+  },
+  {
+    "question": "Which country won the FIFA World Cup in 2022?",
+    "options": ["France", "Brazil", "Argentina", "Germany"],
+    "answer": "Argentina"
+  },
+  {
+    "question": "How many rings are there in the Olympic symbol?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "question": "In tennis, what is the score called when both players have 40 points?",
+    "options": ["Draw", "Deuce", "Tie", "Match Point"],
+    "answer": "Deuce"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": ["Tennis", "Squash", "Badminton", "Table Tennis"],
+    "answer": "Badminton"
+  },
+  {
+    "question": "How many players are on the court for one basketball team at a time?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "question": "Which country is traditionally associated with the martial art of sumo wrestling?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "answer": "Japan"
+  },
+  {
+    "question": "What is the maximum possible break in a standard game of snooker?",
+    "options": ["137", "147", "157", "167"],
+    "answer": "147"
+  },
+  {
+    "question": "Which sport is played at Wimbledon?",
+    "options": ["Golf", "Cricket", "Tennis", "Rugby"],
+    "answer": "Tennis"
+  },
+  {
+    "question": "How long is an Olympic swimming pool?",
+    "options": ["25 meters", "40 meters", "50 meters", "100 meters"],
+    "answer": "50 meters"
+  },
+  {
+    "question": "In cricket, how many legal deliveries are there in a standard over?",
+    "options": ["4", "5", "6", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "options": ["China", "Brazil", "Japan", "United Kingdom"],
+    "answer": "Brazil"
+  },
+  {
+    "question": "What color card means a player is sent off in football (soccer)?",
+    "options": ["Blue", "Yellow", "Red", "Green"],
+    "answer": "Red"
+  },
+  {
+    "question": "Which sport features the positions pitcher and catcher?",
+    "options": ["Baseball", "Basketball", "Volleyball", "Hockey"],
+    "answer": "Baseball"
+  },
+  {
+    "question": "How many points is a free throw worth in basketball?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1"
+  },
+  {
+    "question": "The Tour de France is primarily associated with which sport?",
+    "options": ["Running", "Cycling", "Motor Racing", "Skiing"],
+    "answer": "Cycling"
+  },
+  {
+    "question": "Which sport uses the terms birdie, eagle, and bogey?",
+    "options": ["Golf", "Tennis", "Cricket", "Baseball"],
+    "answer": "Golf"
+  },
+  {
+    "question": "How many players from one team are on the court at a time in indoor volleyball?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "In Formula 1, what flag signals the end of a race?",
+    "options": ["Red flag", "Green flag", "Yellow flag", "Checkered flag"],
+    "answer": "Checkered flag"
+  },
+  {
+    "question": "Which country is credited with inventing the modern game of table tennis?",
+    "options": ["China", "England", "Japan", "France"],
+    "answer": "England"
+  }
+],
+  "Brain & Logic": [
+  {
+    "question": "What comes next in the sequence: 2, 4, 8, 16, ?",
+    "options": ["20", "24", "30", "32"],
+    "answer": "32"
+  },
+  {
+    "question": "Which number does not belong: 3, 5, 7, 9, 11?",
+    "options": ["3", "5", "9", "11"],
+    "answer": "9"
+  },
+  {
+    "question": "If all roses are flowers and some flowers fade quickly, which statement must be true?",
+    "options": ["All flowers are roses", "All roses fade quickly", "Roses are flowers", "No roses fade quickly"],
+    "answer": "Roses are flowers"
+  },
+  {
+    "question": "What comes next in the sequence: 1, 4, 9, 16, 25, ?",
+    "options": ["30", "32", "36", "40"],
+    "answer": "36"
+  },
+  {
+    "question": "If you rearrange the letters 'CIFAIPC', which ocean name can you make?",
+    "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+    "answer": "Pacific"
+  },
+  {
+    "question": "A clock shows 3:00. What is the angle between the hour and minute hands?",
+    "options": ["45°", "60°", "90°", "120°"],
+    "answer": "90°"
+  },
+  {
+    "question": "What comes next: A, C, E, G, ?",
+    "options": ["H", "I", "J", "K"],
+    "answer": "I"
+  },
+  {
+    "question": "If 5 machines make 5 items in 5 minutes, how long would 100 machines take to make 100 items?",
+    "options": ["5 minutes", "20 minutes", "100 minutes", "500 minutes"],
+    "answer": "5 minutes"
+  },
+  {
+    "question": "Which number comes next: 1, 1, 2, 3, 5, 8, ?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "13"
+  },
+  {
+    "question": "Which word is the odd one out?",
+    "options": ["Apple", "Banana", "Carrot", "Mango"],
+    "answer": "Carrot"
+  },
+  {
+    "question": "If yesterday was Monday, what day is tomorrow?",
+    "options": ["Tuesday", "Wednesday", "Thursday", "Sunday"],
+    "answer": "Wednesday"
+  },
+  {
+    "question": "What is the missing number: 3, 6, 12, 24, ?",
+    "options": ["36", "42", "48", "52"],
+    "answer": "48"
+  },
+  {
+    "question": "A farmer has 17 sheep. All but 9 run away. How many sheep remain?",
+    "options": ["8", "9", "17", "26"],
+    "answer": "9"
+  },
+  {
+    "question": "Which number should replace the question mark: 10, 20, 30, 40, ?",
+    "options": ["45", "50", "55", "60"],
+    "answer": "50"
+  },
+  {
+    "question": "If CAT is coded as DBU, how is DOG coded using the same rule?",
+    "options": ["EPH", "EOG", "FPH", "CPH"],
+    "answer": "EPH"
+  },
+  {
+    "question": "Which shape has the greatest number of sides?",
+    "options": ["Triangle", "Square", "Pentagon", "Hexagon"],
+    "answer": "Hexagon"
+  },
+  {
+    "question": "What comes next in the pattern: 100, 90, 80, 70, ?",
+    "options": ["50", "55", "60", "65"],
+    "answer": "60"
+  },
+  {
+    "question": "If two cats catch two mice in two minutes, how many cats are needed to catch 100 mice in 100 minutes at the same rate?",
+    "options": ["1", "2", "50", "100"],
+    "answer": "2"
+  },
+  {
+    "question": "Which number is missing: 2, 6, 12, 20, 30, ?",
+    "options": ["36", "40", "42", "48"],
+    "answer": "42"
+  },
+  {
+    "question": "A book and a pen cost $11 in total. The book costs $10 more than the pen. How much does the pen cost?",
+    "options": ["$0.50", "$1.00", "$1.50", "$2.00"],
+    "answer": "$0.50"
+  }
+],
   "Medical": [],
   "Military & Warfare History": []
 }
