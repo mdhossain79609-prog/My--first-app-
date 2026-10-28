@@ -102,6 +102,406 @@
   }
 ],
   "Engineering Fundamentals": [
+{
+  "question": "Which SI unit is used for force?",
+  "options": ["Newton", "Pascal", "Joule", "Watt"],
+  "answer": "Newton"
+},
+{
+  "question": "Which SI unit is used for energy and work?",
+  "options": ["Joule", "Watt", "Newton", "Pascal"],
+  "answer": "Joule"
+},
+{
+  "question": "Which SI unit is used for power?",
+  "options": ["Watt", "Joule", "Newton-meter per meter", "Pascal"],
+  "answer": "Watt"
+},
+{
+  "question": "Which of the following is a vector quantity?",
+  "options": ["Velocity", "Mass", "Temperature", "Energy"],
+  "answer": "Velocity"
+},
+{
+  "question": "Which of the following is a scalar quantity?",
+  "options": ["Energy", "Force", "Acceleration", "Displacement"],
+  "answer": "Energy"
+},
+{
+  "question": "Two perpendicular forces of 30 N and 40 N act on a point. What is the magnitude of their resultant?",
+  "options": ["50 N", "60 N", "70 N", "100 N"],
+  "answer": "50 N"
+},
+{
+  "question": "For a rigid body in planar static equilibrium, which set of equations must be satisfied?",
+  "options": ["ΣFx = 0, ΣFy = 0, ΣM = 0", "ΣFx = ma only", "ΣM = Iα only", "ΣFy = mg only"],
+  "answer": "ΣFx = 0, ΣFy = 0, ΣM = 0"
+},
+{
+  "question": "What is a free-body diagram?",
+  "options": ["A diagram showing all external forces and moments acting on an isolated body", "A manufacturing drawing of a machine", "A graph of temperature against time", "A circuit diagram without components"],
+  "answer": "A diagram showing all external forces and moments acting on an isolated body"
+},
+{
+  "question": "A 100 N force acts perpendicular to a lever at a distance of 0.25 m from its pivot. What moment does it produce?",
+  "options": ["25 N·m", "40 N·m", "100 N·m", "400 N·m"],
+  "answer": "25 N·m"
+},
+{
+  "question": "The centroid of a uniform rectangular area lies where?",
+  "options": ["At the intersection of its diagonals", "At one corner", "At the midpoint of one edge only", "Outside the rectangle"],
+  "answer": "At the intersection of its diagonals"
+},
+{
+  "question": "What is the SI unit of normal stress?",
+  "options": ["Pascal", "Newton", "Joule", "Watt"],
+  "answer": "Pascal"
+},
+{
+  "question": "Normal stress is calculated by dividing axial force by what?",
+  "options": ["Cross-sectional area", "Length", "Volume", "Second moment of area"],
+  "answer": "Cross-sectional area"
+},
+{
+  "question": "Engineering strain is defined as change in length divided by what?",
+  "options": ["Original length", "Final length", "Cross-sectional area", "Applied force"],
+  "answer": "Original length"
+},
+{
+  "question": "What does the yield strength of a material approximately indicate?",
+  "options": ["Stress at which significant permanent deformation begins", "Stress at which density becomes zero", "Maximum thermal conductivity", "Maximum possible hardness"],
+  "answer": "Stress at which significant permanent deformation begins"
+},
+{
+  "question": "What does ultimate tensile strength represent?",
+  "options": ["Maximum engineering tensile stress reached in a tensile test", "Stress at zero strain", "Minimum compressive stress", "Elastic modulus"],
+  "answer": "Maximum engineering tensile stress reached in a tensile test"
+},
+{
+  "question": "Which test is commonly used to obtain a material's stress-strain curve?",
+  "options": ["Tensile test", "Slump test", "Leak test", "Flow test"],
+  "answer": "Tensile test"
+},
+{
+  "question": "What is the main purpose of a factor of safety in engineering design?",
+  "options": ["Provide a margin against uncertainties and failure", "Make every component infinitely strong", "Eliminate material cost", "Make applied load zero"],
+  "answer": "Provide a margin against uncertainties and failure"
+},
+{
+  "question": "A material has a failure strength of 300 MPa and an allowable stress of 100 MPa. What factor of safety does this imply?",
+  "options": ["3", "2", "4", "0.33"],
+  "answer": "3"
+},
+{
+  "question": "Which material class generally combines metallic and nonmetallic elements and often has high hardness but low ductility?",
+  "options": ["Ceramics", "Elastomers", "Pure polymers", "Lubricants"],
+  "answer": "Ceramics"
+},
+{
+  "question": "Which class of engineering materials consists of long-chain molecules and generally has relatively low density?",
+  "options": ["Polymers", "Ceramics", "Metals", "Cements only"],
+  "answer": "Polymers"
+},
+{
+  "question": "What is a composite material?",
+  "options": ["A material combining distinct constituents to obtain useful combined properties", "A chemically pure metal only", "A material containing no interfaces", "A single crystal only"],
+  "answer": "A material combining distinct constituents to obtain useful combined properties"
+},
+{
+  "question": "Carbon-fiber-reinforced polymer is an example of what type of material?",
+  "options": ["Composite", "Pure ceramic", "Pure metal", "Natural rubber only"],
+  "answer": "Composite"
+},
+{
+  "question": "What is the primary purpose of tolerances on an engineering drawing?",
+  "options": ["Specify acceptable dimensional variation", "Require every dimension to be mathematically exact", "Specify only material color", "Eliminate inspection"],
+  "answer": "Specify acceptable dimensional variation"
+},
+{
+  "question": "What is meant by nominal size in engineering?",
+  "options": ["The designated or stated size used for identification", "The exact measured size of every manufactured part", "Maximum permissible error", "Minimum clearance"],
+  "answer": "The designated or stated size used for identification"
+},
+{
+  "question": "What is a clearance fit?",
+  "options": ["A fit in which the hole is always larger than the mating shaft within specified limits", "A fit that always requires pressing", "A fit with no tolerance", "A permanently welded joint"],
+  "answer": "A fit in which the hole is always larger than the mating shaft within specified limits"
+},
+{
+  "question": "What characterizes an interference fit?",
+  "options": ["The shaft is larger than the hole before assembly within the specified limits", "The hole is always much larger than the shaft", "No contact occurs between components", "The parts must rotate freely"],
+  "answer": "The shaft is larger than the hole before assembly within the specified limits"
+},
+{
+  "question": "What is a transition fit?",
+  "options": ["A fit that may result in either small clearance or small interference", "A fit that always has large clearance", "A fit that always has large interference", "A threaded joint"],
+  "answer": "A fit that may result in either small clearance or small interference"
+},
+{
+  "question": "What does GD&T stand for?",
+  "options": ["Geometric Dimensioning and Tolerancing", "General Design and Testing", "Graphical Drawing and Technology", "Geometric Data and Timing"],
+  "answer": "Geometric Dimensioning and Tolerancing"
+},
+{
+  "question": "In engineering drawing, what does a datum provide?",
+  "options": ["A reference for measurement and geometric control", "A material heat-treatment process", "A cutting speed", "A welding current"],
+  "answer": "A reference for measurement and geometric control"
+},
+{
+  "question": "Which orthographic view normally shows an object's width and height?",
+  "options": ["Front view", "Top view", "Right-side view", "Section view only"],
+  "answer": "Front view"
+},
+{
+  "question": "What is the purpose of a sectional view in engineering drawing?",
+  "options": ["Reveal internal features more clearly", "Show only external color", "Calculate electrical power", "Specify material hardness only"],
+  "answer": "Reveal internal features more clearly"
+},
+{
+  "question": "In an isometric drawing, the three principal axes are separated by approximately how many degrees?",
+  "options": ["120°", "90°", "60°", "45°"],
+  "answer": "120°"
+},
+{
+  "question": "What does CAD stand for?",
+  "options": ["Computer-Aided Design", "Computer Automatic Data", "Controlled Assembly Drawing", "Computer Analysis Device"],
+  "answer": "Computer-Aided Design"
+},
+{
+  "question": "What does CAM stand for in manufacturing?",
+  "options": ["Computer-Aided Manufacturing", "Computer Analog Measurement", "Controlled Assembly Method", "Computerized Analysis Model"],
+  "answer": "Computer-Aided Manufacturing"
+},
+{
+  "question": "What does CNC stand for?",
+  "options": ["Computer Numerical Control", "Central Network Control", "Computerized Nominal Calculation", "Continuous Numerical Circuit"],
+  "answer": "Computer Numerical Control"
+},
+{
+  "question": "What is the primary advantage of CNC manufacturing for repeated complex parts?",
+  "options": ["High repeatability and automated control", "No need for any programming", "Zero tooling cost", "Unlimited material strength"],
+  "answer": "High repeatability and automated control"
+},
+{
+  "question": "What is additive manufacturing?",
+  "options": ["Building components layer by layer from digital data", "Removing material only by cutting", "Joining components only with bolts", "Casting exclusively in sand"],
+  "answer": "Building components layer by layer from digital data"
+},
+{
+  "question": "Which manufacturing process is generally considered subtractive?",
+  "options": ["Milling", "3D printing", "Powder-bed fusion", "Material extrusion printing"],
+  "answer": "Milling"
+},
+{
+  "question": "What is the main purpose of quality control in engineering production?",
+  "options": ["Verify that products meet specified requirements", "Increase defects", "Eliminate all measurements", "Maximize scrap"],
+  "answer": "Verify that products meet specified requirements"
+},
+{
+  "question": "What does calibration of a measuring instrument involve?",
+  "options": ["Comparing its indication with a traceable reference standard", "Increasing its physical size", "Changing its unit randomly", "Removing its scale"],
+  "answer": "Comparing its indication with a traceable reference standard"
+},
+{
+  "question": "What does accuracy describe in measurement?",
+  "options": ["Closeness of a measured value to the true or reference value", "Closeness of repeated readings to each other only", "Smallest scale division only", "Maximum measuring range"],
+  "answer": "Closeness of a measured value to the true or reference value"
+},
+{
+  "question": "What does precision primarily describe?",
+  "options": ["Closeness of repeated measurements to one another", "Closeness to the true value only", "Maximum instrument range", "Measurement unit"],
+  "answer": "Closeness of repeated measurements to one another"
+},
+{
+  "question": "What is measurement resolution?",
+  "options": ["Smallest change in input that can be meaningfully distinguished", "Maximum possible measurement error", "Average measured value", "True value of a quantity"],
+  "answer": "Smallest change in input that can be meaningfully distinguished"
+},
+{
+  "question": "What is a systematic measurement error?",
+  "options": ["A consistent bias that tends to shift measurements in a particular direction", "Completely unpredictable scatter only", "An error that can never be investigated", "A change in engineering units"],
+  "answer": "A consistent bias that tends to shift measurements in a particular direction"
+},
+{
+  "question": "Which mathematical operation gives the instantaneous rate of change of a function?",
+  "options": ["Differentiation", "Integration", "Factorization", "Interpolation only"],
+  "answer": "Differentiation"
+},
+{
+  "question": "Which mathematical operation can determine accumulated quantity from a rate function?",
+  "options": ["Integration", "Differentiation", "Matrix transposition", "Factorization"],
+  "answer": "Integration"
+},
+{
+  "question": "If y = x³, what is dy/dx?",
+  "options": ["3x²", "x²", "3x", "x⁴/4"],
+  "answer": "3x²"
+},
+{
+  "question": "What is the integral of 2x with respect to x?",
+  "options": ["x² + C", "2 + C", "2x² + C", "x + C"],
+  "answer": "x² + C"
+},
+{
+  "question": "What is the determinant of the matrix [[2, 3], [4, 5]]?",
+  "options": ["-2", "2", "10", "22"],
+  "answer": "-2"
+},
+{
+  "question": "If two vectors are perpendicular, what is their dot product?",
+  "options": ["Zero", "One", "Their vector product", "Always negative"],
+  "answer": "Zero"
+},
+{
+  "question": "What does the cross product of two nonparallel vectors produce?",
+  "options": ["A vector perpendicular to both", "A scalar only", "A vector parallel to both", "Zero in every case"],
+  "answer": "A vector perpendicular to both"
+},
+{
+  "question": "What is the magnitude of a unit vector?",
+  "options": ["1", "0", "π", "Depends on direction"],
+  "answer": "1"
+},
+{
+  "question": "What is the primary purpose of dimensional analysis?",
+  "options": ["Check dimensional consistency and help derive relationships", "Determine material color", "Eliminate all experimental testing", "Measure surface roughness directly"],
+  "answer": "Check dimensional consistency and help derive relationships"
+},
+{
+  "question": "What are the dimensions of velocity?",
+  "options": ["LT^-1", "LT^-2", "MLT^-1", "ML^-1"],
+  "answer": "LT^-1"
+},
+{
+  "question": "What are the dimensions of acceleration?",
+  "options": ["LT^-2", "LT^-1", "MLT^-2", "L²T^-1"],
+  "answer": "LT^-2"
+},
+{
+  "question": "What are the dimensions of force?",
+  "options": ["MLT^-2", "ML²T^-2", "ML^-1T^-2", "LT^-2"],
+  "answer": "MLT^-2"
+},
+{
+  "question": "What is efficiency generally defined as?",
+  "options": ["Useful output divided by total input", "Input divided by output", "Loss divided by output only", "Input plus output"],
+  "answer": "Useful output divided by total input"
+},
+{
+  "question": "A machine receives 1000 W and delivers 800 W of useful output. What is its efficiency?",
+  "options": ["80%", "20%", "125%", "800%"],
+  "answer": "80%"
+},
+{
+  "question": "What does conservation of energy state?",
+  "options": ["Energy cannot be created or destroyed, only transformed or transferred", "Energy can always be created from nothing", "All energy eventually becomes mass only", "Mechanical energy is always constant in every real system"],
+  "answer": "Energy cannot be created or destroyed, only transformed or transferred"
+},
+{
+  "question": "Which type of feedback generally compares system output with a desired reference and uses the error for correction?",
+  "options": ["Negative feedback", "Uncontrolled feedback", "Open-loop operation", "Positive feedback only"],
+  "answer": "Negative feedback"
+},
+{
+  "question": "What distinguishes a closed-loop control system from an open-loop system?",
+  "options": ["It uses feedback from the output", "It has no input", "It contains no controller", "It cannot respond to disturbances"],
+  "answer": "It uses feedback from the output"
+},
+{
+  "question": "What is the function of a sensor in an engineering control system?",
+  "options": ["Detect or measure a physical quantity", "Supply unlimited mechanical power", "Store structural loads", "Increase material hardness"],
+  "answer": "Detect or measure a physical quantity"
+},
+{
+  "question": "What is a transducer?",
+  "options": ["A device that converts one form of physical signal or energy into another", "A purely mechanical fastener", "A structural beam", "A machining cutter"],
+  "answer": "A device that converts one form of physical signal or energy into another"
+},
+{
+  "question": "Which device converts a control signal into physical motion or action?",
+  "options": ["Actuator", "Sensor", "Comparator only", "Data logger"],
+  "answer": "Actuator"
+},
+{
+  "question": "What does PID stand for in control engineering?",
+  "options": ["Proportional-Integral-Derivative", "Pressure-Input-Displacement", "Power-Integral-Density", "Process-Input-Damping"],
+  "answer": "Proportional-Integral-Derivative"
+},
+{
+  "question": "Which PID term responds directly to the present value of the control error?",
+  "options": ["Proportional term", "Integral term", "Derivative term", "Feedforward term"],
+  "answer": "Proportional term"
+},
+{
+  "question": "Which PID term accumulates error over time and can help eliminate steady-state offset?",
+  "options": ["Integral term", "Derivative term", "Proportional term only", "Noise term"],
+  "answer": "Integral term"
+},
+{
+  "question": "Which PID term responds to the rate of change of error?",
+  "options": ["Derivative term", "Integral term", "Proportional term", "Offset term"],
+  "answer": "Derivative term"
+},
+{
+  "question": "What is resonance in an engineering system?",
+  "options": ["Large response when excitation frequency is near a natural frequency", "Complete absence of vibration", "Permanent reduction of mass", "Constant zero-frequency motion"],
+  "answer": "Large response when excitation frequency is near a natural frequency"
+},
+{
+  "question": "What is damping in a vibrating system?",
+  "options": ["Dissipation of vibrational energy", "Continuous addition of unlimited energy", "Increase of natural frequency to infinity", "Removal of system mass"],
+  "answer": "Dissipation of vibrational energy"
+},
+{
+  "question": "What does natural frequency describe?",
+  "options": ["Frequency at which a system tends to oscillate when disturbed and allowed to vibrate freely", "Frequency of every external force", "Electrical supply frequency only", "Maximum possible frequency of any machine"],
+  "answer": "Frequency at which a system tends to oscillate when disturbed and allowed to vibrate freely"
+},
+{
+  "question": "What is the primary objective of reliability engineering?",
+  "options": ["Ensure systems perform required functions for a specified time under stated conditions", "Maximize failure frequency", "Eliminate maintenance documentation", "Increase manufacturing variation"],
+  "answer": "Ensure systems perform required functions for a specified time under stated conditions"
+},
+{
+  "question": "What does MTBF stand for?",
+  "options": ["Mean Time Between Failures", "Maximum Time Before Fracture", "Mean Temperature Before Failure", "Minimum Test Benchmark Factor"],
+  "answer": "Mean Time Between Failures"
+},
+{
+  "question": "What does FMEA stand for?",
+  "options": ["Failure Modes and Effects Analysis", "Force Measurement and Energy Analysis", "Finite Mechanical Element Assessment", "Failure Management Engineering Algorithm"],
+  "answer": "Failure Modes and Effects Analysis"
+},
+{
+  "question": "What is the purpose of root cause analysis?",
+  "options": ["Identify the underlying cause of a problem or failure", "Repair only visible symptoms", "Increase failure frequency", "Avoid collecting evidence"],
+  "answer": "Identify the underlying cause of a problem or failure"
+},
+{
+  "question": "In engineering safety, what is risk commonly considered a combination of?",
+  "options": ["Likelihood and consequence of a hazardous event", "Cost and color", "Mass and volume only", "Speed and temperature only"],
+  "answer": "Likelihood and consequence of a hazardous event"
+},
+{
+  "question": "In the hierarchy of controls, which approach is generally considered most effective?",
+  "options": ["Elimination of the hazard", "Personal protective equipment", "Warning signs only", "Administrative controls"],
+  "answer": "Elimination of the hazard"
+},
+{
+  "question": "Which engineering document typically lists the materials, components, and quantities required to manufacture or assemble a product?",
+  "options": ["Bill of Materials", "Risk matrix", "Calibration certificate", "Control chart"],
+  "answer": "Bill of Materials"
+},
+{
+  "question": "What is the primary purpose of a prototype in engineering design?",
+  "options": ["Test and evaluate a design before full-scale production", "Guarantee zero design changes", "Replace all engineering calculations", "Eliminate user testing"],
+  "answer": "Test and evaluate a design before full-scale production"
+},
+{
+  "question": "What is optimization in engineering design?",
+  "options": ["Finding a design that best satisfies an objective subject to constraints", "Always maximizing component mass", "Removing all design constraints", "Choosing the most expensive design"],
+  "answer": "Finding a design that best satisfies an objective subject to constraints"
+},
   {
     "question": "What is the SI unit of force?",
     "options": ["Joule", "Newton", "Watt", "Pascal"],
@@ -204,6 +604,406 @@
   }
 ],
   "Mechanical Engineering": [
+{
+  "question": "For an ideal gas undergoing an isothermal process, which thermodynamic property remains constant?",
+  "options": ["Temperature", "Pressure", "Volume", "Enthalpy always for any substance"],
+  "answer": "Temperature"
+},
+{
+  "question": "For a reversible adiabatic process of an ideal gas, which relation is valid?",
+  "options": ["PV^γ = constant", "PV = constant", "P/T = constant", "V/T = constant"],
+  "answer": "PV^γ = constant"
+},
+{
+  "question": "For an ideal gas, the difference between specific heats Cp and Cv is equal to what?",
+  "options": ["Gas constant R", "γ", "1/R", "Zero"],
+  "answer": "Gas constant R"
+},
+{
+  "question": "What is the ratio Cp/Cv for an ideal gas called?",
+  "options": ["Specific heat ratio", "Compressibility factor", "Prandtl number", "Mach number"],
+  "answer": "Specific heat ratio"
+},
+{
+  "question": "Which thermodynamic property is defined as H = U + PV?",
+  "options": ["Enthalpy", "Entropy", "Helmholtz energy", "Gibbs energy"],
+  "answer": "Enthalpy"
+},
+{
+  "question": "Which statement represents the Kelvin-Planck form of the second law of thermodynamics?",
+  "options": ["No cyclic heat engine can convert all heat from a single reservoir completely into work", "Energy cannot be conserved", "Heat cannot be converted into work", "Entropy of every system must remain constant"],
+  "answer": "No cyclic heat engine can convert all heat from a single reservoir completely into work"
+},
+{
+  "question": "What is the maximum theoretical efficiency of a heat engine operating between two fixed temperature reservoirs?",
+  "options": ["Carnot efficiency", "Otto efficiency", "Diesel efficiency", "Rankine efficiency"],
+  "answer": "Carnot efficiency"
+},
+{
+  "question": "A Carnot engine operates between reservoirs at 600 K and 300 K. What is its thermal efficiency?",
+  "options": ["25%", "50%", "60%", "75%"],
+  "answer": "50%"
+},
+{
+  "question": "Which thermodynamic cycle is the idealized cycle for a spark-ignition engine?",
+  "options": ["Otto cycle", "Diesel cycle", "Rankine cycle", "Brayton cycle"],
+  "answer": "Otto cycle"
+},
+{
+  "question": "Which thermodynamic cycle is the idealized cycle for a compression-ignition engine?",
+  "options": ["Diesel cycle", "Otto cycle", "Carnot cycle", "Stirling cycle"],
+  "answer": "Diesel cycle"
+},
+{
+  "question": "Which ideal thermodynamic cycle is commonly associated with gas-turbine engines?",
+  "options": ["Brayton cycle", "Rankine cycle", "Otto cycle", "Vapor-compression cycle"],
+  "answer": "Brayton cycle"
+},
+{
+  "question": "Which ideal cycle forms the basis of conventional steam power plants?",
+  "options": ["Rankine cycle", "Brayton cycle", "Otto cycle", "Ericsson cycle"],
+  "answer": "Rankine cycle"
+},
+{
+  "question": "In an ideal Rankine cycle, which component raises the pressure of the condensed working fluid?",
+  "options": ["Pump", "Turbine", "Condenser", "Boiler"],
+  "answer": "Pump"
+},
+{
+  "question": "What is the primary purpose of superheating steam before it enters a steam turbine?",
+  "options": ["Increase turbine work and reduce moisture during expansion", "Condense the steam", "Reduce boiler pressure to zero", "Eliminate heat addition"],
+  "answer": "Increase turbine work and reduce moisture during expansion"
+},
+{
+  "question": "In a vapor-compression refrigeration cycle, which component raises the refrigerant pressure?",
+  "options": ["Compressor", "Evaporator", "Expansion valve", "Condenser"],
+  "answer": "Compressor"
+},
+{
+  "question": "In a vapor-compression refrigerator, where does the refrigerant absorb heat from the cooled space?",
+  "options": ["Evaporator", "Condenser", "Compressor", "Receiver"],
+  "answer": "Evaporator"
+},
+{
+  "question": "How is the coefficient of performance of a refrigerator defined?",
+  "options": ["Refrigeration effect divided by work input", "Work input divided by refrigeration effect", "Heat rejected divided by work input only", "Work output divided by heat supplied"],
+  "answer": "Refrigeration effect divided by work input"
+},
+{
+  "question": "Which dimensionless number represents the ratio of inertial forces to viscous forces in fluid flow?",
+  "options": ["Reynolds number", "Prandtl number", "Nusselt number", "Mach number"],
+  "answer": "Reynolds number"
+},
+{
+  "question": "Which dimensionless number compares fluid velocity with the local speed of sound?",
+  "options": ["Mach number", "Reynolds number", "Biot number", "Fourier number"],
+  "answer": "Mach number"
+},
+{
+  "question": "Which dimensionless number is the ratio of momentum diffusivity to thermal diffusivity?",
+  "options": ["Prandtl number", "Nusselt number", "Froude number", "Euler number"],
+  "answer": "Prandtl number"
+},
+{
+  "question": "Which dimensionless number represents the ratio of convective to conductive heat transfer across a fluid layer?",
+  "options": ["Nusselt number", "Mach number", "Reynolds number", "Froude number"],
+  "answer": "Nusselt number"
+},
+{
+  "question": "For steady incompressible flow through a pipe, which equation expresses conservation of mass?",
+  "options": ["A1V1 = A2V2", "P1V1 = P2V2", "T1V1 = T2V2", "P1A1 = P2A2"],
+  "answer": "A1V1 = A2V2"
+},
+{
+  "question": "Bernoulli's equation for ideal steady incompressible flow expresses conservation of what?",
+  "options": ["Mechanical energy along a streamline", "Mass only", "Angular momentum only", "Entropy only"],
+  "answer": "Mechanical energy along a streamline"
+},
+{
+  "question": "What does the Darcy-Weisbach equation calculate in pipe-flow analysis?",
+  "options": ["Head loss due to friction", "Fluid density", "Speed of sound", "Surface tension"],
+  "answer": "Head loss due to friction"
+},
+{
+  "question": "In fully developed laminar flow through a circular pipe, the Darcy friction factor is equal to what?",
+  "options": ["64/Re", "16/Re²", "Re/64", "0.316/Re"],
+  "answer": "64/Re"
+},
+{
+  "question": "Which equation relates pressure, velocity, and elevation head in ideal fluid flow?",
+  "options": ["Bernoulli equation", "Fourier equation", "Hooke equation", "Euler buckling equation"],
+  "answer": "Bernoulli equation"
+},
+{
+  "question": "What is the primary purpose of a Venturi meter?",
+  "options": ["Measure fluid flow rate", "Measure viscosity directly", "Measure temperature", "Measure surface roughness"],
+  "answer": "Measure fluid flow rate"
+},
+{
+  "question": "Which fluid property represents internal resistance to shear deformation or flow?",
+  "options": ["Viscosity", "Density", "Specific weight", "Surface tension"],
+  "answer": "Viscosity"
+},
+{
+  "question": "For a Newtonian fluid, shear stress is directly proportional to what?",
+  "options": ["Velocity gradient", "Pressure squared", "Density gradient only", "Absolute velocity only"],
+  "answer": "Velocity gradient"
+},
+{
+  "question": "Which phenomenon results from the pressure difference across a curved liquid interface due to surface tension?",
+  "options": ["Capillary effect", "Cavitation only", "Compressibility", "Turbulence"],
+  "answer": "Capillary effect"
+},
+{
+  "question": "Which heat-transfer mode occurs through molecular interaction in a stationary solid?",
+  "options": ["Conduction", "Convection", "Radiation", "Advection only"],
+  "answer": "Conduction"
+},
+{
+  "question": "Which law governs one-dimensional heat conduction through a material?",
+  "options": ["Fourier's law", "Newton's law of viscosity", "Stefan-Boltzmann law", "Hooke's law"],
+  "answer": "Fourier's law"
+},
+{
+  "question": "Which law states that thermal radiation emitted by an ideal blackbody is proportional to the fourth power of absolute temperature?",
+  "options": ["Stefan-Boltzmann law", "Fourier's law", "Newton's cooling law", "Wien's displacement law"],
+  "answer": "Stefan-Boltzmann law"
+},
+{
+  "question": "What is the emissivity of an ideal blackbody?",
+  "options": ["1", "0", "0.5", "Infinite"],
+  "answer": "1"
+},
+{
+  "question": "According to Wien's displacement law, increasing the temperature of a blackbody causes the wavelength of maximum emission to do what?",
+  "options": ["Decrease", "Increase", "Remain constant", "Become infinite"],
+  "answer": "Decrease"
+},
+{
+  "question": "What is the primary purpose of fins on a heat-transfer surface?",
+  "options": ["Increase effective surface area", "Decrease thermal conductivity", "Eliminate convection", "Increase contact resistance"],
+  "answer": "Increase effective surface area"
+},
+{
+  "question": "Which heat exchanger arrangement generally provides a larger mean temperature difference than parallel flow for the same terminal temperatures?",
+  "options": ["Counterflow", "Parallel flow", "No-flow", "Perfectly mixed flow only"],
+  "answer": "Counterflow"
+},
+{
+  "question": "What does LMTD stand for in heat-exchanger analysis?",
+  "options": ["Log Mean Temperature Difference", "Linear Maximum Thermal Drop", "Latent Mean Transfer Density", "Low Mean Temperature Distribution"],
+  "answer": "Log Mean Temperature Difference"
+},
+{
+  "question": "What type of stress acts tangentially to a material surface?",
+  "options": ["Shear stress", "Normal stress", "Hydrostatic stress only", "Bearing pressure only"],
+  "answer": "Shear stress"
+},
+{
+  "question": "Within the elastic limit, Hooke's law states that stress is proportional to what?",
+  "options": ["Strain", "Area", "Volume", "Density"],
+  "answer": "Strain"
+},
+{
+  "question": "Which mechanical property describes a material's ability to absorb energy before fracture?",
+  "options": ["Toughness", "Hardness", "Stiffness", "Brittleness"],
+  "answer": "Toughness"
+},
+{
+  "question": "Which property describes a material's ability to undergo substantial plastic deformation before fracture?",
+  "options": ["Ductility", "Brittleness", "Hardness", "Stiffness"],
+  "answer": "Ductility"
+},
+{
+  "question": "Which property represents resistance to elastic deformation?",
+  "options": ["Stiffness", "Ductility", "Toughness", "Malleability"],
+  "answer": "Stiffness"
+},
+{
+  "question": "What is resilience in engineering materials?",
+  "options": ["Ability to absorb energy within the elastic range", "Resistance to corrosion only", "Ability to fracture without deformation", "Resistance to heat flow"],
+  "answer": "Ability to absorb energy within the elastic range"
+},
+{
+  "question": "Which failure mechanism occurs under repeated or fluctuating stresses, often below the yield strength?",
+  "options": ["Fatigue", "Creep", "Buckling only", "Wear only"],
+  "answer": "Fatigue"
+},
+{
+  "question": "Which deformation mechanism becomes particularly important under sustained stress at elevated temperature?",
+  "options": ["Creep", "Fatigue", "Impact", "Elastic rebound"],
+  "answer": "Creep"
+},
+{
+  "question": "A stress concentration is most likely to occur near which feature?",
+  "options": ["Sharp notch", "Smooth uniform section", "Large gradual fillet", "Uniform cylindrical surface"],
+  "answer": "Sharp notch"
+},
+{
+  "question": "Which theory is widely used to predict yielding of ductile materials under multiaxial stress?",
+  "options": ["von Mises criterion", "Rankine earth-pressure theory", "Bernoulli principle", "Carnot theorem"],
+  "answer": "von Mises criterion"
+},
+{
+  "question": "In pure torsion of a circular shaft, where is the shear stress maximum?",
+  "options": ["At the outer surface", "At the center", "Halfway to the center only", "Uniform everywhere"],
+  "answer": "At the outer surface"
+},
+{
+  "question": "For a solid circular shaft under torsion, torque capacity for a given allowable shear stress is proportional to which power of diameter?",
+  "options": ["Third power", "First power", "Second power", "Fourth power"],
+  "answer": "Third power"
+},
+{
+  "question": "What is the primary function of a governor in an engine?",
+  "options": ["Regulate mean speed as load changes", "Store rotational energy within each cycle", "Increase compression ratio", "Reduce cylinder volume"],
+  "answer": "Regulate mean speed as load changes"
+},
+{
+  "question": "What is the primary purpose of balancing rotating masses in machinery?",
+  "options": ["Reduce unbalanced forces and vibration", "Increase friction", "Increase bearing load", "Reduce material strength"],
+  "answer": "Reduce unbalanced forces and vibration"
+},
+{
+  "question": "What is gyroscopic couple produced by?",
+  "options": ["Change in direction of angular momentum", "Linear acceleration only", "Static friction only", "Hydrostatic pressure"],
+  "answer": "Change in direction of angular momentum"
+},
+{
+  "question": "Which mechanism is commonly used to convert reciprocating motion into rotary motion in a piston engine?",
+  "options": ["Slider-crank mechanism", "Geneva mechanism", "Worm mechanism", "Rack only"],
+  "answer": "Slider-crank mechanism"
+},
+{
+  "question": "What is the degree of freedom of a planar rigid body moving freely in its plane?",
+  "options": ["3", "2", "4", "6"],
+  "answer": "3"
+},
+{
+  "question": "Which equation is used to determine the mobility of many planar mechanisms?",
+  "options": ["Gruebler-Kutzbach criterion", "Bernoulli equation", "Clausius inequality", "Fourier equation"],
+  "answer": "Gruebler-Kutzbach criterion"
+},
+{
+  "question": "What is the pressure-volume process during the ideal Otto-cycle heat addition?",
+  "options": ["Constant volume", "Constant pressure", "Constant temperature", "Constant entropy"],
+  "answer": "Constant volume"
+},
+{
+  "question": "In the ideal Diesel cycle, heat addition occurs at approximately what condition?",
+  "options": ["Constant pressure", "Constant volume", "Constant temperature", "Constant entropy"],
+  "answer": "Constant pressure"
+},
+{
+  "question": "Which parameter has a strong influence on the ideal thermal efficiency of an Otto cycle?",
+  "options": ["Compression ratio", "Engine color", "Exhaust pipe length only", "Fuel tank volume"],
+  "answer": "Compression ratio"
+},
+{
+  "question": "What is knocking in a spark-ignition engine primarily associated with?",
+  "options": ["Autoignition of unburned end-gas", "Normal spark propagation only", "Low coolant temperature only", "Exhaust valve opening normally"],
+  "answer": "Autoignition of unburned end-gas"
+},
+{
+  "question": "Which fuel rating indicates resistance to knocking in spark-ignition engines?",
+  "options": ["Octane number", "Cetane number", "Viscosity index", "Flash point"],
+  "answer": "Octane number"
+},
+{
+  "question": "Which fuel rating indicates ignition quality in compression-ignition engines?",
+  "options": ["Cetane number", "Octane number", "Reynolds number", "Mach number"],
+  "answer": "Cetane number"
+},
+{
+  "question": "What does a turbocharger primarily use to drive its turbine?",
+  "options": ["Exhaust-gas energy", "Battery power only", "Crankshaft belt directly", "Cooling-water pressure"],
+  "answer": "Exhaust-gas energy"
+},
+{
+  "question": "What is the purpose of an intercooler in a turbocharged engine?",
+  "options": ["Cool compressed intake air", "Heat exhaust gas", "Increase engine oil temperature", "Reduce fuel pressure to zero"],
+  "answer": "Cool compressed intake air"
+},
+{
+  "question": "What does volumetric efficiency of a reciprocating engine describe?",
+  "options": ["Effectiveness of filling the cylinder with fresh charge", "Ratio of brake power to indicated power", "Ratio of heat rejected to heat supplied", "Ratio of exhaust pressure to intake pressure"],
+  "answer": "Effectiveness of filling the cylinder with fresh charge"
+},
+{
+  "question": "How is mechanical efficiency of an IC engine commonly defined?",
+  "options": ["Brake power divided by indicated power", "Indicated power divided by brake power", "Heat supplied divided by brake power", "Friction power divided by indicated power"],
+  "answer": "Brake power divided by indicated power"
+},
+{
+  "question": "What is brake power of an engine?",
+  "options": ["Useful power available at the output shaft", "Power developed inside the cylinder before mechanical losses", "Heat rejected by coolant", "Power consumed only by friction"],
+  "answer": "Useful power available at the output shaft"
+},
+{
+  "question": "What is the function of a dynamometer in mechanical engineering?",
+  "options": ["Measure torque and power", "Measure only temperature", "Measure only pressure", "Measure viscosity only"],
+  "answer": "Measure torque and power"
+},
+{
+  "question": "Which turbine is an impulse hydraulic turbine suitable for high head and relatively low flow rate?",
+  "options": ["Pelton turbine", "Francis turbine", "Kaplan turbine", "Propeller turbine"],
+  "answer": "Pelton turbine"
+},
+{
+  "question": "Which hydraulic turbine is a reaction turbine commonly used for medium-head applications?",
+  "options": ["Francis turbine", "Pelton turbine", "De Laval turbine", "Curtis turbine"],
+  "answer": "Francis turbine"
+},
+{
+  "question": "Which hydraulic turbine is especially suitable for low-head, high-flow applications?",
+  "options": ["Kaplan turbine", "Pelton turbine", "Impulse wheel", "De Laval turbine"],
+  "answer": "Kaplan turbine"
+},
+{
+  "question": "In a Pelton turbine, which component converts a high pressure head mainly into high jet velocity before the runner?",
+  "options": ["Nozzle", "Draft tube", "Runner casing", "Shaft seal"],
+  "answer": "Nozzle"
+},
+{
+  "question": "What is the main function of a draft tube in a reaction turbine installation?",
+  "options": ["Recover part of the exit kinetic energy and discharge water to the tailrace", "Increase runner friction", "Convert electrical energy into pressure", "Supply fuel to the turbine"],
+  "answer": "Recover part of the exit kinetic energy and discharge water to the tailrace"
+},
+{
+  "question": "Which manufacturing process forces heated or cold metal through a die to produce a long product of nearly constant cross-section?",
+  "options": ["Extrusion", "Forging", "Casting", "Deep drawing"],
+  "answer": "Extrusion"
+},
+{
+  "question": "Which manufacturing process shapes metal primarily by compressive forces using dies or hammers?",
+  "options": ["Forging", "Turning", "Grinding", "Electroplating"],
+  "answer": "Forging"
+},
+{
+  "question": "Which casting process uses a permanent metallic mold and molten metal forced into the cavity under pressure?",
+  "options": ["Die casting", "Sand casting", "Investment casting", "Shell molding"],
+  "answer": "Die casting"
+},
+{
+  "question": "Which casting process uses a disposable wax pattern surrounded by a refractory material?",
+  "options": ["Investment casting", "Centrifugal casting", "Continuous casting", "Die casting"],
+  "answer": "Investment casting"
+},
+{
+  "question": "What is annealing primarily used to accomplish in metals?",
+  "options": ["Reduce hardness, relieve stresses, and improve ductility", "Maximize brittleness", "Increase residual stress deliberately", "Melt the material completely"],
+  "answer": "Reduce hardness, relieve stresses, and improve ductility"
+},
+{
+  "question": "What is quenching in heat treatment?",
+  "options": ["Rapid cooling from an elevated temperature", "Very slow furnace cooling", "Heating below room temperature", "Mechanical polishing"],
+  "answer": "Rapid cooling from an elevated temperature"
+},
+{
+  "question": "Why is tempering commonly performed after hardening carbon steel?",
+  "options": ["Reduce brittleness while retaining useful hardness", "Increase brittleness", "Completely melt martensite", "Remove all carbon from steel"],
+  "answer": "Reduce brittleness while retaining useful hardness"
+},
   {
     "question": "What is the SI unit of torque?",
     "options": ["Newton", "Newton-meter", "Joule", "Pascal"],
