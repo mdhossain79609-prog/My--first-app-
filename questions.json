@@ -612,6 +612,406 @@
   }
 ],
   "Computer & Technology": [
+{
+  "question": "Which component of a CPU performs arithmetic and logical operations?",
+  "options": ["ALU", "Control Unit", "Cache Controller", "Program Counter"],
+  "answer": "ALU"
+},
+{
+  "question": "Which CPU register normally stores the address of the next instruction to be executed?",
+  "options": ["Program Counter", "Accumulator", "Instruction Register", "Stack Pointer"],
+  "answer": "Program Counter"
+},
+{
+  "question": "Which register holds the instruction currently being decoded or executed?",
+  "options": ["Instruction Register", "Program Counter", "Memory Address Register", "Accumulator"],
+  "answer": "Instruction Register"
+},
+{
+  "question": "Which type of memory is typically located closest to the CPU cores and provides the fastest cache access?",
+  "options": ["L1 cache", "L3 cache", "RAM", "SSD"],
+  "answer": "L1 cache"
+},
+{
+  "question": "Which memory technology normally requires periodic refreshing to retain data?",
+  "options": ["DRAM", "SRAM", "ROM", "Flash memory"],
+  "answer": "DRAM"
+},
+{
+  "question": "Which type of RAM is commonly used for CPU cache because of its high speed?",
+  "options": ["SRAM", "DRAM", "SDRAM", "VRAM"],
+  "answer": "SRAM"
+},
+{
+  "question": "Which storage technology has no mechanical moving parts?",
+  "options": ["SSD", "HDD", "Magnetic tape", "Floppy disk"],
+  "answer": "SSD"
+},
+{
+  "question": "What is the binary representation of decimal 45?",
+  "options": ["101101", "110101", "101011", "111001"],
+  "answer": "101101"
+},
+{
+  "question": "What is the decimal value of binary 110101?",
+  "options": ["51", "53", "55", "57"],
+  "answer": "53"
+},
+{
+  "question": "What is the hexadecimal equivalent of decimal 255?",
+  "options": ["FF", "EF", "FE", "F0"],
+  "answer": "FF"
+},
+{
+  "question": "How many distinct values can be represented by an unsigned 8-bit binary number?",
+  "options": ["128", "255", "256", "512"],
+  "answer": "256"
+},
+{
+  "question": "Which logic gate outputs 1 only when all of its inputs are 1?",
+  "options": ["AND", "OR", "XOR", "NOR"],
+  "answer": "AND"
+},
+{
+  "question": "Which logic gate outputs 1 when its two binary inputs are different?",
+  "options": ["XOR", "AND", "NOR", "XNOR"],
+  "answer": "XOR"
+},
+{
+  "question": "Which gate is known as a universal logic gate because any Boolean function can be constructed using only this type of gate?",
+  "options": ["NAND", "XOR", "AND", "Buffer"],
+  "answer": "NAND"
+},
+{
+  "question": "In a 64-bit processor architecture, what does 64-bit most directly describe?",
+  "options": ["Native word/register width", "Number of CPU cores", "Clock frequency", "Cache size"],
+  "answer": "Native word/register width"
+},
+{
+  "question": "What is the main purpose of virtual memory?",
+  "options": ["To provide processes with an address space that can use secondary storage as backing", "To permanently replace CPU cache", "To increase processor clock speed", "To encrypt every file"],
+  "answer": "To provide processes with an address space that can use secondary storage as backing"
+},
+{
+  "question": "What is a page fault?",
+  "options": ["An access to a virtual memory page that is not currently mapped as required", "A damaged web page", "A CPU arithmetic error", "A network routing failure"],
+  "answer": "An access to a virtual memory page that is not currently mapped as required"
+},
+{
+  "question": "Which operating-system component manages hardware resources and provides core services to processes?",
+  "options": ["Kernel", "Compiler", "Browser", "Text editor"],
+  "answer": "Kernel"
+},
+{
+  "question": "What is a context switch in an operating system?",
+  "options": ["Switching CPU execution from one task to another", "Changing a file extension", "Changing network protocols", "Replacing RAM physically"],
+  "answer": "Switching CPU execution from one task to another"
+},
+{
+  "question": "Which CPU scheduling algorithm can cause starvation of long processes when short jobs continually arrive?",
+  "options": ["Shortest Job First", "Round Robin", "First-Come First-Served", "FIFO paging"],
+  "answer": "Shortest Job First"
+},
+{
+  "question": "Which condition is one of the four necessary Coffman conditions for deadlock?",
+  "options": ["Circular wait", "Unlimited memory", "Random scheduling", "Automatic preemption"],
+  "answer": "Circular wait"
+},
+{
+  "question": "What is the main purpose of a mutex in concurrent programming?",
+  "options": ["Mutual exclusion for shared resources", "Data compression", "Network routing", "File encryption"],
+  "answer": "Mutual exclusion for shared resources"
+},
+{
+  "question": "What distinguishes a process from a thread in a typical operating system?",
+  "options": ["Threads of a process usually share the same address space", "Every thread has a completely separate address space", "Processes cannot execute code", "Threads cannot be scheduled"],
+  "answer": "Threads of a process usually share the same address space"
+},
+{
+  "question": "Which data structure follows the Last-In, First-Out principle?",
+  "options": ["Stack", "Queue", "Graph", "Heap"],
+  "answer": "Stack"
+},
+{
+  "question": "Which data structure follows the First-In, First-Out principle?",
+  "options": ["Queue", "Stack", "Binary tree", "Hash table"],
+  "answer": "Queue"
+},
+{
+  "question": "What is the average-case lookup complexity of a well-designed hash table?",
+  "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+  "answer": "O(1)"
+},
+{
+  "question": "What is the worst-case time complexity of binary search on a sorted array?",
+  "options": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+  "answer": "O(log n)"
+},
+{
+  "question": "Which sorting algorithm has an average time complexity of O(n log n) but a worst case of O(n²) in its standard form?",
+  "options": ["Quicksort", "Merge sort", "Counting sort", "Radix sort"],
+  "answer": "Quicksort"
+},
+{
+  "question": "Which sorting algorithm typically guarantees O(n log n) worst-case time and requires additional linear auxiliary space for arrays?",
+  "options": ["Merge sort", "Bubble sort", "Insertion sort", "Selection sort"],
+  "answer": "Merge sort"
+},
+{
+  "question": "Which traversal of a binary search tree visits keys in sorted order?",
+  "options": ["In-order traversal", "Pre-order traversal", "Post-order traversal", "Level-order traversal"],
+  "answer": "In-order traversal"
+},
+{
+  "question": "Which algorithm finds the shortest paths from a source in a graph with non-negative edge weights?",
+  "options": ["Dijkstra's algorithm", "Kruskal's algorithm", "Depth-first search only", "Prim's algorithm"],
+  "answer": "Dijkstra's algorithm"
+},
+{
+  "question": "Which algorithm is commonly used to construct a minimum spanning tree by repeatedly selecting the smallest eligible edge?",
+  "options": ["Kruskal's algorithm", "Dijkstra's algorithm", "Binary search", "Floyd's cycle algorithm"],
+  "answer": "Kruskal's algorithm"
+},
+{
+  "question": "Which programming paradigm organizes software around objects containing data and behavior?",
+  "options": ["Object-oriented programming", "Procedural programming only", "Assembly programming", "Markup programming"],
+  "answer": "Object-oriented programming"
+},
+{
+  "question": "In object-oriented programming, what is encapsulation?",
+  "options": ["Bundling data with methods and controlling access to internal state", "Copying every object", "Executing multiple operating systems", "Converting source code to binary only"],
+  "answer": "Bundling data with methods and controlling access to internal state"
+},
+{
+  "question": "What does polymorphism allow in object-oriented programming?",
+  "options": ["A common interface to support different underlying implementations", "Only one object to exist", "Variables to contain no data", "Programs to avoid functions"],
+  "answer": "A common interface to support different underlying implementations"
+},
+{
+  "question": "What is recursion in programming?",
+  "options": ["A function calling itself directly or indirectly", "A database deleting itself", "A CPU changing voltage", "A network repeating packets forever by design"],
+  "answer": "A function calling itself directly or indirectly"
+},
+{
+  "question": "What does a compiler generally do?",
+  "options": ["Translates source code into another form before execution", "Only stores source code", "Assigns IP addresses", "Encrypts databases"],
+  "answer": "Translates source code into another form before execution"
+},
+{
+  "question": "Which error occurs when a program's grammar violates the rules of its programming language?",
+  "options": ["Syntax error", "Logic error", "Network error", "Hardware interrupt"],
+  "answer": "Syntax error"
+},
+{
+  "question": "What is an API?",
+  "options": ["A defined interface through which software components communicate", "A physical CPU connector", "A type of RAM", "An image compression format"],
+  "answer": "A defined interface through which software components communicate"
+},
+{
+  "question": "What does SQL stand for?",
+  "options": ["Structured Query Language", "Sequential Question Logic", "System Queue Language", "Standard Quantum Logic"],
+  "answer": "Structured Query Language"
+},
+{
+  "question": "Which SQL command is primarily used to retrieve data from a database?",
+  "options": ["SELECT", "UPDATE", "DELETE", "DROP"],
+  "answer": "SELECT"
+},
+{
+  "question": "What is the purpose of a primary key in a relational database?",
+  "options": ["Uniquely identify each row", "Encrypt every column", "Store duplicate records", "Connect the database to the internet"],
+  "answer": "Uniquely identify each row"
+},
+{
+  "question": "What is a foreign key used for in a relational database?",
+  "options": ["Referencing a key in another or the same table to establish a relationship", "Encrypting passwords", "Sorting every table", "Creating operating-system users"],
+  "answer": "Referencing a key in another or the same table to establish a relationship"
+},
+{
+  "question": "What is database normalization primarily intended to reduce?",
+  "options": ["Data redundancy and modification anomalies", "Processor temperature", "Network latency", "Screen resolution"],
+  "answer": "Data redundancy and modification anomalies"
+},
+{
+  "question": "In database transactions, what does the A in ACID stand for?",
+  "options": ["Atomicity", "Availability", "Authentication", "Abstraction"],
+  "answer": "Atomicity"
+},
+{
+  "question": "Which ACID property ensures that a committed transaction remains stored even after a system failure?",
+  "options": ["Durability", "Isolation", "Consistency", "Atomicity"],
+  "answer": "Durability"
+},
+{
+  "question": "Which protocol automatically assigns IP configuration to devices on many networks?",
+  "options": ["DHCP", "HTTP", "FTP", "SMTP"],
+  "answer": "DHCP"
+},
+{
+  "question": "What is the primary function of DNS?",
+  "options": ["Translate domain names into IP addresses and other DNS records", "Encrypt hard drives", "Assign MAC addresses", "Compress websites"],
+  "answer": "Translate domain names into IP addresses and other DNS records"
+},
+{
+  "question": "Which protocol provides reliable, connection-oriented transport on the Internet?",
+  "options": ["TCP", "UDP", "IP", "ARP"],
+  "answer": "TCP"
+},
+{
+  "question": "Which transport protocol is connectionless and does not guarantee delivery?",
+  "options": ["UDP", "TCP", "HTTPS", "SSH"],
+  "answer": "UDP"
+},
+{
+  "question": "How many bits are in an IPv4 address?",
+  "options": ["32", "64", "128", "256"],
+  "answer": "32"
+},
+{
+  "question": "How many bits are in an IPv6 address?",
+  "options": ["32", "64", "128", "256"],
+  "answer": "128"
+},
+{
+  "question": "Which network device primarily forwards packets between different IP networks?",
+  "options": ["Router", "Repeater", "Hub", "Keyboard"],
+  "answer": "Router"
+},
+{
+  "question": "Which device forwards Ethernet frames using MAC addresses?",
+  "options": ["Switch", "Router only", "Modem only", "Repeater"],
+  "answer": "Switch"
+},
+{
+  "question": "Which protocol maps an IPv4 address to a MAC address on a local network?",
+  "options": ["ARP", "DNS", "SMTP", "FTP"],
+  "answer": "ARP"
+},
+{
+  "question": "What is the default port number for HTTPS?",
+  "options": ["21", "53", "80", "443"],
+  "answer": "443"
+},
+{
+  "question": "Which protocol is primarily used for secure remote command-line login?",
+  "options": ["SSH", "Telnet", "HTTP", "SMTP"],
+  "answer": "SSH"
+},
+{
+  "question": "Which protocol is primarily used to send email between mail servers?",
+  "options": ["SMTP", "IMAP", "HTTP", "SNMP"],
+  "answer": "SMTP"
+},
+{
+  "question": "Which protocol allows email to remain on a mail server while being synchronized across multiple devices?",
+  "options": ["IMAP", "SMTP", "ARP", "DHCP"],
+  "answer": "IMAP"
+},
+{
+  "question": "What does a VPN primarily create between a device and a VPN endpoint?",
+  "options": ["An encrypted tunnel", "A new CPU core", "A physical fiber connection", "A database table"],
+  "answer": "An encrypted tunnel"
+},
+{
+  "question": "What is phishing?",
+  "options": ["A deceptive attempt to trick users into revealing sensitive information", "A database indexing method", "A CPU scheduling algorithm", "A data compression technique"],
+  "answer": "A deceptive attempt to trick users into revealing sensitive information"
+},
+{
+  "question": "Which type of malware encrypts or locks a victim's data and demands payment?",
+  "options": ["Ransomware", "Adware", "Compiler", "Hypervisor"],
+  "answer": "Ransomware"
+},
+{
+  "question": "Which malware can self-replicate and spread across networks without attaching itself to another program?",
+  "options": ["Worm", "Trojan horse", "Root certificate", "Cookie"],
+  "answer": "Worm"
+},
+{
+  "question": "What is a cryptographic hash function designed to produce?",
+  "options": ["A fixed-size digest from input data", "A reversible copy of plaintext", "An IP address", "A random database table"],
+  "answer": "A fixed-size digest from input data"
+},
+{
+  "question": "Which cryptographic system uses a public key and a corresponding private key?",
+  "options": ["Asymmetric cryptography", "Symmetric cryptography", "Lossless compression", "Steganography only"],
+  "answer": "Asymmetric cryptography"
+},
+{
+  "question": "In symmetric encryption, what is normally used for both encryption and decryption?",
+  "options": ["The same secret key", "A public-private key pair", "An IP address", "A hash digest only"],
+  "answer": "The same secret key"
+},
+{
+  "question": "What is the primary security purpose of multi-factor authentication?",
+  "options": ["Require evidence from more than one authentication factor", "Increase processor speed", "Compress passwords", "Remove the need for authentication"],
+  "answer": "Require evidence from more than one authentication factor"
+},
+{
+  "question": "Which security principle gives users only the permissions necessary to perform their tasks?",
+  "options": ["Principle of least privilege", "Open access principle", "Maximum privilege principle", "Round-robin principle"],
+  "answer": "Principle of least privilege"
+},
+{
+  "question": "What is a zero-day vulnerability?",
+  "options": ["A vulnerability for which defenders may have had no time to deploy a fix before exploitation", "A password that expires daily", "A computer with no storage", "A network with zero latency"],
+  "answer": "A vulnerability for which defenders may have had no time to deploy a fix before exploitation"
+},
+{
+  "question": "What does a firewall primarily do?",
+  "options": ["Filters network traffic according to security rules", "Physically cools a processor", "Stores database records", "Compiles source code"],
+  "answer": "Filters network traffic according to security rules"
+},
+{
+  "question": "Which cloud service model typically provides virtual machines, storage, and networking resources to customers?",
+  "options": ["IaaS", "SaaS", "PaaS", "DNS"],
+  "answer": "IaaS"
+},
+{
+  "question": "Which cloud model delivers complete applications to users over a network?",
+  "options": ["SaaS", "IaaS", "Bare metal only", "BIOS"],
+  "answer": "SaaS"
+},
+{
+  "question": "What is virtualization?",
+  "options": ["Creating virtual versions of computing resources on physical hardware", "Increasing monitor resolution", "Converting analog sound to digital only", "Encrypting all network packets"],
+  "answer": "Creating virtual versions of computing resources on physical hardware"
+},
+{
+  "question": "What is a hypervisor?",
+  "options": ["Software or firmware that creates and manages virtual machines", "A database query", "A network cable", "A programming loop"],
+  "answer": "Software or firmware that creates and manages virtual machines"
+},
+{
+  "question": "Compared with traditional virtual machines, containers typically share what with the host?",
+  "options": ["The operating-system kernel", "A separate physical CPU", "A separate motherboard", "A unique power supply"],
+  "answer": "The operating-system kernel"
+},
+{
+  "question": "What is machine learning?",
+  "options": ["A field in which computational models learn patterns from data", "A method of physically manufacturing CPUs", "A network cabling standard", "A database backup format"],
+  "answer": "A field in which computational models learn patterns from data"
+},
+{
+  "question": "In supervised machine learning, training examples normally include what?",
+  "options": ["Input data paired with target labels or outputs", "Only unlabeled data", "No training data", "Only random binary digits"],
+  "answer": "Input data paired with target labels or outputs"
+},
+{
+  "question": "What is overfitting in machine learning?",
+  "options": ["A model fits training data too closely and generalizes poorly", "A model has no parameters", "A computer has excessive RAM", "A network has too many routers"],
+  "answer": "A model fits training data too closely and generalizes poorly"
+},
+{
+  "question": "Which neural-network architecture introduced self-attention as its central mechanism and became foundational for many modern language models?",
+  "options": ["Transformer", "Decision tree", "K-means", "Linear regression"],
+  "answer": "Transformer"
+},
+{
+  "question": "What is the primary role of a GPU in many AI workloads?",
+  "options": ["Perform highly parallel numerical computations", "Assign domain names", "Store files permanently", "Route internet packets"],
+  "answer": "Perform highly parallel numerical computations"
+}, 
   {
     "question": "What does CPU stand for?",
     "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Control Processing User"],
@@ -714,6 +1114,406 @@
   }
 ],
   "General Science": [
+{
+  "question": "Which layer of Earth is primarily composed of solid iron and nickel?",
+  "options": ["Crust", "Mantle", "Outer core", "Inner core"],
+  "answer": "Inner core"
+},
+{
+  "question": "Which layer of Earth is liquid and generates most of Earth's magnetic field?",
+  "options": ["Crust", "Mantle", "Outer core", "Inner core"],
+  "answer": "Outer core"
+},
+{
+  "question": "What is the most abundant gas in Earth's atmosphere?",
+  "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"],
+  "answer": "Nitrogen"
+},
+{
+  "question": "Which atmospheric layer contains most of the ozone layer?",
+  "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+  "answer": "Stratosphere"
+},
+{
+  "question": "In which atmospheric layer does most weather occur?",
+  "options": ["Troposphere", "Stratosphere", "Mesosphere", "Exosphere"],
+  "answer": "Troposphere"
+},
+{
+  "question": "Which instrument measures atmospheric pressure?",
+  "options": ["Barometer", "Hygrometer", "Anemometer", "Calorimeter"],
+  "answer": "Barometer"
+},
+{
+  "question": "Which instrument is used to measure wind speed?",
+  "options": ["Anemometer", "Barometer", "Hydrometer", "Seismometer"],
+  "answer": "Anemometer"
+},
+{
+  "question": "Which instrument measures relative humidity in the atmosphere?",
+  "options": ["Hygrometer", "Ammeter", "Altimeter", "Voltmeter"],
+  "answer": "Hygrometer"
+},
+{
+  "question": "Which instrument records seismic waves produced by earthquakes?",
+  "options": ["Seismograph", "Barometer", "Spectrometer", "Manometer"],
+  "answer": "Seismograph"
+},
+{
+  "question": "What is the point inside Earth where an earthquake rupture begins called?",
+  "options": ["Epicenter", "Focus", "Fault line", "Crater"],
+  "answer": "Focus"
+},
+{
+  "question": "What is the point on Earth's surface directly above an earthquake's focus called?",
+  "options": ["Epicenter", "Hypocenter", "Mantle", "Fault plane"],
+  "answer": "Epicenter"
+},
+{
+  "question": "Which type of seismic wave can travel through both solids and liquids?",
+  "options": ["P-wave", "S-wave", "Love wave", "Rayleigh wave only"],
+  "answer": "P-wave"
+},
+{
+  "question": "Which seismic waves cannot travel through liquids?",
+  "options": ["P-waves", "S-waves", "Both P and S waves", "All seismic waves"],
+  "answer": "S-waves"
+},
+{
+  "question": "What is the scientific theory describing the movement of Earth's lithospheric plates?",
+  "options": ["Plate tectonics", "Natural selection", "Quantum theory", "Cell theory"],
+  "answer": "Plate tectonics"
+},
+{
+  "question": "At which type of plate boundary do tectonic plates move apart?",
+  "options": ["Divergent boundary", "Convergent boundary", "Transform boundary", "Subduction boundary only"],
+  "answer": "Divergent boundary"
+},
+{
+  "question": "What type of rock forms when molten rock cools and solidifies?",
+  "options": ["Igneous", "Sedimentary", "Metamorphic", "Organic"],
+  "answer": "Igneous"
+},
+{
+  "question": "Which type of rock forms mainly from compacted and cemented sediments?",
+  "options": ["Sedimentary", "Igneous", "Metamorphic", "Magma"],
+  "answer": "Sedimentary"
+},
+{
+  "question": "Which type of rock forms when existing rock is altered by heat and pressure?",
+  "options": ["Metamorphic", "Sedimentary", "Igneous", "Volcanic ash"],
+  "answer": "Metamorphic"
+},
+{
+  "question": "Which scale ranks minerals according to their resistance to scratching?",
+  "options": ["Mohs scale", "Beaufort scale", "pH scale", "Decibel scale"],
+  "answer": "Mohs scale"
+},
+{
+  "question": "Which mineral has a hardness of 10 on the Mohs scale?",
+  "options": ["Quartz", "Diamond", "Topaz", "Corundum"],
+  "answer": "Diamond"
+},
+{
+  "question": "What is molten rock beneath Earth's surface called?",
+  "options": ["Magma", "Lava", "Basalt", "Granite"],
+  "answer": "Magma"
+},
+{
+  "question": "What is molten rock called after it reaches Earth's surface?",
+  "options": ["Lava", "Magma", "Sediment", "Quartz"],
+  "answer": "Lava"
+},
+{
+  "question": "What process changes liquid water into water vapor?",
+  "options": ["Evaporation", "Condensation", "Freezing", "Sublimation"],
+  "answer": "Evaporation"
+},
+{
+  "question": "What process changes water vapor directly into ice without first becoming liquid?",
+  "options": ["Deposition", "Sublimation", "Evaporation", "Melting"],
+  "answer": "Deposition"
+},
+{
+  "question": "What is the direct change from a solid to a gas called?",
+  "options": ["Sublimation", "Condensation", "Deposition", "Freezing"],
+  "answer": "Sublimation"
+},
+{
+  "question": "Which process is responsible for cloud formation when water vapor cools?",
+  "options": ["Condensation", "Evaporation", "Sublimation", "Melting"],
+  "answer": "Condensation"
+},
+{
+  "question": "Which phenomenon is primarily responsible for ocean tides on Earth?",
+  "options": ["Gravitational attraction of the Moon and Sun", "Earth's magnetic field", "Ocean salinity", "Volcanic activity"],
+  "answer": "Gravitational attraction of the Moon and Sun"
+},
+{
+  "question": "Which ocean phenomenon is characterized by unusually warm surface waters in the central and eastern tropical Pacific?",
+  "options": ["El Niño", "La Niña", "Monsoon", "Tsunami"],
+  "answer": "El Niño"
+},
+{
+  "question": "A tsunami is most commonly generated by what?",
+  "options": ["Undersea earthquakes", "Ordinary ocean tides", "Rainfall", "Solar radiation"],
+  "answer": "Undersea earthquakes"
+},
+{
+  "question": "Which gas is the largest contributor to the natural greenhouse effect in Earth's atmosphere?",
+  "options": ["Water vapor", "Oxygen", "Nitrogen", "Hydrogen"],
+  "answer": "Water vapor"
+},
+{
+  "question": "Which human activity is a major source of increased atmospheric carbon dioxide?",
+  "options": ["Burning fossil fuels", "Freezing water", "Using wind turbines", "Planting forests"],
+  "answer": "Burning fossil fuels"
+},
+{
+  "question": "Which compounds were historically major contributors to stratospheric ozone depletion?",
+  "options": ["Chlorofluorocarbons", "Carbohydrates", "Silicates", "Carbonates"],
+  "answer": "Chlorofluorocarbons"
+},
+{
+  "question": "Which international agreement was designed to phase out many ozone-depleting substances?",
+  "options": ["Montreal Protocol", "Geneva Convention", "Kyoto Convention", "Antarctic Treaty"],
+  "answer": "Montreal Protocol"
+},
+{
+  "question": "What is acid rain mainly associated with atmospheric emissions of sulfur dioxide and which other group of pollutants?",
+  "options": ["Nitrogen oxides", "Noble gases", "Hydrogen only", "Helium compounds"],
+  "answer": "Nitrogen oxides"
+},
+{
+  "question": "What is eutrophication?",
+  "options": ["Excessive nutrient enrichment of water bodies", "Loss of all minerals from soil", "Cooling of the atmosphere", "Formation of volcanic rocks"],
+  "answer": "Excessive nutrient enrichment of water bodies"
+},
+{
+  "question": "Which nutrients are most commonly associated with eutrophication?",
+  "options": ["Nitrogen and phosphorus", "Gold and silver", "Helium and neon", "Iron and nickel only"],
+  "answer": "Nitrogen and phosphorus"
+},
+{
+  "question": "Which energy source uses heat from Earth's interior?",
+  "options": ["Geothermal energy", "Solar energy", "Wind energy", "Tidal energy"],
+  "answer": "Geothermal energy"
+},
+{
+  "question": "Which renewable energy source converts sunlight directly into electricity using semiconductor cells?",
+  "options": ["Photovoltaic solar energy", "Hydroelectric energy", "Geothermal energy", "Biomass combustion"],
+  "answer": "Photovoltaic solar energy"
+},
+{
+  "question": "Which renewable energy source obtains energy from moving air?",
+  "options": ["Wind energy", "Geothermal energy", "Tidal energy", "Biomass"],
+  "answer": "Wind energy"
+},
+{
+  "question": "Which energy source uses the movement of water through turbines at dams?",
+  "options": ["Hydroelectric power", "Geothermal power", "Solar power", "Nuclear power"],
+  "answer": "Hydroelectric power"
+},
+{
+  "question": "Which fossil fuel is primarily composed of methane?",
+  "options": ["Natural gas", "Coal", "Petroleum coke", "Peat"],
+  "answer": "Natural gas"
+},
+{
+  "question": "Which fossil fuel formed largely from ancient terrestrial plant material compressed over millions of years?",
+  "options": ["Coal", "Natural gas only", "Uranium", "Hydrogen"],
+  "answer": "Coal"
+},
+{
+  "question": "What does biodegradable mean?",
+  "options": ["Capable of being decomposed naturally by microorganisms", "Unable to react chemically", "Permanently radioactive", "Impossible to recycle"],
+  "answer": "Capable of being decomposed naturally by microorganisms"
+},
+{
+  "question": "Which process converts used materials into new products?",
+  "options": ["Recycling", "Erosion", "Combustion", "Weathering"],
+  "answer": "Recycling"
+},
+{
+  "question": "What is desalination?",
+  "options": ["Removal of salts from saline water", "Addition of salt to freshwater", "Freezing seawater permanently", "Measuring ocean depth"],
+  "answer": "Removal of salts from saline water"
+},
+{
+  "question": "Which membrane-based process is widely used for desalinating seawater?",
+  "options": ["Reverse osmosis", "Chromatography", "Electroplating", "Fermentation"],
+  "answer": "Reverse osmosis"
+},
+{
+  "question": "Which instrument is used to measure the density or relative density of liquids?",
+  "options": ["Hydrometer", "Hygrometer", "Barometer", "Ammeter"],
+  "answer": "Hydrometer"
+},
+{
+  "question": "Which instrument measures electric current?",
+  "options": ["Ammeter", "Voltmeter", "Barometer", "Calorimeter"],
+  "answer": "Ammeter"
+},
+{
+  "question": "Which instrument measures potential difference between two points in an electric circuit?",
+  "options": ["Voltmeter", "Ammeter", "Ohmmeter only", "Hydrometer"],
+  "answer": "Voltmeter"
+},
+{
+  "question": "Which instrument is used to measure temperature?",
+  "options": ["Thermometer", "Barometer", "Altimeter", "Anemometer"],
+  "answer": "Thermometer"
+},
+{
+  "question": "Which device is used to measure very small diameters accurately using a calibrated screw?",
+  "options": ["Micrometer screw gauge", "Barometer", "Stopwatch", "Spring balance"],
+  "answer": "Micrometer screw gauge"
+},
+{
+  "question": "Which device allows precise measurement of internal and external dimensions using a sliding scale?",
+  "options": ["Vernier caliper", "Thermometer", "Hygrometer", "Galvanometer"],
+  "answer": "Vernier caliper"
+},
+{
+  "question": "Which instrument separates light into its component wavelengths for analysis?",
+  "options": ["Spectrometer", "Barometer", "Calorimeter", "Manometer"],
+  "answer": "Spectrometer"
+},
+{
+  "question": "Which instrument is used to observe objects too small to be clearly seen by the unaided eye?",
+  "options": ["Microscope", "Telescope", "Periscope", "Sextant"],
+  "answer": "Microscope"
+},
+{
+  "question": "Which type of microscope uses electrons instead of visible light to form highly magnified images?",
+  "options": ["Electron microscope", "Compound light microscope", "Stereo microscope", "Simple microscope"],
+  "answer": "Electron microscope"
+},
+{
+  "question": "Which device uses sound waves above the human hearing range for imaging and detection?",
+  "options": ["Ultrasound system", "Barometer", "Spectrometer", "Thermocouple"],
+  "answer": "Ultrasound system"
+},
+{
+  "question": "Which technology determines distance by sending laser light and measuring its return time?",
+  "options": ["LiDAR", "SONAR", "MRI", "ECG"],
+  "answer": "LiDAR"
+},
+{
+  "question": "SONAR primarily uses which type of waves?",
+  "options": ["Sound waves", "Radio waves", "X-rays", "Visible light"],
+  "answer": "Sound waves"
+},
+{
+  "question": "RADAR primarily uses which part of the electromagnetic spectrum?",
+  "options": ["Radio waves", "Sound waves", "Water waves", "Seismic waves"],
+  "answer": "Radio waves"
+},
+{
+  "question": "Which electromagnetic radiation has a shorter wavelength than visible light but a longer wavelength than X-rays?",
+  "options": ["Ultraviolet", "Infrared", "Microwave", "Radio"],
+  "answer": "Ultraviolet"
+},
+{
+  "question": "Which electromagnetic radiation is commonly associated with thermal imaging?",
+  "options": ["Infrared", "Ultraviolet", "Gamma rays", "X-rays"],
+  "answer": "Infrared"
+},
+{
+  "question": "Which electromagnetic waves are widely used in microwave ovens?",
+  "options": ["Microwaves", "Gamma rays", "Ultraviolet rays", "X-rays"],
+  "answer": "Microwaves"
+},
+{
+  "question": "Which electromagnetic radiation has the highest frequency?",
+  "options": ["Gamma rays", "X-rays", "Ultraviolet", "Radio waves"],
+  "answer": "Gamma rays"
+},
+{
+  "question": "Which radiation is commonly used to produce images of bones because it penetrates soft tissue more readily than bone?",
+  "options": ["X-rays", "Radio waves", "Microwaves", "Visible light"],
+  "answer": "X-rays"
+},
+{
+  "question": "Which material is commonly used as a semiconductor in electronic devices?",
+  "options": ["Silicon", "Copper", "Rubber", "Glass"],
+  "answer": "Silicon"
+},
+{
+  "question": "What is a superconductor?",
+  "options": ["A material that can exhibit zero electrical resistance below a critical temperature", "A perfect thermal insulator", "A material that cannot carry current", "A permanently radioactive material"],
+  "answer": "A material that can exhibit zero electrical resistance below a critical temperature"
+},
+{
+  "question": "Which material property describes resistance to permanent indentation or scratching?",
+  "options": ["Hardness", "Elasticity", "Density", "Conductivity"],
+  "answer": "Hardness"
+},
+{
+  "question": "Which property allows a material to be drawn into thin wires?",
+  "options": ["Ductility", "Malleability", "Brittleness", "Viscosity"],
+  "answer": "Ductility"
+},
+{
+  "question": "Which property allows a material to be hammered or rolled into thin sheets?",
+  "options": ["Malleability", "Ductility", "Brittleness", "Solubility"],
+  "answer": "Malleability"
+},
+{
+  "question": "Which type of material generally resists the flow of electric current?",
+  "options": ["Insulator", "Conductor", "Semiconductor only", "Superconductor"],
+  "answer": "Insulator"
+},
+{
+  "question": "Which phenomenon causes iron to deteriorate when exposed to oxygen and moisture?",
+  "options": ["Corrosion", "Sublimation", "Distillation", "Polymerization"],
+  "answer": "Corrosion"
+},
+{
+  "question": "What is galvanization commonly used for?",
+  "options": ["Protecting iron or steel with a zinc coating", "Producing pure oxygen", "Increasing water salinity", "Making glass transparent"],
+  "answer": "Protecting iron or steel with a zinc coating"
+},
+{
+  "question": "Which method separates liquids based on differences in their boiling points?",
+  "options": ["Distillation", "Filtration", "Sedimentation", "Magnetic separation"],
+  "answer": "Distillation"
+},
+{
+  "question": "Which method is best suited for separating an insoluble solid from a liquid?",
+  "options": ["Filtration", "Distillation", "Sublimation", "Crystallization only"],
+  "answer": "Filtration"
+},
+{
+  "question": "Which separation technique uses a rapidly rotating container to separate components based on density?",
+  "options": ["Centrifugation", "Evaporation", "Sieving", "Sublimation"],
+  "answer": "Centrifugation"
+},
+{
+  "question": "What is the SI base unit of temperature?",
+  "options": ["Kelvin", "Celsius", "Fahrenheit", "Joule"],
+  "answer": "Kelvin"
+},
+{
+  "question": "What is the SI base unit of luminous intensity?",
+  "options": ["Candela", "Lumen", "Lux", "Watt"],
+  "answer": "Candela"
+},
+{
+  "question": "What is the SI base unit of amount of substance?",
+  "options": ["Mole", "Gram", "Liter", "Dalton"],
+  "answer": "Mole"
+},
+{
+  "question": "Which prefix represents one billionth of a unit?",
+  "options": ["Nano", "Micro", "Milli", "Pico"],
+  "answer": "Nano"
+},
+{
+  "question": "Which prefix represents one millionth of a unit?",
+  "options": ["Micro", "Nano", "Milli", "Centi"],
+  "answer": "Micro"
+},
   {
     "question": "What is the basic unit of life?",
     "options": ["Atom", "Cell", "Tissue", "Organ"],
@@ -816,6 +1616,406 @@
   }
 ],
 "Physics": [
+{
+  "question": "A particle starts from rest with a constant acceleration of 4 m/s². What distance does it travel in 5 seconds?",
+  "options": ["25 m", "40 m", "50 m", "100 m"],
+  "answer": "50 m"
+},
+{
+  "question": "A body moving at 20 m/s is uniformly decelerated at 4 m/s². How long does it take to stop?",
+  "options": ["4 s", "5 s", "6 s", "8 s"],
+  "answer": "5 s"
+},
+{
+  "question": "A projectile is launched at 20 m/s at an angle of 30° above the horizontal. Taking g = 10 m/s², what is its maximum height?",
+  "options": ["2.5 m", "5 m", "10 m", "20 m"],
+  "answer": "5 m"
+},
+{
+  "question": "At what angle of projection is the horizontal range of a projectile maximum on level ground?",
+  "options": ["30°", "45°", "60°", "90°"],
+  "answer": "45°"
+},
+{
+  "question": "A car travels around a circular track of radius 50 m at 10 m/s. What is its centripetal acceleration?",
+  "options": ["1 m/s²", "2 m/s²", "5 m/s²", "10 m/s²"],
+  "answer": "2 m/s²"
+},
+{
+  "question": "If the speed of an object in uniform circular motion is doubled while the radius remains constant, its centripetal force becomes how many times larger?",
+  "options": ["2", "4", "6", "8"],
+  "answer": "4"
+},
+{
+  "question": "A 5 kg object experiences a net force of 30 N. What is its acceleration?",
+  "options": ["5 m/s²", "6 m/s²", "10 m/s²", "15 m/s²"],
+  "answer": "6 m/s²"
+},
+{
+  "question": "Which of Newton's laws directly explains why passengers move forward when a moving bus stops suddenly?",
+  "options": ["First law", "Second law", "Third law", "Law of gravitation"],
+  "answer": "First law"
+},
+{
+  "question": "A force of 20 N moves an object 5 m in the same direction as the force. How much work is done?",
+  "options": ["25 J", "50 J", "100 J", "200 J"],
+  "answer": "100 J"
+},
+{
+  "question": "What is the kinetic energy of a 4 kg object moving at 6 m/s?",
+  "options": ["36 J", "48 J", "72 J", "144 J"],
+  "answer": "72 J"
+},
+{
+  "question": "If the speed of an object is tripled, its kinetic energy becomes how many times greater?",
+  "options": ["3", "6", "9", "27"],
+  "answer": "9"
+},
+{
+  "question": "A 2 kg object is raised vertically by 10 m. Taking g = 10 m/s², what is the increase in gravitational potential energy?",
+  "options": ["20 J", "100 J", "200 J", "400 J"],
+  "answer": "200 J"
+},
+{
+  "question": "A machine performs 6000 J of work in 20 seconds. What is its power?",
+  "options": ["200 W", "300 W", "400 W", "600 W"],
+  "answer": "300 W"
+},
+{
+  "question": "What is the momentum of a 6 kg object moving at 8 m/s?",
+  "options": ["14 kg·m/s", "24 kg·m/s", "48 kg·m/s", "96 kg·m/s"],
+  "answer": "48 kg·m/s"
+},
+{
+  "question": "Which physical quantity is equal to the change in momentum of an object?",
+  "options": ["Impulse", "Power", "Torque", "Pressure"],
+  "answer": "Impulse"
+},
+{
+  "question": "A 2 kg object moving at 10 m/s collides with and sticks to a stationary 3 kg object. What is their common velocity immediately after collision?",
+  "options": ["2 m/s", "4 m/s", "5 m/s", "8 m/s"],
+  "answer": "4 m/s"
+},
+{
+  "question": "In a perfectly elastic collision, which two quantities are conserved?",
+  "options": ["Momentum and kinetic energy", "Force and acceleration", "Power and momentum", "Potential energy and force"],
+  "answer": "Momentum and kinetic energy"
+},
+{
+  "question": "What is the SI unit of torque?",
+  "options": ["N·m", "J/s", "kg·m/s", "N/m"],
+  "answer": "N·m"
+},
+{
+  "question": "A force of 10 N acts perpendicular to a lever arm 0.5 m from the pivot. What torque is produced?",
+  "options": ["2 N·m", "5 N·m", "10 N·m", "20 N·m"],
+  "answer": "5 N·m"
+},
+{
+  "question": "What is the moment of inertia of a point mass m located a distance r from the axis of rotation?",
+  "options": ["mr", "mr²", "m/r", "m²r"],
+  "answer": "mr²"
+},
+{
+  "question": "Which quantity is conserved when no external torque acts on a system?",
+  "options": ["Angular momentum", "Angular acceleration", "Moment of inertia", "Angular velocity always"],
+  "answer": "Angular momentum"
+},
+{
+  "question": "If the distance between two point masses is doubled, their gravitational force becomes what fraction of its original value?",
+  "options": ["1/2", "1/4", "1/8", "1/16"],
+  "answer": "1/4"
+},
+{
+  "question": "At a distance of 2R from Earth's center, where R is Earth's radius, gravitational acceleration is approximately what fraction of its surface value?",
+  "options": ["1/2", "1/4", "1/8", "1/16"],
+  "answer": "1/4"
+},
+{
+  "question": "What is the escape velocity from Earth's surface approximately?",
+  "options": ["7.9 km/s", "9.8 km/s", "11.2 km/s", "15.0 km/s"],
+  "answer": "11.2 km/s"
+},
+{
+  "question": "An astronaut in an orbiting spacecraft appears weightless primarily because the astronaut and spacecraft are both doing what?",
+  "options": ["Experiencing no gravity", "In continuous free fall", "Outside Earth's gravitational field", "Moving without acceleration"],
+  "answer": "In continuous free fall"
+},
+{
+  "question": "According to Kepler's third law, the square of a planet's orbital period is proportional to what?",
+  "options": ["Orbital radius", "Square of orbital radius", "Cube of the semi-major axis", "Inverse of orbital radius"],
+  "answer": "Cube of the semi-major axis"
+},
+{
+  "question": "What is the SI unit of pressure?",
+  "options": ["Pascal", "Joule", "Watt", "Tesla"],
+  "answer": "Pascal"
+},
+{
+  "question": "According to Pascal's principle, pressure applied to an enclosed fluid is transmitted how?",
+  "options": ["Only downward", "Equally throughout the fluid", "Only upward", "Only toward the container walls"],
+  "answer": "Equally throughout the fluid"
+},
+{
+  "question": "According to Archimedes' principle, the buoyant force on an immersed object equals what?",
+  "options": ["The object's mass", "The weight of displaced fluid", "The object's volume", "The fluid's total weight"],
+  "answer": "The weight of displaced fluid"
+},
+{
+  "question": "For steady flow of an incompressible fluid, if the cross-sectional area of a pipe decreases, what happens to the fluid speed?",
+  "options": ["It decreases", "It increases", "It becomes zero", "It remains unchanged"],
+  "answer": "It increases"
+},
+{
+  "question": "According to Bernoulli's principle, an increase in fluid speed is generally associated with what change in static pressure at the same height?",
+  "options": ["An increase", "A decrease", "No change", "An infinite increase"],
+  "answer": "A decrease"
+},
+{
+  "question": "A spring with spring constant 200 N/m is stretched by 0.05 m. What restoring force magnitude does it exert?",
+  "options": ["5 N", "10 N", "20 N", "40 N"],
+  "answer": "10 N"
+},
+{
+  "question": "What is the elastic potential energy stored in a spring of constant 100 N/m stretched by 0.2 m?",
+  "options": ["1 J", "2 J", "4 J", "10 J"],
+  "answer": "2 J"
+},
+{
+  "question": "What is the period of a simple pendulum of length L for small oscillations?",
+  "options": ["2π√(L/g)", "2π√(g/L)", "πL/g", "2πLg"],
+  "answer": "2π√(L/g)"
+},
+{
+  "question": "If the length of a simple pendulum is quadrupled, its period becomes how many times the original period?",
+  "options": ["2", "4", "8", "16"],
+  "answer": "2"
+},
+{
+  "question": "In simple harmonic motion, acceleration is proportional to displacement and directed in which way?",
+  "options": ["In the same direction", "Opposite to the displacement", "Perpendicular to displacement", "Randomly"],
+  "answer": "Opposite to the displacement"
+},
+{
+  "question": "What is the relationship between wave speed v, frequency f, and wavelength λ?",
+  "options": ["v = fλ", "v = f/λ", "v = λ/f", "v = f + λ"],
+  "answer": "v = fλ"
+},
+{
+  "question": "A wave has a frequency of 50 Hz and wavelength of 4 m. What is its speed?",
+  "options": ["12.5 m/s", "50 m/s", "100 m/s", "200 m/s"],
+  "answer": "200 m/s"
+},
+{
+  "question": "If the frequency of a wave doubles while its speed remains constant, what happens to its wavelength?",
+  "options": ["It doubles", "It halves", "It quadruples", "It remains unchanged"],
+  "answer": "It halves"
+},
+{
+  "question": "Which phenomenon occurs when two waves overlap and combine?",
+  "options": ["Interference", "Polarization", "Refraction only", "Dispersion only"],
+  "answer": "Interference"
+},
+{
+  "question": "Which wave phenomenon provides strong evidence for the transverse nature of light?",
+  "options": ["Polarization", "Reflection", "Refraction", "Dispersion"],
+  "answer": "Polarization"
+},
+{
+  "question": "What is the approximate speed of sound in air at room temperature?",
+  "options": ["34 m/s", "343 m/s", "3000 m/s", "3 × 10^8 m/s"],
+  "answer": "343 m/s"
+},
+{
+  "question": "The apparent change in frequency caused by relative motion between a source and observer is called what?",
+  "options": ["Doppler effect", "Photoelectric effect", "Compton effect", "Hall effect"],
+  "answer": "Doppler effect"
+},
+{
+  "question": "Which thermodynamic law expresses conservation of energy in a thermodynamic system?",
+  "options": ["First law", "Second law", "Third law", "Zeroth law"],
+  "answer": "First law"
+},
+{
+  "question": "Which thermodynamic quantity is a measure of the number of microscopic configurations consistent with a macroscopic state?",
+  "options": ["Entropy", "Pressure", "Temperature", "Power"],
+  "answer": "Entropy"
+},
+{
+  "question": "What is absolute zero on the Celsius scale?",
+  "options": ["-100°C", "-273.15°C", "-373.15°C", "0°C"],
+  "answer": "-273.15°C"
+},
+{
+  "question": "For an ideal gas at constant temperature, what happens to pressure when volume is halved?",
+  "options": ["It halves", "It doubles", "It quadruples", "It remains constant"],
+  "answer": "It doubles"
+},
+{
+  "question": "Which mode of heat transfer can occur through a vacuum?",
+  "options": ["Conduction", "Convection", "Radiation", "Conduction and convection"],
+  "answer": "Radiation"
+},
+{
+  "question": "How much heat is required to raise the temperature of 2 kg of a substance with specific heat capacity 500 J/(kg·K) by 10 K?",
+  "options": ["1000 J", "5000 J", "10000 J", "20000 J"],
+  "answer": "10000 J"
+},
+{
+  "question": "What is the SI unit of electric charge?",
+  "options": ["Ampere", "Coulomb", "Volt", "Ohm"],
+  "answer": "Coulomb"
+},
+{
+  "question": "According to Coulomb's law, if the distance between two point charges is tripled, the electrostatic force becomes what fraction of its original value?",
+  "options": ["1/3", "1/6", "1/9", "1/27"],
+  "answer": "1/9"
+},
+{
+  "question": "What is the direction of the electric field produced by a positive point charge?",
+  "options": ["Toward the charge", "Away from the charge", "Circular around the charge", "No fixed direction"],
+  "answer": "Away from the charge"
+},
+{
+  "question": "What is the electric potential difference across a 6 Ω resistor carrying a current of 3 A?",
+  "options": ["2 V", "9 V", "18 V", "36 V"],
+  "answer": "18 V"
+},
+{
+  "question": "Two resistors of 4 Ω and 6 Ω are connected in series. What is their equivalent resistance?",
+  "options": ["2.4 Ω", "5 Ω", "10 Ω", "24 Ω"],
+  "answer": "10 Ω"
+},
+{
+  "question": "Two resistors of 6 Ω and 3 Ω are connected in parallel. What is their equivalent resistance?",
+  "options": ["1 Ω", "2 Ω", "3 Ω", "9 Ω"],
+  "answer": "2 Ω"
+},
+{
+  "question": "A device operates at 12 V and draws 5 A. What electrical power does it consume?",
+  "options": ["17 W", "50 W", "60 W", "120 W"],
+  "answer": "60 W"
+},
+{
+  "question": "What is the energy stored in a capacitor of capacitance C charged to potential difference V?",
+  "options": ["CV", "CV²", "1/2 CV²", "1/2 C²V"],
+  "answer": "1/2 CV²"
+},
+{
+  "question": "If the plate area of an ideal parallel-plate capacitor is doubled while separation remains constant, its capacitance does what?",
+  "options": ["Halves", "Doubles", "Quadruples", "Remains unchanged"],
+  "answer": "Doubles"
+},
+{
+  "question": "What is the SI unit of magnetic flux density?",
+  "options": ["Weber", "Tesla", "Henry", "Farad"],
+  "answer": "Tesla"
+},
+{
+  "question": "A charged particle moving parallel to a uniform magnetic field experiences what magnetic force?",
+  "options": ["Maximum force", "Zero force", "A force parallel to the field", "An infinite force"],
+  "answer": "Zero force"
+},
+{
+  "question": "Which rule determines the direction of the magnetic field around a straight current-carrying conductor?",
+  "options": ["Right-hand grip rule", "Lenz's law", "Snell's law", "Hooke's law"],
+  "answer": "Right-hand grip rule"
+},
+{
+  "question": "Which law states that an induced emf is proportional to the rate of change of magnetic flux?",
+  "options": ["Faraday's law", "Ohm's law", "Coulomb's law", "Ampere's force law"],
+  "answer": "Faraday's law"
+},
+{
+  "question": "Which law determines the direction of an induced current so that it opposes the change producing it?",
+  "options": ["Lenz's law", "Gauss's law", "Newton's law", "Kirchhoff's law"],
+  "answer": "Lenz's law"
+},
+{
+  "question": "A transformer has 100 turns in its primary coil and 500 turns in its secondary coil. If the primary voltage is 20 V, what is the ideal secondary voltage?",
+  "options": ["4 V", "20 V", "100 V", "500 V"],
+  "answer": "100 V"
+},
+{
+  "question": "What type of current is required for a conventional transformer to operate continuously?",
+  "options": ["Alternating current", "Steady direct current", "Static charge", "No current"],
+  "answer": "Alternating current"
+},
+{
+  "question": "What is the approximate speed of light in vacuum?",
+  "options": ["3 × 10^6 m/s", "3 × 10^7 m/s", "3 × 10^8 m/s", "3 × 10^9 m/s"],
+  "answer": "3 × 10^8 m/s"
+},
+{
+  "question": "What happens to light when it passes from air into glass at an oblique angle?",
+  "options": ["It generally bends toward the normal", "It always bends away from the normal", "It stops", "Its frequency becomes zero"],
+  "answer": "It generally bends toward the normal"
+},
+{
+  "question": "Which law relates angles of incidence and refraction to the refractive indices of two media?",
+  "options": ["Snell's law", "Faraday's law", "Hooke's law", "Gauss's law"],
+  "answer": "Snell's law"
+},
+{
+  "question": "What is the refractive index of a medium in which light travels at 2 × 10^8 m/s?",
+  "options": ["1.0", "1.5", "2.0", "3.0"],
+  "answer": "1.5"
+},
+{
+  "question": "Which phenomenon separates white light into its component colors when passing through a prism?",
+  "options": ["Dispersion", "Diffraction", "Polarization", "Interference"],
+  "answer": "Dispersion"
+},
+{
+  "question": "A convex lens has a focal length of 0.25 m. What is its optical power?",
+  "options": ["2 D", "4 D", "-2 D", "-4 D"],
+  "answer": "4 D"
+},
+{
+  "question": "Which type of mirror is used to produce an enlarged upright image for shaving or makeup when the object is close to the mirror?",
+  "options": ["Concave mirror", "Convex mirror", "Plane mirror", "Cylindrical mirror"],
+  "answer": "Concave mirror"
+},
+{
+  "question": "Which phenomenon explains the spreading of waves around obstacles and through narrow openings?",
+  "options": ["Diffraction", "Reflection", "Polarization", "Refraction"],
+  "answer": "Diffraction"
+},
+{
+  "question": "According to Planck's relation, the energy of a photon is given by which expression?",
+  "options": ["E = hf", "E = mc", "E = h/f", "E = mv²"],
+  "answer": "E = hf"
+},
+{
+  "question": "Which experiment demonstrated the particle-like behavior of light through electron emission from a metal surface?",
+  "options": ["Photoelectric effect", "Young's double-slit experiment", "Michelson-Morley experiment", "Rutherford scattering"],
+  "answer": "Photoelectric effect"
+},
+{
+  "question": "According to de Broglie's hypothesis, the wavelength of a particle is equal to what?",
+  "options": ["h/p", "hp", "p/h", "hc"],
+  "answer": "h/p"
+},
+{
+  "question": "Which principle states that position and momentum cannot both be known simultaneously with arbitrary precision?",
+  "options": ["Heisenberg uncertainty principle", "Pauli exclusion principle", "Archimedes' principle", "Huygens' principle"],
+  "answer": "Heisenberg uncertainty principle"
+},
+{
+  "question": "In radioactive decay, after three half-lives what fraction of the original radioactive nuclei remains?",
+  "options": ["1/2", "1/4", "1/8", "1/16"],
+  "answer": "1/8"
+},
+{
+  "question": "Which nuclear process powers the Sun?",
+  "options": ["Nuclear fusion", "Nuclear fission", "Alpha decay", "Beta decay"],
+  "answer": "Nuclear fusion"
+},
+{
+  "question": "In Einstein's mass-energy equivalence relation E = mc², what does c represent?",
+  "options": ["Speed of light in vacuum", "Electric charge", "Specific heat capacity", "Coulomb constant"],
+  "answer": "Speed of light in vacuum"
+},
   {
     "question": "What is the SI unit of force?",
     "options": ["Joule", "Newton", "Watt", "Pascal"],
