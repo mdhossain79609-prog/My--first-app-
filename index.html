@@ -811,7 +811,34 @@ let currentQuestionIndex = 0;
 
 let score = 0;
 let answered = false;
+/* ==========================================
+   COINS / POINTS SYSTEM
+   ========================================== */
 
+let coins = Number(localStorage.getItem("worldQuizCoins")) || 0;
+
+function updateCoinsDisplay(){
+
+    document.getElementById("points").textContent = coins;
+
+}
+
+function addCoins(amount){
+
+    coins += amount;
+
+    localStorage.setItem(
+        "worldQuizCoins",
+        coins
+    );
+
+    updateCoinsDisplay();
+
+}
+
+/* Load saved coins when app starts */
+
+updateCoinsDisplay();
 
 /* BACK TO CATEGORIES */
 
