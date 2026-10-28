@@ -1534,6 +1534,406 @@
   "answer": "Mercury"
 },
 {
+  "question": "Which planet is the largest in the Solar System?",
+  "options": ["Saturn", "Earth", "Jupiter", "Neptune"],
+  "answer": "Jupiter"
+},
+{
+  "question": "Which planet is known as the Red Planet?",
+  "options": ["Mars", "Venus", "Mercury", "Jupiter"],
+  "answer": "Mars"
+},
+{
+  "question": "Which planet is famous for its prominent ring system?",
+  "options": ["Mars", "Saturn", "Venus", "Mercury"],
+  "answer": "Saturn"
+},
+{
+  "question": "What is the name of Earth's natural satellite?",
+  "options": ["Titan", "Europa", "Moon", "Phobos"],
+  "answer": "Moon"
+},
+{
+  "question": "What is the star at the center of our Solar System?",
+  "options": ["Sirius", "Polaris", "Sun", "Vega"],
+  "answer": "Sun"
+},
+{
+  "question": "What galaxy contains our Solar System?",
+  "options": ["Andromeda Galaxy", "Milky Way", "Whirlpool Galaxy", "Sombrero Galaxy"],
+  "answer": "Milky Way"
+},
+{
+  "question": "Which planet is often called Earth's twin because of its similar size?",
+  "options": ["Mars", "Venus", "Mercury", "Neptune"],
+  "answer": "Venus"
+},
+{
+  "question": "Which is the hottest planet in the Solar System?",
+  "options": ["Mercury", "Mars", "Venus", "Jupiter"],
+  "answer": "Venus"
+},
+{
+  "question": "Which planet has the shortest year?",
+  "options": ["Earth", "Mercury", "Mars", "Venus"],
+  "answer": "Mercury"
+},
+{
+  "question": "Which planet takes the longest time to orbit the Sun?",
+  "options": ["Uranus", "Saturn", "Neptune", "Jupiter"],
+  "answer": "Neptune"
+},
+{
+  "question": "What force keeps planets in orbit around the Sun?",
+  "options": ["Magnetism", "Gravity", "Friction", "Electricity"],
+  "answer": "Gravity"
+},
+{
+  "question": "Who formulated the laws of planetary motion?",
+  "options": ["Isaac Newton", "Johannes Kepler", "Albert Einstein", "Edwin Hubble"],
+  "answer": "Johannes Kepler"
+},
+{
+  "question": "Who proposed the heliocentric model of the Solar System?",
+  "options": ["Nicolaus Copernicus", "Ptolemy", "Aristotle", "Isaac Newton"],
+  "answer": "Nicolaus Copernicus"
+},
+{
+  "question": "Who discovered four large moons orbiting Jupiter in 1610?",
+  "options": ["Galileo Galilei", "Edwin Hubble", "Tycho Brahe", "Johannes Kepler"],
+  "answer": "Galileo Galilei"
+},
+{
+  "question": "Which is the largest moon in the Solar System?",
+  "options": ["Titan", "Ganymede", "Europa", "Earth's Moon"],
+  "answer": "Ganymede"
+},
+{
+  "question": "Ganymede is a moon of which planet?",
+  "options": ["Saturn", "Jupiter", "Neptune", "Uranus"],
+  "answer": "Jupiter"
+},
+{
+  "question": "Titan is the largest moon of which planet?",
+  "options": ["Mars", "Saturn", "Jupiter", "Neptune"],
+  "answer": "Saturn"
+},
+{
+  "question": "Which planet has two moons named Phobos and Deimos?",
+  "options": ["Mars", "Venus", "Mercury", "Earth"],
+  "answer": "Mars"
+},
+{
+  "question": "Which planet rotates on its side with an extreme axial tilt?",
+  "options": ["Saturn", "Uranus", "Mars", "Jupiter"],
+  "answer": "Uranus"
+},
+{
+  "question": "Which planet has the Great Red Spot?",
+  "options": ["Saturn", "Mars", "Jupiter", "Neptune"],
+  "answer": "Jupiter"
+},
+{
+  "question": "What is the Great Red Spot on Jupiter?",
+  "options": ["A volcano", "A giant storm", "A crater", "A mountain"],
+  "answer": "A giant storm"
+},
+{
+  "question": "What is the approximate age of the Solar System?",
+  "options": ["460 million years", "4.6 billion years", "13.8 billion years", "46 billion years"],
+  "answer": "4.6 billion years"
+},
+{
+  "question": "What is the approximate age of the universe?",
+  "options": ["4.6 billion years", "8.2 billion years", "13.8 billion years", "25 billion years"],
+  "answer": "13.8 billion years"
+},
+{
+  "question": "What theory best explains the origin and expansion of the universe?",
+  "options": ["Big Bang theory", "Cell theory", "Plate tectonics", "Evolution theory"],
+  "answer": "Big Bang theory"
+},
+{
+  "question": "What is a light-year a unit of?",
+  "options": ["Time", "Distance", "Speed", "Brightness"],
+  "answer": "Distance"
+},
+{
+  "question": "Approximately how far does light travel in one second?",
+  "options": ["300 km", "3,000 km", "30,000 km", "300,000 km"],
+  "answer": "300,000 km"
+},
+{
+  "question": "What is the closest star to Earth?",
+  "options": ["Proxima Centauri", "Sirius", "Sun", "Betelgeuse"],
+  "answer": "Sun"
+},
+{
+  "question": "What is the closest known star to the Sun?",
+  "options": ["Sirius", "Proxima Centauri", "Vega", "Polaris"],
+  "answer": "Proxima Centauri"
+},
+{
+  "question": "Which star is commonly known as the North Star?",
+  "options": ["Sirius", "Polaris", "Vega", "Rigel"],
+  "answer": "Polaris"
+},
+{
+  "question": "Which is the brightest star in Earth's night sky?",
+  "options": ["Sirius", "Polaris", "Betelgeuse", "Vega"],
+  "answer": "Sirius"
+},
+{
+  "question": "Which constellation contains the stars Betelgeuse and Rigel?",
+  "options": ["Orion", "Ursa Major", "Cassiopeia", "Leo"],
+  "answer": "Orion"
+},
+{
+  "question": "What is a constellation?",
+  "options": ["A type of planet", "A recognized pattern or region of stars in the sky", "A group of moons", "A type of asteroid"],
+  "answer": "A recognized pattern or region of stars in the sky"
+},
+{
+  "question": "What is a nebula?",
+  "options": ["A cloud of gas and dust in space", "A rocky planet", "A type of moon", "A black hole only"],
+  "answer": "A cloud of gas and dust in space"
+},
+{
+  "question": "What is a supernova?",
+  "options": ["A newly formed planet", "A powerful stellar explosion", "A type of asteroid", "A solar eclipse"],
+  "answer": "A powerful stellar explosion"
+},
+{
+  "question": "What is a black hole?",
+  "options": ["An empty region with no matter", "A region where gravity is extremely strong", "A dark planet", "A cold star"],
+  "answer": "A region where gravity is extremely strong"
+},
+{
+  "question": "What is the boundary around a black hole beyond which nothing can escape called?",
+  "options": ["Asteroid belt", "Event horizon", "Magnetosphere", "Corona"],
+  "answer": "Event horizon"
+},
+{
+  "question": "Which type of star is the Sun?",
+  "options": ["Red giant", "White dwarf", "G-type main-sequence star", "Neutron star"],
+  "answer": "G-type main-sequence star"
+},
+{
+  "question": "What process produces most of the Sun's energy?",
+  "options": ["Nuclear fission", "Nuclear fusion", "Combustion", "Chemical reaction"],
+  "answer": "Nuclear fusion"
+},
+{
+  "question": "Which element is the main fuel for nuclear fusion in the Sun?",
+  "options": ["Oxygen", "Carbon", "Hydrogen", "Iron"],
+  "answer": "Hydrogen"
+},
+{
+  "question": "What is the visible surface of the Sun called?",
+  "options": ["Photosphere", "Core", "Chromosphere", "Corona"],
+  "answer": "Photosphere"
+},
+{
+  "question": "What is the outermost atmosphere of the Sun called?",
+  "options": ["Core", "Corona", "Mantle", "Photosphere"],
+  "answer": "Corona"
+},
+{
+  "question": "What are sunspots?",
+  "options": ["Cooler, darker regions on the Sun's surface", "Holes in the Sun", "Moons of the Sun", "Asteroids near the Sun"],
+  "answer": "Cooler, darker regions on the Sun's surface"
+},
+{
+  "question": "What causes day and night on Earth?",
+  "options": ["Earth's revolution", "Earth's rotation", "The Moon's orbit", "Solar wind"],
+  "answer": "Earth's rotation"
+},
+{
+  "question": "Approximately how long does Earth take to orbit the Sun?",
+  "options": ["24 hours", "30 days", "365.25 days", "100 days"],
+  "answer": "365.25 days"
+},
+{
+  "question": "What is the main cause of Earth's seasons?",
+  "options": ["Changing distance from the Sun", "Earth's axial tilt", "The Moon's gravity", "Solar eclipses"],
+  "answer": "Earth's axial tilt"
+},
+{
+  "question": "What occurs during a solar eclipse?",
+  "options": ["Earth moves between the Sun and Moon", "The Moon moves between Earth and the Sun", "Mars blocks the Sun", "The Sun disappears permanently"],
+  "answer": "The Moon moves between Earth and the Sun"
+},
+{
+  "question": "What occurs during a lunar eclipse?",
+  "options": ["The Moon moves between Earth and the Sun", "Earth moves between the Sun and Moon", "Venus blocks the Moon", "The Moon stops orbiting Earth"],
+  "answer": "Earth moves between the Sun and Moon"
+},
+{
+  "question": "What causes the phases of the Moon?",
+  "options": ["Earth's shadow always covering the Moon", "Changing views of the Moon's sunlit half", "Clouds in Earth's atmosphere", "Changes in the Moon's size"],
+  "answer": "Changing views of the Moon's sunlit half"
+},
+{
+  "question": "What is the name of the first human to walk on the Moon?",
+  "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"],
+  "answer": "Neil Armstrong"
+},
+{
+  "question": "In which year did humans first land on the Moon?",
+  "options": ["1957", "1961", "1969", "1975"],
+  "answer": "1969"
+},
+{
+  "question": "Which mission first landed humans on the Moon?",
+  "options": ["Apollo 8", "Apollo 11", "Apollo 13", "Gemini 4"],
+  "answer": "Apollo 11"
+},
+{
+  "question": "Who was the first human to travel into space?",
+  "options": ["Neil Armstrong", "Yuri Gagarin", "Alan Shepard", "Buzz Aldrin"],
+  "answer": "Yuri Gagarin"
+},
+{
+  "question": "Who was the first woman to travel into space?",
+  "options": ["Sally Ride", "Valentina Tereshkova", "Mae Jemison", "Svetlana Savitskaya"],
+  "answer": "Valentina Tereshkova"
+},
+{
+  "question": "What was the first artificial satellite launched into orbit?",
+  "options": ["Explorer 1", "Sputnik 1", "Vostok 1", "Luna 2"],
+  "answer": "Sputnik 1"
+},
+{
+  "question": "Which country launched Sputnik 1?",
+  "options": ["United States", "Soviet Union", "China", "France"],
+  "answer": "Soviet Union"
+},
+{
+  "question": "What does ISS stand for?",
+  "options": ["International Space Station", "Interstellar Science System", "International Satellite Service", "Integrated Space Shuttle"],
+  "answer": "International Space Station"
+},
+{
+  "question": "What is the primary purpose of a space telescope?",
+  "options": ["To observe astronomical objects from above Earth's atmosphere", "To control satellites", "To produce gravity", "To create stars"],
+  "answer": "To observe astronomical objects from above Earth's atmosphere"
+},
+{
+  "question": "Which famous space telescope was launched in 1990?",
+  "options": ["Hubble Space Telescope", "James Webb Space Telescope", "Kepler Space Telescope", "Spitzer Space Telescope"],
+  "answer": "Hubble Space Telescope"
+},
+{
+  "question": "Which space telescope was launched in December 2021 as a major infrared observatory?",
+  "options": ["Hubble Space Telescope", "James Webb Space Telescope", "Kepler Space Telescope", "Chandra X-ray Observatory"],
+  "answer": "James Webb Space Telescope"
+},
+{
+  "question": "What is an exoplanet?",
+  "options": ["A planet outside our Solar System", "A moon of Jupiter", "A dwarf planet", "A planet without an atmosphere"],
+  "answer": "A planet outside our Solar System"
+},
+{
+  "question": "What is an asteroid?",
+  "options": ["A small rocky body orbiting the Sun", "A type of galaxy", "A newborn star", "A cloud of hydrogen only"],
+  "answer": "A small rocky body orbiting the Sun"
+},
+{
+  "question": "Where is the main asteroid belt located?",
+  "options": ["Between Earth and Mars", "Between Mars and Jupiter", "Between Jupiter and Saturn", "Beyond Neptune only"],
+  "answer": "Between Mars and Jupiter"
+},
+{
+  "question": "What is a comet primarily composed of?",
+  "options": ["Ice, dust, and rocky material", "Liquid iron only", "Hydrogen gas only", "Molten rock only"],
+  "answer": "Ice, dust, and rocky material"
+},
+{
+  "question": "Why does a comet develop a tail when it approaches the Sun?",
+  "options": ["Its material heats up and releases gas and dust", "It collides with planets", "Its gravity disappears", "It begins nuclear fusion"],
+  "answer": "Its material heats up and releases gas and dust"
+},
+{
+  "question": "In which direction does a comet's tail generally point?",
+  "options": ["Toward the Sun", "Away from the Sun", "Toward Earth", "Toward Jupiter"],
+  "answer": "Away from the Sun"
+},
+{
+  "question": "What is a meteoroid?",
+  "options": ["A small rocky or metallic object traveling through space", "A star larger than the Sun", "A moon with an atmosphere", "A type of galaxy"],
+  "answer": "A small rocky or metallic object traveling through space"
+},
+{
+  "question": "What is a meteor?",
+  "options": ["A meteoroid producing a streak of light in an atmosphere", "A rock resting on the Moon", "A dwarf planet", "A distant galaxy"],
+  "answer": "A meteoroid producing a streak of light in an atmosphere"
+},
+{
+  "question": "What is a meteorite?",
+  "options": ["A meteor that reaches the ground", "A star that explodes", "A moon orbiting Mars", "A cloud of gas"],
+  "answer": "A meteor that reaches the ground"
+},
+{
+  "question": "Which dwarf planet was once classified as the ninth planet?",
+  "options": ["Ceres", "Eris", "Pluto", "Haumea"],
+  "answer": "Pluto"
+},
+{
+  "question": "In which region of the Solar System is Pluto located?",
+  "options": ["Asteroid Belt", "Kuiper Belt", "Oort Cloud only", "Van Allen Belt"],
+  "answer": "Kuiper Belt"
+},
+{
+  "question": "Which dwarf planet is located in the asteroid belt?",
+  "options": ["Pluto", "Eris", "Ceres", "Makemake"],
+  "answer": "Ceres"
+},
+{
+  "question": "What is the Kuiper Belt?",
+  "options": ["A region of icy bodies beyond Neptune", "A ring around Saturn", "A region inside the Sun", "A belt around Earth"],
+  "answer": "A region of icy bodies beyond Neptune"
+},
+{
+  "question": "Which galaxy is the nearest large galaxy to the Milky Way?",
+  "options": ["Andromeda Galaxy", "Sombrero Galaxy", "Whirlpool Galaxy", "Pinwheel Galaxy"],
+  "answer": "Andromeda Galaxy"
+},
+{
+  "question": "What type of galaxy is the Milky Way?",
+  "options": ["Elliptical galaxy", "Barred spiral galaxy", "Irregular galaxy", "Ring galaxy"],
+  "answer": "Barred spiral galaxy"
+},
+{
+  "question": "What is located at the center of the Milky Way Galaxy?",
+  "options": ["A giant planet", "A supermassive black hole", "The Sun", "A white dwarf"],
+  "answer": "A supermassive black hole"
+},
+{
+  "question": "What is the name of the supermassive black hole at the center of the Milky Way?",
+  "options": ["Cygnus X-1", "Sagittarius A*", "Betelgeuse", "Proxima Centauri"],
+  "answer": "Sagittarius A*"
+},
+{
+  "question": "What is a neutron star?",
+  "options": ["A dense remnant of a massive star", "A newly formed planet", "A type of comet", "A cloud of dark matter"],
+  "answer": "A dense remnant of a massive star"
+},
+{
+  "question": "What is a pulsar?",
+  "options": ["A rapidly rotating neutron star that emits beams of radiation", "A planet orbiting two stars", "A type of asteroid", "A young galaxy"],
+  "answer": "A rapidly rotating neutron star that emits beams of radiation"
+},
+{
+  "question": "What is a white dwarf?",
+  "options": ["A stellar remnant left by a low- or medium-mass star", "A small galaxy", "A moon covered in ice", "A type of black hole"],
+  "answer": "A stellar remnant left by a low- or medium-mass star"
+ },
+  {
+  "question": "Which planet is closest to the Sun?",
+  "options": ["Venus", "Mercury", "Earth", "Mars"],
+  "answer": "Mercury"
+},
+{
   "question": "Which planet is known as the Red Planet?",
   "options": ["Jupiter", "Mars", "Venus", "Saturn"],
   "answer": "Mars"
@@ -1630,6 +2030,321 @@
 }
 ],
 "Government & Competitive Exam": [
+{
+  "question": "What is the supreme law of a country generally called?",
+  "options": ["Constitution", "Budget", "Policy", "Decree"],
+  "answer": "Constitution"
+},
+{
+  "question": "What is democracy?",
+  "options": ["Government by the people", "Government by one person", "Military rule", "Rule by judges"],
+  "answer": "Government by the people"
+},
+{
+  "question": "Which branch of government generally makes laws?",
+  "options": ["Executive", "Legislative", "Judicial", "Military"],
+  "answer": "Legislative"
+},
+{
+  "question": "Which branch of government generally enforces laws?",
+  "options": ["Executive", "Legislative", "Judicial", "Electoral"],
+  "answer": "Executive"
+},
+{
+  "question": "Which branch of government interprets laws?",
+  "options": ["Executive", "Legislative", "Judicial", "Administrative"],
+  "answer": "Judicial"
+},
+{
+  "question": "What is a parliament?",
+  "options": ["A legislative body", "A court", "A police department", "A central bank"],
+  "answer": "A legislative body"
+},
+{
+  "question": "What is an election?",
+  "options": ["A process of choosing representatives or leaders by voting", "A court hearing", "A tax collection process", "A military exercise"],
+  "answer": "A process of choosing representatives or leaders by voting"
+},
+{
+  "question": "What is a constitution?",
+  "options": ["A framework of fundamental laws and principles of a state", "A political party", "A tax document", "A court order"],
+  "answer": "A framework of fundamental laws and principles of a state"
+},
+{
+  "question": "What is the rule of law?",
+  "options": ["The principle that everyone is subject to the law", "Rule by a single person", "Rule by the military", "Rule without laws"],
+  "answer": "The principle that everyone is subject to the law"
+},
+{
+  "question": "What is a citizen?",
+  "options": ["A legally recognized member of a country", "A foreign tourist", "A temporary visitor", "A government building"],
+  "answer": "A legally recognized member of a country"
+},
+{
+  "question": "What is suffrage?",
+  "options": ["The right to vote", "The right to own land only", "The right to travel", "The right to work"],
+  "answer": "The right to vote"
+},
+{
+  "question": "What is a referendum?",
+  "options": ["A direct vote by citizens on a specific issue", "A court trial", "A parliamentary speech", "A government budget"],
+  "answer": "A direct vote by citizens on a specific issue"
+},
+{
+  "question": "What is a political party?",
+  "options": ["An organized group seeking political power or influence", "A sports organization", "A private bank", "A court"],
+  "answer": "An organized group seeking political power or influence"
+},
+{
+  "question": "What is a coalition government?",
+  "options": ["A government formed by multiple political parties", "A government run by the military", "A government with no parliament", "A government run by courts"],
+  "answer": "A government formed by multiple political parties"
+},
+{
+  "question": "What is a cabinet?",
+  "options": ["A group of senior government ministers", "A group of judges", "A group of voters", "A group of journalists"],
+  "answer": "A group of senior government ministers"
+},
+{
+  "question": "What is a prime minister?",
+  "options": ["The head of government in many parliamentary systems", "The head of every court", "The head of the central bank", "The head of the military in every country"],
+  "answer": "The head of government in many parliamentary systems"
+},
+{
+  "question": "What is a president?",
+  "options": ["A head of state in many countries", "Always the head of government", "Always a judge", "Always a military commander"],
+  "answer": "A head of state in many countries"
+},
+{
+  "question": "What is federalism?",
+  "options": ["A system dividing powers between central and regional governments", "Rule by one person", "Rule by courts only", "A system without local government"],
+  "answer": "A system dividing powers between central and regional governments"
+},
+{
+  "question": "What is a unitary state?",
+  "options": ["A state where central government holds primary constitutional authority", "A state with no central government", "A state ruled only by courts", "A state without laws"],
+  "answer": "A state where central government holds primary constitutional authority"
+},
+{
+  "question": "What is separation of powers?",
+  "options": ["Dividing government powers among different branches", "Dividing a country into countries", "Dividing voters by age", "Dividing political parties"],
+  "answer": "Dividing government powers among different branches"
+},
+{
+  "question": "What is a legislature?",
+  "options": ["A body that makes laws", "A body that only interprets laws", "A police force", "A bank"],
+  "answer": "A body that makes laws"
+},
+{
+  "question": "What is the judiciary?",
+  "options": ["The system of courts and judges", "The parliament", "The cabinet", "The election commission"],
+  "answer": "The system of courts and judges"
+},
+{
+  "question": "What is the executive branch?",
+  "options": ["The branch responsible for implementing laws and governing", "The branch that only makes laws", "The branch that only interprets laws", "The branch that conducts elections only"],
+  "answer": "The branch responsible for implementing laws and governing"
+},
+{
+  "question": "What is public administration?",
+  "options": ["The management and implementation of government policies and services", "Private business management", "Sports management", "Personal finance"],
+  "answer": "The management and implementation of government policies and services"
+},
+{
+  "question": "What is a civil servant?",
+  "options": ["A government employee working in public administration", "A private company owner", "A professional athlete", "A political party"],
+  "answer": "A government employee working in public administration"
+},
+{
+  "question": "What is public policy?",
+  "options": ["A course of action adopted by a government to address public issues", "A company's advertisement", "A personal opinion", "A sports rule"],
+  "answer": "A course of action adopted by a government to address public issues"
+},
+{
+  "question": "What is taxation?",
+  "options": ["The compulsory collection of money by government", "Voluntary charity", "Bank lending", "Business investment"],
+  "answer": "The compulsory collection of money by government"
+},
+{
+  "question": "What is a government budget?",
+  "options": ["A plan for government revenue and expenditure", "A private company's salary list", "A court judgment", "An election result"],
+  "answer": "A plan for government revenue and expenditure"
+},
+{
+  "question": "What is a national census?",
+  "options": ["An official count and collection of information about a population", "A national election", "A tax court", "A military exercise"],
+  "answer": "An official count and collection of information about a population"
+},
+{
+  "question": "What is diplomacy?",
+  "options": ["The conduct of relations between countries through negotiation and communication", "A military battle", "A domestic election", "A court trial"],
+  "answer": "The conduct of relations between countries through negotiation and communication"
+},
+{
+  "question": "What is a treaty?",
+  "options": ["A formal agreement between countries or international actors", "A local election", "A court building", "A tax receipt"],
+  "answer": "A formal agreement between countries or international actors"
+},
+{
+  "question": "What is an ambassador?",
+  "options": ["A senior diplomatic representative of a country", "A military soldier", "A judge", "A central banker"],
+  "answer": "A senior diplomatic representative of a country"
+},
+{
+  "question": "What does UN stand for?",
+  "options": ["United Nations", "Universal Network", "United Negotiations", "Union of Nations"],
+  "answer": "United Nations"
+},
+{
+  "question": "Where is the headquarters of the United Nations located?",
+  "options": ["London", "New York City", "Geneva", "Paris"],
+  "answer": "New York City"
+},
+{
+  "question": "What does WHO stand for?",
+  "options": ["World Health Organization", "World Human Office", "World Housing Organization", "World Help Organization"],
+  "answer": "World Health Organization"
+},
+{
+  "question": "What does UNESCO stand for?",
+  "options": ["United Nations Educational, Scientific and Cultural Organization", "United Nations Economic and Social Council", "Universal Education and Science Council", "United Nations Environmental Security Organization"],
+  "answer": "United Nations Educational, Scientific and Cultural Organization"
+},
+{
+  "question": "What does IMF stand for?",
+  "options": ["International Monetary Fund", "International Market Federation", "International Money Forum", "Internal Monetary Foundation"],
+  "answer": "International Monetary Fund"
+},
+{
+  "question": "What does WTO stand for?",
+  "options": ["World Trade Organization", "World Transport Office", "World Tax Organization", "World Tourism Office"],
+  "answer": "World Trade Organization"
+},
+{
+  "question": "What does GDP measure?",
+  "options": ["The value of final goods and services produced within an economy", "Only government spending", "Only exports", "Only household savings"],
+  "answer": "The value of final goods and services produced within an economy"
+},
+{
+  "question": "What is human rights?",
+  "options": ["Basic rights and freedoms belonging to all people", "Rights only for government officials", "Rights only for citizens of one city", "Business privileges"],
+  "answer": "Basic rights and freedoms belonging to all people"
+},
+{
+  "question": "What is freedom of speech?",
+  "options": ["The right to express opinions within lawful limits", "The right to break any law", "The right to avoid all taxes", "The right to control elections"],
+  "answer": "The right to express opinions within lawful limits"
+},
+{
+  "question": "What is equality before the law?",
+  "options": ["People are subject to the same laws and legal principles", "Only wealthy people follow laws", "Government officials are above all laws", "Courts cannot make decisions"],
+  "answer": "People are subject to the same laws and legal principles"
+},
+{
+  "question": "What is corruption?",
+  "options": ["Abuse of entrusted power for private gain", "Normal government service", "A legal election", "A public holiday"],
+  "answer": "Abuse of entrusted power for private gain"
+},
+{
+  "question": "What is bribery?",
+  "options": ["Offering or receiving something of value to improperly influence an action", "Paying a normal tax", "Making a legal donation", "Voting in an election"],
+  "answer": "Offering or receiving something of value to improperly influence an action"
+},
+{
+  "question": "What is accountability in government?",
+  "options": ["The obligation of officials to explain and take responsibility for their actions", "Freedom from all oversight", "Avoiding public records", "Ignoring citizens"],
+  "answer": "The obligation of officials to explain and take responsibility for their actions"
+},
+{
+  "question": "What is transparency?",
+  "options": ["Openness and accessibility of information and decision-making", "Keeping all government information secret", "Avoiding elections", "Removing public records"],
+  "answer": "Openness and accessibility of information and decision-making"
+},
+{
+  "question": "What is the purpose of a constitution?",
+  "options": ["To establish the basic structure, powers and principles of government", "To set daily market prices", "To regulate sports", "To create private companies"],
+  "answer": "To establish the basic structure, powers and principles of government"
+},
+{
+  "question": "What is judicial review?",
+  "options": ["The power of courts to assess the legality or constitutionality of government actions", "A parliamentary election", "A tax collection process", "A diplomatic meeting"],
+  "answer": "The power of courts to assess the legality or constitutionality of government actions"
+},
+{
+  "question": "What is a veto?",
+  "options": ["The power to reject or block a proposed decision or law", "The power to create money", "The power to appoint every citizen", "The power to collect taxes"],
+  "answer": "The power to reject or block a proposed decision or law"
+},
+{
+  "question": "What is impeachment?",
+  "options": ["A formal process for accusing a high public official of serious misconduct", "A national election", "A tax reduction", "A diplomatic agreement"],
+  "answer": "A formal process for accusing a high public official of serious misconduct"
+},
+{
+  "question": "What is political opposition?",
+  "options": ["Parties or groups that challenge the governing party or government", "The government cabinet only", "The judiciary", "The central bank"],
+  "answer": "Parties or groups that challenge the governing party or government"
+},
+{
+  "question": "What is a constituency?",
+  "options": ["An electoral area represented by an elected official", "A government ministry", "A court room", "A political speech"],
+  "answer": "An electoral area represented by an elected official"
+},
+{
+  "question": "What is a ballot?",
+  "options": ["A method or paper used to cast a vote", "A government budget", "A court judgment", "A tax document"],
+  "answer": "A method or paper used to cast a vote"
+},
+{
+  "question": "What is voter turnout?",
+  "options": ["The percentage or number of eligible voters who cast ballots", "The number of political parties", "The number of candidates only", "The size of parliament"],
+  "answer": "The percentage or number of eligible voters who cast ballots"
+},
+{
+  "question": "What is an electoral commission generally responsible for?",
+  "options": ["Administering elections", "Running hospitals", "Managing private banks", "Setting sports rules"],
+  "answer": "Administering elections"
+},
+{
+  "question": "What is merit-based recruitment?",
+  "options": ["Selecting candidates based on qualifications and performance", "Selecting candidates only by family connection", "Selecting candidates by wealth only", "Selecting candidates randomly"],
+  "answer": "Selecting candidates based on qualifications and performance"
+},
+{
+  "question": "What is general knowledge commonly tested in competitive exams?",
+  "options": ["Knowledge of history, geography, science, current affairs and society", "Only advanced mathematics", "Only physical fitness", "Only computer programming"],
+  "answer": "Knowledge of history, geography, science, current affairs and society"
+},
+{
+  "question": "Which branch of government is most directly responsible for interpreting the constitution in many constitutional systems?",
+  "options": ["Judiciary", "Legislature", "Executive", "Police"],
+  "answer": "Judiciary"
+},
+{
+  "question": "What is decentralization?",
+  "options": ["Transfer of authority from central government to lower levels", "Concentration of all power at the center", "Removal of all local government", "Abolition of elections"],
+  "answer": "Transfer of authority from central government to lower levels"
+},
+{
+  "question": "What is local government?",
+  "options": ["Government operating at a local or municipal level", "The national parliament only", "The supreme court only", "The central bank"],
+  "answer": "Government operating at a local or municipal level"
+},
+{
+  "question": "What is national sovereignty?",
+  "options": ["The authority of a state to govern itself", "The power of a private company", "The authority of a sports club", "The power of a local shop"],
+  "answer": "The authority of a state to govern itself"
+},
+{
+  "question": "What is a public service?",
+  "options": ["A service provided or supported for the benefit of the public", "A private luxury product", "A personal hobby", "A commercial advertisement"],
+  "answer": "A service provided or supported for the benefit of the public"
+},
+{
+  "question": "What is good governance generally associated with?",
+  "options": ["Accountability, transparency, effectiveness and rule of law", "Corruption and secrecy", "No public participation", "Unlimited government power"],
+  "answer": "Accountability, transparency, effectiveness and rule of law"
+ },
   {
     "question": "What is the primary purpose of a constitution?",
     "options": ["To regulate international trade", "To establish the fundamental principles of government", "To control private businesses", "To manage local transportation"],
