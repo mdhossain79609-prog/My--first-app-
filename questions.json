@@ -1224,7 +1224,507 @@
   }
 ],
   "Animals & Wildlife": [
-    {
+{
+  "question": "What is the largest living animal on Earth?",
+  "options": ["African Elephant", "Blue Whale", "Whale Shark", "Giraffe"],
+  "answer": "Blue Whale"
+},
+{
+  "question": "What is the largest living land animal?",
+  "options": ["Hippopotamus", "African Elephant", "White Rhinoceros", "Giraffe"],
+  "answer": "African Elephant"
+},
+{
+  "question": "Which animal is the tallest living land animal?",
+  "options": ["Camel", "Elephant", "Giraffe", "Ostrich"],
+  "answer": "Giraffe"
+},
+{
+  "question": "Which is the fastest land animal?",
+  "options": ["Lion", "Cheetah", "Pronghorn", "Leopard"],
+  "answer": "Cheetah"
+},
+{
+  "question": "Which is the largest living species of cat?",
+  "options": ["Lion", "Tiger", "Jaguar", "Leopard"],
+  "answer": "Tiger"
+},
+{
+  "question": "What is a group of lions called?",
+  "options": ["Pack", "Pride", "Herd", "Colony"],
+  "answer": "Pride"
+},
+{
+  "question": "Which big cat is native to the Americas?",
+  "options": ["Tiger", "Jaguar", "Lion", "Snow Leopard"],
+  "answer": "Jaguar"
+},
+{
+  "question": "Which big cat is especially adapted to high mountains in Central and South Asia?",
+  "options": ["Cheetah", "Snow Leopard", "Jaguar", "Lion"],
+  "answer": "Snow Leopard"
+},
+{
+  "question": "Which mammal is known for having black-and-white stripes?",
+  "options": ["Zebra", "Okapi", "Gazelle", "Wildebeest"],
+  "answer": "Zebra"
+},
+{
+  "question": "Which animal has a long trunk used for breathing, smelling, and grasping?",
+  "options": ["Rhinoceros", "Elephant", "Tapir", "Hippopotamus"],
+  "answer": "Elephant"
+},
+{
+  "question": "Which animal is famous for changing its skin color for communication and camouflage?",
+  "options": ["Chameleon", "Iguana", "Crocodile", "Tortoise"],
+  "answer": "Chameleon"
+},
+{
+  "question": "Which mammal is capable of true sustained flight?",
+  "options": ["Flying Squirrel", "Bat", "Sugar Glider", "Colugo"],
+  "answer": "Bat"
+},
+{
+  "question": "Which animal is the largest living primate?",
+  "options": ["Chimpanzee", "Orangutan", "Gorilla", "Baboon"],
+  "answer": "Gorilla"
+},
+{
+  "question": "Which great ape is naturally found only in Asia?",
+  "options": ["Gorilla", "Chimpanzee", "Orangutan", "Bonobo"],
+  "answer": "Orangutan"
+},
+{
+  "question": "Which animal is closely related to the chimpanzee and lives naturally in the Democratic Republic of the Congo?",
+  "options": ["Bonobo", "Gibbon", "Baboon", "Macaque"],
+  "answer": "Bonobo"
+},
+{
+  "question": "Which animal is famous for building dams in rivers and streams?",
+  "options": ["Otter", "Beaver", "Muskrat", "Mink"],
+  "answer": "Beaver"
+},
+{
+  "question": "Which mammal has protective scales made largely of keratin?",
+  "options": ["Armadillo", "Pangolin", "Porcupine", "Hedgehog"],
+  "answer": "Pangolin"
+},
+{
+  "question": "Which animal uses sharp quills as a major form of defense?",
+  "options": ["Porcupine", "Mole", "Rabbit", "Meerkat"],
+  "answer": "Porcupine"
+},
+{
+  "question": "Which mammal is known for carrying its young in a pouch?",
+  "options": ["Kangaroo", "Wolf", "Tiger", "Panda"],
+  "answer": "Kangaroo"
+},
+{
+  "question": "Which Australian mammal lays eggs and has a duck-like bill?",
+  "options": ["Koala", "Platypus", "Wombat", "Wallaby"],
+  "answer": "Platypus"
+},
+{
+  "question": "Which spiny Australian mammal lays eggs?",
+  "options": ["Echidna", "Tasmanian Devil", "Dingo", "Quokka"],
+  "answer": "Echidna"
+},
+{
+  "question": "Which animal mainly feeds on eucalyptus leaves?",
+  "options": ["Koala", "Kangaroo", "Wombat", "Dingo"],
+  "answer": "Koala"
+},
+{
+  "question": "Which wild canine is native to Australia?",
+  "options": ["Coyote", "Dingo", "Jackal", "Arctic Fox"],
+  "answer": "Dingo"
+},
+{
+  "question": "Which marsupial is famous for its powerful jaws and is native to Tasmania?",
+  "options": ["Quokka", "Tasmanian Devil", "Koala", "Wallaby"],
+  "answer": "Tasmanian Devil"
+},
+{
+  "question": "Which animal is the largest member of the deer family?",
+  "options": ["Elk", "Moose", "Reindeer", "Red Deer"],
+  "answer": "Moose"
+},
+{
+  "question": "Which deer species has both males and females commonly growing antlers?",
+  "options": ["Moose", "Reindeer", "Red Deer", "Fallow Deer"],
+  "answer": "Reindeer"
+},
+{
+  "question": "Which Arctic animal changes its coat from brown or gray in summer to white in winter?",
+  "options": ["Arctic Fox", "Polar Bear", "Walrus", "Musk Ox"],
+  "answer": "Arctic Fox"
+},
+{
+  "question": "Which bear species primarily lives in the Arctic?",
+  "options": ["Brown Bear", "Polar Bear", "Sun Bear", "Sloth Bear"],
+  "answer": "Polar Bear"
+},
+{
+  "question": "Which bear species is famous for eating large amounts of bamboo?",
+  "options": ["Giant Panda", "Polar Bear", "Brown Bear", "Sun Bear"],
+  "answer": "Giant Panda"
+},
+{
+  "question": "Which bear is the smallest living bear species?",
+  "options": ["Sun Bear", "Polar Bear", "Giant Panda", "American Black Bear"],
+  "answer": "Sun Bear"
+},
+{
+  "question": "Which animal is known for its strong unpleasant defensive spray?",
+  "options": ["Skunk", "Raccoon", "Badger", "Otter"],
+  "answer": "Skunk"
+},
+{
+  "question": "Which North American mammal is recognizable by a dark mask around its eyes?",
+  "options": ["Raccoon", "Beaver", "Coyote", "Marmot"],
+  "answer": "Raccoon"
+},
+{
+  "question": "Which animal is famous for standing upright to watch for predators in southern Africa?",
+  "options": ["Meerkat", "Mongoose", "Badger", "Ferret"],
+  "answer": "Meerkat"
+},
+{
+  "question": "Which mammal is known for its exceptionally slow movement and spends much of its life in trees?",
+  "options": ["Sloth", "Lemur", "Gibbon", "Macaque"],
+  "answer": "Sloth"
+},
+{
+  "question": "Which animal has a prehensile nose resembling a short trunk?",
+  "options": ["Tapir", "Hyena", "Capybara", "Llama"],
+  "answer": "Tapir"
+},
+{
+  "question": "What is the largest living rodent?",
+  "options": ["Beaver", "Capybara", "Porcupine", "Marmot"],
+  "answer": "Capybara"
+},
+{
+  "question": "Which animal is known as the largest living species of rhinoceros?",
+  "options": ["Black Rhinoceros", "White Rhinoceros", "Javan Rhinoceros", "Sumatran Rhinoceros"],
+  "answer": "White Rhinoceros"
+},
+{
+  "question": "Which large African mammal spends much of the daytime in rivers and lakes?",
+  "options": ["Hippopotamus", "Giraffe", "Zebra", "Wildebeest"],
+  "answer": "Hippopotamus"
+},
+{
+  "question": "Which animal has a distinctive black-and-white body and a long flexible nose and is related to the giraffe?",
+  "options": ["Okapi", "Tapir", "Zebra", "Antelope"],
+  "answer": "Okapi"
+},
+{
+  "question": "Which animal is known for large seasonal migrations across the Serengeti?",
+  "options": ["Wildebeest", "Gorilla", "Rhinoceros", "Giraffe"],
+  "answer": "Wildebeest"
+},
+{
+  "question": "Which animal is famous for surviving in deserts with humps that store fat?",
+  "options": ["Camel", "Llama", "Yak", "Bison"],
+  "answer": "Camel"
+},
+{
+  "question": "Which large bovine is adapted to the cold high-altitude regions of the Himalayas and Tibetan Plateau?",
+  "options": ["Yak", "Buffalo", "Bison", "Antelope"],
+  "answer": "Yak"
+},
+{
+  "question": "Which bird is the largest living bird?",
+  "options": ["Emu", "Ostrich", "Cassowary", "Albatross"],
+  "answer": "Ostrich"
+},
+{
+  "question": "Which bird is the fastest animal during a hunting dive?",
+  "options": ["Golden Eagle", "Peregrine Falcon", "Osprey", "Hawk"],
+  "answer": "Peregrine Falcon"
+},
+{
+  "question": "Which bird is famous for its colorful fan-shaped tail display?",
+  "options": ["Peacock", "Flamingo", "Toucan", "Pelican"],
+  "answer": "Peacock"
+},
+{
+  "question": "Which bird is known for its large colorful bill and lives in tropical regions of the Americas?",
+  "options": ["Toucan", "Puffin", "Hornbill", "Pelican"],
+  "answer": "Toucan"
+},
+{
+  "question": "Which bird is well known for mimicking human speech?",
+  "options": ["Parrot", "Eagle", "Penguin", "Ostrich"],
+  "answer": "Parrot"
+},
+{
+  "question": "Which nocturnal bird is famous for its silent flight and large forward-facing eyes?",
+  "options": ["Owl", "Falcon", "Swan", "Crow"],
+  "answer": "Owl"
+},
+{
+  "question": "Which bird is commonly associated with Antarctica and cannot fly?",
+  "options": ["Penguin", "Puffin", "Albatross", "Pelican"],
+  "answer": "Penguin"
+},
+{
+  "question": "Which is the largest living species of penguin?",
+  "options": ["King Penguin", "Emperor Penguin", "Gentoo Penguin", "Adelie Penguin"],
+  "answer": "Emperor Penguin"
+},
+{
+  "question": "Which seabird is famous for its extremely large wingspan?",
+  "options": ["Wandering Albatross", "Puffin", "Cormorant", "Gull"],
+  "answer": "Wandering Albatross"
+},
+{
+  "question": "Which bird catches fish using a large throat pouch beneath its bill?",
+  "options": ["Pelican", "Sparrow", "Falcon", "Woodpecker"],
+  "answer": "Pelican"
+},
+{
+  "question": "Which bird uses its strong beak to drill into tree trunks?",
+  "options": ["Woodpecker", "Heron", "Swan", "Flamingo"],
+  "answer": "Woodpecker"
+},
+{
+  "question": "Which bird is famous for standing on one leg and having pink plumage?",
+  "options": ["Flamingo", "Crane", "Stork", "Pelican"],
+  "answer": "Flamingo"
+},
+{
+  "question": "Which tiny bird can hover in place by rapidly beating its wings?",
+  "options": ["Hummingbird", "Sparrow", "Robin", "Finch"],
+  "answer": "Hummingbird"
+},
+{
+  "question": "Which bird lays its eggs in the nests of other birds in a well-known example of brood parasitism?",
+  "options": ["Cuckoo", "Eagle", "Swan", "Ostrich"],
+  "answer": "Cuckoo"
+},
+{
+  "question": "Which flightless bird is native to New Zealand and gives its name to New Zealanders' nickname?",
+  "options": ["Kiwi", "Emu", "Rhea", "Cassowary"],
+  "answer": "Kiwi"
+},
+{
+  "question": "Which large flightless bird is native to Australia?",
+  "options": ["Emu", "Kiwi", "Rhea", "Penguin"],
+  "answer": "Emu"
+},
+{
+  "question": "Which large flightless bird of Australia and New Guinea has a helmet-like casque on its head?",
+  "options": ["Cassowary", "Emu", "Ostrich", "Kiwi"],
+  "answer": "Cassowary"
+},
+{
+  "question": "Which reptile is the largest living reptile?",
+  "options": ["Komodo Dragon", "Saltwater Crocodile", "Green Anaconda", "Leatherback Turtle"],
+  "answer": "Saltwater Crocodile"
+},
+{
+  "question": "Which is the largest living lizard species?",
+  "options": ["Komodo Dragon", "Iguana", "Monitor Lizard", "Gila Monster"],
+  "answer": "Komodo Dragon"
+},
+{
+  "question": "Which snake is the longest living snake species?",
+  "options": ["Green Anaconda", "Reticulated Python", "King Cobra", "Boa Constrictor"],
+  "answer": "Reticulated Python"
+},
+{
+  "question": "Which snake is the heaviest living snake species?",
+  "options": ["Green Anaconda", "King Cobra", "Reticulated Python", "Black Mamba"],
+  "answer": "Green Anaconda"
+},
+{
+  "question": "Which is the longest venomous snake in the world?",
+  "options": ["King Cobra", "Black Mamba", "Gaboon Viper", "Rattlesnake"],
+  "answer": "King Cobra"
+},
+{
+  "question": "Which snake warns potential threats by shaking a specialized structure on its tail?",
+  "options": ["Rattlesnake", "Python", "Cobra", "Anaconda"],
+  "answer": "Rattlesnake"
+},
+{
+  "question": "Which reptile can detach its tail to escape predators and later regrow part of it?",
+  "options": ["Many lizards", "Crocodiles", "Tortoises", "Alligators"],
+  "answer": "Many lizards"
+},
+{
+  "question": "Which reptile is protected by a hard shell and generally lives mainly on land?",
+  "options": ["Tortoise", "Crocodile", "Iguana", "Python"],
+  "answer": "Tortoise"
+},
+{
+  "question": "Which is the largest living sea turtle?",
+  "options": ["Leatherback Sea Turtle", "Green Sea Turtle", "Hawksbill Turtle", "Loggerhead Turtle"],
+  "answer": "Leatherback Sea Turtle"
+},
+{
+  "question": "Which amphibian begins life as a tadpole?",
+  "options": ["Frog", "Lizard", "Turtle", "Snake"],
+  "answer": "Frog"
+},
+{
+  "question": "Which amphibian is well known for its ability to regenerate lost limbs?",
+  "options": ["Salamander", "Toad", "Caecilian", "Tree Frog"],
+  "answer": "Salamander"
+},
+{
+  "question": "Which amphibian retains external gills into adulthood and is native to Mexico?",
+  "options": ["Axolotl", "Newt", "Bullfrog", "Toad"],
+  "answer": "Axolotl"
+},
+{
+  "question": "Which fish is the largest living fish species?",
+  "options": ["Great White Shark", "Whale Shark", "Bluefin Tuna", "Manta Ray"],
+  "answer": "Whale Shark"
+},
+{
+  "question": "Which shark is famous for its broad, hammer-shaped head?",
+  "options": ["Hammerhead Shark", "Tiger Shark", "Mako Shark", "Bull Shark"],
+  "answer": "Hammerhead Shark"
+},
+{
+  "question": "Which shark is known for its large size and rows of triangular serrated teeth?",
+  "options": ["Great White Shark", "Whale Shark", "Basking Shark", "Nurse Shark"],
+  "answer": "Great White Shark"
+},
+{
+  "question": "Which marine mammal is famous for its intelligence, echolocation, and playful behavior?",
+  "options": ["Dolphin", "Walrus", "Manatee", "Seal"],
+  "answer": "Dolphin"
+},
+{
+  "question": "Which marine mammal is the largest member of the dolphin family?",
+  "options": ["Orca", "Bottlenose Dolphin", "Beluga", "Narwhal"],
+  "answer": "Orca"
+},
+{
+  "question": "Which Arctic whale is famous for the long tusk found mainly in males?",
+  "options": ["Narwhal", "Beluga", "Orca", "Humpback Whale"],
+  "answer": "Narwhal"
+},
+{
+  "question": "Which whale is known for complex songs produced mainly by males?",
+  "options": ["Humpback Whale", "Blue Whale", "Gray Whale", "Bowhead Whale"],
+  "answer": "Humpback Whale"
+},
+{
+  "question": "Which marine mammal has long tusks and lives in Arctic waters?",
+  "options": ["Walrus", "Seal", "Manatee", "Dugong"],
+  "answer": "Walrus"
+},
+{
+  "question": "Which slow-moving aquatic mammal is often called a sea cow?",
+  "options": ["Manatee", "Dolphin", "Seal", "Otter"],
+  "answer": "Manatee"
+},
+{
+  "question": "Which marine animal has eight arms?",
+  "options": ["Octopus", "Squid", "Jellyfish", "Starfish"],
+  "answer": "Octopus"
+},
+{
+  "question": "Which marine animal typically has eight arms and two longer tentacles?",
+  "options": ["Squid", "Octopus", "Sea Urchin", "Crab"],
+  "answer": "Squid"
+},
+{
+  "question": "Which marine animal can release a cloud of ink to help escape predators?",
+  "options": ["Octopus", "Starfish", "Sea Urchin", "Coral"],
+  "answer": "Octopus"
+},
+{
+  "question": "Which sea creature is known for having five arms in many species and can regenerate lost arms?",
+  "options": ["Sea Star", "Jellyfish", "Lobster", "Clam"],
+  "answer": "Sea Star"
+},
+{
+  "question": "Which marine animal has stinging cells called nematocysts?",
+  "options": ["Jellyfish", "Crab", "Octopus", "Sea Urchin"],
+  "answer": "Jellyfish"
+},
+{
+  "question": "Coral reefs are primarily built by colonies of which animals?",
+  "options": ["Coral Polyps", "Sponges", "Jellyfish", "Sea Stars"],
+  "answer": "Coral Polyps"
+},
+{
+  "question": "Which crustacean is famous for walking sideways?",
+  "options": ["Crab", "Shrimp", "Krill", "Barnacle"],
+  "answer": "Crab"
+},
+{
+  "question": "Which insect produces honey and beeswax?",
+  "options": ["Honey Bee", "Butterfly", "Dragonfly", "Grasshopper"],
+  "answer": "Honey Bee"
+},
+{
+  "question": "Which insect undergoes metamorphosis from caterpillar to adult?",
+  "options": ["Butterfly", "Ant", "Termite", "Grasshopper"],
+  "answer": "Butterfly"
+},
+{
+  "question": "Which insect is known for producing light through bioluminescence?",
+  "options": ["Firefly", "Mosquito", "Beetle", "Wasp"],
+  "answer": "Firefly"
+},
+{
+  "question": "Which insect is famous for organized colonies containing queens, workers, and soldiers in many species?",
+  "options": ["Ant", "Dragonfly", "Butterfly", "Moth"],
+  "answer": "Ant"
+},
+{
+  "question": "Which insect is known for building large mounds and feeding mainly on cellulose?",
+  "options": ["Termite", "Bee", "Wasp", "Mosquito"],
+  "answer": "Termite"
+},
+{
+  "question": "Which arachnid produces silk to make webs for capturing prey?",
+  "options": ["Spider", "Scorpion", "Tick", "Mite"],
+  "answer": "Spider"
+},
+{
+  "question": "How many legs does an adult spider have?",
+  "options": ["Six", "Eight", "Ten", "Twelve"],
+  "answer": "Eight"
+},
+{
+  "question": "Which arachnid has pincers and a venomous stinger at the end of its tail?",
+  "options": ["Scorpion", "Spider", "Tick", "Mite"],
+  "answer": "Scorpion"
+},
+{
+  "question": "Which animal is known for playing dead as a defense mechanism?",
+  "options": ["Opossum", "Wolf", "Beaver", "Otter"],
+  "answer": "Opossum"
+},
+{
+  "question": "Which mammal uses echolocation to navigate and hunt in darkness?",
+  "options": ["Bat", "Rabbit", "Panda", "Giraffe"],
+  "answer": "Bat"
+},
+{
+  "question": "Which animal has fingerprints so similar in general appearance to human fingerprints that they can be difficult to distinguish?",
+  "options": ["Koala", "Kangaroo", "Panda", "Sloth"],
+  "answer": "Koala"
+},
+{
+  "question": "Which bird is known for storing acorns by placing them into holes in trees?",
+  "options": ["Acorn Woodpecker", "Flamingo", "Penguin", "Pelican"],
+  "answer": "Acorn Woodpecker"
+},
+{
+  "question": "Which mammal is famous for using stones as tools to crack open shellfish?",
+  "options": ["Sea Otter", "Seal", "Walrus", "Manatee"],
+  "answer": "Sea Otter"
+},
+{
   "question": "Which animal has the longest pregnancy period?",
   "options": ["Elephant", "Giraffe", "Rhinoceros", "Hippopotamus"],
   "answer": "Elephant"
@@ -1323,7 +1823,7 @@
   "question": "Which marine mammal is known for having a long spiral tusk?",
   "options": ["Narwhal", "Walrus", "Manatee", "Seal"],
   "answer": "Narwhal"
-},
+ },
   {
     "question": "What is the largest living animal on Earth?",
     "options": ["African Elephant", "Blue Whale", "Giraffe", "Whale Shark"],
@@ -1426,6 +1926,406 @@
   }
 ],
   "World History": [
+{
+  "question": "Which ancient civilization built the pyramids of Giza?",
+  "options": ["Romans", "Egyptians", "Greeks", "Persians"],
+  "answer": "Egyptians"
+},
+{
+  "question": "Which river was central to the development of ancient Egyptian civilization?",
+  "options": ["Amazon", "Nile", "Danube", "Indus"],
+  "answer": "Nile"
+},
+{
+  "question": "Who was the first emperor of Rome?",
+  "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+  "answer": "Augustus"
+},
+{
+  "question": "Which city was buried by the eruption of Mount Vesuvius in AD 79?",
+  "options": ["Athens", "Pompeii", "Sparta", "Carthage"],
+  "answer": "Pompeii"
+},
+{
+  "question": "Which ancient Greek city-state was famous for its military society?",
+  "options": ["Athens", "Sparta", "Corinth", "Thebes"],
+  "answer": "Sparta"
+},
+{
+  "question": "Who was the teacher of Alexander the Great?",
+  "options": ["Socrates", "Plato", "Aristotle", "Pythagoras"],
+  "answer": "Aristotle"
+},
+{
+  "question": "Alexander the Great was king of which ancient kingdom?",
+  "options": ["Macedonia", "Egypt", "Persia", "Rome"],
+  "answer": "Macedonia"
+},
+{
+  "question": "Which empire was ruled by Cyrus the Great?",
+  "options": ["Roman Empire", "Achaemenid Persian Empire", "Ottoman Empire", "Mongol Empire"],
+  "answer": "Achaemenid Persian Empire"
+},
+{
+  "question": "The ancient city of Babylon was located in which region?",
+  "options": ["Mesopotamia", "Scandinavia", "Iberia", "Gaul"],
+  "answer": "Mesopotamia"
+},
+{
+  "question": "Hammurabi is best known for what?",
+  "options": ["A code of laws", "Building the Colosseum", "Discovering America", "Inventing printing"],
+  "answer": "A code of laws"
+},
+{
+  "question": "Which civilization developed in the Indus Valley?",
+  "options": ["Maya Civilization", "Harappan Civilization", "Roman Civilization", "Aztec Civilization"],
+  "answer": "Harappan Civilization"
+},
+{
+  "question": "Which ancient civilization developed a form of democracy in Athens?",
+  "options": ["Greeks", "Egyptians", "Babylonians", "Phoenicians"],
+  "answer": "Greeks"
+},
+{
+  "question": "Who wrote 'The Histories' about the Greco-Persian Wars?",
+  "options": ["Herodotus", "Homer", "Plato", "Virgil"],
+  "answer": "Herodotus"
+},
+{
+  "question": "Which war was fought between Athens and Sparta?",
+  "options": ["Punic War", "Peloponnesian War", "Hundred Years' War", "Crimean War"],
+  "answer": "Peloponnesian War"
+},
+{
+  "question": "Which empire fought Rome in the Punic Wars?",
+  "options": ["Carthage", "Mongol Empire", "Ottoman Empire", "Byzantine Empire"],
+  "answer": "Carthage"
+},
+{
+  "question": "Who was the famous Carthaginian general who crossed the Alps with elephants?",
+  "options": ["Hannibal", "Spartacus", "Caesar", "Leonidas"],
+  "answer": "Hannibal"
+},
+{
+  "question": "Which Roman leader was assassinated on the Ides of March in 44 BC?",
+  "options": ["Augustus", "Julius Caesar", "Nero", "Trajan"],
+  "answer": "Julius Caesar"
+},
+{
+  "question": "Which Roman emperor issued the Edict of Milan with Licinius in AD 313?",
+  "options": ["Constantine I", "Nero", "Caligula", "Augustus"],
+  "answer": "Constantine I"
+},
+{
+  "question": "What was the capital of the Byzantine Empire?",
+  "options": ["Rome", "Constantinople", "Athens", "Alexandria"],
+  "answer": "Constantinople"
+},
+{
+  "question": "In which year did the Western Roman Empire traditionally fall?",
+  "options": ["476", "1066", "1215", "1453"],
+  "answer": "476"
+},
+{
+  "question": "Who founded the Mongol Empire?",
+  "options": ["Kublai Khan", "Genghis Khan", "Timur", "Attila"],
+  "answer": "Genghis Khan"
+},
+{
+  "question": "Which empire became the largest contiguous land empire in history?",
+  "options": ["Roman Empire", "Mongol Empire", "British Empire", "Ottoman Empire"],
+  "answer": "Mongol Empire"
+},
+{
+  "question": "Which Venetian traveler described his journeys in Asia during the Mongol era?",
+  "options": ["Marco Polo", "Christopher Columbus", "Vasco da Gama", "James Cook"],
+  "answer": "Marco Polo"
+},
+{
+  "question": "Which pandemic devastated Europe in the 14th century?",
+  "options": ["Black Death", "Spanish Flu", "Smallpox epidemic", "Cholera pandemic"],
+  "answer": "Black Death"
+},
+{
+  "question": "The Hundred Years' War was mainly fought between which two kingdoms?",
+  "options": ["England and France", "Spain and Portugal", "France and Germany", "England and Scotland"],
+  "answer": "England and France"
+},
+{
+  "question": "Which French heroine played an important role in the Hundred Years' War?",
+  "options": ["Marie Antoinette", "Joan of Arc", "Catherine de Medici", "Eleanor of Aquitaine"],
+  "answer": "Joan of Arc"
+},
+{
+  "question": "Which document was sealed by King John of England in 1215?",
+  "options": ["Magna Carta", "Bill of Rights", "Treaty of Versailles", "Declaration of Independence"],
+  "answer": "Magna Carta"
+},
+{
+  "question": "Which event in 1066 changed the ruling dynasty of England?",
+  "options": ["Norman Conquest", "Glorious Revolution", "English Civil War", "Wars of the Roses"],
+  "answer": "Norman Conquest"
+},
+{
+  "question": "Who won the Battle of Hastings in 1066?",
+  "options": ["William the Conqueror", "Richard the Lionheart", "Henry VIII", "Alfred the Great"],
+  "answer": "William the Conqueror"
+},
+{
+  "question": "Which empire captured Constantinople in 1453?",
+  "options": ["Ottoman Empire", "Roman Empire", "Mongol Empire", "Persian Empire"],
+  "answer": "Ottoman Empire"
+},
+{
+  "question": "Which Ottoman sultan conquered Constantinople in 1453?",
+  "options": ["Suleiman I", "Mehmed II", "Selim I", "Osman I"],
+  "answer": "Mehmed II"
+},
+{
+  "question": "The Renaissance began primarily in which country?",
+  "options": ["France", "Italy", "England", "Germany"],
+  "answer": "Italy"
+},
+{
+  "question": "Which Italian city is often considered a major birthplace of the Renaissance?",
+  "options": ["Florence", "Naples", "Turin", "Palermo"],
+  "answer": "Florence"
+},
+{
+  "question": "Who painted the Mona Lisa?",
+  "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+  "answer": "Leonardo da Vinci"
+},
+{
+  "question": "Who painted the ceiling of the Sistine Chapel?",
+  "options": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Titian"],
+  "answer": "Michelangelo"
+},
+{
+  "question": "Who developed movable-type printing in Europe in the 15th century?",
+  "options": ["Johannes Gutenberg", "Galileo Galilei", "Isaac Newton", "Nicolaus Copernicus"],
+  "answer": "Johannes Gutenberg"
+},
+{
+  "question": "Who began the Protestant Reformation by publishing the Ninety-five Theses in 1517?",
+  "options": ["Martin Luther", "John Locke", "Thomas More", "Francis Bacon"],
+  "answer": "Martin Luther"
+},
+{
+  "question": "Which explorer reached the Americas in 1492 while sailing for Spain?",
+  "options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Bartolomeu Dias"],
+  "answer": "Christopher Columbus"
+},
+{
+  "question": "Which explorer reached India by sea from Europe in 1498?",
+  "options": ["Vasco da Gama", "Christopher Columbus", "James Cook", "Amerigo Vespucci"],
+  "answer": "Vasco da Gama"
+},
+{
+  "question": "Whose expedition completed the first circumnavigation of the Earth?",
+  "options": ["Ferdinand Magellan's expedition", "Christopher Columbus's expedition", "Vasco da Gama's expedition", "Marco Polo's expedition"],
+  "answer": "Ferdinand Magellan's expedition"
+},
+{
+  "question": "Which civilization built Machu Picchu?",
+  "options": ["Aztec", "Inca", "Maya", "Olmec"],
+  "answer": "Inca"
+},
+{
+  "question": "Tenochtitlan was the capital of which empire?",
+  "options": ["Aztec Empire", "Inca Empire", "Roman Empire", "Mongol Empire"],
+  "answer": "Aztec Empire"
+},
+{
+  "question": "Which Spanish conquistador conquered the Aztec Empire?",
+  "options": ["Hernán Cortés", "Francisco Pizarro", "Vasco Núñez de Balboa", "Hernando de Soto"],
+  "answer": "Hernán Cortés"
+},
+{
+  "question": "Which Spanish conquistador conquered the Inca Empire?",
+  "options": ["Francisco Pizarro", "Hernán Cortés", "Christopher Columbus", "Ferdinand Magellan"],
+  "answer": "Francisco Pizarro"
+},
+{
+  "question": "Which dynasty built much of the present-day Great Wall of China?",
+  "options": ["Ming Dynasty", "Qing Dynasty", "Yuan Dynasty", "Tang Dynasty"],
+  "answer": "Ming Dynasty"
+},
+{
+  "question": "Which Chinese dynasty was founded by Kublai Khan?",
+  "options": ["Ming", "Yuan", "Song", "Han"],
+  "answer": "Yuan"
+},
+{
+  "question": "Who founded the Mughal Empire in India?",
+  "options": ["Babur", "Akbar", "Shah Jahan", "Aurangzeb"],
+  "answer": "Babur"
+},
+{
+  "question": "Which Mughal emperor commissioned the Taj Mahal?",
+  "options": ["Akbar", "Babur", "Shah Jahan", "Humayun"],
+  "answer": "Shah Jahan"
+},
+{
+  "question": "Which European movement emphasized reason and influenced modern political thought?",
+  "options": ["Enlightenment", "Feudalism", "Mercantilism", "Crusades"],
+  "answer": "Enlightenment"
+},
+{
+  "question": "Who wrote 'The Social Contract'?",
+  "options": ["Jean-Jacques Rousseau", "John Locke", "Voltaire", "Thomas Hobbes"],
+  "answer": "Jean-Jacques Rousseau"
+},
+{
+  "question": "In which year was the United States Declaration of Independence adopted?",
+  "options": ["1776", "1789", "1815", "1865"],
+  "answer": "1776"
+},
+{
+  "question": "Who was the first president of the United States?",
+  "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+  "answer": "George Washington"
+},
+{
+  "question": "In which year did the French Revolution begin?",
+  "options": ["1776", "1789", "1815", "1848"],
+  "answer": "1789"
+},
+{
+  "question": "Which prison was stormed during the French Revolution on July 14, 1789?",
+  "options": ["Bastille", "Tower of London", "Alcatraz", "Conciergerie"],
+  "answer": "Bastille"
+},
+{
+  "question": "Who became emperor of France in 1804?",
+  "options": ["Napoleon Bonaparte", "Louis XVI", "Charles de Gaulle", "Louis XIV"],
+  "answer": "Napoleon Bonaparte"
+},
+{
+  "question": "At which battle was Napoleon finally defeated in 1815?",
+  "options": ["Waterloo", "Austerlitz", "Trafalgar", "Leipzig"],
+  "answer": "Waterloo"
+},
+{
+  "question": "Which meeting reorganized much of Europe after the Napoleonic Wars?",
+  "options": ["Congress of Vienna", "Berlin Conference", "Yalta Conference", "Congress of Berlin"],
+  "answer": "Congress of Vienna"
+},
+{
+  "question": "The Industrial Revolution first began in which country?",
+  "options": ["Britain", "France", "Germany", "United States"],
+  "answer": "Britain"
+},
+{
+  "question": "Which invention did James Watt significantly improve during the Industrial Revolution?",
+  "options": ["Steam engine", "Telephone", "Printing press", "Airplane"],
+  "answer": "Steam engine"
+},
+{
+  "question": "Which canal opened in 1869 and connected the Mediterranean Sea with the Red Sea?",
+  "options": ["Panama Canal", "Suez Canal", "Kiel Canal", "Corinth Canal"],
+  "answer": "Suez Canal"
+},
+{
+  "question": "Who was the leading figure in the unification of Germany in the 19th century?",
+  "options": ["Otto von Bismarck", "Napoleon III", "Giuseppe Garibaldi", "Vladimir Lenin"],
+  "answer": "Otto von Bismarck"
+},
+{
+  "question": "Which figure played a major military role in the unification of Italy?",
+  "options": ["Giuseppe Garibaldi", "Otto von Bismarck", "Winston Churchill", "Metternich"],
+  "answer": "Giuseppe Garibaldi"
+},
+{
+  "question": "Which conference of 1884-1885 established rules for European colonization in Africa?",
+  "options": ["Berlin Conference", "Vienna Congress", "Paris Peace Conference", "Yalta Conference"],
+  "answer": "Berlin Conference"
+},
+{
+  "question": "What event immediately triggered World War I?",
+  "options": ["Assassination of Archduke Franz Ferdinand", "Invasion of Poland", "Russian Revolution", "Attack on Pearl Harbor"],
+  "answer": "Assassination of Archduke Franz Ferdinand"
+},
+{
+  "question": "In which year did World War I begin?",
+  "options": ["1914", "1916", "1918", "1939"],
+  "answer": "1914"
+},
+{
+  "question": "Which treaty formally ended the state of war between Germany and most Allied powers after World War I?",
+  "options": ["Treaty of Versailles", "Treaty of Paris", "Treaty of Tordesillas", "Treaty of Utrecht"],
+  "answer": "Treaty of Versailles"
+},
+{
+  "question": "Which international organization was created after World War I to promote peace?",
+  "options": ["League of Nations", "United Nations", "NATO", "European Union"],
+  "answer": "League of Nations"
+},
+{
+  "question": "Who led the Bolshevik Revolution in Russia in 1917?",
+  "options": ["Vladimir Lenin", "Joseph Stalin", "Nicholas II", "Mikhail Gorbachev"],
+  "answer": "Vladimir Lenin"
+},
+{
+  "question": "Which economic crisis began with the Wall Street Crash of 1929?",
+  "options": ["Great Depression", "Great Recession", "Oil Crisis", "Panic of 1873"],
+  "answer": "Great Depression"
+},
+{
+  "question": "Which event marked the beginning of World War II in Europe?",
+  "options": ["Germany's invasion of Poland", "Attack on Pearl Harbor", "Fall of France", "Battle of Britain"],
+  "answer": "Germany's invasion of Poland"
+},
+{
+  "question": "In which year did World War II begin in Europe?",
+  "options": ["1937", "1939", "1941", "1945"],
+  "answer": "1939"
+},
+{
+  "question": "Who was the British prime minister for most of World War II?",
+  "options": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "Anthony Eden"],
+  "answer": "Winston Churchill"
+},
+{
+  "question": "What was the code name for the Allied invasion of Normandy in 1944?",
+  "options": ["Operation Overlord", "Operation Barbarossa", "Operation Torch", "Operation Market Garden"],
+  "answer": "Operation Overlord"
+},
+{
+  "question": "Which country was attacked at Pearl Harbor in December 1941?",
+  "options": ["United States", "Britain", "France", "Soviet Union"],
+  "answer": "United States"
+},
+{
+  "question": "Which two Japanese cities were struck by atomic bombs in 1945?",
+  "options": ["Hiroshima and Nagasaki", "Tokyo and Kyoto", "Osaka and Kobe", "Nagoya and Yokohama"],
+  "answer": "Hiroshima and Nagasaki"
+},
+{
+  "question": "Which international organization was founded in 1945 after World War II?",
+  "options": ["United Nations", "League of Nations", "European Union", "Warsaw Pact"],
+  "answer": "United Nations"
+},
+{
+  "question": "What was the Cold War?",
+  "options": ["A geopolitical rivalry mainly between the United States and Soviet Union", "A war between Britain and France", "A medieval European conflict", "A civil war in Russia"],
+  "answer": "A geopolitical rivalry mainly between the United States and Soviet Union"
+},
+{
+  "question": "Which wall became a major symbol of the Cold War division of Europe?",
+  "options": ["Berlin Wall", "Great Wall of China", "Hadrian's Wall", "Western Wall"],
+  "answer": "Berlin Wall"
+},
+{
+  "question": "In which year did the Berlin Wall fall?",
+  "options": ["1979", "1985", "1989", "1991"],
+  "answer": "1989"
+},
+{
+  "question": "In which year was the Soviet Union formally dissolved?",
+  "options": ["1989", "1990", "1991", "1995"],
+  "answer": "1991"
+ },
   {
     "question": "Which ancient civilization built Machu Picchu?",
     "options": ["Maya", "Inca", "Aztec", "Roman"],
