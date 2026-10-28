@@ -1261,120 +1261,129 @@ const data = await response.json();
 
 function createCategories(){
 
-    const container =
-        document.getElementById("categories");
+    const container = document.getElementById("categories");
 
     container.innerHTML = "";
-
-    let categories = [];
-
-
-    /*
-       Supported JSON formats:
-
-       1.
-       {
-          "Science":[...],
-          "Math":[...]
-       }
-
-       2.
-       {
-          "categories":{
-             "Science":[...],
-             "Math":[...]
-          }
-       }
-    */
-
 
     if(
         quizData.categories &&
         typeof quizData.categories === "object"
     ){
-
         quizData = quizData.categories;
-
     }
 
-
-    categories =
-        Object.keys(quizData);
-
+    const categories = Object.keys(quizData);
 
     if(categories.length === 0){
 
         document.getElementById("error").innerHTML =
-            "❌ কোনো Category পাওয়া যায়নি।";
+            "❌ No categories found.";
 
         return;
-
     }
 
+    const categoryIcons = {
+
+        "World General Knowledge": "🌍",
+        "Medical": "🩺",
+        "Engineering Fundamentals": "⚙️",
+        "Mechanical Engineering": "🛠️",
+        "Mechanical Technician": "👷",
+        "Electrical & Electrician": "⚡",
+        "Civil Engineering": "🌉",
+        "Computer & Technology": "💻",
+        "General Science": "🔬",
+        "Physics": "⚛️",
+        "Chemistry": "🧪",
+        "Biology": "🧬",
+        "Mathematics": "➗",
+        "Animal": "🐯",
+        "World History": "🏛️",
+        "Space & Astronomy": "🚀",
+        "Government & Competitive Exam": "🏢",
+        "Business & Economics": "💰",
+        "Sports": "🏆",
+        "Brain & Logic": "🧠"
+
+    };
+
+    const completed = getCompletedQuizzes();
 
     categories.forEach(function(category){
+
+        const totalQuestions =
+            Array.isArray(quizData[category])
+            ? quizData[category].length
+            : 0;
+
+        const totalQuizzes =
+            Math.ceil(totalQuestions / 10);
+
+        const completedInCategory =
+            completed[category] || [];
+
+        let nextQuizNumber = 1;
+
+        while(
+            completedInCategory.includes(nextQuizNumber) &&
+            nextQuizNumber <= totalQuizzes
+        ){
+            nextQuizNumber++;
+        }
 
         const button =
             document.createElement("button");
 
         button.className =
-            "category-btn";
-const completed =
-    getCompletedQuizzes();
+            "category-card";
 
-const completedInCategory =
-    completed[category] || [];
+        const icon =
+            categoryIcons[category] || "📘";
 
-const totalQuestions =
-    quizData[category].length;
+        let quizText = "";
 
-const totalQuizzes =
-    Math.floor(
-        totalQuestions / 10
-    );
+        if(nextQuizNumber > totalQuizzes){
 
-let nextQuizNumber = 1;
+            quizText = "Completed";
 
-while(
-    completedInCategory.includes(nextQuizNumber) &&
-    nextQuizNumber <= totalQuizzes
-){
+        }else{
 
-    nextQuizNumber++;
+            quizText =
+                "Quiz " +
+                nextQuizNumber +
+                "/" +
+                totalQuizzes;
+        }
 
-}
+        button.innerHTML = `
+            <span class="category-icon">
+                ${icon}
+            </span>
 
-if(nextQuizNumber > totalQuizzes){
+            <span class="category-name">
+                ${category}
+            </span>
 
-    button.textContent =
-        "🔴 " + category + " — Completed";
+            <span class="quiz-count">
+                ${quizText}
+            </span>
 
-}
+            <span class="category-arrow">
+                ›
+            </span>
+        `;
 
-else{
+        button.onclick = function(){
 
-    button.textContent =
-        "📘 " + category +
-        " — Quiz " +
-        nextQuizNumber +
-        "/" +
-        totalQuizzes;
+            startQuiz(category);
 
-}
-
-        button.onclick =
-            function(){
-
-                startQuiz(category);
-
-            };
+        };
 
         container.appendChild(button);
 
     });
 
 }
-
 
 /* ==========================================
    START QUIZ
