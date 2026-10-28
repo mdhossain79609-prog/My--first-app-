@@ -306,6 +306,406 @@
   }
 ],
   "Mechanical Technician": [
+{
+  "question": "Which instrument is commonly used to measure outside, inside, and depth dimensions accurately in workshop practice?",
+  "options": ["Vernier caliper", "Steel rule", "Try square", "Feeler gauge"],
+  "answer": "Vernier caliper"
+},
+{
+  "question": "Which instrument is best suited for accurately measuring the outside diameter of a small shaft?",
+  "options": ["Outside micrometer", "Bevel protractor", "Surface gauge", "Try square"],
+  "answer": "Outside micrometer"
+},
+{
+  "question": "Which gauge is commonly used to measure small gaps or clearances between mating parts?",
+  "options": ["Feeler gauge", "Radius gauge", "Thread gauge", "Plug gauge"],
+  "answer": "Feeler gauge"
+},
+{
+  "question": "Which instrument is commonly used to check whether two surfaces are at 90 degrees to each other?",
+  "options": ["Try square", "Divider", "Scriber", "Center punch"],
+  "answer": "Try square"
+},
+{
+  "question": "What is the primary purpose of a dial indicator in mechanical maintenance?",
+  "options": ["Measure small displacement or runout", "Measure temperature", "Cut threads", "Measure electrical resistance"],
+  "answer": "Measure small displacement or runout"
+},
+{
+  "question": "Which tool is used to check the pitch of screw threads?",
+  "options": ["Thread pitch gauge", "Feeler gauge", "Radius gauge", "Wire gauge"],
+  "answer": "Thread pitch gauge"
+},
+{
+  "question": "Which gauge is used to check the radius of a curved surface?",
+  "options": ["Radius gauge", "Plug gauge", "Snap gauge", "Feeler gauge"],
+  "answer": "Radius gauge"
+},
+{
+  "question": "What is the main purpose of a surface plate in inspection work?",
+  "options": ["Provide a precise flat reference surface", "Cut metal sheets", "Measure fluid pressure", "Support rotating shafts"],
+  "answer": "Provide a precise flat reference surface"
+},
+{
+  "question": "Which tool is used to make a small indentation before drilling a hole?",
+  "options": ["Center punch", "Cold chisel", "Reamer", "File"],
+  "answer": "Center punch"
+},
+{
+  "question": "Which hand tool is primarily used to produce internal screw threads?",
+  "options": ["Tap", "Die", "Reamer", "Broach"],
+  "answer": "Tap"
+},
+{
+  "question": "Which tool is primarily used to cut external screw threads manually?",
+  "options": ["Die", "Tap", "Countersink", "Drill"],
+  "answer": "Die"
+},
+{
+  "question": "What is the primary purpose of a reamer?",
+  "options": ["Finish and accurately size an existing hole", "Make a rough casting", "Cut external threads", "Cut a keyway"],
+  "answer": "Finish and accurately size an existing hole"
+},
+{
+  "question": "What is countersinking?",
+  "options": ["Producing a conical recess at the mouth of a hole", "Enlarging a hole cylindrically to full depth", "Cutting an internal thread", "Making a square hole"],
+  "answer": "Producing a conical recess at the mouth of a hole"
+},
+{
+  "question": "What is counterboring?",
+  "options": ["Producing a flat-bottomed cylindrical recess around a hole", "Producing a conical recess", "Cutting a helical groove", "Reducing shaft diameter"],
+  "answer": "Producing a flat-bottomed cylindrical recess around a hole"
+},
+{
+  "question": "Which lathe operation reduces the diameter of a cylindrical workpiece along its length?",
+  "options": ["Turning", "Facing", "Knurling", "Parting"],
+  "answer": "Turning"
+},
+{
+  "question": "Which lathe operation produces a flat surface at the end of a workpiece?",
+  "options": ["Facing", "Turning", "Boring", "Threading"],
+  "answer": "Facing"
+},
+{
+  "question": "Which lathe operation produces a textured pattern on a cylindrical surface to improve grip?",
+  "options": ["Knurling", "Reaming", "Boring", "Parting"],
+  "answer": "Knurling"
+},
+{
+  "question": "Which lathe operation is used to enlarge an existing hole accurately using a single-point cutting tool?",
+  "options": ["Boring", "Facing", "Knurling", "Parting"],
+  "answer": "Boring"
+},
+{
+  "question": "What is the main function of the tailstock on a conventional center lathe?",
+  "options": ["Support the workpiece or hold axial tools", "Rotate the spindle", "Change spindle gears automatically", "Hold the main drive motor"],
+  "answer": "Support the workpiece or hold axial tools"
+},
+{
+  "question": "Which lathe component holds and rotates the workpiece?",
+  "options": ["Chuck", "Tool post", "Tailstock quill", "Compound rest"],
+  "answer": "Chuck"
+},
+{
+  "question": "Which chuck is commonly self-centering and suitable for round or hexagonal workpieces?",
+  "options": ["Three-jaw chuck", "Four-jaw independent chuck", "Magnetic chuck", "Collet block only"],
+  "answer": "Three-jaw chuck"
+},
+{
+  "question": "Which lathe chuck allows each jaw to be adjusted independently?",
+  "options": ["Four-jaw independent chuck", "Three-jaw universal chuck", "Drill chuck", "Collet chuck only"],
+  "answer": "Four-jaw independent chuck"
+},
+{
+  "question": "In machining, what is cutting speed?",
+  "options": ["Surface speed of the work relative to the cutting edge", "Depth of cut per revolution", "Tool feed per minute only", "Spindle torque"],
+  "answer": "Surface speed of the work relative to the cutting edge"
+},
+{
+  "question": "What does feed rate describe in a machining operation?",
+  "options": ["Rate at which the cutting tool advances relative to the work", "Diameter of the cutting tool", "Hardness of the workpiece", "Machine motor voltage"],
+  "answer": "Rate at which the cutting tool advances relative to the work"
+},
+{
+  "question": "What is the main purpose of cutting fluid during machining?",
+  "options": ["Cool and lubricate the cutting zone", "Increase tool friction", "Increase workpiece hardness instantly", "Prevent spindle rotation"],
+  "answer": "Cool and lubricate the cutting zone"
+},
+{
+  "question": "Which milling machine component normally holds the cutting tool in a vertical milling machine?",
+  "options": ["Spindle", "Table", "Knee", "Saddle"],
+  "answer": "Spindle"
+},
+{
+  "question": "In conventional milling, the workpiece feed direction is generally how relative to cutter motion at the point of contact?",
+  "options": ["Opposite to cutter motion", "Same as cutter motion", "Always perpendicular", "Independent of cutter rotation"],
+  "answer": "Opposite to cutter motion"
+},
+{
+  "question": "In climb milling, the feed direction is generally how relative to cutter motion at the point of contact?",
+  "options": ["Same as cutter motion", "Opposite to cutter motion", "Always vertical", "Always zero"],
+  "answer": "Same as cutter motion"
+},
+{
+  "question": "Which machine tool is primarily used to produce flat surfaces using a reciprocating single-point cutting tool?",
+  "options": ["Shaper", "Lathe", "Drill press", "Grinding machine"],
+  "answer": "Shaper"
+},
+{
+  "question": "Which machining process uses an abrasive wheel as the cutting tool?",
+  "options": ["Grinding", "Turning", "Broaching", "Planing"],
+  "answer": "Grinding"
+},
+{
+  "question": "What is wheel dressing in grinding?",
+  "options": ["Removing loaded material and exposing fresh abrasive grains", "Painting the grinding wheel", "Increasing wheel diameter", "Reducing motor voltage"],
+  "answer": "Removing loaded material and exposing fresh abrasive grains"
+},
+{
+  "question": "Why should a grinding wheel normally be ring-tested before mounting when the wheel type permits it?",
+  "options": ["To help detect cracks", "To determine electrical resistance", "To measure spindle speed", "To increase wheel hardness"],
+  "answer": "To help detect cracks"
+},
+{
+  "question": "Which welding process uses a continuously fed consumable wire electrode and shielding gas?",
+  "options": ["MIG/GMAW", "TIG/GTAW", "Oxy-fuel welding", "Forge welding"],
+  "answer": "MIG/GMAW"
+},
+{
+  "question": "Which welding process uses a non-consumable tungsten electrode?",
+  "options": ["TIG/GTAW", "MIG/GMAW", "Submerged arc welding", "Flux-cored arc welding"],
+  "answer": "TIG/GTAW"
+},
+{
+  "question": "What is the primary purpose of shielding gas in gas-shielded arc welding?",
+  "options": ["Protect the molten weld pool from atmospheric contamination", "Increase workpiece weight", "Cool the weld to room temperature instantly", "Remove base metal mechanically"],
+  "answer": "Protect the molten weld pool from atmospheric contamination"
+},
+{
+  "question": "In oxy-acetylene welding, which flame is generally used for welding mild steel?",
+  "options": ["Neutral flame", "Strong oxidizing flame", "Strong carburizing flame", "Cold flame"],
+  "answer": "Neutral flame"
+},
+{
+  "question": "What welding defect consists of small cavities caused by trapped gas?",
+  "options": ["Porosity", "Undercut", "Lack of fusion", "Distortion"],
+  "answer": "Porosity"
+},
+{
+  "question": "Which welding defect is a groove melted into the base metal near the weld toe and left unfilled?",
+  "options": ["Undercut", "Porosity", "Slag inclusion", "Overlap"],
+  "answer": "Undercut"
+},
+{
+  "question": "What is the heat-affected zone in welding?",
+  "options": ["Base metal whose microstructure or properties are altered by welding heat", "Only the deposited weld metal", "The electrode coating", "The shielding gas region"],
+  "answer": "Base metal whose microstructure or properties are altered by welding heat"
+},
+{
+  "question": "What is the main purpose of preheating some metals before welding?",
+  "options": ["Reduce cooling rate and risk of cracking", "Increase thermal shock", "Prevent all metal expansion", "Eliminate the need for filler metal"],
+  "answer": "Reduce cooling rate and risk of cracking"
+},
+{
+  "question": "Which bearing type is primarily designed to support radial loads with low friction?",
+  "options": ["Deep-groove ball bearing", "Thrust ball bearing", "Footstep bearing", "Collar bearing"],
+  "answer": "Deep-groove ball bearing"
+},
+{
+  "question": "Which bearing is specifically designed primarily to carry axial loads?",
+  "options": ["Thrust bearing", "Journal bearing", "Needle roller bearing only", "Sleeve bearing only"],
+  "answer": "Thrust bearing"
+},
+{
+  "question": "Which bearing uses long, thin cylindrical rollers to provide high radial load capacity in limited radial space?",
+  "options": ["Needle roller bearing", "Thrust ball bearing", "Plain thrust washer", "Magnetic bearing"],
+  "answer": "Needle roller bearing"
+},
+{
+  "question": "What is the primary purpose of lubrication in a bearing?",
+  "options": ["Reduce friction and wear", "Increase friction", "Increase misalignment", "Stop heat transfer"],
+  "answer": "Reduce friction and wear"
+},
+{
+  "question": "What is a common result of excessive bearing preload?",
+  "options": ["Increased heat and premature wear", "Unlimited bearing life", "Zero friction", "Automatic shaft alignment"],
+  "answer": "Increased heat and premature wear"
+},
+{
+  "question": "Which component is commonly used to connect two shafts and transmit torque between them?",
+  "options": ["Coupling", "Gasket", "Washer", "Bearing housing"],
+  "answer": "Coupling"
+},
+{
+  "question": "Which coupling can accommodate some angular and parallel misalignment between shafts?",
+  "options": ["Flexible coupling", "Rigid coupling", "Solid flange only", "Keyless solid sleeve only"],
+  "answer": "Flexible coupling"
+},
+{
+  "question": "What is the primary function of a key in a shaft-hub connection?",
+  "options": ["Prevent relative rotation and transmit torque", "Lubricate the bearing", "Measure shaft speed", "Seal fluid pressure"],
+  "answer": "Prevent relative rotation and transmit torque"
+},
+{
+  "question": "What is the primary purpose of a mechanical seal in a pump?",
+  "options": ["Limit leakage where the rotating shaft passes through the casing", "Increase motor voltage", "Increase impeller diameter", "Measure flow rate"],
+  "answer": "Limit leakage where the rotating shaft passes through the casing"
+},
+{
+  "question": "Which gear type is used to transmit motion between parallel shafts with straight teeth?",
+  "options": ["Spur gear", "Bevel gear", "Worm gear", "Hypoid gear"],
+  "answer": "Spur gear"
+},
+{
+  "question": "Which gear type is commonly used to transmit motion between intersecting shafts?",
+  "options": ["Bevel gear", "Spur gear", "Rack only", "Internal spur gear only"],
+  "answer": "Bevel gear"
+},
+{
+  "question": "Which gear arrangement can provide a large speed reduction between non-parallel, non-intersecting shafts?",
+  "options": ["Worm and worm wheel", "Spur gear pair", "Rack and pinion", "Simple chain drive"],
+  "answer": "Worm and worm wheel"
+},
+{
+  "question": "What does a rack-and-pinion mechanism convert?",
+  "options": ["Rotary motion to linear motion or vice versa", "Heat directly to electricity", "Pressure directly to temperature", "Linear motion only to heat"],
+  "answer": "Rotary motion to linear motion or vice versa"
+},
+{
+  "question": "If a driving gear has 20 teeth and the driven gear has 60 teeth, what is the speed ratio of driver speed to driven speed?",
+  "options": ["3:1", "1:3", "2:1", "1:2"],
+  "answer": "3:1"
+},
+{
+  "question": "What is backlash in a gear pair?",
+  "options": ["Clearance between mating gear teeth", "Gear tooth hardness", "Shaft diameter", "Gear pitch diameter only"],
+  "answer": "Clearance between mating gear teeth"
+},
+{
+  "question": "What is the main purpose of a flywheel in a machine?",
+  "options": ["Store rotational energy and smooth speed fluctuations", "Increase friction continuously", "Stop the shaft immediately", "Measure torque"],
+  "answer": "Store rotational energy and smooth speed fluctuations"
+},
+{
+  "question": "What is the main function of a centrifugal pump?",
+  "options": ["Convert mechanical energy into fluid-flow energy", "Convert fluid energy into electrical energy", "Compress solid materials", "Measure viscosity"],
+  "answer": "Convert mechanical energy into fluid-flow energy"
+},
+{
+  "question": "Which component of a centrifugal pump imparts energy directly to the fluid?",
+  "options": ["Impeller", "Casing only", "Mechanical seal", "Base plate"],
+  "answer": "Impeller"
+},
+{
+  "question": "Why is priming required for many centrifugal pumps before starting?",
+  "options": ["To fill the pump casing and suction line with liquid and remove air", "To increase motor frequency", "To lubricate electrical cables", "To reduce impeller diameter"],
+  "answer": "To fill the pump casing and suction line with liquid and remove air"
+},
+{
+  "question": "What is cavitation in a pump?",
+  "options": ["Formation and collapse of vapor bubbles due to low local pressure", "Normal lubrication of bearings", "Increase in fluid density", "Rotation of the pump casing"],
+  "answer": "Formation and collapse of vapor bubbles due to low local pressure"
+},
+{
+  "question": "Which symptom commonly indicates severe pump cavitation?",
+  "options": ["Noise and vibration resembling gravel", "Perfectly silent operation", "Zero bearing temperature", "Increased fluid density"],
+  "answer": "Noise and vibration resembling gravel"
+},
+{
+  "question": "What does NPSH stand for in pump systems?",
+  "options": ["Net Positive Suction Head", "Nominal Pump Static Height", "Net Pressure Supply Heat", "Normal Pipe Suction Head"],
+  "answer": "Net Positive Suction Head"
+},
+{
+  "question": "Which type of pump delivers a nearly fixed volume of fluid per cycle and is suitable for high-pressure applications?",
+  "options": ["Positive displacement pump", "Centrifugal pump only", "Axial fan", "Jet ejector only"],
+  "answer": "Positive displacement pump"
+},
+{
+  "question": "Which principle is fundamental to hydraulic power transmission?",
+  "options": ["Pascal's law", "Ohm's law", "Faraday's law", "Snell's law"],
+  "answer": "Pascal's law"
+},
+{
+  "question": "What is the primary function of a hydraulic pump?",
+  "options": ["Convert mechanical power into hydraulic flow", "Create pressure without flow under all conditions", "Convert hydraulic power directly into heat only", "Store compressed air"],
+  "answer": "Convert mechanical power into hydraulic flow"
+},
+{
+  "question": "Which hydraulic component converts fluid power into linear mechanical motion?",
+  "options": ["Hydraulic cylinder", "Reservoir", "Filter", "Pressure gauge"],
+  "answer": "Hydraulic cylinder"
+},
+{
+  "question": "What is the function of a pressure relief valve in a hydraulic system?",
+  "options": ["Protect the system from excessive pressure", "Increase pressure without limit", "Reverse motor rotation", "Measure oil temperature"],
+  "answer": "Protect the system from excessive pressure"
+},
+{
+  "question": "Which valve controls the direction of fluid flow to an actuator?",
+  "options": ["Directional control valve", "Relief valve", "Accumulator", "Filter"],
+  "answer": "Directional control valve"
+},
+{
+  "question": "What is the main purpose of a hydraulic accumulator?",
+  "options": ["Store hydraulic energy under pressure", "Remove all oil from the system", "Increase fluid contamination", "Measure shaft alignment"],
+  "answer": "Store hydraulic energy under pressure"
+},
+{
+  "question": "What is the main working medium in a typical pneumatic system?",
+  "options": ["Compressed air", "Hydraulic oil", "Steam only", "Cooling water"],
+  "answer": "Compressed air"
+},
+{
+  "question": "What is the primary function of an air compressor?",
+  "options": ["Increase the pressure of air", "Reduce air pressure to vacuum only", "Convert air into liquid permanently", "Measure humidity"],
+  "answer": "Increase the pressure of air"
+},
+{
+  "question": "In a pneumatic system, what does an FRL unit normally consist of?",
+  "options": ["Filter, regulator, and lubricator", "Flow meter, relay, and lever", "Fan, rotor, and liner", "Fuse, resistor, and lamp"],
+  "answer": "Filter, regulator, and lubricator"
+},
+{
+  "question": "Which maintenance strategy performs servicing at predetermined time or usage intervals?",
+  "options": ["Preventive maintenance", "Breakdown maintenance", "Corrective maintenance only after failure", "Run-to-destruction maintenance"],
+  "answer": "Preventive maintenance"
+},
+{
+  "question": "Which maintenance approach uses condition data such as vibration or temperature to assess equipment health?",
+  "options": ["Condition-based maintenance", "Breakdown maintenance", "Emergency repair only", "Random maintenance"],
+  "answer": "Condition-based maintenance"
+},
+{
+  "question": "Which technique is widely used to detect imbalance, misalignment, and bearing defects in rotating machinery?",
+  "options": ["Vibration analysis", "Paint inspection only", "Thread cutting", "Sand casting"],
+  "answer": "Vibration analysis"
+},
+{
+  "question": "Which condition is a common cause of excessive vibration in rotating machinery?",
+  "options": ["Rotor imbalance", "Correct alignment", "Proper lubrication", "Correct foundation tightening"],
+  "answer": "Rotor imbalance"
+},
+{
+  "question": "What is shaft misalignment?",
+  "options": ["Failure of coupled shaft centerlines to have the required alignment", "A perfectly balanced rotor", "Correct bearing clearance", "Normal gear backlash"],
+  "answer": "Failure of coupled shaft centerlines to have the required alignment"
+},
+{
+  "question": "What is the main purpose of lockout/tagout before servicing machinery?",
+  "options": ["Prevent unexpected energization or release of hazardous energy", "Increase machine speed", "Improve surface finish", "Increase hydraulic pressure"],
+  "answer": "Prevent unexpected energization or release of hazardous energy"
+},
+{
+  "question": "Which personal protective equipment is particularly important when grinding metal?",
+  "options": ["Safety goggles or face protection", "Open sandals", "Loose clothing", "No eye protection"],
+  "answer": "Safety goggles or face protection"
+},
+{
+  "question": "Why should loose clothing be avoided around rotating machinery?",
+  "options": ["It can become entangled in moving parts", "It reduces machine voltage", "It increases metal hardness", "It changes cutting speed automatically"],
+  "answer": "It can become entangled in moving parts"
+},
   {
     "question": "Which tool is commonly used to tighten or loosen nuts and bolts?",
     "options": ["Spanner", "Hammer", "File", "Chisel"],
@@ -408,6 +808,406 @@
   }
 ],
   "Electrical & Electrician": [
+{
+  "question": "In a purely inductive AC circuit, by how much does the current lag the voltage?",
+  "options": ["0°", "45°", "90°", "180°"],
+  "answer": "90°"
+},
+{
+  "question": "In a purely capacitive AC circuit, by how much does the current lead the voltage?",
+  "options": ["30°", "45°", "90°", "180°"],
+  "answer": "90°"
+},
+{
+  "question": "What is the inductive reactance of an inductor?",
+  "options": ["2πfL", "1/(2πfL)", "2πfC", "1/(2πfC)"],
+  "answer": "2πfL"
+},
+{
+  "question": "What is the capacitive reactance of a capacitor?",
+  "options": ["2πfC", "1/(2πfC)", "2πfL", "f/C"],
+  "answer": "1/(2πfC)"
+},
+{
+  "question": "What happens to inductive reactance when AC frequency increases?",
+  "options": ["It increases", "It decreases", "It remains constant", "It becomes zero"],
+  "answer": "It increases"
+},
+{
+  "question": "What happens to capacitive reactance when AC frequency increases?",
+  "options": ["It increases", "It decreases", "It remains constant", "It becomes infinite"],
+  "answer": "It decreases"
+},
+{
+  "question": "At series resonance in an RLC circuit, what is the relationship between inductive and capacitive reactance?",
+  "options": ["XL = XC", "XL > XC", "XL < XC", "XL = 0 only"],
+  "answer": "XL = XC"
+},
+{
+  "question": "At series resonance, the impedance of an ideal series RLC circuit is equal to what?",
+  "options": ["Resistance", "Inductive reactance", "Capacitive reactance", "Infinite impedance"],
+  "answer": "Resistance"
+},
+{
+  "question": "What is the resonant frequency of an ideal RLC circuit?",
+  "options": ["1/(2π√LC)", "2π√LC", "1/(LC)", "2πLC"],
+  "answer": "1/(2π√LC)"
+},
+{
+  "question": "What is the power factor of a purely resistive AC circuit?",
+  "options": ["0", "0.5", "1", "-1"],
+  "answer": "1"
+},
+{
+  "question": "Which device is commonly used to improve a lagging power factor caused by inductive loads?",
+  "options": ["Capacitor bank", "Inductor bank", "Fuse", "Rectifier"],
+  "answer": "Capacitor bank"
+},
+{
+  "question": "What is the unit of apparent power in an AC circuit?",
+  "options": ["VA", "W", "VAR", "J"],
+  "answer": "VA"
+},
+{
+  "question": "What is the unit of reactive power?",
+  "options": ["VAR", "VA", "W", "Wh"],
+  "answer": "VAR"
+},
+{
+  "question": "In a balanced three-phase system, what is the phase difference between successive phase voltages?",
+  "options": ["60°", "90°", "120°", "180°"],
+  "answer": "120°"
+},
+{
+  "question": "In a balanced star-connected three-phase system, how is line voltage related to phase voltage?",
+  "options": ["VL = √3 Vph", "VL = Vph", "VL = Vph/√3", "VL = 3Vph"],
+  "answer": "VL = √3 Vph"
+},
+{
+  "question": "In a balanced star-connected system, what is the relationship between line current and phase current?",
+  "options": ["IL = Iph", "IL = √3 Iph", "IL = Iph/√3", "IL = 3Iph"],
+  "answer": "IL = Iph"
+},
+{
+  "question": "In a balanced delta-connected system, what is the relationship between line voltage and phase voltage?",
+  "options": ["VL = Vph", "VL = √3 Vph", "VL = Vph/√3", "VL = 3Vph"],
+  "answer": "VL = Vph"
+},
+{
+  "question": "In a balanced delta-connected system, how is line current related to phase current?",
+  "options": ["IL = √3 Iph", "IL = Iph", "IL = Iph/√3", "IL = 3Iph"],
+  "answer": "IL = √3 Iph"
+},
+{
+  "question": "What is the active power in a balanced three-phase circuit?",
+  "options": ["√3 VL IL cosφ", "VL IL cosφ", "3VL IL", "VL IL sinφ"],
+  "answer": "√3 VL IL cosφ"
+},
+{
+  "question": "Which law states that the algebraic sum of currents at an electrical node is zero?",
+  "options": ["Kirchhoff's Current Law", "Kirchhoff's Voltage Law", "Ohm's law", "Faraday's law"],
+  "answer": "Kirchhoff's Current Law"
+},
+{
+  "question": "Which law states that the algebraic sum of voltages around a closed loop is zero?",
+  "options": ["Kirchhoff's Voltage Law", "Kirchhoff's Current Law", "Coulomb's law", "Lenz's law"],
+  "answer": "Kirchhoff's Voltage Law"
+},
+{
+  "question": "What does Thevenin's theorem replace a linear two-terminal network with?",
+  "options": ["A voltage source in series with a resistance", "A current source in parallel with a resistance", "Only a capacitor", "Only an inductor"],
+  "answer": "A voltage source in series with a resistance"
+},
+{
+  "question": "What does Norton's theorem replace a linear two-terminal network with?",
+  "options": ["A current source in parallel with a resistance", "A voltage source in series with a resistance", "A transformer only", "A capacitor only"],
+  "answer": "A current source in parallel with a resistance"
+},
+{
+  "question": "For maximum power transfer in a DC resistive network, what should the load resistance equal?",
+  "options": ["Thevenin resistance", "Zero resistance", "Twice the Thevenin resistance", "Half the Thevenin resistance"],
+  "answer": "Thevenin resistance"
+},
+{
+  "question": "What is the equivalent resistance of 12 Ω and 6 Ω connected in parallel?",
+  "options": ["4 Ω", "6 Ω", "9 Ω", "18 Ω"],
+  "answer": "4 Ω"
+},
+{
+  "question": "Three resistors of 5 Ω each are connected in series. What is their total resistance?",
+  "options": ["5 Ω", "10 Ω", "15 Ω", "25 Ω"],
+  "answer": "15 Ω"
+},
+{
+  "question": "A 240 V heater draws 10 A. What is its power consumption?",
+  "options": ["240 W", "1200 W", "2400 W", "4800 W"],
+  "answer": "2400 W"
+},
+{
+  "question": "How much electrical energy does a 2 kW heater consume in 3 hours?",
+  "options": ["2 kWh", "3 kWh", "5 kWh", "6 kWh"],
+  "answer": "6 kWh"
+},
+{
+  "question": "What does one kilowatt-hour represent?",
+  "options": ["3.6 MJ", "360 kJ", "36 MJ", "3.6 kJ"],
+  "answer": "3.6 MJ"
+},
+{
+  "question": "What is the primary function of a transformer?",
+  "options": ["Change AC voltage or current levels", "Convert DC directly into mechanical energy", "Store electrical charge permanently", "Measure insulation resistance"],
+  "answer": "Change AC voltage or current levels"
+},
+{
+  "question": "On which principle does a transformer primarily operate?",
+  "options": ["Mutual electromagnetic induction", "Electrostatic attraction", "Chemical reaction", "Photoelectric effect"],
+  "answer": "Mutual electromagnetic induction"
+},
+{
+  "question": "For an ideal transformer, what is the voltage ratio equal to?",
+  "options": ["Turns ratio", "Inverse turns ratio always", "Power factor", "Core area only"],
+  "answer": "Turns ratio"
+},
+{
+  "question": "A transformer has 1000 primary turns and 200 secondary turns. If the primary voltage is 230 V, what is the ideal secondary voltage?",
+  "options": ["23 V", "46 V", "115 V", "460 V"],
+  "answer": "46 V"
+},
+{
+  "question": "Why are transformer cores commonly laminated?",
+  "options": ["To reduce eddy-current losses", "To increase copper resistance", "To eliminate magnetic flux", "To increase mechanical friction"],
+  "answer": "To reduce eddy-current losses"
+},
+{
+  "question": "Which transformer loss is mainly caused by repeated magnetization reversal of the core?",
+  "options": ["Hysteresis loss", "Copper loss", "Dielectric loss only", "Mechanical loss"],
+  "answer": "Hysteresis loss"
+},
+{
+  "question": "Transformer copper loss is primarily proportional to which quantity?",
+  "options": ["Current squared", "Voltage squared only", "Frequency only", "Power factor only"],
+  "answer": "Current squared"
+},
+{
+  "question": "Why does an ordinary transformer not operate continuously from a steady DC supply?",
+  "options": ["Steady DC does not provide continuously changing magnetic flux", "DC has too high a frequency", "DC always has zero current", "DC cannot flow through copper"],
+  "answer": "Steady DC does not provide continuously changing magnetic flux"
+},
+{
+  "question": "Which motor is widely used for industrial applications because of its rugged construction and low maintenance?",
+  "options": ["Three-phase induction motor", "Universal motor only", "Stepper motor only", "Electrostatic motor"],
+  "answer": "Three-phase induction motor"
+},
+{
+  "question": "What is the synchronous speed of an AC machine?",
+  "options": ["120f/P", "60P/f", "fP/120", "120P/f"],
+  "answer": "120f/P"
+},
+{
+  "question": "What is the synchronous speed of a 4-pole motor supplied at 50 Hz?",
+  "options": ["750 rpm", "1000 rpm", "1500 rpm", "3000 rpm"],
+  "answer": "1500 rpm"
+},
+{
+  "question": "In an induction motor, rotor speed under normal motoring operation is generally how compared with synchronous speed?",
+  "options": ["Slightly lower", "Exactly equal", "Always higher", "Zero"],
+  "answer": "Slightly lower"
+},
+{
+  "question": "What is slip in an induction motor?",
+  "options": ["Difference between synchronous and rotor speeds expressed relative to synchronous speed", "Difference between voltage and current", "Rotor resistance only", "Mechanical power divided by voltage"],
+  "answer": "Difference between synchronous and rotor speeds expressed relative to synchronous speed"
+},
+{
+  "question": "Why can a three-phase induction motor start without an auxiliary starting winding?",
+  "options": ["Three-phase supply creates a rotating magnetic field", "Its rotor contains a battery", "It operates without magnetic flux", "Its stator has no windings"],
+  "answer": "Three-phase supply creates a rotating magnetic field"
+},
+{
+  "question": "A single-phase induction motor is generally not self-starting because its stator initially produces what?",
+  "options": ["A pulsating magnetic field", "A strong rotating field", "No magnetic field at all", "A permanent DC field"],
+  "answer": "A pulsating magnetic field"
+},
+{
+  "question": "Which component is commonly used to create a phase shift for starting a capacitor-start single-phase motor?",
+  "options": ["Capacitor", "Fuse", "Diode only", "Earth electrode"],
+  "answer": "Capacitor"
+},
+{
+  "question": "What is the main function of a commutator in a conventional DC motor?",
+  "options": ["Reverse armature current appropriately to maintain unidirectional torque", "Increase supply frequency", "Reduce insulation resistance", "Generate three-phase AC"],
+  "answer": "Reverse armature current appropriately to maintain unidirectional torque"
+},
+{
+  "question": "Which rule is commonly used to determine the direction of force on a current-carrying conductor in a magnetic field?",
+  "options": ["Fleming's left-hand rule", "Fleming's right-hand rule", "Lenz's law only", "Ohm's law"],
+  "answer": "Fleming's left-hand rule"
+},
+{
+  "question": "Which rule is commonly used to determine the direction of induced current in a generator?",
+  "options": ["Fleming's right-hand rule", "Fleming's left-hand rule", "Kirchhoff's rule", "Ampere's circuital law only"],
+  "answer": "Fleming's right-hand rule"
+},
+{
+  "question": "What energy conversion occurs in an electric motor?",
+  "options": ["Electrical energy to mechanical energy", "Mechanical energy to electrical energy", "Chemical energy to nuclear energy", "Thermal energy to chemical energy"],
+  "answer": "Electrical energy to mechanical energy"
+},
+{
+  "question": "What energy conversion occurs in an electrical generator?",
+  "options": ["Mechanical energy to electrical energy", "Electrical energy to mechanical energy", "Electrical energy to chemical energy only", "Light energy to thermal energy"],
+  "answer": "Mechanical energy to electrical energy"
+},
+{
+  "question": "Which device converts AC to DC?",
+  "options": ["Rectifier", "Inverter", "Transformer", "Inductor"],
+  "answer": "Rectifier"
+},
+{
+  "question": "Which device converts DC to AC?",
+  "options": ["Inverter", "Rectifier", "Fuse", "Contactor"],
+  "answer": "Inverter"
+},
+{
+  "question": "How many diodes are commonly used in a single-phase full-wave bridge rectifier?",
+  "options": ["2", "3", "4", "6"],
+  "answer": "4"
+},
+{
+  "question": "What is the main function of a filter capacitor at a rectifier output?",
+  "options": ["Reduce voltage ripple", "Increase AC frequency", "Create short circuits", "Increase transformer core loss"],
+  "answer": "Reduce voltage ripple"
+},
+{
+  "question": "What is the primary purpose of a fuse in an electrical circuit?",
+  "options": ["Interrupt excessive current by melting", "Increase circuit voltage", "Improve frequency", "Store electric charge"],
+  "answer": "Interrupt excessive current by melting"
+},
+{
+  "question": "What does MCB stand for?",
+  "options": ["Miniature Circuit Breaker", "Main Current Battery", "Magnetic Control Board", "Maximum Circuit Bus"],
+  "answer": "Miniature Circuit Breaker"
+},
+{
+  "question": "What is the primary purpose of an RCCB or RCD?",
+  "options": ["Detect residual current caused by leakage to earth", "Protect only against overload current", "Increase power factor", "Regulate motor speed"],
+  "answer": "Detect residual current caused by leakage to earth"
+},
+{
+  "question": "Which protective device is specifically designed to respond to both residual-current leakage and overcurrent when combined in one unit?",
+  "options": ["RCBO", "Isolator", "Contactor", "Busbar"],
+  "answer": "RCBO"
+},
+{
+  "question": "What is the primary purpose of protective earthing?",
+  "options": ["Provide a low-impedance fault path and reduce dangerous touch voltage", "Increase appliance operating voltage", "Increase power consumption", "Replace the neutral conductor"],
+  "answer": "Provide a low-impedance fault path and reduce dangerous touch voltage"
+},
+{
+  "question": "Under normal operation, which conductor carries current back toward the source in a single-phase circuit?",
+  "options": ["Neutral conductor", "Protective earth conductor", "Equipment enclosure", "Earth electrode only"],
+  "answer": "Neutral conductor"
+},
+{
+  "question": "Which conductor should normally carry current only under fault or leakage conditions rather than as a normal load-current path?",
+  "options": ["Protective earth conductor", "Neutral conductor", "Line conductor", "Phase conductor"],
+  "answer": "Protective earth conductor"
+},
+{
+  "question": "What is the purpose of electrical bonding?",
+  "options": ["Reduce dangerous potential differences between conductive parts", "Increase circuit frequency", "Increase cable resistance", "Produce reactive power"],
+  "answer": "Reduce dangerous potential differences between conductive parts"
+},
+{
+  "question": "Which instrument is used to measure insulation resistance?",
+  "options": ["Insulation resistance tester", "Clamp meter only", "Wattmeter", "Frequency meter"],
+  "answer": "Insulation resistance tester"
+},
+{
+  "question": "Which instrument can measure current without disconnecting the conductor from the circuit?",
+  "options": ["Clamp meter", "Series ammeter only", "Megohmmeter", "Wheatstone bridge"],
+  "answer": "Clamp meter"
+},
+{
+  "question": "How should an ammeter normally be connected to measure circuit current?",
+  "options": ["In series", "In parallel", "Across earth and neutral only", "Without electrical connection"],
+  "answer": "In series"
+},
+{
+  "question": "How should a voltmeter normally be connected to measure voltage across a component?",
+  "options": ["In parallel", "In series", "Only through an earth electrode", "Directly in the neutral conductor only"],
+  "answer": "In parallel"
+},
+{
+  "question": "An ideal ammeter has approximately what internal resistance?",
+  "options": ["Zero", "Infinite", "1 MΩ", "100 kΩ"],
+  "answer": "Zero"
+},
+{
+  "question": "An ideal voltmeter has approximately what internal resistance?",
+  "options": ["Infinite", "Zero", "1 Ω", "0.1 Ω"],
+  "answer": "Infinite"
+},
+{
+  "question": "What is a current transformer primarily used for?",
+  "options": ["Step down large AC currents for measurement or protection", "Convert DC into AC", "Increase supply frequency", "Store electrical energy"],
+  "answer": "Step down large AC currents for measurement or protection"
+},
+{
+  "question": "Why should the secondary of an energized current transformer not normally be left open-circuited?",
+  "options": ["A dangerously high voltage may develop", "The primary current instantly becomes zero", "The supply frequency doubles", "The core loses all magnetic properties"],
+  "answer": "A dangerously high voltage may develop"
+},
+{
+  "question": "What is a potential transformer primarily used for?",
+  "options": ["Step down high AC voltage for measurement and protection", "Increase current in DC motors", "Convert AC to DC", "Correct power factor"],
+  "answer": "Step down high AC voltage for measurement and protection"
+},
+{
+  "question": "Which relay is commonly used to protect equipment against excessive current?",
+  "options": ["Overcurrent relay", "Reverse power relay only", "Frequency meter", "Thermostat"],
+  "answer": "Overcurrent relay"
+},
+{
+  "question": "Which protection is commonly used for internal faults in power transformers?",
+  "options": ["Differential protection", "Simple lighting fuse only", "Speed protection", "Capacitor-start protection"],
+  "answer": "Differential protection"
+},
+{
+  "question": "What is the purpose of a Buchholz relay in an oil-immersed transformer with a conservator?",
+  "options": ["Detect certain internal faults through gas accumulation or oil surge", "Measure output frequency", "Improve power factor", "Cool the windings directly"],
+  "answer": "Detect certain internal faults through gas accumulation or oil surge"
+},
+{
+  "question": "Why is electrical power transmitted at very high voltage over long distances?",
+  "options": ["To reduce current and I²R transmission losses for a given power", "To increase conductor resistance", "To increase current deliberately", "To eliminate the need for insulation"],
+  "answer": "To reduce current and I²R transmission losses for a given power"
+},
+{
+  "question": "What type of loss in a transmission conductor is proportional to the square of current?",
+  "options": ["I²R loss", "Dielectric loss only", "Hysteresis loss", "Mechanical loss"],
+  "answer": "I²R loss"
+},
+{
+  "question": "What is voltage drop in an electrical cable?",
+  "options": ["Reduction in voltage along the conductor due to its impedance and load current", "Increase in supply frequency", "Complete loss of insulation", "Increase in source voltage"],
+  "answer": "Reduction in voltage along the conductor due to its impedance and load current"
+},
+{
+  "question": "Which material is widely used for electrical conductors because of its high conductivity and practical mechanical properties?",
+  "options": ["Copper", "Rubber", "Glass", "Porcelain"],
+  "answer": "Copper"
+},
+{
+  "question": "Which material is commonly used as an electrical insulator in cables?",
+  "options": ["PVC", "Copper", "Aluminum", "Silver"],
+  "answer": "PVC"
+},
+{
+  "question": "What is the main function of a contactor in an electrical installation?",
+  "options": ["Electrically switch power circuits frequently", "Measure insulation resistance", "Generate electrical power", "Convert AC to DC"],
+  "answer": "Electrically switch power circuits frequently"
+},
   {
     "question": "What is the SI unit of electric current?",
     "options": ["Volt", "Ampere", "Ohm", "Watt"],
@@ -510,6 +1310,406 @@
   }
 ],
   "Civil Engineering": [
+{
+  "question": "Which test is most commonly used to measure the workability of fresh concrete?",
+  "options": ["Slump test", "Compression test", "Impact test", "Abrasion test"],
+  "answer": "Slump test"
+},
+{
+  "question": "According to Abram's law, the compressive strength of concrete is primarily related to which factor when other conditions are similar?",
+  "options": ["Water-cement ratio", "Aggregate color", "Specimen shape only", "Cement bag size"],
+  "answer": "Water-cement ratio"
+},
+{
+  "question": "What generally happens to concrete strength when the water-cement ratio is excessively increased?",
+  "options": ["It decreases", "It increases indefinitely", "It remains unchanged", "It becomes independent of curing"],
+  "answer": "It decreases"
+},
+{
+  "question": "Which compound in Portland cement contributes most significantly to early strength development?",
+  "options": ["Tricalcium silicate", "Dicalcium silicate", "Gypsum", "Magnesium oxide"],
+  "answer": "Tricalcium silicate"
+},
+{
+  "question": "Which cement compound contributes more significantly to strength at later ages?",
+  "options": ["Dicalcium silicate", "Tricalcium aluminate", "Gypsum", "Free lime"],
+  "answer": "Dicalcium silicate"
+},
+{
+  "question": "Why is gypsum added during the manufacture of Portland cement?",
+  "options": ["To control setting time", "To increase aggregate size", "To eliminate hydration", "To make cement waterproof"],
+  "answer": "To control setting time"
+},
+{
+  "question": "Which cement compound is primarily responsible for flash setting if not adequately controlled by gypsum?",
+  "options": ["Tricalcium aluminate", "Dicalcium silicate", "Tetracalcium aluminoferrite", "Silica"],
+  "answer": "Tricalcium aluminate"
+},
+{
+  "question": "What is bleeding in fresh concrete?",
+  "options": ["Upward movement of water to the surface", "Separation of reinforcement", "Cracking caused only by loads", "Chemical attack on cement"],
+  "answer": "Upward movement of water to the surface"
+},
+{
+  "question": "What is segregation in concrete?",
+  "options": ["Separation of constituent materials", "Hydration of cement", "Increase in concrete density", "Development of prestress"],
+  "answer": "Separation of constituent materials"
+},
+{
+  "question": "What is the primary purpose of curing concrete?",
+  "options": ["Maintain adequate moisture and temperature for hydration", "Remove cement paste", "Increase evaporation immediately", "Prevent reinforcement from carrying load"],
+  "answer": "Maintain adequate moisture and temperature for hydration"
+},
+{
+  "question": "Concrete is generally strongest in which type of stress?",
+  "options": ["Compression", "Tension", "Torsion", "Direct shear only"],
+  "answer": "Compression"
+},
+{
+  "question": "Why is steel reinforcement used in ordinary reinforced concrete beams?",
+  "options": ["To resist tensile stresses", "To eliminate concrete compression", "To reduce all dead loads to zero", "To prevent cement hydration"],
+  "answer": "To resist tensile stresses"
+},
+{
+  "question": "In a simply supported reinforced concrete beam under downward gravity loading, where is the primary tensile zone near midspan?",
+  "options": ["Bottom of the beam", "Top of the beam", "Neutral axis only", "At both supports only"],
+  "answer": "Bottom of the beam"
+},
+{
+  "question": "In a cantilever beam carrying a downward load, where is the primary tensile zone near the fixed support?",
+  "options": ["Top of the beam", "Bottom of the beam", "Neutral axis", "Free end only"],
+  "answer": "Top of the beam"
+},
+{
+  "question": "What is the bending moment at an ideal pin or roller support of a simply supported beam?",
+  "options": ["Zero", "Maximum", "Infinite", "Always negative"],
+  "answer": "Zero"
+},
+{
+  "question": "For a simply supported beam with a central point load P and span L, what is the maximum bending moment?",
+  "options": ["PL/4", "PL/2", "PL/8", "PL"],
+  "answer": "PL/4"
+},
+{
+  "question": "For a simply supported beam carrying a uniformly distributed load w over the entire span L, what is the maximum bending moment?",
+  "options": ["wL²/8", "wL²/2", "wL²/4", "wL/8"],
+  "answer": "wL²/8"
+},
+{
+  "question": "For a cantilever beam with a point load P at its free end and length L, what is the magnitude of the maximum bending moment?",
+  "options": ["PL", "PL/2", "PL/4", "PL/8"],
+  "answer": "PL"
+},
+{
+  "question": "At which location is the bending stress zero in a homogeneous beam section under pure bending?",
+  "options": ["Neutral axis", "Extreme fiber", "Top surface only", "Bottom surface only"],
+  "answer": "Neutral axis"
+},
+{
+  "question": "Which equation represents the elastic flexure formula for a beam?",
+  "options": ["M/I = σ/y = E/R", "P/A = E/I", "VQ = It²", "M = EI²"],
+  "answer": "M/I = σ/y = E/R"
+},
+{
+  "question": "What does Young's modulus represent?",
+  "options": ["Ratio of normal stress to normal strain in the elastic range", "Ratio of shear stress to volume", "Ratio of density to pressure", "Ratio of load to area regardless of strain"],
+  "answer": "Ratio of normal stress to normal strain in the elastic range"
+},
+{
+  "question": "What is Poisson's ratio?",
+  "options": ["Negative ratio of lateral strain to longitudinal strain", "Ratio of stress to strain", "Ratio of shear force to moment", "Ratio of load to volume"],
+  "answer": "Negative ratio of lateral strain to longitudinal strain"
+},
+{
+  "question": "Which structural member primarily carries axial compressive load?",
+  "options": ["Column", "Tie", "Cable", "Tension rod"],
+  "answer": "Column"
+},
+{
+  "question": "Euler's buckling load for a long ideal column is inversely proportional to what?",
+  "options": ["Square of effective length", "Effective length", "Cube of effective length", "Cross-sectional area only"],
+  "answer": "Square of effective length"
+},
+{
+  "question": "Which property of a cross-section strongly influences a beam's resistance to bending deformation?",
+  "options": ["Second moment of area", "Perimeter only", "Surface color", "Specific gravity only"],
+  "answer": "Second moment of area"
+},
+{
+  "question": "What is the primary structural purpose of a truss?",
+  "options": ["Carry loads mainly through axial forces in members", "Carry loads only by plate bending", "Eliminate all support reactions", "Prevent all thermal expansion"],
+  "answer": "Carry loads mainly through axial forces in members"
+},
+{
+  "question": "For an ideal pin-jointed plane truss, members are assumed to carry primarily which forces?",
+  "options": ["Axial tension or compression", "Bending only", "Torsion only", "Hydrostatic pressure"],
+  "answer": "Axial tension or compression"
+},
+{
+  "question": "For a perfect simple plane truss, what relation generally holds between number of members m and joints j?",
+  "options": ["m = 2j - 3", "m = j - 1", "m = 3j", "m = j + 3"],
+  "answer": "m = 2j - 3"
+},
+{
+  "question": "Which method is commonly used to determine forces in selected members of a truss without analyzing every member?",
+  "options": ["Method of sections", "Slump method", "Compaction method", "Consolidation method"],
+  "answer": "Method of sections"
+},
+{
+  "question": "Which structural system uses cables as its major load-carrying elements?",
+  "options": ["Suspension bridge", "Rigid frame only", "Masonry arch only", "Gravity dam"],
+  "answer": "Suspension bridge"
+},
+{
+  "question": "What is prestressing in concrete primarily intended to introduce?",
+  "options": ["Compressive stresses before service loading", "Permanent tensile cracks", "Higher water content", "Aggregate segregation"],
+  "answer": "Compressive stresses before service loading"
+},
+{
+  "question": "In post-tensioned concrete, when are the tendons typically stressed?",
+  "options": ["After the concrete has gained sufficient strength", "Before concrete is placed", "Before reinforcement is manufactured", "Only after structural failure"],
+  "answer": "After the concrete has gained sufficient strength"
+},
+{
+  "question": "Which soil particle type has the smallest typical particle size?",
+  "options": ["Clay", "Silt", "Sand", "Gravel"],
+  "answer": "Clay"
+},
+{
+  "question": "Which soil property is defined as the ratio of the volume of voids to the volume of solids?",
+  "options": ["Void ratio", "Porosity", "Degree of saturation", "Specific gravity"],
+  "answer": "Void ratio"
+},
+{
+  "question": "Porosity is defined as the ratio of volume of voids to what?",
+  "options": ["Total volume", "Volume of solids", "Volume of water only", "Mass of soil"],
+  "answer": "Total volume"
+},
+{
+  "question": "What does the degree of saturation of a soil represent?",
+  "options": ["Ratio of water-filled void volume to total void volume", "Ratio of solids to total volume", "Ratio of air to solids", "Ratio of soil mass to water mass"],
+  "answer": "Ratio of water-filled void volume to total void volume"
+},
+{
+  "question": "Which Atterberg limit represents the water content at the boundary between plastic and liquid states?",
+  "options": ["Liquid limit", "Plastic limit", "Shrinkage limit", "Elastic limit"],
+  "answer": "Liquid limit"
+},
+{
+  "question": "How is the plasticity index of a soil calculated?",
+  "options": ["Liquid limit minus plastic limit", "Plastic limit minus liquid limit", "Liquid limit plus plastic limit", "Shrinkage limit minus liquid limit"],
+  "answer": "Liquid limit minus plastic limit"
+},
+{
+  "question": "Which laboratory test is commonly used to determine the shear strength parameters of soil under controlled drainage conditions?",
+  "options": ["Triaxial compression test", "Slump test", "Los Angeles abrasion test", "Vicat test"],
+  "answer": "Triaxial compression test"
+},
+{
+  "question": "According to the Mohr-Coulomb criterion, soil shear strength is commonly expressed using cohesion and what other parameter?",
+  "options": ["Angle of internal friction", "Young's modulus only", "Poisson's ratio only", "Permeability coefficient only"],
+  "answer": "Angle of internal friction"
+},
+{
+  "question": "Which law is commonly used to describe laminar flow of water through saturated soil?",
+  "options": ["Darcy's law", "Hooke's law", "Newton's law", "Faraday's law"],
+  "answer": "Darcy's law"
+},
+{
+  "question": "Which soil generally has greater permeability?",
+  "options": ["Gravel", "Clay", "Silt", "Highly compacted clay"],
+  "answer": "Gravel"
+},
+{
+  "question": "What is consolidation settlement primarily associated with in saturated clay?",
+  "options": ["Expulsion of pore water over time", "Immediate evaporation of solids", "Increase in air voids only", "Chemical dissolution of aggregate"],
+  "answer": "Expulsion of pore water over time"
+},
+{
+  "question": "Which laboratory test is commonly used to study one-dimensional consolidation of soil?",
+  "options": ["Oedometer test", "Slump test", "Impact test", "Vicat test"],
+  "answer": "Oedometer test"
+},
+{
+  "question": "What is the primary function of a foundation?",
+  "options": ["Transfer structural loads safely to the ground", "Increase wind loading", "Prevent concrete hydration", "Eliminate structural dead load"],
+  "answer": "Transfer structural loads safely to the ground"
+},
+{
+  "question": "Which foundation is generally classified as a shallow foundation?",
+  "options": ["Isolated footing", "Pile foundation", "Caisson foundation", "Drilled shaft"],
+  "answer": "Isolated footing"
+},
+{
+  "question": "Which type of foundation is often used when strong bearing strata lie far below ground level?",
+  "options": ["Pile foundation", "Strip footing", "Isolated footing", "Wall footing only"],
+  "answer": "Pile foundation"
+},
+{
+  "question": "What is the ultimate bearing capacity of soil?",
+  "options": ["Maximum pressure soil can sustain before shear failure", "Minimum water content of soil", "Weight of soil solids only", "Maximum soil permeability"],
+  "answer": "Maximum pressure soil can sustain before shear failure"
+},
+{
+  "question": "Which field test is widely used to estimate the resistance and engineering properties of granular soils?",
+  "options": ["Standard Penetration Test", "Slump test", "Vicat test", "Los Angeles test"],
+  "answer": "Standard Penetration Test"
+},
+{
+  "question": "What does the abbreviation SPT stand for in geotechnical engineering?",
+  "options": ["Standard Penetration Test", "Soil Pressure Technique", "Structural Performance Test", "Surface Permeability Test"],
+  "answer": "Standard Penetration Test"
+},
+{
+  "question": "Which surveying instrument is used to measure both horizontal and vertical angles with high precision?",
+  "options": ["Theodolite", "Leveling staff", "Plumb bob", "Measuring tape"],
+  "answer": "Theodolite"
+},
+{
+  "question": "What is a total station?",
+  "options": ["An electronic surveying instrument combining angle and distance measurement", "A concrete mixing machine", "A soil compactor", "A water treatment unit"],
+  "answer": "An electronic surveying instrument combining angle and distance measurement"
+},
+{
+  "question": "In surveying, what is leveling primarily used to determine?",
+  "options": ["Differences in elevation", "Soil cohesion", "Concrete strength", "Traffic volume"],
+  "answer": "Differences in elevation"
+},
+{
+  "question": "What is a benchmark in surveying?",
+  "options": ["A fixed reference point of known elevation", "A temporary concrete mix", "A road centerline curve", "A soil failure plane"],
+  "answer": "A fixed reference point of known elevation"
+},
+{
+  "question": "Which surveying method determines positions using signals from navigation satellites?",
+  "options": ["GNSS surveying", "Chain surveying only", "Plane table surveying", "Compass traversing only"],
+  "answer": "GNSS surveying"
+},
+{
+  "question": "What is the primary purpose of contour lines on a topographic map?",
+  "options": ["Connect points of equal elevation", "Show equal soil density", "Show equal traffic speed", "Connect property corners only"],
+  "answer": "Connect points of equal elevation"
+},
+{
+  "question": "Closely spaced contour lines generally indicate what type of terrain?",
+  "options": ["Steep slope", "Gentle slope", "Perfectly flat land", "Underwater terrain only"],
+  "answer": "Steep slope"
+},
+{
+  "question": "Which test is commonly used to evaluate the resistance of coarse aggregate to abrasion and impact?",
+  "options": ["Los Angeles abrasion test", "Slump test", "Vicat test", "Proctor test"],
+  "answer": "Los Angeles abrasion test"
+},
+{
+  "question": "Which test is used to determine the optimum moisture content and maximum dry density of compacted soil?",
+  "options": ["Proctor compaction test", "Slump test", "Direct tension test", "Vicat test"],
+  "answer": "Proctor compaction test"
+},
+{
+  "question": "What is the primary purpose of compacting soil in construction?",
+  "options": ["Increase dry density and improve engineering properties", "Increase void ratio", "Increase compressibility", "Reduce shear strength"],
+  "answer": "Increase dry density and improve engineering properties"
+},
+{
+  "question": "Which pavement type primarily uses a bituminous surface and behaves as a layered flexible system?",
+  "options": ["Flexible pavement", "Rigid pavement", "Composite masonry pavement", "Timber pavement"],
+  "answer": "Flexible pavement"
+},
+{
+  "question": "Which pavement type primarily uses Portland cement concrete as its structural slab?",
+  "options": ["Rigid pavement", "Flexible pavement", "Gravel pavement only", "Bituminous pavement"],
+  "answer": "Rigid pavement"
+},
+{
+  "question": "What is superelevation on a highway curve?",
+  "options": ["Raising the outer edge of the pavement relative to the inner edge", "Lowering both pavement edges", "Increasing pavement thickness uniformly", "Widening only the road shoulder"],
+  "answer": "Raising the outer edge of the pavement relative to the inner edge"
+},
+{
+  "question": "What is the primary purpose of providing superelevation on horizontal road curves?",
+  "options": ["Counteract the effects of lateral acceleration", "Increase vehicle engine power", "Reduce road length", "Eliminate pavement drainage"],
+  "answer": "Counteract the effects of lateral acceleration"
+},
+{
+  "question": "What does CBR stand for in pavement engineering?",
+  "options": ["California Bearing Ratio", "Concrete Bending Resistance", "Cumulative Bearing Reaction", "California Bitumen Rating"],
+  "answer": "California Bearing Ratio"
+},
+{
+  "question": "The California Bearing Ratio test is mainly used to evaluate what?",
+  "options": ["Strength of pavement subgrade and base materials", "Cement setting time", "Steel tensile strength", "Water quality"],
+  "answer": "Strength of pavement subgrade and base materials"
+},
+{
+  "question": "Which equation expresses conservation of mass for steady incompressible fluid flow?",
+  "options": ["A1V1 = A2V2", "P1V1 = P2V2", "F = ma", "Q = mcΔT"],
+  "answer": "A1V1 = A2V2"
+},
+{
+  "question": "What does Reynolds number primarily indicate in pipe flow?",
+  "options": ["Flow regime", "Fluid temperature only", "Pipe length only", "Atmospheric pressure"],
+  "answer": "Flow regime"
+},
+{
+  "question": "For flow in a circular pipe, a very low Reynolds number is generally associated with which flow regime?",
+  "options": ["Laminar flow", "Turbulent flow", "Critical flow only", "Supersonic flow"],
+  "answer": "Laminar flow"
+},
+{
+  "question": "Which device is commonly used to measure discharge through an open channel?",
+  "options": ["Weir", "Piezometer only", "Barometer", "Hydrometer"],
+  "answer": "Weir"
+},
+{
+  "question": "What is hydraulic head?",
+  "options": ["Energy per unit weight of fluid expressed as a length", "Fluid mass per unit volume", "Force per unit area only", "Viscosity divided by density"],
+  "answer": "Energy per unit weight of fluid expressed as a length"
+},
+{
+  "question": "What phenomenon may occur when local pressure in flowing water falls below its vapor pressure?",
+  "options": ["Cavitation", "Sedimentation", "Coagulation", "Compaction"],
+  "answer": "Cavitation"
+},
+{
+  "question": "What is the primary purpose of coagulation in conventional water treatment?",
+  "options": ["Destabilize fine suspended and colloidal particles", "Increase dissolved salts", "Add pathogenic organisms", "Remove all water hardness by evaporation"],
+  "answer": "Destabilize fine suspended and colloidal particles"
+},
+{
+  "question": "Which process usually follows coagulation and promotes formation of larger particle aggregates in water treatment?",
+  "options": ["Flocculation", "Chlorination", "Aeration only", "Distillation"],
+  "answer": "Flocculation"
+},
+{
+  "question": "What does BOD primarily measure in wastewater engineering?",
+  "options": ["Oxygen required by microorganisms to biologically degrade biodegradable organic matter", "Total dissolved minerals", "Water pressure", "Chlorine concentration only"],
+  "answer": "Oxygen required by microorganisms to biologically degrade biodegradable organic matter"
+},
+{
+  "question": "What does COD measure in water and wastewater analysis?",
+  "options": ["Oxygen equivalent required to chemically oxidize oxidizable substances", "Only dissolved oxygen already present", "Concrete oxygen demand", "Carbon dioxide pressure"],
+  "answer": "Oxygen equivalent required to chemically oxidize oxidizable substances"
+},
+{
+  "question": "Which treatment process uses microorganisms to degrade organic pollutants in wastewater?",
+  "options": ["Biological treatment", "Screening only", "Grit removal only", "Sedimentation only"],
+  "answer": "Biological treatment"
+},
+{
+  "question": "What is the primary purpose of chlorination in drinking-water treatment?",
+  "options": ["Disinfection", "Increase turbidity", "Increase suspended solids", "Increase hardness"],
+  "answer": "Disinfection"
+},
+{
+  "question": "Which construction planning method identifies activities whose delay will directly delay project completion when no float remains?",
+  "options": ["Critical Path Method", "Slump method", "Mohr circle", "Contour method"],
+  "answer": "Critical Path Method"
+},
+{
+  "question": "In a project network, what is the total float of an activity on the critical path under standard CPM assumptions?",
+  "options": ["Zero", "One day always", "Equal to project duration", "Infinite"],
+  "answer": "Zero"
+},
   {
     "question": "What is the SI unit of force?",
     "options": ["Joule", "Newton", "Pascal", "Watt"],
