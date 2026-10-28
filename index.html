@@ -1341,9 +1341,7 @@ function checkAnswer(
 ){
 
     score++;
-
-    /* Correct answer = +10 Coins */
-    addCoins(10);
+    quizScore++;
 
 }
 
@@ -1376,7 +1374,6 @@ function checkAnswer(
 
 }
 
-
 /* ==========================================
    NEXT QUESTION
    ========================================== */
@@ -1387,11 +1384,12 @@ document.getElementById(
 
     currentQuestionIndex++;
 
+    /* 10 questions = 1 Quiz */
 
     if(
         currentQuestionIndex
         >=
-        currentQuestions.length
+        currentQuizEnd
     ){
 
         showResult();
