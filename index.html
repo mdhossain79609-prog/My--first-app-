@@ -1324,12 +1324,15 @@ function checkAnswer(
 
 
     if(
-        selectedIndex === correctIndex
-    ){
+    selectedIndex === correctIndex
+){
 
-        score++;
+    score++;
 
-    }
+    /* Correct answer = +10 Coins */
+    addCoins(10);
+
+}
 
     else{
 
