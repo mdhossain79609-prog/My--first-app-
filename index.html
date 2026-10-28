@@ -826,7 +826,19 @@ let coins = Number(localStorage.getItem("worldQuizCoins")) || 0;
 
 function updateCoinsDisplay(){
 
-    document.getElementById("points").textContent = coins;
+    document.getElementById(
+        "points"
+    ).textContent = coins;
+
+    const dollars =
+        coins / 1000;
+
+    document.getElementById(
+        "dollarBalance"
+    ).textContent =
+        dollars.toFixed(2);
+
+}
 
 }
 
