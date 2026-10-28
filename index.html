@@ -1502,26 +1502,49 @@ quizCompleted = true;
 
 
 /* ==========================================
-   RESTART
+   CONTINUE QUIZ
    ========================================== */
 
-function restartQuiz(){
+function continueQuiz(){
 
-    currentQuestionIndex = 0;
+    /* No more questions in this category */
 
+    if(
+        currentQuizEnd >= currentQuestions.length
+    ){
+
+        alert("এই Category-এর সব Quiz সম্পন্ন হয়েছে।");
+        return;
+
+    }
+
+
+    /* Start the next set of 10 questions */
+
+    currentQuizStart = currentQuizEnd;
+
+    currentQuizEnd = Math.min(
+        currentQuizStart + 10,
+        currentQuestions.length
+    );
+
+    currentQuestionIndex = currentQuizStart;
+
+    quizScore = 0;
     score = 0;
-
     answered = false;
+    quizCompleted = false;
+
 
     document.getElementById(
         "result"
-    ).style.display =
-        "none";
+    ).style.display = "none";
+
 
     document.getElementById(
         "quiz"
-    ).style.display =
-        "block";
+    ).style.display = "block";
+
 
     showQuestion();
 
