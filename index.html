@@ -1065,9 +1065,48 @@ function createCategories(){
 
         button.className =
             "category-btn";
+const completed =
+    getCompletedQuizzes();
 
-        button.textContent =
-            "📘 " + category;
+const completedInCategory =
+    completed[category] || [];
+
+const totalQuestions =
+    quizData[category].length;
+
+const totalQuizzes =
+    Math.floor(
+        totalQuestions / 10
+    );
+
+let nextQuizNumber = 1;
+
+while(
+    completedInCategory.includes(nextQuizNumber) &&
+    nextQuizNumber <= totalQuizzes
+){
+
+    nextQuizNumber++;
+
+}
+
+if(nextQuizNumber > totalQuizzes){
+
+    button.textContent =
+        "🔴 " + category + " — Completed";
+
+}
+
+else{
+
+    button.textContent =
+        "📘 " + category +
+        " — Quiz " +
+        nextQuizNumber +
+        "/" +
+        totalQuizzes;
+
+}
 
         button.onclick =
             function(){
