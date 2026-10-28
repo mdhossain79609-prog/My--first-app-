@@ -628,133 +628,75 @@ body{
     top:-25px !important;
     margin:0 auto !important;
 }
-    /* ===== NEW CATEGORY DESIGN ===== */
+  
+/* ===== NEW CATEGORY DESIGN ===== */
 
 #categoryScreen{
-    padding: 20px 14px 40px;
-    background: #eef8ff;
-    min-height: 100vh;
+    display:none;
+    width:100%;
+    min-height:100vh;
+    padding:20px 14px 40px;
+    background:#eef8ff;
 }
 
-/* Choose a Category */
+/* TITLE */
+
 #categoryScreen h2{
-    font-size: 34px;
-    font-weight: 800;
-    color: #ffffff;
+    font-size:32px;
+    font-weight:800;
+    color:#ffffff;
 
-    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
 
-    margin: -20px -14px 25px;
-    padding: 28px 10px 35px;
+    margin:-20px -14px 25px;
+    padding:28px 10px 32px;
 
-    text-align: center;
+    text-align:center;
 
-    border-radius: 0 0 45px 45px;
+    border-radius:0 0 40px 40px;
 
-    box-shadow: 0 5px 15px rgba(37,99,235,0.25);
+    box-shadow:0 5px 15px rgba(37,99,235,0.25);
 }
 
 
-/* Category list */
-#categoryList{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+/* CATEGORY CONTAINER */
+
+#categories{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
 }
 
 
-/* Category buttons */
-#categoryList button{
-    width: 100%;
+/* CATEGORY CARD */
 
-    min-height: 105px;
-
-    padding: 18px 18px;
-
-    background: linear-gradient(
-        135deg,
-        #ffffff,
-        #eef8ff
-    );
-
-    color: #25158f;
-
-    border: 2px solid #55b8ff;
-
-    border-radius: 28px;
-
-    font-size: 24px;
-    font-weight: 800;
-
-    line-height: 1.25;
-
-    text-align: center;
-
-    box-shadow:
-        0 7px 15px rgba(0,140,255,0.18);
-
-    cursor: pointer;
-
-    transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-}
-
-
-/* Button press effect */
-#categoryList button:active{
-    transform: scale(0.97);
-
-    box-shadow:
-        0 3px 8px rgba(0,140,255,0.20);
-}
-
-
-/* Book icon */
-#categoryList button::first-letter{
-    font-size: 32px;
-}
-
-
-/* Small phone */
-@media(max-width: 400px){
-
-    #categoryScreen h2{
-        font-size: 30px;
-    }
-
-    #categoryList button{
-        font-size: 22px;
-        min-height: 95px;
-        padding: 16px 12px;
-    }
-    /* ===== CATEGORY CARD NEW STYLE ===== */
-
-#categoryList .category-card{
+#categories .category-card{
     width:100%;
     min-height:105px;
 
     display:flex;
     align-items:center;
 
-    padding:14px 14px;
+    gap:10px;
+    padding:14px 12px;
 
     background:linear-gradient(135deg,#ffffff,#eef8ff);
 
-    border:2px solid #55b8ff;
-    border-radius:28px;
+    border:2px solid #2563eb;
+    border-radius:25px;
 
-    box-shadow:0 7px 15px rgba(0,140,255,0.18);
+    box-shadow:0 6px 14px rgba(37,99,235,0.16);
 
-    gap:12px;
+    cursor:pointer;
 }
 
 
 /* LEFT ICON */
 
 .category-icon{
-    width:64px;
-    height:64px;
+    width:62px;
+    height:62px;
 
     flex-shrink:0;
 
@@ -762,9 +704,9 @@ body{
     align-items:center;
     justify-content:center;
 
-    font-size:38px;
+    font-size:35px;
 
-    background:linear-gradient(135deg,#e0f2fe,#dbeafe);
+    background:linear-gradient(135deg,#dbeafe,#e0f2fe);
 
     border-radius:50%;
 }
@@ -775,10 +717,12 @@ body{
 .category-name{
     flex:1;
 
-    font-size:22px;
+    min-width:0;
+
+    font-size:21px;
     font-weight:800;
 
-    line-height:1.15;
+    line-height:1.2;
 
     color:#25158f;
 
@@ -791,15 +735,15 @@ body{
 .quiz-count{
     flex-shrink:0;
 
+    padding:10px 11px;
+
     background:linear-gradient(135deg,#60a5fa,#2563eb);
 
-    color:white;
+    color:#ffffff;
 
-    padding:11px 13px;
+    border-radius:22px;
 
-    border-radius:25px;
-
-    font-size:17px;
+    font-size:15px;
     font-weight:800;
 
     white-space:nowrap;
@@ -811,7 +755,7 @@ body{
 .category-arrow{
     flex-shrink:0;
 
-    font-size:36px;
+    font-size:32px;
     font-weight:bold;
 
     color:#2563eb;
@@ -820,36 +764,47 @@ body{
 }
 
 
-/* PHONE SCREEN */
+/* PRESS EFFECT */
+
+#categories .category-card:active{
+    transform:scale(0.98);
+}
+
+
+/* SMALL MOBILE */
 
 @media(max-width:400px){
 
-    #categoryList .category-card{
+    #categoryScreen h2{
+        font-size:29px;
+    }
+
+    #categories .category-card{
         min-height:100px;
+        padding:12px 9px;
         gap:8px;
-        padding:12px 10px;
     }
 
     .category-icon{
-        width:55px;
-        height:55px;
-        font-size:32px;
+        width:54px;
+        height:54px;
+        font-size:31px;
     }
 
     .category-name{
-        font-size:19px;
+        font-size:18px;
     }
 
     .quiz-count{
-        font-size:15px;
-        padding:9px 10px;
+        font-size:14px;
+        padding:9px 9px;
     }
 
     .category-arrow{
-        font-size:30px;
+        font-size:28px;
     }
 }
-  
+
 </style>
     
 </head>
