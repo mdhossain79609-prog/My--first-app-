@@ -1109,14 +1109,60 @@ function startQuiz(category){
 
     }
 
-currentQuizStart = 0;
+/* Find the first Quiz that has not been completed */
 
-currentQuizEnd = Math.min(
-    currentQuizStart + 10,
-    currentQuestions.length
-);
+const completed =
+    getCompletedQuizzes();
 
-currentQuestionIndex = currentQuizStart;
+const completedInCategory =
+    completed[currentCategory] || [];
+
+const totalQuizzes =
+    Math.ceil(
+        currentQuestions.length / 10
+    );
+
+let nextQuizNumber = 1;
+
+
+while(
+    completedInCategory.includes(
+        nextQuizNumber
+    ) &&
+    nextQuizNumber <= totalQuizzes
+){
+
+    nextQuizNumber++;
+
+}
+
+
+/* All Quizzes in this Category are completed */
+
+if(nextQuizNumber > totalQuizzes){
+
+    alert(
+        "🔴 এই Category-এর সব Quiz ইতিমধ্যে সম্পন্ন হয়েছে।"
+    );
+
+    return;
+
+}
+
+
+/* Start first available Quiz */
+
+currentQuizStart =
+    (nextQuizNumber - 1) * 10;
+
+currentQuizEnd =
+    Math.min(
+        currentQuizStart + 10,
+        currentQuestions.length
+    );
+
+currentQuestionIndex =
+    currentQuizStart;
 
 quizScore = 0;
 
