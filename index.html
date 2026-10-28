@@ -1116,9 +1116,8 @@ const completed =
 
 const completedInCategory =
     completed[currentCategory] || [];
-
 const totalQuizzes =
-    Math.ceil(
+    Math.floor(
         currentQuestions.length / 10
     );
 
