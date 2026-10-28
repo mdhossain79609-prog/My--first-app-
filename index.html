@@ -780,12 +780,12 @@ body{
             <div id="resultMessage"></div>
 
         </div>
-
-        <button
-            class="main-btn"
-            onclick="restartQuiz()">
-            🔄 Try Again
-        </button>
+<button
+    id="continueQuizBtn"
+    class="main-btn"
+    onclick="continueQuiz()">
+    ➡️ Continue Quiz
+</button>
 
         <button
             class="main-btn"
@@ -1423,21 +1423,39 @@ function showResult(){
         "block";
 
 
-    const total =
-        currentQuestions.length;
+const total =
+    currentQuizEnd - currentQuizStart;
 
 
-    document.getElementById(
-        "finalScore"
-    ).textContent =
-        score + " / " + total;
+document.getElementById(
+    "finalScore"
+).textContent =
+    quizScore + " / " + total;
 
 
-    const percentage =
-        Math.round(
-            (score / total) * 100
-        );
+const percentage =
+    Math.round(
+        (quizScore / total) * 100
+    );
 
+
+/* ==========================================
+   QUIZ COIN REWARD
+   10/10 = 10 Coins
+   Anything less = 0 Coins
+   ========================================== */
+
+if(
+    total === 10 &&
+    quizScore === 10 &&
+    quizCompleted === false
+){
+
+    addCoins(10);
+
+}
+
+quizCompleted = true;
 
     let message = "";
 
