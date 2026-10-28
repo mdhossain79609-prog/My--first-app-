@@ -12441,26 +12441,6 @@
     "question": "Which shape has the greatest number of sides?",
     "options": ["Triangle", "Square", "Pentagon", "Hexagon"],
     "answer": "Hexagon"
-  },
-  {
-    "question": "What comes next in the pattern: 100, 90, 80, 70, ?",
-    "options": ["50", "55", "60", "65"],
-    "answer": "60"
-  },
-  {
-    "question": "If two cats catch two mice in two minutes, how many cats are needed to catch 100 mice in 100 minutes at the same rate?",
-    "options": ["1", "2", "50", "100"],
-    "answer": "2"
-  },
-  {
-    "question": "Which number is missing: 2, 6, 12, 20, 30, ?",
-    "options": ["36", "40", "42", "48"],
-    "answer": "42"
-  },
-  {
-    "question": "A book and a pen cost $11 in total. The book costs $10 more than the pen. How much does the pen cost?",
-    "options": ["$0.50", "$1.00", "$1.50", "$2.00"],
-    "answer": "$0.50"
   }
 ],
   "Medical": [
