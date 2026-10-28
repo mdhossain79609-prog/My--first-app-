@@ -811,6 +811,10 @@ let currentQuestionIndex = 0;
 
 let score = 0;
 let answered = false;
+let currentQuizStart = 0;
+let currentQuizEnd = 10;
+let quizScore = 0;
+let quizCompleted = false;
 /* ==========================================
    COINS / POINTS SYSTEM
    ========================================== */
@@ -1056,13 +1060,22 @@ function startQuiz(category){
 
     }
 
+currentQuizStart = 0;
 
-    currentQuestionIndex = 0;
+currentQuizEnd = Math.min(
+    currentQuizStart + 10,
+    currentQuestions.length
+);
 
-    score = 0;
+currentQuestionIndex = currentQuizStart;
 
-    answered = false;
+quizScore = 0;
 
+score = 0;
+
+answered = false;
+
+quizCompleted = false;
 
     document.getElementById(
         "categoryScreen"
