@@ -1,5 +1,3140 @@
 {
   "World General Knowledge": [
+{
+  "question": "Which country has the world's only non-quadrilateral national flag?",
+  "options": ["Nepal", "Bhutan", "Switzerland", "Vatican City"],
+  "answer": "Nepal"
+},
+{
+  "question": "Which country is completely surrounded by South Africa?",
+  "options": ["Lesotho", "Eswatini", "Botswana", "Namibia"],
+  "answer": "Lesotho"
+},
+{
+  "question": "Which two sovereign states are completely surrounded by Italy?",
+  "options": ["San Marino and Vatican City", "Monaco and Andorra", "Liechtenstein and San Marino", "Vatican City and Monaco"],
+  "answer": "San Marino and Vatican City"
+},
+{
+  "question": "Which country has three national capitals serving different branches of government?",
+  "options": ["South Africa", "Bolivia", "Sri Lanka", "Tanzania"],
+  "answer": "South Africa"
+},
+{
+  "question": "Which city is the administrative capital of South Africa?",
+  "options": ["Pretoria", "Cape Town", "Bloemfontein", "Johannesburg"],
+  "answer": "Pretoria"
+},
+{
+  "question": "Which city is the legislative capital of South Africa?",
+  "options": ["Cape Town", "Pretoria", "Durban", "Bloemfontein"],
+  "answer": "Cape Town"
+},
+{
+  "question": "Which city is traditionally regarded as South Africa's judicial capital?",
+  "options": ["Bloemfontein", "Pretoria", "Cape Town", "Soweto"],
+  "answer": "Bloemfontein"
+},
+{
+  "question": "What is the constitutional capital of Bolivia?",
+  "options": ["Sucre", "La Paz", "Santa Cruz", "Cochabamba"],
+  "answer": "Sucre"
+},
+{
+  "question": "In which Bolivian city is the seat of government located?",
+  "options": ["La Paz", "Sucre", "Potosi", "Oruro"],
+  "answer": "La Paz"
+},
+{
+  "question": "What is the official capital of Sri Lanka?",
+  "options": ["Sri Jayawardenepura Kotte", "Colombo", "Kandy", "Galle"],
+  "answer": "Sri Jayawardenepura Kotte"
+},
+{
+  "question": "What is the capital of Kazakhstan?",
+  "options": ["Astana", "Almaty", "Tashkent", "Bishkek"],
+  "answer": "Astana"
+},
+{
+  "question": "What is the capital of Kyrgyzstan?",
+  "options": ["Bishkek", "Dushanbe", "Ashgabat", "Astana"],
+  "answer": "Bishkek"
+},
+{
+  "question": "What is the capital of Tajikistan?",
+  "options": ["Dushanbe", "Bishkek", "Tashkent", "Baku"],
+  "answer": "Dushanbe"
+},
+{
+  "question": "What is the capital of Turkmenistan?",
+  "options": ["Ashgabat", "Tashkent", "Dushanbe", "Yerevan"],
+  "answer": "Ashgabat"
+},
+{
+  "question": "What is the capital of Uzbekistan?",
+  "options": ["Tashkent", "Samarkand", "Bukhara", "Khiva"],
+  "answer": "Tashkent"
+},
+{
+  "question": "What is the capital of Mongolia?",
+  "options": ["Ulaanbaatar", "Astana", "Bishkek", "Harbin"],
+  "answer": "Ulaanbaatar"
+},
+{
+  "question": "What is the capital of Bhutan?",
+  "options": ["Thimphu", "Paro", "Kathmandu", "Dhaka"],
+  "answer": "Thimphu"
+},
+{
+  "question": "What is the capital of the Maldives?",
+  "options": ["Male", "Addu City", "Colombo", "Victoria"],
+  "answer": "Male"
+},
+{
+  "question": "What is the capital of Brunei?",
+  "options": ["Bandar Seri Begawan", "Kuala Lumpur", "Jakarta", "Dili"],
+  "answer": "Bandar Seri Begawan"
+},
+{
+  "question": "What is the capital of Timor-Leste?",
+  "options": ["Dili", "Suva", "Port Moresby", "Bandar Seri Begawan"],
+  "answer": "Dili"
+},
+{
+  "question": "What is the capital of Laos?",
+  "options": ["Vientiane", "Luang Prabang", "Phnom Penh", "Hanoi"],
+  "answer": "Vientiane"
+},
+{
+  "question": "What is the capital of Cambodia?",
+  "options": ["Phnom Penh", "Siem Reap", "Vientiane", "Yangon"],
+  "answer": "Phnom Penh"
+},
+{
+  "question": "What is the capital of Myanmar?",
+  "options": ["Naypyidaw", "Yangon", "Mandalay", "Bago"],
+  "answer": "Naypyidaw"
+},
+{
+  "question": "What is the capital of Azerbaijan?",
+  "options": ["Baku", "Tbilisi", "Yerevan", "Batumi"],
+  "answer": "Baku"
+},
+{
+  "question": "What is the capital of Armenia?",
+  "options": ["Yerevan", "Baku", "Tbilisi", "Gyumri"],
+  "answer": "Yerevan"
+},
+{
+  "question": "What is the capital of Georgia?",
+  "options": ["Tbilisi", "Batumi", "Baku", "Yerevan"],
+  "answer": "Tbilisi"
+},
+{
+  "question": "What is the capital of Moldova?",
+  "options": ["Chisinau", "Bucharest", "Sofia", "Minsk"],
+  "answer": "Chisinau"
+},
+{
+  "question": "What is the capital of Slovenia?",
+  "options": ["Ljubljana", "Bratislava", "Zagreb", "Sarajevo"],
+  "answer": "Ljubljana"
+},
+{
+  "question": "What is the capital of Slovakia?",
+  "options": ["Bratislava", "Ljubljana", "Prague", "Budapest"],
+  "answer": "Bratislava"
+},
+{
+  "question": "What is the capital of Montenegro?",
+  "options": ["Podgorica", "Sarajevo", "Skopje", "Belgrade"],
+  "answer": "Podgorica"
+},
+{
+  "question": "What is the capital of North Macedonia?",
+  "options": ["Skopje", "Podgorica", "Sofia", "Pristina"],
+  "answer": "Skopje"
+},
+{
+  "question": "What is the capital of Bosnia and Herzegovina?",
+  "options": ["Sarajevo", "Zagreb", "Belgrade", "Podgorica"],
+  "answer": "Sarajevo"
+},
+{
+  "question": "What is the capital of Albania?",
+  "options": ["Tirana", "Skopje", "Athens", "Pristina"],
+  "answer": "Tirana"
+},
+{
+  "question": "What is the capital of Estonia?",
+  "options": ["Tallinn", "Riga", "Vilnius", "Helsinki"],
+  "answer": "Tallinn"
+},
+{
+  "question": "What is the capital of Latvia?",
+  "options": ["Riga", "Tallinn", "Vilnius", "Minsk"],
+  "answer": "Riga"
+},
+{
+  "question": "What is the capital of Lithuania?",
+  "options": ["Vilnius", "Riga", "Tallinn", "Warsaw"],
+  "answer": "Vilnius"
+},
+{
+  "question": "What is the capital of Iceland?",
+  "options": ["Reykjavik", "Oslo", "Helsinki", "Copenhagen"],
+  "answer": "Reykjavik"
+},
+{
+  "question": "What is the capital of Malta?",
+  "options": ["Valletta", "Nicosia", "Limassol", "Palermo"],
+  "answer": "Valletta"
+},
+{
+  "question": "What is the capital of Cyprus?",
+  "options": ["Nicosia", "Limassol", "Larnaca", "Valletta"],
+  "answer": "Nicosia"
+},
+{
+  "question": "What is the capital of Andorra?",
+  "options": ["Andorra la Vella", "Vaduz", "Monaco", "San Marino"],
+  "answer": "Andorra la Vella"
+},
+{
+  "question": "What is the capital of Liechtenstein?",
+  "options": ["Vaduz", "Bern", "Andorra la Vella", "Luxembourg"],
+  "answer": "Vaduz"
+},
+{
+  "question": "What is the capital of San Marino?",
+  "options": ["San Marino", "Rome", "Vaduz", "Valletta"],
+  "answer": "San Marino"
+},
+{
+  "question": "What is the capital of Luxembourg?",
+  "options": ["Luxembourg", "Brussels", "Vaduz", "Strasbourg"],
+  "answer": "Luxembourg"
+},
+{
+  "question": "What is the capital of Belize?",
+  "options": ["Belmopan", "Belize City", "Guatemala City", "San Salvador"],
+  "answer": "Belmopan"
+},
+{
+  "question": "What is the capital of Honduras?",
+  "options": ["Tegucigalpa", "Managua", "San Salvador", "Belmopan"],
+  "answer": "Tegucigalpa"
+},
+{
+  "question": "What is the capital of Nicaragua?",
+  "options": ["Managua", "Tegucigalpa", "San Jose", "Panama City"],
+  "answer": "Managua"
+},
+{
+  "question": "What is the capital of Costa Rica?",
+  "options": ["San Jose", "Managua", "San Salvador", "Panama City"],
+  "answer": "San Jose"
+},
+{
+  "question": "What is the capital of Guyana?",
+  "options": ["Georgetown", "Paramaribo", "Cayenne", "Caracas"],
+  "answer": "Georgetown"
+},
+{
+  "question": "What is the capital of Suriname?",
+  "options": ["Paramaribo", "Georgetown", "Brasilia", "Cayenne"],
+  "answer": "Paramaribo"
+},
+{
+  "question": "What is the capital of Uruguay?",
+  "options": ["Montevideo", "Asuncion", "Buenos Aires", "Santiago"],
+  "answer": "Montevideo"
+},
+{
+  "question": "What is the capital of Paraguay?",
+  "options": ["Asuncion", "Montevideo", "Lima", "La Paz"],
+  "answer": "Asuncion"
+},
+{
+  "question": "What is the capital of Ecuador?",
+  "options": ["Quito", "Guayaquil", "Lima", "Bogota"],
+  "answer": "Quito"
+},
+{
+  "question": "What is the capital of Burkina Faso?",
+  "options": ["Ouagadougou", "Bamako", "Niamey", "Lome"],
+  "answer": "Ouagadougou"
+},
+{
+  "question": "What is the capital of Mali?",
+  "options": ["Bamako", "Niamey", "Dakar", "Conakry"],
+  "answer": "Bamako"
+},
+{
+  "question": "What is the capital of Niger?",
+  "options": ["Niamey", "Bamako", "N'Djamena", "Abuja"],
+  "answer": "Niamey"
+},
+{
+  "question": "What is the capital of Chad?",
+  "options": ["N'Djamena", "Niamey", "Khartoum", "Bangui"],
+  "answer": "N'Djamena"
+},
+{
+  "question": "What is the capital of the Central African Republic?",
+  "options": ["Bangui", "Brazzaville", "Kinshasa", "Libreville"],
+  "answer": "Bangui"
+},
+{
+  "question": "What is the capital of Gabon?",
+  "options": ["Libreville", "Malabo", "Brazzaville", "Yaounde"],
+  "answer": "Libreville"
+},
+{
+  "question": "What is the capital of Equatorial Guinea?",
+  "options": ["Malabo", "Libreville", "Bata", "Douala"],
+  "answer": "Malabo"
+},
+{
+  "question": "What is the capital of the Republic of the Congo?",
+  "options": ["Brazzaville", "Kinshasa", "Libreville", "Bangui"],
+  "answer": "Brazzaville"
+},
+{
+  "question": "What is the capital of the Democratic Republic of the Congo?",
+  "options": ["Kinshasa", "Brazzaville", "Lubumbashi", "Kigali"],
+  "answer": "Kinshasa"
+},
+{
+  "question": "What is the capital of Rwanda?",
+  "options": ["Kigali", "Bujumbura", "Kampala", "Dodoma"],
+  "answer": "Kigali"
+},
+{
+  "question": "What is the capital of Burundi?",
+  "options": ["Gitega", "Bujumbura", "Kigali", "Kampala"],
+  "answer": "Gitega"
+},
+{
+  "question": "What is the capital of Tanzania?",
+  "options": ["Dodoma", "Dar es Salaam", "Arusha", "Zanzibar City"],
+  "answer": "Dodoma"
+},
+{
+  "question": "What is the capital of Malawi?",
+  "options": ["Lilongwe", "Blantyre", "Lusaka", "Harare"],
+  "answer": "Lilongwe"
+},
+{
+  "question": "What is the capital of Zambia?",
+  "options": ["Lusaka", "Harare", "Lilongwe", "Gaborone"],
+  "answer": "Lusaka"
+},
+{
+  "question": "What is the capital of Botswana?",
+  "options": ["Gaborone", "Maseru", "Windhoek", "Mbabane"],
+  "answer": "Gaborone"
+},
+{
+  "question": "What is the capital of Namibia?",
+  "options": ["Windhoek", "Gaborone", "Lusaka", "Maputo"],
+  "answer": "Windhoek"
+},
+{
+  "question": "What is the capital of Lesotho?",
+  "options": ["Maseru", "Mbabane", "Gaborone", "Pretoria"],
+  "answer": "Maseru"
+},
+{
+  "question": "What is the administrative capital of Eswatini?",
+  "options": ["Mbabane", "Lobamba", "Maseru", "Maputo"],
+  "answer": "Mbabane"
+},
+{
+  "question": "What is the capital of Mozambique?",
+  "options": ["Maputo", "Beira", "Harare", "Lusaka"],
+  "answer": "Maputo"
+},
+{
+  "question": "What is the capital of Madagascar?",
+  "options": ["Antananarivo", "Toamasina", "Maputo", "Victoria"],
+  "answer": "Antananarivo"
+},
+{
+  "question": "What is the capital of Mauritius?",
+  "options": ["Port Louis", "Victoria", "Moroni", "Antananarivo"],
+  "answer": "Port Louis"
+},
+{
+  "question": "What is the capital of Seychelles?",
+  "options": ["Victoria", "Port Louis", "Moroni", "Male"],
+  "answer": "Victoria"
+},
+{
+  "question": "What is the capital of Comoros?",
+  "options": ["Moroni", "Victoria", "Port Louis", "Maputo"],
+  "answer": "Moroni"
+},
+{
+  "question": "What is the capital of Eritrea?",
+  "options": ["Asmara", "Addis Ababa", "Djibouti", "Mogadishu"],
+  "answer": "Asmara"
+},
+{
+  "question": "What is the capital of Djibouti?",
+  "options": ["Djibouti", "Asmara", "Mogadishu", "Hargeisa"],
+  "answer": "Djibouti"
+},
+{
+  "question": "What is the capital of Mauritania?",
+  "options": ["Nouakchott", "Dakar", "Bamako", "Rabat"],
+  "answer": "Nouakchott"
+},
+{
+  "question": "What is the capital of Senegal?",
+  "options": ["Dakar", "Banjul", "Conakry", "Nouakchott"],
+  "answer": "Dakar"
+},
+{
+  "question": "What is the capital of The Gambia?",
+  "options": ["Banjul", "Dakar", "Bissau", "Freetown"],
+  "answer": "Banjul"
+},
+{
+  "question": "What is the capital of Guinea-Bissau?",
+  "options": ["Bissau", "Conakry", "Banjul", "Monrovia"],
+  "answer": "Bissau"
+},
+{
+  "question": "What is the capital of Guinea?",
+  "options": ["Conakry", "Bissau", "Freetown", "Monrovia"],
+  "answer": "Conakry"
+},
+{
+  "question": "What is the capital of Sierra Leone?",
+  "options": ["Freetown", "Monrovia", "Conakry", "Accra"],
+  "answer": "Freetown"
+},
+{
+  "question": "What is the capital of Liberia?",
+  "options": ["Monrovia", "Freetown", "Accra", "Abidjan"],
+  "answer": "Monrovia"
+},
+{
+  "question": "What is the political capital of Cote d'Ivoire?",
+  "options": ["Yamoussoukro", "Abidjan", "Accra", "Lome"],
+  "answer": "Yamoussoukro"
+},
+{
+  "question": "What is the capital of Togo?",
+  "options": ["Lome", "Porto-Novo", "Accra", "Ouagadougou"],
+  "answer": "Lome"
+},
+{
+  "question": "What is the official capital of Benin?",
+  "options": ["Porto-Novo", "Cotonou", "Lome", "Abuja"],
+  "answer": "Porto-Novo"
+},
+{
+  "question": "What is the capital of Cabo Verde?",
+  "options": ["Praia", "Dakar", "Bissau", "Banjul"],
+  "answer": "Praia"
+},
+{
+  "question": "What is the capital of Sao Tome and Principe?",
+  "options": ["Sao Tome", "Malabo", "Libreville", "Luanda"],
+  "answer": "Sao Tome"
+},
+{
+  "question": "What is the capital of Papua New Guinea?",
+  "options": ["Port Moresby", "Suva", "Honiara", "Port Vila"],
+  "answer": "Port Moresby"
+},
+{
+  "question": "What is the capital of Fiji?",
+  "options": ["Suva", "Nadi", "Apia", "Nuku'alofa"],
+  "answer": "Suva"
+},
+{
+  "question": "What is the capital of Samoa?",
+  "options": ["Apia", "Suva", "Funafuti", "Nuku'alofa"],
+  "answer": "Apia"
+},
+{
+  "question": "What is the capital of Tonga?",
+  "options": ["Nuku'alofa", "Apia", "Suva", "Port Vila"],
+  "answer": "Nuku'alofa"
+},
+{
+  "question": "What is the capital of Vanuatu?",
+  "options": ["Port Vila", "Honiara", "Suva", "Tarawa"],
+  "answer": "Port Vila"
+},
+{
+  "question": "What is the capital of the Solomon Islands?",
+  "options": ["Honiara", "Port Vila", "Port Moresby", "Majuro"],
+  "answer": "Honiara"
+},
+{
+  "question": "What is the capital of Tuvalu?",
+  "options": ["Funafuti", "Tarawa", "Majuro", "Apia"],
+  "answer": "Funafuti"
+},
+{
+  "question": "What is the capital of Kiribati?",
+  "options": ["South Tarawa", "Majuro", "Funafuti", "Palikir"],
+  "answer": "South Tarawa"
+},
+{
+  "question": "What is the capital of the Marshall Islands?",
+  "options": ["Majuro", "Palikir", "Tarawa", "Yaren"],
+  "answer": "Majuro"
+},
+{
+  "question": "What is the capital of the Federated States of Micronesia?",
+  "options": ["Palikir", "Majuro", "Koror", "Honiara"],
+  "answer": "Palikir"
+},
+{
+  "question": "What is the capital of Palau?",
+  "options": ["Ngerulmud", "Koror", "Palikir", "Majuro"],
+  "answer": "Ngerulmud"
+},
+{
+  "question": "Which currency is used in Japan?",
+  "options": ["Yen", "Won", "Yuan", "Baht"],
+  "answer": "Yen"
+},
+{
+  "question": "Which currency is used in South Korea?",
+  "options": ["Won", "Yen", "Dong", "Ringgit"],
+  "answer": "Won"
+},
+{
+  "question": "Which currency is used in Thailand?",
+  "options": ["Baht", "Riel", "Kip", "Dong"],
+  "answer": "Baht"
+},
+{
+  "question": "Which currency is used in Vietnam?",
+  "options": ["Dong", "Baht", "Kip", "Riel"],
+  "answer": "Dong"
+},
+{
+  "question": "Which currency is used in Cambodia?",
+  "options": ["Riel", "Kip", "Baht", "Dong"],
+  "answer": "Riel"
+},
+{
+  "question": "Which currency is used in Laos?",
+  "options": ["Kip", "Riel", "Baht", "Kyat"],
+  "answer": "Kip"
+},
+{
+  "question": "Which currency is used in Myanmar?",
+  "options": ["Kyat", "Kip", "Riel", "Rupee"],
+  "answer": "Kyat"
+},
+{
+  "question": "Which currency is used in Indonesia?",
+  "options": ["Rupiah", "Ringgit", "Peso", "Baht"],
+  "answer": "Rupiah"
+},
+{
+  "question": "Which currency is used in Malaysia?",
+  "options": ["Ringgit", "Rupiah", "Baht", "Dollar"],
+  "answer": "Ringgit"
+},
+{
+  "question": "Which currency is used in the Philippines?",
+  "options": ["Peso", "Rupiah", "Ringgit", "Dong"],
+  "answer": "Peso"
+},
+{
+  "question": "Which currency is used in Mongolia?",
+  "options": ["Tugrik", "Som", "Tenge", "Dram"],
+  "answer": "Tugrik"
+},
+{
+  "question": "Which currency is used in Kazakhstan?",
+  "options": ["Tenge", "Som", "Manat", "Tugrik"],
+  "answer": "Tenge"
+},
+{
+  "question": "Which currency is used in Armenia?",
+  "options": ["Dram", "Lari", "Manat", "Tenge"],
+  "answer": "Dram"
+},
+{
+  "question": "Which currency is used in Georgia?",
+  "options": ["Lari", "Dram", "Leu", "Manat"],
+  "answer": "Lari"
+},
+{
+  "question": "Which currency is used in Azerbaijan?",
+  "options": ["Manat", "Lari", "Dram", "Som"],
+  "answer": "Manat"
+},
+{
+  "question": "Which currency is used in Poland?",
+  "options": ["Zloty", "Koruna", "Forint", "Leu"],
+  "answer": "Zloty"
+},
+{
+  "question": "Which currency is used in Hungary?",
+  "options": ["Forint", "Zloty", "Koruna", "Lev"],
+  "answer": "Forint"
+},
+{
+  "question": "Which currency is used in the Czech Republic?",
+  "options": ["Czech koruna", "Euro", "Forint", "Zloty"],
+  "answer": "Czech koruna"
+},
+{
+  "question": "Which currency is used in Romania?",
+  "options": ["Romanian leu", "Lev", "Euro", "Forint"],
+  "answer": "Romanian leu"
+},
+{
+  "question": "Which currency is used in Bulgaria?",
+  "options": ["Lev", "Leu", "Dinar", "Lari"],
+  "answer": "Lev"
+},
+{
+  "question": "Which currency is used in Switzerland?",
+  "options": ["Swiss franc", "Euro", "Krone", "Pound"],
+  "answer": "Swiss franc"
+},
+{
+  "question": "Which currency is used in Norway?",
+  "options": ["Norwegian krone", "Swedish krona", "Euro", "Swiss franc"],
+  "answer": "Norwegian krone"
+},
+{
+  "question": "Which currency is used in Sweden?",
+  "options": ["Swedish krona", "Norwegian krone", "Euro", "Danish krone"],
+  "answer": "Swedish krona"
+},
+{
+  "question": "Which currency is used in Denmark?",
+  "options": ["Danish krone", "Euro", "Swedish krona", "Pound"],
+  "answer": "Danish krone"
+},
+{
+  "question": "Which currency is used in Iceland?",
+  "options": ["Icelandic krona", "Euro", "Norwegian krone", "Pound"],
+  "answer": "Icelandic krona"
+},
+{
+  "question": "Which currency is used in Turkey?",
+  "options": ["Turkish lira", "Dinar", "Euro", "Manat"],
+  "answer": "Turkish lira"
+},
+{
+  "question": "Which currency is used in Morocco?",
+  "options": ["Moroccan dirham", "Dinar", "Riyal", "Pound"],
+  "answer": "Moroccan dirham"
+},
+{
+  "question": "Which currency is used in Nigeria?",
+  "options": ["Naira", "Cedi", "Shilling", "Rand"],
+  "answer": "Naira"
+},
+{
+  "question": "Which currency is used in Ghana?",
+  "options": ["Cedi", "Naira", "Dalasi", "Leone"],
+  "answer": "Cedi"
+},
+{
+  "question": "Which currency is used in Kenya?",
+  "options": ["Kenyan shilling", "Birr", "Rand", "Kwacha"],
+  "answer": "Kenyan shilling"
+},
+{
+  "question": "Which currency is used in Ethiopia?",
+  "options": ["Birr", "Shilling", "Pound", "Naira"],
+  "answer": "Birr"
+},
+{
+  "question": "Which currency is used in South Africa?",
+  "options": ["Rand", "Pula", "Kwacha", "Shilling"],
+  "answer": "Rand"
+},
+{
+  "question": "Which currency is used in Botswana?",
+  "options": ["Pula", "Rand", "Kwacha", "Metical"],
+  "answer": "Pula"
+},
+{
+  "question": "Which currency is used in Zambia?",
+  "options": ["Kwacha", "Pula", "Rand", "Kwanza"],
+  "answer": "Kwacha"
+},
+{
+  "question": "Which currency is used in Angola?",
+  "options": ["Kwanza", "Kwacha", "Metical", "Rand"],
+  "answer": "Kwanza"
+},
+{
+  "question": "Which currency is used in Mozambique?",
+  "options": ["Metical", "Kwanza", "Kwacha", "Rand"],
+  "answer": "Metical"
+},
+{
+  "question": "Which currency is used in Brazil?",
+  "options": ["Real", "Peso", "Sol", "Bolivar"],
+  "answer": "Real"
+},
+{
+  "question": "Which currency is used in Peru?",
+  "options": ["Sol", "Peso", "Real", "Guarani"],
+  "answer": "Sol"
+},
+{
+  "question": "Which currency is used in Paraguay?",
+  "options": ["Guarani", "Peso", "Sol", "Real"],
+  "answer": "Guarani"
+},
+{
+  "question": "Which currency is used in Bolivia?",
+  "options": ["Boliviano", "Sol", "Peso", "Guarani"],
+  "answer": "Boliviano"
+},
+{
+  "question": "Which currency is used in Israel?",
+  "options": ["New Israeli shekel", "Dinar", "Riyal", "Dirham"],
+  "answer": "New Israeli shekel"
+},
+{
+  "question": "Which currency is used in Saudi Arabia?",
+  "options": ["Saudi riyal", "Dirham", "Dinar", "Shekel"],
+  "answer": "Saudi riyal"
+},
+{
+  "question": "Which currency is used in the United Arab Emirates?",
+  "options": ["UAE dirham", "Riyal", "Dinar", "Pound"],
+  "answer": "UAE dirham"
+},
+{
+  "question": "Which currency is used in Jordan?",
+  "options": ["Jordanian dinar", "Riyal", "Dirham", "Pound sterling"],
+  "answer": "Jordanian dinar"
+},
+{
+  "question": "Which currency is used in Bangladesh?",
+  "options": ["Taka", "Rupee", "Kyat", "Rufiyaa"],
+  "answer": "Taka"
+},
+{
+  "question": "Which currency is used in Nepal?",
+  "options": ["Nepalese rupee", "Taka", "Ngultrum", "Rufiyaa"],
+  "answer": "Nepalese rupee"
+},
+{
+  "question": "Which currency is used in Bhutan?",
+  "options": ["Ngultrum", "Rupee only", "Taka", "Kyat"],
+  "answer": "Ngultrum"
+},
+{
+  "question": "Which currency is used in the Maldives?",
+  "options": ["Rufiyaa", "Rupee", "Taka", "Rupiah"],
+  "answer": "Rufiyaa"
+},
+{
+  "question": "Which language has the largest number of native speakers worldwide?",
+  "options": ["Mandarin Chinese", "English", "Spanish", "Arabic"],
+  "answer": "Mandarin Chinese"
+},
+{
+  "question": "Which language is primarily spoken in Brazil?",
+  "options": ["Portuguese", "Spanish", "French", "Italian"],
+  "answer": "Portuguese"
+},
+{
+  "question": "Which European country has Dutch, French, and German as official languages?",
+  "options": ["Belgium", "Netherlands", "Switzerland", "Luxembourg"],
+  "answer": "Belgium"
+},
+{
+  "question": "Which country has four national languages: German, French, Italian, and Romansh?",
+  "options": ["Switzerland", "Austria", "Belgium", "Luxembourg"],
+  "answer": "Switzerland"
+},
+{
+  "question": "Hungarian belongs to which language family?",
+  "options": ["Uralic", "Romance", "Germanic", "Slavic"],
+  "answer": "Uralic"
+},
+{
+  "question": "Finnish belongs to which language family?",
+  "options": ["Uralic", "Germanic", "Romance", "Celtic"],
+  "answer": "Uralic"
+},
+{
+  "question": "Romanian belongs to which major language branch?",
+  "options": ["Romance", "Slavic", "Germanic", "Uralic"],
+  "answer": "Romance"
+},
+{
+  "question": "Which language is primarily spoken in Iran?",
+  "options": ["Persian", "Arabic", "Turkish", "Urdu"],
+  "answer": "Persian"
+},
+{
+  "question": "Which language is primarily spoken in Afghanistan alongside Pashto?",
+  "options": ["Dari", "Bengali", "Kazakh", "Armenian"],
+  "answer": "Dari"
+},
+{
+  "question": "Which writing system is traditionally associated with the Korean language?",
+  "options": ["Hangul", "Kanji", "Cyrillic", "Devanagari"],
+  "answer": "Hangul"
+},
+{
+  "question": "Which writing system is used for Hindi?",
+  "options": ["Devanagari", "Hangul", "Cyrillic", "Ge'ez"],
+  "answer": "Devanagari"
+},
+{
+  "question": "Which ancient language is the classical language of many Hindu scriptures?",
+  "options": ["Sanskrit", "Latin", "Greek", "Aramaic"],
+  "answer": "Sanskrit"
+},
+{
+  "question": "Which international organization has its headquarters in New York City?",
+  "options": ["United Nations", "World Trade Organization", "International Court of Justice", "UNESCO"],
+  "answer": "United Nations"
+},
+{
+  "question": "In which city is the headquarters of UNESCO located?",
+  "options": ["Paris", "Geneva", "Rome", "Vienna"],
+  "answer": "Paris"
+},
+{
+  "question": "In which city is the headquarters of the World Health Organization located?",
+  "options": ["Geneva", "New York", "Paris", "Rome"],
+  "answer": "Geneva"
+},
+{
+  "question": "In which city is the headquarters of the World Trade Organization located?",
+  "options": ["Geneva", "Brussels", "New York", "The Hague"],
+  "answer": "Geneva"
+},
+{
+  "question": "In which city is the International Court of Justice located?",
+  "options": ["The Hague", "Geneva", "Brussels", "Vienna"],
+  "answer": "The Hague"
+},
+{
+  "question": "In which city is the headquarters of the International Monetary Fund located?",
+  "options": ["Washington, D.C.", "New York", "Geneva", "London"],
+  "answer": "Washington, D.C."
+},
+{
+  "question": "In which city is the headquarters of the World Bank located?",
+  "options": ["Washington, D.C.", "Geneva", "Paris", "New York"],
+  "answer": "Washington, D.C."
+},
+{
+  "question": "In which city is the headquarters of the International Labour Organization located?",
+  "options": ["Geneva", "Vienna", "Paris", "Rome"],
+  "answer": "Geneva"
+},
+{
+  "question": "In which city is the headquarters of the Food and Agriculture Organization located?",
+  "options": ["Rome", "Paris", "Geneva", "Madrid"],
+  "answer": "Rome"
+},
+{
+  "question": "In which city is the headquarters of the International Atomic Energy Agency located?",
+  "options": ["Vienna", "Geneva", "The Hague", "Berlin"],
+  "answer": "Vienna"
+},
+{
+  "question": "In which city is the headquarters of NATO located?",
+  "options": ["Brussels", "Paris", "Geneva", "London"],
+  "answer": "Brussels"
+},
+{
+  "question": "Where is the headquarters of the African Union located?",
+  "options": ["Addis Ababa", "Nairobi", "Cairo", "Pretoria"],
+  "answer": "Addis Ababa"
+},
+{
+  "question": "Where is the ASEAN Secretariat located?",
+  "options": ["Jakarta", "Bangkok", "Singapore", "Kuala Lumpur"],
+  "answer": "Jakarta"
+},
+{
+  "question": "Where is the SAARC Secretariat located?",
+  "options": ["Kathmandu", "Dhaka", "New Delhi", "Colombo"],
+  "answer": "Kathmandu"
+},
+{
+  "question": "Which organization awards the Nobel Peace Prize?",
+  "options": ["Norwegian Nobel Committee", "Swedish Academy", "United Nations", "European Parliament"],
+  "answer": "Norwegian Nobel Committee"
+},
+{
+  "question": "In which city is the Nobel Peace Prize traditionally awarded?",
+  "options": ["Oslo", "Stockholm", "Geneva", "Copenhagen"],
+  "answer": "Oslo"
+},
+{
+  "question": "In which city are most other Nobel Prizes traditionally awarded?",
+  "options": ["Stockholm", "Oslo", "Helsinki", "Geneva"],
+  "answer": "Stockholm"
+},
+{
+  "question": "Which organization manages the global list of World Heritage Sites?",
+  "options": ["UNESCO", "WHO", "WTO", "IMF"],
+  "answer": "UNESCO"
+},
+{
+  "question": "Which organization uses the emblem of a red cross on a white background in many countries?",
+  "options": ["International Red Cross and Red Crescent Movement", "World Bank", "UNESCO", "Interpol"],
+  "answer": "International Red Cross and Red Crescent Movement"
+},
+{
+  "question": "In which city is Interpol's General Secretariat headquartered?",
+  "options": ["Lyon", "Paris", "Geneva", "Brussels"],
+  "answer": "Lyon"
+},
+{
+  "question": "Which city is home to the European Commission's main headquarters?",
+  "options": ["Brussels", "Strasbourg", "Luxembourg", "Frankfurt"],
+  "answer": "Brussels"
+},
+{
+  "question": "Which institution is responsible for monetary policy for the euro area?",
+  "options": ["European Central Bank", "European Commission", "European Parliament", "Council of Europe"],
+  "answer": "European Central Bank"
+},
+{
+  "question": "In which German city is the European Central Bank headquartered?",
+  "options": ["Frankfurt", "Berlin", "Munich", "Hamburg"],
+  "answer": "Frankfurt"
+},
+{
+  "question": "Which country is associated with the maple leaf as a national symbol?",
+  "options": ["Canada", "Finland", "Austria", "Denmark"],
+  "answer": "Canada"
+},
+{
+  "question": "Which country is strongly associated with the cedar tree on its national flag?",
+  "options": ["Lebanon", "Jordan", "Cyprus", "Syria"],
+  "answer": "Lebanon"
+},
+{
+  "question": "Which country's flag features a dragon prominently?",
+  "options": ["Bhutan", "Nepal", "Mongolia", "Laos"],
+  "answer": "Bhutan"
+},
+{
+  "question": "Which country's flag contains a red circle on a white field?",
+  "options": ["Japan", "Bangladesh", "Palau", "South Korea"],
+  "answer": "Japan"
+},
+{
+  "question": "Which country's flag features a red disk slightly toward the hoist on a green field?",
+  "options": ["Bangladesh", "Japan", "Pakistan", "Maldives"],
+  "answer": "Bangladesh"
+},
+{
+  "question": "Which country's national flag features a white cross on a red square field?",
+  "options": ["Switzerland", "Denmark", "Norway", "Georgia"],
+  "answer": "Switzerland"
+},
+{
+  "question": "Which country's flag is known as the Union Jack?",
+  "options": ["United Kingdom", "Australia", "New Zealand", "Canada"],
+  "answer": "United Kingdom"
+},
+{
+  "question": "Which country's flag features a yellow Nordic cross on a blue field?",
+  "options": ["Sweden", "Finland", "Norway", "Iceland"],
+  "answer": "Sweden"
+},
+{
+  "question": "Which country's flag features a blue Nordic cross on a white field?",
+  "options": ["Finland", "Sweden", "Iceland", "Denmark"],
+  "answer": "Finland"
+},
+{
+  "question": "Which country's flag is commonly called the Dannebrog?",
+  "options": ["Denmark", "Norway", "Sweden", "Iceland"],
+  "answer": "Denmark"
+},
+{
+  "question": "Which country is widely associated with the kiwi as a national symbol and nickname?",
+  "options": ["New Zealand", "Australia", "Fiji", "Samoa"],
+  "answer": "New Zealand"
+},
+{
+  "question": "Which country is associated with the shamrock as a traditional national symbol?",
+  "options": ["Ireland", "Scotland", "Wales", "Iceland"],
+  "answer": "Ireland"
+},
+{
+  "question": "Which country is traditionally associated with the thistle as a national emblem?",
+  "options": ["Scotland", "Ireland", "Wales", "England"],
+  "answer": "Scotland"
+},
+{
+  "question": "Which flower is traditionally associated with England?",
+  "options": ["Rose", "Tulip", "Lotus", "Orchid"],
+  "answer": "Rose"
+},
+{
+  "question": "Which plant symbol is traditionally associated with Wales?",
+  "options": ["Leek", "Maple", "Cedar", "Olive"],
+  "answer": "Leek"
+},
+{
+  "question": "Which city is famous for the Eiffel Tower?",
+  "options": ["Paris", "Rome", "Madrid", "Vienna"],
+  "answer": "Paris"
+},
+{
+  "question": "In which city is the Colosseum located?",
+  "options": ["Rome", "Athens", "Naples", "Milan"],
+  "answer": "Rome"
+},
+{
+  "question": "In which city is the Sagrada Familia located?",
+  "options": ["Barcelona", "Madrid", "Lisbon", "Seville"],
+  "answer": "Barcelona"
+},
+{
+  "question": "In which city is the Acropolis located?",
+  "options": ["Athens", "Rome", "Istanbul", "Sofia"],
+  "answer": "Athens"
+},
+{
+  "question": "In which city is the Brandenburg Gate located?",
+  "options": ["Berlin", "Munich", "Vienna", "Prague"],
+  "answer": "Berlin"
+},
+{
+  "question": "In which city is the Charles Bridge located?",
+  "options": ["Prague", "Budapest", "Vienna", "Warsaw"],
+  "answer": "Prague"
+},
+{
+  "question": "In which city is the famous Atomium located?",
+  "options": ["Brussels", "Amsterdam", "Luxembourg", "Rotterdam"],
+  "answer": "Brussels"
+},
+{
+  "question": "In which city is the Anne Frank House located?",
+  "options": ["Amsterdam", "Berlin", "Brussels", "Vienna"],
+  "answer": "Amsterdam"
+},
+{
+  "question": "In which city is the Leaning Tower located?",
+  "options": ["Pisa", "Florence", "Venice", "Rome"],
+  "answer": "Pisa"
+},
+{
+  "question": "In which city is St. Mark's Square located?",
+  "options": ["Venice", "Florence", "Milan", "Naples"],
+  "answer": "Venice"
+},
+{
+  "question": "In which city is the Blue Mosque located?",
+  "options": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+  "answer": "Istanbul"
+},
+{
+  "question": "In which city is the Burj Khalifa located?",
+  "options": ["Dubai", "Abu Dhabi", "Doha", "Riyadh"],
+  "answer": "Dubai"
+},
+{
+  "question": "In which city is the Petronas Twin Towers complex located?",
+  "options": ["Kuala Lumpur", "Singapore", "Jakarta", "Bangkok"],
+  "answer": "Kuala Lumpur"
+},
+{
+  "question": "In which city is the Merlion a famous landmark?",
+  "options": ["Singapore", "Manila", "Jakarta", "Bangkok"],
+  "answer": "Singapore"
+},
+{
+  "question": "In which city is the Grand Palace, a major Thai landmark, located?",
+  "options": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya"],
+  "answer": "Bangkok"
+},
+{
+  "question": "In which city is the Forbidden City located?",
+  "options": ["Beijing", "Shanghai", "Nanjing", "Xi'an"],
+  "answer": "Beijing"
+},
+{
+  "question": "In which Chinese city is the Terracotta Army located nearby?",
+  "options": ["Xi'an", "Beijing", "Shanghai", "Guangzhou"],
+  "answer": "Xi'an"
+},
+{
+  "question": "In which Indian city is the Gateway of India located?",
+  "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+  "answer": "Mumbai"
+},
+{
+  "question": "In which Indian city is the Taj Mahal located?",
+  "options": ["Agra", "Jaipur", "New Delhi", "Lucknow"],
+  "answer": "Agra"
+},
+{
+  "question": "In which city is the CN Tower located?",
+  "options": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+  "answer": "Toronto"
+},
+{
+  "question": "In which city is the Golden Gate Bridge located?",
+  "options": ["San Francisco", "Los Angeles", "Seattle", "San Diego"],
+  "answer": "San Francisco"
+},
+{
+  "question": "In which city is the Space Needle located?",
+  "options": ["Seattle", "Chicago", "Boston", "Denver"],
+  "answer": "Seattle"
+},
+{
+  "question": "In which city is the Christ the Redeemer statue located?",
+  "options": ["Rio de Janeiro", "Sao Paulo", "Brasilia", "Salvador"],
+  "answer": "Rio de Janeiro"
+},
+{
+  "question": "In which city is the Obelisk on Avenida 9 de Julio located?",
+  "options": ["Buenos Aires", "Montevideo", "Santiago", "Lima"],
+  "answer": "Buenos Aires"
+},
+{
+  "question": "In which city is the iconic Opera House with sail-like roofs located?",
+  "options": ["Sydney", "Melbourne", "Perth", "Brisbane"],
+  "answer": "Sydney"
+},
+{
+  "question": "In which city is the Sky Tower, a major New Zealand landmark, located?",
+  "options": ["Auckland", "Wellington", "Christchurch", "Dunedin"],
+  "answer": "Auckland"
+},
+{
+  "question": "Which architect designed the Sagrada Familia?",
+  "options": ["Antoni Gaudi", "Le Corbusier", "Frank Lloyd Wright", "I. M. Pei"],
+  "answer": "Antoni Gaudi"
+},
+{
+  "question": "Who designed the Sydney Opera House?",
+  "options": ["Jorn Utzon", "Antoni Gaudi", "Norman Foster", "Oscar Niemeyer"],
+  "answer": "Jorn Utzon"
+},
+{
+  "question": "Who designed the glass pyramid at the Louvre?",
+  "options": ["I. M. Pei", "Frank Gehry", "Zaha Hadid", "Le Corbusier"],
+  "answer": "I. M. Pei"
+},
+{
+  "question": "Which architect is strongly associated with Fallingwater?",
+  "options": ["Frank Lloyd Wright", "Antoni Gaudi", "I. M. Pei", "Jorn Utzon"],
+  "answer": "Frank Lloyd Wright"
+},
+{
+  "question": "Who painted The Starry Night?",
+  "options": ["Vincent van Gogh", "Claude Monet", "Pablo Picasso", "Salvador Dali"],
+  "answer": "Vincent van Gogh"
+},
+{
+  "question": "Who painted Guernica?",
+  "options": ["Pablo Picasso", "Vincent van Gogh", "Edvard Munch", "Rembrandt"],
+  "answer": "Pablo Picasso"
+},
+{
+  "question": "Who painted The Persistence of Memory?",
+  "options": ["Salvador Dali", "Claude Monet", "Pablo Picasso", "Henri Matisse"],
+  "answer": "Salvador Dali"
+},
+{
+  "question": "Who painted The Scream?",
+  "options": ["Edvard Munch", "Vincent van Gogh", "Paul Cezanne", "Gustav Klimt"],
+  "answer": "Edvard Munch"
+},
+{
+  "question": "Who painted Girl with a Pearl Earring?",
+  "options": ["Johannes Vermeer", "Rembrandt", "Claude Monet", "Raphael"],
+  "answer": "Johannes Vermeer"
+},
+{
+  "question": "Who painted The Birth of Venus?",
+  "options": ["Sandro Botticelli", "Raphael", "Titian", "Caravaggio"],
+  "answer": "Sandro Botticelli"
+},
+{
+  "question": "Who painted The Kiss, the famous gold-toned work completed in the early 20th century?",
+  "options": ["Gustav Klimt", "Edvard Munch", "Paul Klee", "Henri Matisse"],
+  "answer": "Gustav Klimt"
+},
+{
+  "question": "Which artist is famous for the Water Lilies series?",
+  "options": ["Claude Monet", "Pierre-Auguste Renoir", "Edgar Degas", "Paul Gauguin"],
+  "answer": "Claude Monet"
+},
+{
+  "question": "Who created the sculpture The Thinker?",
+  "options": ["Auguste Rodin", "Donatello", "Bernini", "Henry Moore"],
+  "answer": "Auguste Rodin"
+},
+{
+  "question": "Who wrote Don Quixote?",
+  "options": ["Miguel de Cervantes", "Dante Alighieri", "Victor Hugo", "Leo Tolstoy"],
+  "answer": "Miguel de Cervantes"
+},
+{
+  "question": "Who wrote The Divine Comedy?",
+  "options": ["Dante Alighieri", "Homer", "Virgil", "Geoffrey Chaucer"],
+  "answer": "Dante Alighieri"
+},
+{
+  "question": "Who wrote The Odyssey?",
+  "options": ["Homer", "Sophocles", "Virgil", "Plato"],
+  "answer": "Homer"
+},
+{
+  "question": "Who wrote War and Peace?",
+  "options": ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Nikolai Gogol"],
+  "answer": "Leo Tolstoy"
+},
+{
+  "question": "Who wrote Crime and Punishment?",
+  "options": ["Fyodor Dostoevsky", "Leo Tolstoy", "Franz Kafka", "Ivan Turgenev"],
+  "answer": "Fyodor Dostoevsky"
+},
+{
+  "question": "Who wrote The Metamorphosis?",
+  "options": ["Franz Kafka", "Albert Camus", "Thomas Mann", "Hermann Hesse"],
+  "answer": "Franz Kafka"
+},
+{
+  "question": "Who wrote Les Miserables?",
+  "options": ["Victor Hugo", "Alexandre Dumas", "Gustave Flaubert", "Emile Zola"],
+  "answer": "Victor Hugo"
+},
+{
+  "question": "Who wrote The Count of Monte Cristo?",
+  "options": ["Alexandre Dumas", "Victor Hugo", "Jules Verne", "Honore de Balzac"],
+  "answer": "Alexandre Dumas"
+},
+{
+  "question": "Who wrote One Hundred Years of Solitude?",
+  "options": ["Gabriel Garcia Marquez", "Jorge Luis Borges", "Pablo Neruda", "Mario Vargas Llosa"],
+  "answer": "Gabriel Garcia Marquez"
+},
+{
+  "question": "Who wrote The Old Man and the Sea?",
+  "options": ["Ernest Hemingway", "John Steinbeck", "F. Scott Fitzgerald", "William Faulkner"],
+  "answer": "Ernest Hemingway"
+},
+{
+  "question": "Who wrote The Great Gatsby?",
+  "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "Mark Twain"],
+  "answer": "F. Scott Fitzgerald"
+},
+{
+  "question": "Who wrote Pride and Prejudice?",
+  "options": ["Jane Austen", "Charlotte Bronte", "George Eliot", "Virginia Woolf"],
+  "answer": "Jane Austen"
+},
+{
+  "question": "Who wrote Jane Eyre?",
+  "options": ["Charlotte Bronte", "Emily Bronte", "Jane Austen", "Mary Shelley"],
+  "answer": "Charlotte Bronte"
+},
+{
+  "question": "Who wrote Wuthering Heights?",
+  "options": ["Emily Bronte", "Charlotte Bronte", "George Eliot", "Jane Austen"],
+  "answer": "Emily Bronte"
+},
+{
+  "question": "Who wrote Frankenstein?",
+  "options": ["Mary Shelley", "Bram Stoker", "Jane Austen", "Virginia Woolf"],
+  "answer": "Mary Shelley"
+},
+{
+  "question": "Who wrote The Trial?",
+  "options": ["Franz Kafka", "Albert Camus", "George Orwell", "Aldous Huxley"],
+  "answer": "Franz Kafka"
+},
+{
+  "question": "Who wrote The Stranger?",
+  "options": ["Albert Camus", "Jean-Paul Sartre", "Franz Kafka", "Marcel Proust"],
+  "answer": "Albert Camus"
+},
+{
+  "question": "Who wrote Things Fall Apart?",
+  "options": ["Chinua Achebe", "Wole Soyinka", "Ngugi wa Thiong'o", "Nadine Gordimer"],
+  "answer": "Chinua Achebe"
+},
+{
+  "question": "Who wrote The Alchemist?",
+  "options": ["Paulo Coelho", "Jorge Amado", "Jose Saramago", "Gabriel Garcia Marquez"],
+  "answer": "Paulo Coelho"
+},
+{
+  "question": "Who composed The Four Seasons?",
+  "options": ["Antonio Vivaldi", "Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Franz Schubert"],
+  "answer": "Antonio Vivaldi"
+},
+{
+  "question": "Who composed the Moonlight Sonata?",
+  "options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Frederic Chopin", "Franz Liszt"],
+  "answer": "Ludwig van Beethoven"
+},
+{
+  "question": "Who composed The Magic Flute?",
+  "options": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Richard Wagner", "Giuseppe Verdi"],
+  "answer": "Wolfgang Amadeus Mozart"
+},
+{
+  "question": "Which composer wrote the Brandenburg Concertos?",
+  "options": ["Johann Sebastian Bach", "George Frideric Handel", "Joseph Haydn", "Antonio Vivaldi"],
+  "answer": "Johann Sebastian Bach"
+},
+{
+  "question": "Who composed Swan Lake?",
+  "options": ["Pyotr Ilyich Tchaikovsky", "Igor Stravinsky", "Sergei Rachmaninoff", "Nikolai Rimsky-Korsakov"],
+  "answer": "Pyotr Ilyich Tchaikovsky"
+},
+{
+  "question": "Who composed The Blue Danube?",
+  "options": ["Johann Strauss II", "Franz Schubert", "Johannes Brahms", "Gustav Mahler"],
+  "answer": "Johann Strauss II"
+},
+{
+  "question": "Which scientist is credited with discovering penicillin?",
+  "options": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Edward Jenner"],
+  "answer": "Alexander Fleming"
+},
+{
+  "question": "Who developed the first successful smallpox vaccine?",
+  "options": ["Edward Jenner", "Alexander Fleming", "Louis Pasteur", "Joseph Lister"],
+  "answer": "Edward Jenner"
+},
+{
+  "question": "Which scientist is strongly associated with the process of pasteurization?",
+  "options": ["Louis Pasteur", "Robert Hooke", "Gregor Mendel", "Michael Faraday"],
+  "answer": "Louis Pasteur"
+},
+{
+  "question": "Who invented the World Wide Web?",
+  "options": ["Tim Berners-Lee", "Vint Cerf", "Bill Gates", "Steve Wozniak"],
+  "answer": "Tim Berners-Lee"
+},
+{
+  "question": "Who is credited with inventing the first practical telephone?",
+  "options": ["Alexander Graham Bell", "Thomas Edison", "Guglielmo Marconi", "Nikola Tesla"],
+  "answer": "Alexander Graham Bell"
+},
+{
+  "question": "Which inventor is strongly associated with the practical incandescent electric light bulb?",
+  "options": ["Thomas Edison", "James Watt", "Samuel Morse", "Alfred Nobel"],
+  "answer": "Thomas Edison"
+},
+{
+  "question": "Who developed the Morse code system with Alfred Vail?",
+  "options": ["Samuel Morse", "Michael Faraday", "Guglielmo Marconi", "Alexander Graham Bell"],
+  "answer": "Samuel Morse"
+},
+{
+  "question": "Which inventor is associated with the dynamite patent?",
+  "options": ["Alfred Nobel", "Thomas Edison", "James Watt", "Eli Whitney"],
+  "answer": "Alfred Nobel"
+},
+{
+  "question": "Who is associated with major improvements to the steam engine during the Industrial Revolution?",
+  "options": ["James Watt", "George Stephenson", "Henry Bessemer", "Michael Faraday"],
+  "answer": "James Watt"
+},
+{
+  "question": "Who invented the printing press with movable metal type in 15th-century Europe?",
+  "options": ["Johannes Gutenberg", "Galileo Galilei", "Leonardo da Vinci", "Blaise Pascal"],
+  "answer": "Johannes Gutenberg"
+},
+{
+  "question": "Which inventor is associated with the cotton gin?",
+  "options": ["Eli Whitney", "James Hargreaves", "Richard Arkwright", "Samuel Morse"],
+  "answer": "Eli Whitney"
+},
+{
+  "question": "Who invented the safety elevator brake that helped make passenger elevators practical?",
+  "options": ["Elisha Otis", "George Westinghouse", "Nikolaus Otto", "Rudolf Diesel"],
+  "answer": "Elisha Otis"
+},
+{
+  "question": "Who developed the first commercially successful mechanical typewriter with collaborators?",
+  "options": ["Christopher Latham Sholes", "Samuel Morse", "Elias Howe", "John Deere"],
+  "answer": "Christopher Latham Sholes"
+},
+{
+  "question": "Which inventor is associated with the diesel engine?",
+  "options": ["Rudolf Diesel", "Nikolaus Otto", "Karl Benz", "Gottlieb Daimler"],
+  "answer": "Rudolf Diesel"
+},
+{
+  "question": "Which engineer developed the four-stroke internal combustion cycle commonly bearing his name?",
+  "options": ["Nikolaus Otto", "Rudolf Diesel", "James Watt", "George Stephenson"],
+  "answer": "Nikolaus Otto"
+},
+{
+  "question": "Who built the Benz Patent-Motorwagen, widely regarded as the first practical automobile powered by an internal-combustion engine?",
+  "options": ["Karl Benz", "Henry Ford", "Gottlieb Daimler", "Rudolf Diesel"],
+  "answer": "Karl Benz"
+},
+{
+  "question": "Which brothers are credited with the first successful powered, controlled airplane flight?",
+  "options": ["Wright brothers", "Montgolfier brothers", "Lumiere brothers", "Grimm brothers"],
+  "answer": "Wright brothers"
+},
+{
+  "question": "The Montgolfier brothers are associated with the early development of what?",
+  "options": ["Hot-air balloon", "Steam locomotive", "Telephone", "Submarine"],
+  "answer": "Hot-air balloon"
+},
+{
+  "question": "Who developed the first widely successful photographic process known as the daguerreotype?",
+  "options": ["Louis Daguerre", "George Eastman", "Thomas Edison", "Louis Pasteur"],
+  "answer": "Louis Daguerre"
+},
+{
+  "question": "Which inventor founded Kodak and helped popularize roll-film photography?",
+  "options": ["George Eastman", "Louis Daguerre", "Thomas Edison", "Alexander Graham Bell"],
+  "answer": "George Eastman"
+},
+{
+  "question": "Who invented the mechanical television scanning system known as the Nipkow disk?",
+  "options": ["Paul Nipkow", "John Logie Baird", "Philo Farnsworth", "Guglielmo Marconi"],
+  "answer": "Paul Nipkow"
+},
+{
+  "question": "Which inventor demonstrated an early working television system using mechanical scanning?",
+  "options": ["John Logie Baird", "Tim Berners-Lee", "Samuel Morse", "George Eastman"],
+  "answer": "John Logie Baird"
+},
+{
+  "question": "Which country is the origin of the tango dance?",
+  "options": ["Argentina", "Spain", "Brazil", "Mexico"],
+  "answer": "Argentina"
+},
+{
+  "question": "Flamenco is strongly associated with which country?",
+  "options": ["Spain", "Portugal", "Italy", "Greece"],
+  "answer": "Spain"
+},
+{
+  "question": "Samba is strongly associated with which country?",
+  "options": ["Brazil", "Argentina", "Cuba", "Portugal"],
+  "answer": "Brazil"
+},
+{
+  "question": "The traditional hula dance is associated with which place?",
+  "options": ["Hawaii", "Fiji", "Tahiti only", "New Zealand"],
+  "answer": "Hawaii"
+},
+{
+  "question": "The haka is a traditional performance strongly associated internationally with which Indigenous people?",
+  "options": ["Maori", "Inuit", "Sami", "Quechua"],
+  "answer": "Maori"
+},
+{
+  "question": "Which country is the birthplace of the traditional martial art Taekwondo?",
+  "options": ["Korea", "Japan", "China", "Thailand"],
+  "answer": "Korea"
+},
+{
+  "question": "Which country is the birthplace of judo?",
+  "options": ["Japan", "China", "Korea", "Mongolia"],
+  "answer": "Japan"
+},
+{
+  "question": "Muay Thai originated in which country?",
+  "options": ["Thailand", "Myanmar", "Cambodia", "Vietnam"],
+  "answer": "Thailand"
+},
+{
+  "question": "Capoeira developed primarily in which country?",
+  "options": ["Brazil", "Portugal", "Angola", "Argentina"],
+  "answer": "Brazil"
+},
+{
+  "question": "Which country is particularly associated with the traditional tea ceremony called chanoyu?",
+  "options": ["Japan", "China", "India", "Vietnam"],
+  "answer": "Japan"
+},
+{
+  "question": "Which country is famous for the traditional garment known as the kimono?",
+  "options": ["Japan", "Korea", "China", "Mongolia"],
+  "answer": "Japan"
+},
+{
+  "question": "The hanbok is a traditional form of clothing from which country?",
+  "options": ["Korea", "Japan", "Vietnam", "Bhutan"],
+  "answer": "Korea"
+},
+{
+  "question": "The ao dai is a traditional garment associated with which country?",
+  "options": ["Vietnam", "Thailand", "Laos", "Cambodia"],
+  "answer": "Vietnam"
+},
+{
+  "question": "The kilt is traditionally associated with which part of the United Kingdom?",
+  "options": ["Scotland", "Wales", "England", "Northern Ireland"],
+  "answer": "Scotland"
+},
+{
+  "question": "Which festival is widely known as the Festival of Lights in India?",
+  "options": ["Diwali", "Holi", "Onam", "Baisakhi"],
+  "answer": "Diwali"
+},
+{
+  "question": "Which colorful spring festival is especially associated with throwing colored powders in India and Nepal?",
+  "options": ["Holi", "Diwali", "Vesak", "Songkran"],
+  "answer": "Holi"
+},
+{
+  "question": "Songkran is the traditional New Year festival of which country?",
+  "options": ["Thailand", "Japan", "Vietnam", "Indonesia"],
+  "answer": "Thailand"
+},
+{
+  "question": "The Day of the Dead tradition is especially associated with which country?",
+  "options": ["Mexico", "Spain", "Brazil", "Peru"],
+  "answer": "Mexico"
+},
+{
+  "question": "Oktoberfest originated in which German city?",
+  "options": ["Munich", "Berlin", "Frankfurt", "Cologne"],
+  "answer": "Munich"
+},
+{
+  "question": "The Carnival celebration in Rio de Janeiro takes place in which country?",
+  "options": ["Brazil", "Argentina", "Portugal", "Colombia"],
+  "answer": "Brazil"
+},
+{
+  "question": "Which city is famous for an annual carnival featuring elaborate masks and costumes along its canals?",
+  "options": ["Venice", "Florence", "Milan", "Naples"],
+  "answer": "Venice"
+},
+{
+  "question": "Which country is famous for the traditional sauna culture that is deeply embedded in everyday life?",
+  "options": ["Finland", "France", "Portugal", "Belgium"],
+  "answer": "Finland"
+},
+{
+  "question": "Which country is internationally associated with the concept of hygge?",
+  "options": ["Denmark", "Italy", "Greece", "Poland"],
+  "answer": "Denmark"
+},
+{
+  "question": "Which country is famous for the traditional dish paella?",
+  "options": ["Spain", "Italy", "Portugal", "France"],
+  "answer": "Spain"
+},
+{
+  "question": "Which country is the origin of sushi?",
+  "options": ["Japan", "China", "South Korea", "Thailand"],
+  "answer": "Japan"
+},
+{
+  "question": "Which country is strongly associated with kimchi as a traditional food?",
+  "options": ["South Korea", "Japan", "China", "Mongolia"],
+  "answer": "South Korea"
+},
+{
+  "question": "Pho is a well-known traditional dish from which country?",
+  "options": ["Vietnam", "Thailand", "Laos", "Cambodia"],
+  "answer": "Vietnam"
+},
+{
+  "question": "Tom yum is a famous soup associated with which country?",
+  "options": ["Thailand", "Vietnam", "Malaysia", "Indonesia"],
+  "answer": "Thailand"
+},
+{
+  "question": "Which country is the origin of the dish ceviche that is particularly central to its national cuisine?",
+  "options": ["Peru", "Argentina", "Brazil", "Paraguay"],
+  "answer": "Peru"
+},
+{
+  "question": "Which country is famous for the dish moussaka as part of its traditional cuisine?",
+  "options": ["Greece", "Ireland", "Norway", "Switzerland"],
+  "answer": "Greece"
+},
+{
+  "question": "Which country is traditionally associated with fondue?",
+  "options": ["Switzerland", "Spain", "Denmark", "Poland"],
+  "answer": "Switzerland"
+},
+{
+  "question": "Which country is particularly associated with the pastry called pastel de nata?",
+  "options": ["Portugal", "Spain", "Italy", "France"],
+  "answer": "Portugal"
+},
+{
+  "question": "Which city is famous for the Louvre Museum?",
+  "options": ["Paris", "Madrid", "Rome", "Amsterdam"],
+  "answer": "Paris"
+},
+{
+  "question": "In which city is the Prado Museum located?",
+  "options": ["Madrid", "Barcelona", "Lisbon", "Paris"],
+  "answer": "Madrid"
+},
+{
+  "question": "In which city is the Rijksmuseum located?",
+  "options": ["Amsterdam", "Brussels", "Rotterdam", "The Hague"],
+  "answer": "Amsterdam"
+},
+{
+  "question": "In which city is the Uffizi Gallery located?",
+  "options": ["Florence", "Rome", "Venice", "Milan"],
+  "answer": "Florence"
+},
+{
+  "question": "In which city is the British Museum located?",
+  "options": ["London", "Oxford", "Edinburgh", "Manchester"],
+  "answer": "London"
+},
+{
+  "question": "Which museum in New York City is commonly abbreviated as MoMA?",
+  "options": ["Museum of Modern Art", "Metropolitan Museum of Art", "American Museum of Natural History", "Guggenheim Museum"],
+  "answer": "Museum of Modern Art"
+},
+{
+  "question": "Which university is located in Cambridge, Massachusetts?",
+  "options": ["Harvard University", "Yale University", "Princeton University", "Columbia University"],
+  "answer": "Harvard University"
+},
+{
+  "question": "Which university is located in New Haven, Connecticut?",
+  "options": ["Yale University", "Harvard University", "Stanford University", "Cornell University"],
+  "answer": "Yale University"
+},
+{
+  "question": "Which university is located in Stanford, California?",
+  "options": ["Stanford University", "Princeton University", "Columbia University", "University of Chicago"],
+  "answer": "Stanford University"
+},
+{
+  "question": "Which ancient university is located in Oxford, England?",
+  "options": ["University of Oxford", "University of Cambridge", "University of Bologna", "University of Salamanca"],
+  "answer": "University of Oxford"
+},
+{
+  "question": "Which historic university is located in Bologna, Italy?",
+  "options": ["University of Bologna", "University of Padua", "University of Pisa", "Sapienza University of Rome"],
+  "answer": "University of Bologna"
+},
+{
+  "question": "Which prize was established through the will of Alfred Nobel?",
+  "options": ["Nobel Prize", "Pulitzer Prize", "Booker Prize", "Fields Medal"],
+  "answer": "Nobel Prize"
+},
+{
+  "question": "The Pulitzer Prizes are especially associated with achievements in which fields?",
+  "options": ["Journalism, literature, and music", "Astronomy and physics only", "Architecture only", "Medicine only"],
+  "answer": "Journalism, literature, and music"
+},
+{
+  "question": "The Fields Medal is a prestigious award in which subject?",
+  "options": ["Mathematics", "Chemistry", "Literature", "Architecture"],
+  "answer": "Mathematics"
+},
+{
+  "question": "The Pritzker Prize is primarily associated with which field?",
+  "options": ["Architecture", "Mathematics", "Journalism", "Medicine"],
+  "answer": "Architecture"
+},
+{
+  "question": "The Booker Prize is primarily associated with which field?",
+  "options": ["Literature", "Physics", "Engineering", "Music"],
+  "answer": "Literature"
+},
+{
+  "question": "Which color is produced by mixing blue and yellow pigments in traditional subtractive color mixing?",
+  "options": ["Green", "Purple", "Orange", "Red"],
+  "answer": "Green"
+},
+{
+  "question": "How many keys does a standard modern piano typically have?",
+  "options": ["88", "76", "61", "96"],
+  "answer": "88"
+},
+{
+  "question": "Which musical instrument typically has six strings in its standard form?",
+  "options": ["Guitar", "Violin", "Cello", "Ukulele"],
+  "answer": "Guitar"
+},
+{
+  "question": "Which instrument is associated with a keyboard, pedals, and pipes in its traditional large form?",
+  "options": ["Pipe organ", "Harp", "Clarinet", "Cello"],
+  "answer": "Pipe organ"
+},
+{
+  "question": "Which instrument belongs to the woodwind family and commonly uses a single reed?",
+  "options": ["Clarinet", "Flute", "Trumpet", "Violin"],
+  "answer": "Clarinet"
+},
+{
+  "question": "Which instrument commonly uses a double reed?",
+  "options": ["Oboe", "Clarinet", "Saxophone", "Trumpet"],
+  "answer": "Oboe"
+},
+{
+  "question": "Which instrument is the largest and lowest-pitched standard member of the violin family?",
+  "options": ["Double bass", "Viola", "Cello", "Violin"],
+  "answer": "Double bass"
+},
+{
+  "question": "Which symbol is used internationally to represent the chemical element gold?",
+  "options": ["Au", "Ag", "Gd", "Go"],
+  "answer": "Au"
+},
+{
+  "question": "Which symbol is used for silver?",
+  "options": ["Ag", "Si", "Sr", "Au"],
+  "answer": "Ag"
+},
+{
+  "question": "Which symbol is used for iron?",
+  "options": ["Fe", "Ir", "In", "I"],
+  "answer": "Fe"
+},
+{
+  "question": "Which symbol is used for potassium?",
+  "options": ["K", "P", "Pt", "Po"],
+  "answer": "K"
+},
+{
+  "question": "Which symbol is used for sodium?",
+  "options": ["Na", "S", "So", "N"],
+  "answer": "Na"
+},
+{
+  "question": "Which Roman numeral represents 500?",
+  "options": ["D", "C", "L", "M"],
+  "answer": "D"
+},
+{
+  "question": "Which Roman numeral represents 50?",
+  "options": ["L", "C", "D", "X"],
+  "answer": "L"
+},
+{
+  "question": "Which Roman numeral represents 1000?",
+  "options": ["M", "D", "C", "X"],
+  "answer": "M"
+},
+{
+  "question": "How many sides does a dodecagon have?",
+  "options": ["12", "10", "14", "20"],
+  "answer": "12"
+},
+{
+  "question": "How many sides does an octagon have?",
+  "options": ["8", "6", "10", "12"],
+  "answer": "8"
+},
+{
+  "question": "Which prefix represents one thousand in the metric system?",
+  "options": ["Kilo", "Centi", "Milli", "Mega"],
+  "answer": "Kilo"
+},
+{
+  "question": "Which metric prefix represents one million?",
+  "options": ["Mega", "Kilo", "Giga", "Micro"],
+  "answer": "Mega"
+},
+{
+  "question": "Which metric prefix represents one billion?",
+  "options": ["Giga", "Mega", "Tera", "Kilo"],
+  "answer": "Giga"
+},
+{
+  "question": "How many bytes are in a traditional kibibyte (KiB)?",
+  "options": ["1024", "1000", "512", "2048"],
+  "answer": "1024"
+},
+{
+  "question": "What does the abbreviation ISBN identify?",
+  "options": ["A specific book edition or publication", "An international bank account", "A country calling code", "A chemical substance"],
+  "answer": "A specific book edition or publication"
+},
+{
+  "question": "What does the abbreviation GPS stand for?",
+  "options": ["Global Positioning System", "General Positioning Service", "Geographic Processing Standard", "Global Pathway Signal"],
+  "answer": "Global Positioning System"
+},
+{
+  "question": "What does the abbreviation QR in QR code stand for?",
+  "options": ["Quick Response", "Quality Read", "Query Recognition", "Quantum Record"],
+  "answer": "Quick Response"
+},
+{
+  "question": "Which company developed the QR code in the 1990s?",
+  "options": ["Denso Wave", "IBM", "Microsoft", "Nokia"],
+  "answer": "Denso Wave"
+},
+{
+  "question": "What does PDF stand for?",
+  "options": ["Portable Document Format", "Personal Data File", "Printed Document Form", "Public Digital Format"],
+  "answer": "Portable Document Format"
+},
+{
+  "question": "What does USB stand for?",
+  "options": ["Universal Serial Bus", "Unified System Base", "Universal Storage Block", "User Serial Bridge"],
+  "answer": "Universal Serial Bus"
+},
+{
+  "question": "What does LED stand for?",
+  "options": ["Light-Emitting Diode", "Linear Energy Device", "Low-Energy Display", "Light Electrical Driver"],
+  "answer": "Light-Emitting Diode"
+},
+{
+  "question": "What does ATM commonly stand for in banking?",
+  "options": ["Automated Teller Machine", "Automatic Transfer Method", "Account Transaction Module", "Automated Treasury Mechanism"],
+  "answer": "Automated Teller Machine"
+},
+{
+  "question": "Which international calling code is assigned to the United Kingdom?",
+  "options": ["+44", "+33", "+49", "+39"],
+  "answer": "+44"
+},
+{
+  "question": "Which international calling code is assigned to Japan?",
+  "options": ["+81", "+82", "+86", "+91"],
+  "answer": "+81"
+},
+{
+  "question": "Which international calling code is assigned to India?",
+  "options": ["+91", "+92", "+880", "+977"],
+  "answer": "+91"
+},
+{
+  "question": "Which international calling code is assigned to Bangladesh?",
+  "options": ["+880", "+977", "+960", "+94"],
+  "answer": "+880"
+},
+{
+  "question": "Which country uses the internet country-code top-level domain .jp?",
+  "options": ["Japan", "Jordan", "Jamaica", "Jersey"],
+  "answer": "Japan"
+},
+{
+  "question": "Which country uses the internet country-code top-level domain .de?",
+  "options": ["Germany", "Denmark", "Dominican Republic", "Djibouti"],
+  "answer": "Germany"
+},
+{
+  "question": "Which country uses the internet country-code top-level domain .ch?",
+  "options": ["Switzerland", "China", "Chile", "Croatia"],
+  "answer": "Switzerland"
+},
+{
+  "question": "Which country uses the internet country-code top-level domain .br?",
+  "options": ["Brazil", "Brunei", "Belarus", "Belgium"],
+  "answer": "Brazil"
+},
+{
+  "question": "Which country uses the internet country-code top-level domain .bd?",
+  "options": ["Bangladesh", "Barbados", "Bermuda", "Burundi"],
+  "answer": "Bangladesh"
+},
+{
+  "question": "Which country uses the internet country-code top-level domain .nz?",
+  "options": ["New Zealand", "Nigeria", "Niger", "Namibia"],
+  "answer": "New Zealand"
+},
+{
+  "question": "Which country uses the internet country-code top-level domain .za?",
+  "options": ["South Africa", "Zambia", "Zimbabwe", "Zanzibar"],
+  "answer": "South Africa"
+},
+{
+  "question": "Which alphabet is used by modern Russian?",
+  "options": ["Cyrillic", "Latin only", "Greek", "Arabic"],
+  "answer": "Cyrillic"
+},
+{
+  "question": "Which alphabet gave rise to many letters used in the Cyrillic script?",
+  "options": ["Greek alphabet", "Hangul", "Devanagari", "Ge'ez"],
+  "answer": "Greek alphabet"
+},
+{
+  "question": "Braille is primarily a system of what?",
+  "options": ["Raised-dot reading and writing", "Musical notation only", "Maritime signaling", "Numerical encryption"],
+  "answer": "Raised-dot reading and writing"
+},
+{
+  "question": "Who developed the Braille reading and writing system?",
+  "options": ["Louis Braille", "Samuel Morse", "Helen Keller", "Alexander Graham Bell"],
+  "answer": "Louis Braille"
+},
+{
+  "question": "What is Esperanto?",
+  "options": ["A constructed international auxiliary language", "An ancient Roman dialect", "A Scandinavian alphabet", "A programming language"],
+  "answer": "A constructed international auxiliary language"
+},
+{
+  "question": "Who created Esperanto?",
+  "options": ["L. L. Zamenhof", "Louis Braille", "Noam Chomsky", "Samuel Johnson"],
+  "answer": "L. L. Zamenhof"
+},
+{
+  "question": "Which reference work is traditionally associated with annual records of remarkable human and natural achievements?",
+  "options": ["Guinness World Records", "Oxford English Dictionary", "Encyclopaedia Britannica", "World Almanac only"],
+  "answer": "Guinness World Records"
+},
+{
+  "question": "Which country originated the Nobel Prize founder Alfred Nobel?",
+  "options": ["Sweden", "Norway", "Denmark", "Finland"],
+  "answer": "Sweden"
+},
+{
+  "question": "Which country is the birthplace of composer Wolfgang Amadeus Mozart?",
+  "options": ["Austria", "Germany", "Italy", "Switzerland"],
+  "answer": "Austria"
+},
+{
+  "question": "Which country is the birthplace of painter Pablo Picasso?",
+  "options": ["Spain", "France", "Italy", "Portugal"],
+  "answer": "Spain"
+},
+{
+  "question": "Which country was the birthplace of Vincent van Gogh?",
+  "options": ["Netherlands", "Belgium", "France", "Germany"],
+  "answer": "Netherlands"
+},
+{
+  "question": "Which country is the birthplace of author Hans Christian Andersen?",
+  "options": ["Denmark", "Sweden", "Norway", "Germany"],
+  "answer": "Denmark"
+},
+{
+  "question": "Which country is the birthplace of author Franz Kafka?",
+  "options": ["Present-day Czech Republic", "Austria", "Germany", "Hungary"],
+  "answer": "Present-day Czech Republic"
+},
+{
+  "question": "Which city is associated with the fictional detective Sherlock Holmes at 221B Baker Street?",
+  "options": ["London", "Edinburgh", "Dublin", "Manchester"],
+  "answer": "London"
+},
+{
+  "question": "Who created the fictional detective Sherlock Holmes?",
+  "options": ["Arthur Conan Doyle", "Agatha Christie", "Edgar Allan Poe", "G. K. Chesterton"],
+  "answer": "Arthur Conan Doyle"
+},
+{
+  "question": "Who created the detective Hercule Poirot?",
+  "options": ["Agatha Christie", "Arthur Conan Doyle", "Dorothy L. Sayers", "Raymond Chandler"],
+  "answer": "Agatha Christie"
+},
+{
+  "question": "Which author created the fictional character Peter Pan?",
+  "options": ["J. M. Barrie", "Lewis Carroll", "A. A. Milne", "Roald Dahl"],
+  "answer": "J. M. Barrie"
+},
+{
+  "question": "Who wrote Alice's Adventures in Wonderland?",
+  "options": ["Lewis Carroll", "J. M. Barrie", "Charles Dickens", "Oscar Wilde"],
+  "answer": "Lewis Carroll"
+},
+{
+  "question": "Who wrote The Little Prince?",
+  "options": ["Antoine de Saint-Exupery", "Jules Verne", "Victor Hugo", "Albert Camus"],
+  "answer": "Antoine de Saint-Exupery"
+},
+{
+  "question": "Who wrote Around the World in Eighty Days?",
+  "options": ["Jules Verne", "H. G. Wells", "Robert Louis Stevenson", "Daniel Defoe"],
+  "answer": "Jules Verne"
+},
+{
+  "question": "Who wrote Robinson Crusoe?",
+  "options": ["Daniel Defoe", "Jonathan Swift", "Jules Verne", "Charles Dickens"],
+  "answer": "Daniel Defoe"
+},
+{
+  "question": "Who wrote Gulliver's Travels?",
+  "options": ["Jonathan Swift", "Daniel Defoe", "Lewis Carroll", "Oscar Wilde"],
+  "answer": "Jonathan Swift"
+},
+{
+  "question": "Who wrote The Adventures of Tom Sawyer?",
+  "options": ["Mark Twain", "Jack London", "Ernest Hemingway", "John Steinbeck"],
+  "answer": "Mark Twain"
+},
+{
+  "question": "Who wrote The Jungle Book?",
+  "options": ["Rudyard Kipling", "Mark Twain", "R. L. Stevenson", "J. M. Barrie"],
+  "answer": "Rudyard Kipling"
+},
+{
+  "question": "Who wrote The Picture of Dorian Gray?",
+  "options": ["Oscar Wilde", "James Joyce", "Bram Stoker", "George Bernard Shaw"],
+  "answer": "Oscar Wilde"
+},
+{
+  "question": "Who wrote Dracula?",
+  "options": ["Bram Stoker", "Mary Shelley", "Oscar Wilde", "Robert Louis Stevenson"],
+  "answer": "Bram Stoker"
+},
+{
+  "question": "Who wrote Treasure Island?",
+  "options": ["Robert Louis Stevenson", "Daniel Defoe", "Jules Verne", "Herman Melville"],
+  "answer": "Robert Louis Stevenson"
+},
+{
+  "question": "Who wrote Moby-Dick?",
+  "options": ["Herman Melville", "Mark Twain", "Jack London", "Nathaniel Hawthorne"],
+  "answer": "Herman Melville"
+},
+{
+  "question": "Who wrote The Canterbury Tales?",
+  "options": ["Geoffrey Chaucer", "William Shakespeare", "John Milton", "Thomas More"],
+  "answer": "Geoffrey Chaucer"
+},
+{
+  "question": "Who wrote Paradise Lost?",
+  "options": ["John Milton", "Geoffrey Chaucer", "William Blake", "John Donne"],
+  "answer": "John Milton"
+},
+{
+  "question": "Who wrote Ulysses?",
+  "options": ["James Joyce", "Oscar Wilde", "Samuel Beckett", "W. B. Yeats"],
+  "answer": "James Joyce"
+},
+{
+  "question": "Who wrote The Hobbit?",
+  "options": ["J. R. R. Tolkien", "C. S. Lewis", "J. K. Rowling", "George Orwell"],
+  "answer": "J. R. R. Tolkien"
+},
+{
+  "question": "Who wrote The Chronicles of Narnia?",
+  "options": ["C. S. Lewis", "J. R. R. Tolkien", "Roald Dahl", "Philip Pullman"],
+  "answer": "C. S. Lewis"
+},
+{
+  "question": "Who wrote Charlie and the Chocolate Factory?",
+  "options": ["Roald Dahl", "C. S. Lewis", "A. A. Milne", "J. M. Barrie"],
+  "answer": "Roald Dahl"
+},
+{
+  "question": "Who created Winnie-the-Pooh?",
+  "options": ["A. A. Milne", "Beatrix Potter", "Roald Dahl", "Lewis Carroll"],
+  "answer": "A. A. Milne"
+},
+{
+  "question": "Who created the character Pinocchio?",
+  "options": ["Carlo Collodi", "Hans Christian Andersen", "Brothers Grimm", "Jules Verne"],
+  "answer": "Carlo Collodi"
+},
+{
+  "question": "Who wrote The Name of the Rose?",
+  "options": ["Umberto Eco", "Italo Calvino", "Primo Levi", "Dario Fo"],
+  "answer": "Umberto Eco"
+},
+{
+  "question": "Which country is the home of the ancient board game Go in its earliest known form?",
+  "options": ["China", "Japan", "India", "Korea"],
+  "answer": "China"
+},
+{
+  "question": "Which country is generally credited as the birthplace of modern chess's ancestor, chaturanga?",
+  "options": ["India", "China", "Persia", "Egypt"],
+  "answer": "India"
+},
+{
+  "question": "Which puzzle was invented by Hungarian architect Erno Rubik?",
+  "options": ["Rubik's Cube", "Tangram", "Sudoku", "Jigsaw puzzle"],
+  "answer": "Rubik's Cube"
+},
+{
+  "question": "Sudoku became internationally popular under a Japanese name, but its modern number-placement form was first published in which country?",
+  "options": ["United States", "Japan", "China", "France"],
+  "answer": "United States"
+},
+{
+  "question": "Which company introduced the LEGO brick system?",
+  "options": ["LEGO Group", "Hasbro", "Mattel", "Nintendo"],
+  "answer": "LEGO Group"
+},
+{
+  "question": "LEGO originated in which country?",
+  "options": ["Denmark", "Sweden", "Germany", "Netherlands"],
+  "answer": "Denmark"
+},
+{
+  "question": "Which country is the origin of the furniture retailer IKEA?",
+  "options": ["Sweden", "Denmark", "Finland", "Norway"],
+  "answer": "Sweden"
+},
+{
+  "question": "Which country is the origin of the automobile manufacturer Toyota?",
+  "options": ["Japan", "South Korea", "Germany", "United States"],
+  "answer": "Japan"
+},
+{
+  "question": "Which country is the origin of the automobile manufacturer Volvo?",
+  "options": ["Sweden", "Germany", "Italy", "France"],
+  "answer": "Sweden"
+},
+{
+  "question": "Which country is the origin of the automobile manufacturer Ferrari?",
+  "options": ["Italy", "Germany", "France", "Spain"],
+  "answer": "Italy"
+},
+{
+  "question": "Which country is the origin of the automobile manufacturer BMW?",
+  "options": ["Germany", "Austria", "Switzerland", "Sweden"],
+  "answer": "Germany"
+},
+{
+  "question": "Which country is the origin of the automobile manufacturer Hyundai?",
+  "options": ["South Korea", "Japan", "China", "Vietnam"],
+  "answer": "South Korea"
+},
+{
+  "question": "Which city is traditionally associated with the headquarters and origins of Ferrari?",
+  "options": ["Maranello", "Turin", "Milan", "Rome"],
+  "answer": "Maranello"
+},
+{
+  "question": "Which country is the origin of the electronics company Nokia?",
+  "options": ["Finland", "Sweden", "Norway", "Denmark"],
+  "answer": "Finland"
+},
+{
+  "question": "Which country is the origin of the electronics company Samsung?",
+  "options": ["South Korea", "Japan", "China", "Singapore"],
+  "answer": "South Korea"
+},
+{
+  "question": "Which country is the origin of the technology company Sony?",
+  "options": ["Japan", "South Korea", "United States", "Taiwan"],
+  "answer": "Japan"
+},
+{
+  "question": "Which city is commonly known as the birthplace of the Renaissance?",
+  "options": ["Florence", "Rome", "Venice", "Milan"],
+  "answer": "Florence"
+},
+{
+  "question": "Which city is nicknamed the City of Canals and is built across numerous islands in a lagoon?",
+  "options": ["Venice", "Milan", "Naples", "Turin"],
+  "answer": "Venice"
+},
+{
+  "question": "Which city is often called the Eternal City?",
+  "options": ["Rome", "Athens", "Jerusalem", "Paris"],
+  "answer": "Rome"
+},
+{
+  "question": "Which city is widely nicknamed the City of Light?",
+  "options": ["Paris", "London", "Vienna", "Prague"],
+  "answer": "Paris"
+},
+{
+  "question": "Which city is famous for its historic red double-decker buses?",
+  "options": ["London", "Paris", "Berlin", "Madrid"],
+  "answer": "London"
+},
+{
+  "question": "Which city is famous for the Shibuya Crossing?",
+  "options": ["Tokyo", "Osaka", "Seoul", "Kyoto"],
+  "answer": "Tokyo"
+},
+{
+  "question": "Which city is famous for Times Square?",
+  "options": ["New York City", "Chicago", "Boston", "Los Angeles"],
+  "answer": "New York City"
+},
+{
+  "question": "Which city is famous for the Hollywood district?",
+  "options": ["Los Angeles", "San Francisco", "Las Vegas", "Miami"],
+  "answer": "Los Angeles"
+},
+{
+  "question": "Which city is famous for the Marina Bay Sands complex?",
+  "options": ["Singapore", "Dubai", "Kuala Lumpur", "Hong Kong"],
+  "answer": "Singapore"
+},
+{
+  "question": "Which city is famous for the historic district of Gamla Stan?",
+  "options": ["Stockholm", "Oslo", "Copenhagen", "Helsinki"],
+  "answer": "Stockholm"
+},
+{
+  "question": "Which city is famous for the Little Mermaid statue?",
+  "options": ["Copenhagen", "Stockholm", "Oslo", "Amsterdam"],
+  "answer": "Copenhagen"
+},
+{
+  "question": "Which city is famous for the Manneken Pis statue?",
+  "options": ["Brussels", "Amsterdam", "Paris", "Luxembourg"],
+  "answer": "Brussels"
+},
+{
+  "question": "Which city is famous for the Trevi Fountain?",
+  "options": ["Rome", "Florence", "Venice", "Naples"],
+  "answer": "Rome"
+},
+{
+  "question": "Which city is famous for the Spanish Steps?",
+  "options": ["Rome", "Madrid", "Barcelona", "Seville"],
+  "answer": "Rome"
+},
+{
+  "question": "Which city is home to the famous Schonbrunn Palace?",
+  "options": ["Vienna", "Prague", "Budapest", "Salzburg"],
+  "answer": "Vienna"
+},
+{
+  "question": "Which city is divided by the Danube into the historic areas of Buda and Pest?",
+  "options": ["Budapest", "Vienna", "Bratislava", "Belgrade"],
+  "answer": "Budapest"
+},
+{
+  "question": "Which city is home to the Palace of Westminster and Big Ben?",
+  "options": ["London", "Edinburgh", "Dublin", "Cardiff"],
+  "answer": "London"
+},
+{
+  "question": "Which city is home to the famous Temple Bar district?",
+  "options": ["Dublin", "London", "Edinburgh", "Belfast"],
+  "answer": "Dublin"
+},
+{
+  "question": "Which city is famous for Edinburgh Castle?",
+  "options": ["Edinburgh", "Glasgow", "Aberdeen", "Dundee"],
+  "answer": "Edinburgh"
+},
+{
+  "question": "Which city is home to the Guggenheim Museum designed by Frank Gehry in northern Spain?",
+  "options": ["Bilbao", "Madrid", "Barcelona", "Valencia"],
+  "answer": "Bilbao"
+},
+{
+  "question": "Which city is famous for the Belem Tower?",
+  "options": ["Lisbon", "Porto", "Madrid", "Seville"],
+  "answer": "Lisbon"
+},
+{
+  "question": "Which city is home to the ancient rock-cut monument known as the Treasury at Petra?",
+  "options": ["Petra", "Amman", "Jerash", "Aqaba"],
+  "answer": "Petra"
+},
+{
+  "question": "Which country is home to the ancient city of Petra?",
+  "options": ["Jordan", "Egypt", "Lebanon", "Oman"],
+  "answer": "Jordan"
+},
+{
+  "question": "Which country is home to the archaeological site of Angkor Wat?",
+  "options": ["Cambodia", "Thailand", "Laos", "Vietnam"],
+  "answer": "Cambodia"
+},
+{
+  "question": "Which country is home to the ancient rock fortress of Sigiriya?",
+  "options": ["Sri Lanka", "India", "Nepal", "Bhutan"],
+  "answer": "Sri Lanka"
+},
+{
+  "question": "Which country is home to the historic city of Samarkand?",
+  "options": ["Uzbekistan", "Kazakhstan", "Tajikistan", "Turkmenistan"],
+  "answer": "Uzbekistan"
+},
+{
+  "question": "Which country is home to the ancient city of Bagan, famous for thousands of Buddhist monuments?",
+  "options": ["Myanmar", "Thailand", "Cambodia", "Laos"],
+  "answer": "Myanmar"
+},
+{
+  "question": "Which country is home to the ancient city of Chichen Itza?",
+  "options": ["Mexico", "Guatemala", "Peru", "Belize"],
+  "answer": "Mexico"
+},
+{
+  "question": "Which country is home to the giant stone statues known as moai on Rapa Nui?",
+  "options": ["Chile", "Peru", "Ecuador", "Argentina"],
+  "answer": "Chile"
+},
+{
+  "question": "Which country is home to the historic sanctuary of Delphi?",
+  "options": ["Greece", "Italy", "Turkey", "Cyprus"],
+  "answer": "Greece"
+},
+{
+  "question": "Which country is home to the ancient site of Ephesus?",
+  "options": ["Turkey", "Greece", "Italy", "Jordan"],
+  "answer": "Turkey"
+},
+{
+  "question": "Which country is home to the Alhambra palace complex?",
+  "options": ["Spain", "Portugal", "Morocco", "Italy"],
+  "answer": "Spain"
+},
+{
+  "question": "In which Spanish city is the Alhambra located?",
+  "options": ["Granada", "Seville", "Madrid", "Valencia"],
+  "answer": "Granada"
+},
+{
+  "question": "Which country is home to the medieval fortified city of Carcassonne?",
+  "options": ["France", "Spain", "Belgium", "Switzerland"],
+  "answer": "France"
+},
+{
+  "question": "Which country is home to Neuschwanstein Castle?",
+  "options": ["Germany", "Austria", "Switzerland", "France"],
+  "answer": "Germany"
+},
+{
+  "question": "Which country is home to Bran Castle, popularly associated with the Dracula legend?",
+  "options": ["Romania", "Hungary", "Bulgaria", "Serbia"],
+  "answer": "Romania"
+},
+{
+  "question": "Which country is home to the historic city of Dubrovnik?",
+  "options": ["Croatia", "Slovenia", "Montenegro", "Albania"],
+  "answer": "Croatia"
+},
+{
+  "question": "Which country is home to the ancient city of Timbuktu?",
+  "options": ["Mali", "Niger", "Chad", "Mauritania"],
+  "answer": "Mali"
+},
+{
+  "question": "Which country is home to the rock-hewn churches of Lalibela?",
+  "options": ["Ethiopia", "Eritrea", "Kenya", "Sudan"],
+  "answer": "Ethiopia"
+},
+{
+  "question": "Which country is home to the ancient ruins of Great Zimbabwe?",
+  "options": ["Zimbabwe", "Zambia", "Botswana", "South Africa"],
+  "answer": "Zimbabwe"
+},
+{
+  "question": "Which country is home to the medina of Fez, one of the world's best-known historic urban centers?",
+  "options": ["Morocco", "Tunisia", "Algeria", "Egypt"],
+  "answer": "Morocco"
+},
+{
+  "question": "Which country is home to the ancient amphitheatre of El Jem?",
+  "options": ["Tunisia", "Morocco", "Egypt", "Algeria"],
+  "answer": "Tunisia"
+},
+{
+  "question": "Which country is home to the historic island city of Zanzibar?",
+  "options": ["Tanzania", "Kenya", "Mozambique", "Madagascar"],
+  "answer": "Tanzania"
+},
+{
+  "question": "Which country is home to the historic city of Cartagena on the Caribbean coast?",
+  "options": ["Colombia", "Venezuela", "Ecuador", "Panama"],
+  "answer": "Colombia"
+},
+{
+  "question": "Which country is home to the ancient site of Tikal?",
+  "options": ["Guatemala", "Mexico", "Belize", "Honduras"],
+  "answer": "Guatemala"
+},
+{
+  "question": "Which country is home to the archaeological site of Copan?",
+  "options": ["Honduras", "Guatemala", "Mexico", "Costa Rica"],
+  "answer": "Honduras"
+},
+{
+  "question": "Which country is home to the Panama Canal?",
+  "options": ["Panama", "Costa Rica", "Colombia", "Nicaragua"],
+  "answer": "Panama"
+},
+{
+  "question": "Which country is home to the historic canal city of Bruges?",
+  "options": ["Belgium", "Netherlands", "France", "Germany"],
+  "answer": "Belgium"
+},
+{
+  "question": "Which city is the birthplace of the famous Mozart and is known for its baroque old town?",
+  "options": ["Salzburg", "Vienna", "Innsbruck", "Graz"],
+  "answer": "Salzburg"
+},
+{
+  "question": "Which city is famous for the annual Running of the Bulls during the San Fermin festival?",
+  "options": ["Pamplona", "Madrid", "Barcelona", "Bilbao"],
+  "answer": "Pamplona"
+},
+{
+  "question": "Which city hosts the famous Cannes Film Festival?",
+  "options": ["Cannes", "Paris", "Nice", "Lyon"],
+  "answer": "Cannes"
+},
+{
+  "question": "Which city hosts the Venice International Film Festival?",
+  "options": ["Venice", "Rome", "Milan", "Turin"],
+  "answer": "Venice"
+},
+{
+  "question": "Which city is associated with the annual international film festival known as the Berlinale?",
+  "options": ["Berlin", "Munich", "Hamburg", "Frankfurt"],
+  "answer": "Berlin"
+},
+{
+  "question": "Which city is home to La Scala, one of the world's most famous opera houses?",
+  "options": ["Milan", "Rome", "Venice", "Florence"],
+  "answer": "Milan"
+},
+{
+  "question": "Which city is home to the Bolshoi Theatre?",
+  "options": ["Moscow", "Saint Petersburg", "Kyiv", "Minsk"],
+  "answer": "Moscow"
+},
+{
+  "question": "Which city is home to the Royal Opera House at Covent Garden?",
+  "options": ["London", "Paris", "Vienna", "Dublin"],
+  "answer": "London"
+},
+{
+  "question": "Which city is home to Carnegie Hall?",
+  "options": ["New York City", "Boston", "Chicago", "Washington, D.C."],
+  "answer": "New York City"
+},
+{
+  "question": "Which city is home to the famous Moulin Rouge cabaret?",
+  "options": ["Paris", "Brussels", "Madrid", "Vienna"],
+  "answer": "Paris"
+},
+{
+  "question": "Which city is the traditional center of the Broadway theatre district?",
+  "options": ["New York City", "Los Angeles", "Chicago", "Boston"],
+  "answer": "New York City"
+},
+{
+  "question": "Which city is home to the West End theatre district?",
+  "options": ["London", "Dublin", "Paris", "Edinburgh"],
+  "answer": "London"
+},
+{
+  "question": "Which country is traditionally credited with inventing paper?",
+  "options": ["China", "Egypt", "India", "Greece"],
+  "answer": "China"
+},
+{
+  "question": "Which country is traditionally credited with the early invention of gunpowder?",
+  "options": ["China", "India", "Italy", "Persia"],
+  "answer": "China"
+},
+{
+  "question": "Which country is traditionally credited with developing porcelain?",
+  "options": ["China", "Japan", "Greece", "Italy"],
+  "answer": "China"
+},
+{
+  "question": "Which civilization developed the writing system known as cuneiform?",
+  "options": ["Sumerians", "Romans", "Maya", "Phoenicians"],
+  "answer": "Sumerians"
+},
+{
+  "question": "Which ancient people are especially associated with spreading an alphabet that influenced Greek and later Latin writing?",
+  "options": ["Phoenicians", "Incas", "Sumerians", "Hittites"],
+  "answer": "Phoenicians"
+},
+{
+  "question": "Which ancient civilization used hieroglyphs extensively for monumental writing?",
+  "options": ["Ancient Egyptians", "Romans", "Persians", "Vikings"],
+  "answer": "Ancient Egyptians"
+},
+{
+  "question": "Which ancient civilization developed a sophisticated calendar and writing system in Mesoamerica?",
+  "options": ["Maya", "Romans", "Phoenicians", "Vikings"],
+  "answer": "Maya"
+},
+{
+  "question": "Which ancient civilization built the city of Teotihuacan?",
+  "options": ["A pre-Aztec Mesoamerican civilization", "Inca", "Roman", "Phoenician"],
+  "answer": "A pre-Aztec Mesoamerican civilization"
+},
+{
+  "question": "Which modern country is famous for the ancient archaeological site of Persepolis?",
+  "options": ["Iran", "Iraq", "Turkey", "Syria"],
+  "answer": "Iran"
+},
+{
+  "question": "Which modern country contains the ancient city of Babylon?",
+  "options": ["Iraq", "Iran", "Jordan", "Egypt"],
+  "answer": "Iraq"
+},
+{
+  "question": "Which modern country contains the ancient site of Troy?",
+  "options": ["Turkey", "Greece", "Italy", "Cyprus"],
+  "answer": "Turkey"
+},
+{
+  "question": "Which modern country contains the ancient city of Carthage?",
+  "options": ["Tunisia", "Libya", "Morocco", "Algeria"],
+  "answer": "Tunisia"
+},
+{
+  "question": "Which modern country contains the archaeological site of Knossos?",
+  "options": ["Greece", "Italy", "Turkey", "Egypt"],
+  "answer": "Greece"
+},
+{
+  "question": "Which modern country contains the ancient city of Jerash?",
+  "options": ["Jordan", "Lebanon", "Syria", "Israel"],
+  "answer": "Jordan"
+},
+{
+  "question": "Which modern country contains the ancient Phoenician city of Byblos?",
+  "options": ["Lebanon", "Jordan", "Cyprus", "Turkey"],
+  "answer": "Lebanon"
+},
+{
+  "question": "Which country is famous for the traditional windmills and tulip culture of the Netherlands?",
+  "options": ["Netherlands", "Belgium", "Denmark", "Austria"],
+  "answer": "Netherlands"
+},
+{
+  "question": "Which country is particularly famous for cuckoo clocks associated with the Black Forest?",
+  "options": ["Germany", "Switzerland", "Austria", "Belgium"],
+  "answer": "Germany"
+},
+{
+  "question": "Which country is internationally renowned for Murano glassmaking?",
+  "options": ["Italy", "France", "Spain", "Greece"],
+  "answer": "Italy"
+},
+{
+  "question": "Which country is famous for Delftware blue-and-white pottery?",
+  "options": ["Netherlands", "Portugal", "Sweden", "Ireland"],
+  "answer": "Netherlands"
+},
+{
+  "question": "Which country is famous for traditional Matryoshka nesting dolls?",
+  "options": ["Russia", "Poland", "Hungary", "Romania"],
+  "answer": "Russia"
+},
+{
+  "question": "Which country is famous for traditional Dala horses as a cultural symbol?",
+  "options": ["Sweden", "Norway", "Finland", "Denmark"],
+  "answer": "Sweden"
+},
+{
+  "question": "Which country is particularly associated with traditional Maori carving and culture?",
+  "options": ["New Zealand", "Australia", "Fiji", "Samoa"],
+  "answer": "New Zealand"
+},
+{
+  "question": "Which country is home to the indigenous Sami people across part of its northern territory, along with neighboring Nordic countries?",
+  "options": ["Norway", "Portugal", "Belgium", "Ireland"],
+  "answer": "Norway"
+},
+{
+  "question": "Which continent has the greatest number of sovereign countries?",
+  "options": ["Africa", "Asia", "Europe", "South America"],
+  "answer": "Africa"
+},
+{
+  "question": "Which sovereign state is the smallest in the world by land area?",
+  "options": ["Vatican City", "Monaco", "Nauru", "San Marino"],
+  "answer": "Vatican City"
+},
+{
+  "question": "Which country is the smallest sovereign state in Asia by land area?",
+  "options": ["Maldives", "Singapore", "Bahrain", "Brunei"],
+  "answer": "Maldives"
+},
+{
+  "question": "Which country is the smallest sovereign state in Africa by land area?",
+  "options": ["Seychelles", "The Gambia", "Comoros", "Mauritius"],
+  "answer": "Seychelles"
+},
+{
+  "question": "Which country is the smallest sovereign state in South America by land area?",
+  "options": ["Suriname", "Uruguay", "Guyana", "Ecuador"],
+  "answer": "Suriname"
+},
+{
+  "question": "Which country is the smallest sovereign state in Central America by land area?",
+  "options": ["El Salvador", "Belize", "Costa Rica", "Panama"],
+  "answer": "El Salvador"
+},
+{
+  "question": "Which country has the largest land area in South America?",
+  "options": ["Brazil", "Argentina", "Peru", "Colombia"],
+  "answer": "Brazil"
+},
+{
+  "question": "Which country has the largest land area in Africa?",
+  "options": ["Algeria", "Democratic Republic of the Congo", "Sudan", "Libya"],
+  "answer": "Algeria"
+},
+{
+  "question": "Which country has the largest land area in the European Union?",
+  "options": ["France", "Spain", "Germany", "Sweden"],
+  "answer": "France"
+},
+{
+  "question": "Which country is both a city and a sovereign state in Southeast Asia?",
+  "options": ["Singapore", "Brunei", "Timor-Leste", "Maldives"],
+  "answer": "Singapore"
+},
+{
+  "question": "Which sovereign microstate lies on the French Riviera and is almost entirely urbanized?",
+  "options": ["Monaco", "Andorra", "San Marino", "Liechtenstein"],
+  "answer": "Monaco"
+},
+{
+  "question": "Which country lies between France and Spain in the Pyrenees?",
+  "options": ["Andorra", "Monaco", "Liechtenstein", "Luxembourg"],
+  "answer": "Andorra"
+},
+{
+  "question": "Which landlocked country lies between Switzerland and Austria?",
+  "options": ["Liechtenstein", "Luxembourg", "Andorra", "Slovenia"],
+  "answer": "Liechtenstein"
+},
+{
+  "question": "Which country occupies most of the Arabian Peninsula?",
+  "options": ["Saudi Arabia", "Yemen", "Oman", "United Arab Emirates"],
+  "answer": "Saudi Arabia"
+},
+{
+  "question": "Which country shares the island of Hispaniola with Haiti?",
+  "options": ["Dominican Republic", "Cuba", "Jamaica", "Puerto Rico"],
+  "answer": "Dominican Republic"
+},
+{
+  "question": "Which two sovereign countries share the island of New Guinea?",
+  "options": ["Indonesia and Papua New Guinea", "Australia and Papua New Guinea", "Indonesia and Timor-Leste", "Papua New Guinea and Solomon Islands"],
+  "answer": "Indonesia and Papua New Guinea"
+},
+{
+  "question": "Which three sovereign countries share the island of Borneo?",
+  "options": ["Indonesia, Malaysia, and Brunei", "Indonesia, Malaysia, and Singapore", "Malaysia, Brunei, and Philippines", "Indonesia, Brunei, and Timor-Leste"],
+  "answer": "Indonesia, Malaysia, and Brunei"
+},
+{
+  "question": "Which country occupies the eastern half of the island of Timor?",
+  "options": ["Timor-Leste", "Indonesia", "Papua New Guinea", "Brunei"],
+  "answer": "Timor-Leste"
+},
+{
+  "question": "Which two countries share the island of Ireland?",
+  "options": ["Ireland and the United Kingdom", "Ireland and France", "Ireland and Iceland", "United Kingdom and Denmark"],
+  "answer": "Ireland and the United Kingdom"
+},
+{
+  "question": "Which country has territory on both the European and Asian sides of the Bosporus?",
+  "options": ["Turkey", "Greece", "Bulgaria", "Romania"],
+  "answer": "Turkey"
+},
+{
+  "question": "Which city straddles the Bosporus and lies in both Europe and Asia?",
+  "options": ["Istanbul", "Athens", "Ankara", "Sofia"],
+  "answer": "Istanbul"
+},
+{
+  "question": "Which country is commonly described as spanning both Europe and Asia and has Moscow as its capital?",
+  "options": ["Russia", "Kazakhstan", "Georgia", "Turkey"],
+  "answer": "Russia"
+},
+{
+  "question": "Which country has the national motto 'Liberté, Égalité, Fraternité'?",
+  "options": ["France", "Belgium", "Switzerland", "Canada"],
+  "answer": "France"
+},
+{
+  "question": "Which country's national anthem is called 'La Marseillaise'?",
+  "options": ["France", "Italy", "Spain", "Belgium"],
+  "answer": "France"
+},
+{
+  "question": "Which country's national anthem is called 'Kimigayo'?",
+  "options": ["Japan", "South Korea", "China", "Thailand"],
+  "answer": "Japan"
+},
+{
+  "question": "Which country's national anthem is called 'Jana Gana Mana'?",
+  "options": ["India", "Bangladesh", "Nepal", "Sri Lanka"],
+  "answer": "India"
+},
+{
+  "question": "Which country's national anthem is called 'Amar Sonar Bangla'?",
+  "options": ["Bangladesh", "India", "Nepal", "Bhutan"],
+  "answer": "Bangladesh"
+},
+{
+  "question": "Who wrote the words of both 'Jana Gana Mana' and 'Amar Sonar Bangla'?",
+  "options": ["Rabindranath Tagore", "Kazi Nazrul Islam", "Bankim Chandra Chattopadhyay", "Sarojini Naidu"],
+  "answer": "Rabindranath Tagore"
+},
+{
+  "question": "Which country is represented by the national symbol known as the Merlion?",
+  "options": ["Singapore", "Malaysia", "Indonesia", "Brunei"],
+  "answer": "Singapore"
+},
+{
+  "question": "Which country uses a dragon called Druk as an important national symbol?",
+  "options": ["Bhutan", "Nepal", "Mongolia", "Myanmar"],
+  "answer": "Bhutan"
+},
+{
+  "question": "Which country is often called the Land of the Thunder Dragon?",
+  "options": ["Bhutan", "Nepal", "Japan", "Mongolia"],
+  "answer": "Bhutan"
+},
+{
+  "question": "Which country is traditionally known as the Land of the Rising Sun?",
+  "options": ["Japan", "China", "South Korea", "Thailand"],
+  "answer": "Japan"
+},
+{
+  "question": "Which country is often called the Land of a Thousand Lakes?",
+  "options": ["Finland", "Norway", "Sweden", "Iceland"],
+  "answer": "Finland"
+},
+{
+  "question": "Which country is widely known as the Emerald Isle?",
+  "options": ["Ireland", "Iceland", "New Zealand", "Sri Lanka"],
+  "answer": "Ireland"
+},
+{
+  "question": "Which country is often called the Land of Fire and Ice?",
+  "options": ["Iceland", "Norway", "Finland", "Greenland"],
+  "answer": "Iceland"
+},
+{
+  "question": "Which city is widely known as the Lion City?",
+  "options": ["Singapore", "Hong Kong", "Bangkok", "Kuala Lumpur"],
+  "answer": "Singapore"
+},
+{
+  "question": "Which city is widely nicknamed the Big Apple?",
+  "options": ["New York City", "Los Angeles", "Chicago", "Boston"],
+  "answer": "New York City"
+},
+{
+  "question": "Which city is widely nicknamed the Windy City?",
+  "options": ["Chicago", "Seattle", "Boston", "Denver"],
+  "answer": "Chicago"
+},
+{
+  "question": "Which city is often called the City of a Hundred Spires?",
+  "options": ["Prague", "Vienna", "Budapest", "Warsaw"],
+  "answer": "Prague"
+},
+{
+  "question": "Which city is known for the historic Red Square?",
+  "options": ["Moscow", "Saint Petersburg", "Kyiv", "Warsaw"],
+  "answer": "Moscow"
+},
+{
+  "question": "Which city is famous for the Hermitage Museum?",
+  "options": ["Saint Petersburg", "Moscow", "Helsinki", "Riga"],
+  "answer": "Saint Petersburg"
+},
+{
+  "question": "Which city is famous for the Blue Lagoon geothermal spa located nearby?",
+  "options": ["Reykjavik", "Oslo", "Stockholm", "Helsinki"],
+  "answer": "Reykjavik"
+},
+{
+  "question": "Which city is famous for the Grand Place or Grote Markt?",
+  "options": ["Brussels", "Bruges", "Amsterdam", "Luxembourg"],
+  "answer": "Brussels"
+},
+{
+  "question": "Which city is famous for the historic Fisherman's Bastion?",
+  "options": ["Budapest", "Prague", "Vienna", "Bratislava"],
+  "answer": "Budapest"
+},
+{
+  "question": "Which city is home to the famous Tivoli Gardens amusement park?",
+  "options": ["Copenhagen", "Stockholm", "Oslo", "Helsinki"],
+  "answer": "Copenhagen"
+},
+{
+  "question": "Which city is home to the famous Gardens by the Bay?",
+  "options": ["Singapore", "Kuala Lumpur", "Bangkok", "Hong Kong"],
+  "answer": "Singapore"
+},
+{
+  "question": "Which city is home to the Sheikh Zayed Grand Mosque?",
+  "options": ["Abu Dhabi", "Dubai", "Doha", "Muscat"],
+  "answer": "Abu Dhabi"
+},
+{
+  "question": "Which city is home to the Museum of Islamic Art designed by I. M. Pei?",
+  "options": ["Doha", "Dubai", "Cairo", "Riyadh"],
+  "answer": "Doha"
+},
+{
+  "question": "Which city is home to the Sultan Qaboos Grand Mosque?",
+  "options": ["Muscat", "Doha", "Manama", "Kuwait City"],
+  "answer": "Muscat"
+},
+{
+  "question": "Which city is home to the famous Hassan II Mosque?",
+  "options": ["Casablanca", "Rabat", "Marrakesh", "Fez"],
+  "answer": "Casablanca"
+},
+{
+  "question": "Which city is famous for Jemaa el-Fnaa square?",
+  "options": ["Marrakesh", "Casablanca", "Rabat", "Tangier"],
+  "answer": "Marrakesh"
+},
+{
+  "question": "Which city is home to the Egyptian Museum in Tahrir Square?",
+  "options": ["Cairo", "Alexandria", "Luxor", "Aswan"],
+  "answer": "Cairo"
+},
+{
+  "question": "Which city is home to the Union Buildings, a major seat of South Africa's government?",
+  "options": ["Pretoria", "Cape Town", "Johannesburg", "Durban"],
+  "answer": "Pretoria"
+},
+{
+  "question": "Which city is famous for Table Mountain?",
+  "options": ["Cape Town", "Johannesburg", "Durban", "Pretoria"],
+  "answer": "Cape Town"
+},
+{
+  "question": "Which city is home to the headquarters of the African Union?",
+  "options": ["Addis Ababa", "Nairobi", "Accra", "Cairo"],
+  "answer": "Addis Ababa"
+},
+{
+  "question": "Which city is home to the National Mosque of Malaysia?",
+  "options": ["Kuala Lumpur", "Putrajaya", "Malacca", "Johor Bahru"],
+  "answer": "Kuala Lumpur"
+},
+{
+  "question": "Which city is famous for the historic Gyeongbokgung Palace?",
+  "options": ["Seoul", "Busan", "Tokyo", "Beijing"],
+  "answer": "Seoul"
+},
+{
+  "question": "Which Japanese city is famous for the Fushimi Inari shrine and its thousands of torii gates?",
+  "options": ["Kyoto", "Tokyo", "Osaka", "Nagoya"],
+  "answer": "Kyoto"
+},
+{
+  "question": "Which Japanese city is famous for Osaka Castle?",
+  "options": ["Osaka", "Kyoto", "Tokyo", "Sapporo"],
+  "answer": "Osaka"
+},
+{
+  "question": "Which city is famous for the Victoria Harbour skyline?",
+  "options": ["Hong Kong", "Shanghai", "Singapore", "Taipei"],
+  "answer": "Hong Kong"
+},
+{
+  "question": "Which city is home to Taipei 101?",
+  "options": ["Taipei", "Kaohsiung", "Seoul", "Hong Kong"],
+  "answer": "Taipei"
+},
+{
+  "question": "Which city is home to the Independence Palace, formerly known as the Reunification Palace?",
+  "options": ["Ho Chi Minh City", "Hanoi", "Hue", "Da Nang"],
+  "answer": "Ho Chi Minh City"
+},
+{
+  "question": "Which city is famous for the Temple of Literature and Hoan Kiem Lake?",
+  "options": ["Hanoi", "Ho Chi Minh City", "Hue", "Da Nang"],
+  "answer": "Hanoi"
+},
+{
+  "question": "Which city is home to the famous Shwedagon Pagoda?",
+  "options": ["Yangon", "Mandalay", "Naypyidaw", "Bagan"],
+  "answer": "Yangon"
+},
+{
+  "question": "Which city is home to the Royal Palace of Cambodia?",
+  "options": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville"],
+  "answer": "Phnom Penh"
+},
+{
+  "question": "Which city is the main gateway to the Angkor temple complex?",
+  "options": ["Siem Reap", "Phnom Penh", "Vientiane", "Bangkok"],
+  "answer": "Siem Reap"
+},
+{
+  "question": "Which city is home to the Patuxai monument?",
+  "options": ["Vientiane", "Phnom Penh", "Hanoi", "Bangkok"],
+  "answer": "Vientiane"
+},
+{
+  "question": "Which city is home to the India Gate monument?",
+  "options": ["New Delhi", "Mumbai", "Kolkata", "Agra"],
+  "answer": "New Delhi"
+},
+{
+  "question": "Which city is home to the Victoria Memorial in India?",
+  "options": ["Kolkata", "Mumbai", "Chennai", "New Delhi"],
+  "answer": "Kolkata"
+},
+{
+  "question": "Which city is home to the Charminar?",
+  "options": ["Hyderabad", "Jaipur", "Lucknow", "Pune"],
+  "answer": "Hyderabad"
+},
+{
+  "question": "Which Indian city is known as the Pink City?",
+  "options": ["Jaipur", "Jodhpur", "Udaipur", "Agra"],
+  "answer": "Jaipur"
+},
+{
+  "question": "Which city is home to the Lotus Temple?",
+  "options": ["New Delhi", "Mumbai", "Bengaluru", "Kolkata"],
+  "answer": "New Delhi"
+},
+{
+  "question": "Which city is home to the Jatiya Sangsad Bhaban designed by Louis Kahn?",
+  "options": ["Dhaka", "Chattogram", "Khulna", "Rajshahi"],
+  "answer": "Dhaka"
+},
+{
+  "question": "Which city is home to the National Martyrs' Memorial of Bangladesh in nearby Savar?",
+  "options": ["Dhaka", "Sylhet", "Rangpur", "Barishal"],
+  "answer": "Dhaka"
+},
+{
+  "question": "Which city is famous for the Boudhanath Stupa?",
+  "options": ["Kathmandu", "Thimphu", "Colombo", "Dhaka"],
+  "answer": "Kathmandu"
+},
+{
+  "question": "Which city is home to the Tashichho Dzong?",
+  "options": ["Thimphu", "Paro", "Kathmandu", "Lhasa"],
+  "answer": "Thimphu"
+},
+{
+  "question": "Which city is home to the Independence Memorial Hall of Sri Lanka?",
+  "options": ["Colombo", "Kandy", "Galle", "Jaffna"],
+  "answer": "Colombo"
+},
+{
+  "question": "Which city is home to the famous Red Fort?",
+  "options": ["Delhi", "Agra", "Jaipur", "Lucknow"],
+  "answer": "Delhi"
+},
+{
+  "question": "Which city is home to the National Monument of Indonesia, known as Monas?",
+  "options": ["Jakarta", "Bandung", "Surabaya", "Yogyakarta"],
+  "answer": "Jakarta"
+},
+{
+  "question": "Which Indonesian city is the main cultural center near the temples of Borobudur and Prambanan?",
+  "options": ["Yogyakarta", "Jakarta", "Medan", "Makassar"],
+  "answer": "Yogyakarta"
+},
+{
+  "question": "Which country is home to Borobudur, one of the world's largest Buddhist monuments?",
+  "options": ["Indonesia", "Thailand", "Cambodia", "Myanmar"],
+  "answer": "Indonesia"
+},
+{
+  "question": "Which country is home to the famous Chocolate Hills?",
+  "options": ["Philippines", "Indonesia", "Malaysia", "Vietnam"],
+  "answer": "Philippines"
+},
+{
+  "question": "Which city is home to Rizal Park?",
+  "options": ["Manila", "Cebu", "Davao", "Quezon City"],
+  "answer": "Manila"
+},
+{
+  "question": "Which city is home to the Omar Ali Saifuddien Mosque?",
+  "options": ["Bandar Seri Begawan", "Kuala Lumpur", "Jakarta", "Dili"],
+  "answer": "Bandar Seri Begawan"
+},
+{
+  "question": "Which city is home to the Cristo Rei monument overlooking the capital of Timor-Leste?",
+  "options": ["Dili", "Manila", "Jakarta", "Port Moresby"],
+  "answer": "Dili"
+},
+{
+  "question": "Which city is home to the Canadian Parliament buildings on Parliament Hill?",
+  "options": ["Ottawa", "Toronto", "Montreal", "Vancouver"],
+  "answer": "Ottawa"
+},
+{
+  "question": "Which Canadian city is famous for the historic district of Old Quebec?",
+  "options": ["Quebec City", "Montreal", "Ottawa", "Toronto"],
+  "answer": "Quebec City"
+},
+{
+  "question": "Which city is home to the Gateway Arch?",
+  "options": ["St. Louis", "Chicago", "Dallas", "Atlanta"],
+  "answer": "St. Louis"
+},
+{
+  "question": "Which U.S. city is home to the Liberty Bell?",
+  "options": ["Philadelphia", "Boston", "New York City", "Washington, D.C."],
+  "answer": "Philadelphia"
+},
+{
+  "question": "Which city is home to the White House?",
+  "options": ["Washington, D.C.", "New York City", "Philadelphia", "Boston"],
+  "answer": "Washington, D.C."
+},
+{
+  "question": "Which city is famous for the French Quarter and Bourbon Street?",
+  "options": ["New Orleans", "Miami", "Houston", "Charleston"],
+  "answer": "New Orleans"
+},
+{
+  "question": "Which city is famous for the Las Vegas Strip?",
+  "options": ["Las Vegas", "Phoenix", "Los Angeles", "San Diego"],
+  "answer": "Las Vegas"
+},
+{
+  "question": "Which city is home to the Willis Tower, formerly known as the Sears Tower?",
+  "options": ["Chicago", "New York City", "Seattle", "Detroit"],
+  "answer": "Chicago"
+},
+{
+  "question": "Which city is home to the historic Freedom Trail?",
+  "options": ["Boston", "Philadelphia", "New York City", "Baltimore"],
+  "answer": "Boston"
+},
+{
+  "question": "Which Mexican city is home to the National Palace and Zocalo?",
+  "options": ["Mexico City", "Guadalajara", "Monterrey", "Cancun"],
+  "answer": "Mexico City"
+},
+{
+  "question": "Which city is home to the famous Palacio de Bellas Artes?",
+  "options": ["Mexico City", "Lima", "Bogota", "Havana"],
+  "answer": "Mexico City"
+},
+{
+  "question": "Which city is famous for the Malecon waterfront boulevard in Cuba?",
+  "options": ["Havana", "Santiago de Cuba", "Kingston", "Nassau"],
+  "answer": "Havana"
+},
+{
+  "question": "Which city is home to the Bob Marley Museum?",
+  "options": ["Kingston", "Nassau", "Bridgetown", "Port of Spain"],
+  "answer": "Kingston"
+},
+{
+  "question": "Which city is the capital of the Bahamas?",
+  "options": ["Nassau", "Kingston", "Bridgetown", "Castries"],
+  "answer": "Nassau"
+},
+{
+  "question": "Which city is the capital of Barbados?",
+  "options": ["Bridgetown", "Nassau", "Kingstown", "Roseau"],
+  "answer": "Bridgetown"
+},
+{
+  "question": "Which city is the capital of Trinidad and Tobago?",
+  "options": ["Port of Spain", "Georgetown", "Bridgetown", "Kingston"],
+  "answer": "Port of Spain"
+},
+{
+  "question": "Which city is the capital of Jamaica?",
+  "options": ["Kingston", "Montego Bay", "Nassau", "Havana"],
+  "answer": "Kingston"
+},
+{
+  "question": "Which city is the capital of Haiti?",
+  "options": ["Port-au-Prince", "Santo Domingo", "Kingston", "Nassau"],
+  "answer": "Port-au-Prince"
+},
+{
+  "question": "Which city is the capital of the Dominican Republic?",
+  "options": ["Santo Domingo", "Port-au-Prince", "San Juan", "Havana"],
+  "answer": "Santo Domingo"
+},
+{
+  "question": "Which city is home to the Plaza de Mayo?",
+  "options": ["Buenos Aires", "Montevideo", "Santiago", "Asuncion"],
+  "answer": "Buenos Aires"
+},
+{
+  "question": "Which city is home to the Palacio de La Moneda?",
+  "options": ["Santiago", "Lima", "Buenos Aires", "Quito"],
+  "answer": "Santiago"
+},
+{
+  "question": "Which city is home to the historic Plaza de Armas and is the capital of Peru?",
+  "options": ["Lima", "Cusco", "Arequipa", "Quito"],
+  "answer": "Lima"
+},
+{
+  "question": "Which city is commonly used as the principal gateway to Machu Picchu?",
+  "options": ["Cusco", "Lima", "La Paz", "Quito"],
+  "answer": "Cusco"
+},
+{
+  "question": "Which city is home to the Plaza de Bolivar and serves as Colombia's capital?",
+  "options": ["Bogota", "Medellin", "Cartagena", "Cali"],
+  "answer": "Bogota"
+},
+{
+  "question": "Which planned city became the capital of Brazil in 1960?",
+  "options": ["Brasilia", "Rio de Janeiro", "Sao Paulo", "Salvador"],
+  "answer": "Brasilia"
+},
+{
+  "question": "Which architect is most closely associated with the major civic buildings of Brasilia?",
+  "options": ["Oscar Niemeyer", "Le Corbusier", "Frank Gehry", "Antoni Gaudi"],
+  "answer": "Oscar Niemeyer"
+},
+{
+  "question": "Which city is the capital of New Zealand?",
+  "options": ["Wellington", "Auckland", "Christchurch", "Hamilton"],
+  "answer": "Wellington"
+},
+{
+  "question": "Which city is the capital of Australia?",
+  "options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+  "answer": "Canberra"
+},
+{
+  "question": "Which Australian city is famous for Federation Square?",
+  "options": ["Melbourne", "Sydney", "Canberra", "Perth"],
+  "answer": "Melbourne"
+},
+{
+  "question": "Which Australian city is home to Kings Park and sits on the Swan River?",
+  "options": ["Perth", "Adelaide", "Brisbane", "Darwin"],
+  "answer": "Perth"
+},
+{
+  "question": "Which city is the capital of Fiji?",
+  "options": ["Suva", "Nadi", "Lautoka", "Apia"],
+  "answer": "Suva"
+},
+{
+  "question": "Which city is the capital of Papua New Guinea?",
+  "options": ["Port Moresby", "Lae", "Suva", "Honiara"],
+  "answer": "Port Moresby"
+},
+{
+  "question": "Which city is the capital of the Solomon Islands?",
+  "options": ["Honiara", "Port Vila", "Suva", "Apia"],
+  "answer": "Honiara"
+},
+{
+  "question": "Which city is the capital of Vanuatu?",
+  "options": ["Port Vila", "Honiara", "Noumea", "Suva"],
+  "answer": "Port Vila"
+},
   {
     "question": "Which is the largest continent by land area?",
     "options": ["Africa", "Asia", "Europe", "North America"],
