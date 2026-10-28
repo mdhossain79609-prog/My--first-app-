@@ -839,6 +839,55 @@ function addCoins(amount){
     updateCoinsDisplay();
 
 }
+    /* ==========================================
+   COMPLETED QUIZ SYSTEM
+   ========================================== */
+
+function getCompletedQuizzes(){
+
+    return JSON.parse(
+        localStorage.getItem(
+            "worldQuizCompletedQuizzes"
+        ) || "{}"
+    );
+
+}
+
+
+function saveCompletedQuiz(){
+
+    const completed =
+        getCompletedQuizzes();
+
+    if(!completed[currentCategory]){
+
+        completed[currentCategory] = [];
+
+    }
+
+    const quizNumber =
+        Math.floor(
+            currentQuizStart / 10
+        ) + 1;
+
+
+    if(
+        !completed[currentCategory]
+            .includes(quizNumber)
+    ){
+
+        completed[currentCategory]
+            .push(quizNumber);
+
+    }
+
+
+    localStorage.setItem(
+        "worldQuizCompletedQuizzes",
+        JSON.stringify(completed)
+    );
+
+}
 
 /* Load saved coins when app starts */
 
