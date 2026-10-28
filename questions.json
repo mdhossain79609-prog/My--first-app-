@@ -919,6 +919,406 @@
 ],
   "Chemistry": [
   {
+  "question": "What is the maximum number of electrons that can occupy the third principal energy level?",
+  "options": ["8", "18", "32", "50"],
+  "answer": "18"
+},
+{
+  "question": "Which quantum number determines the shape of an atomic orbital?",
+  "options": ["Principal quantum number", "Azimuthal quantum number", "Magnetic quantum number", "Spin quantum number"],
+  "answer": "Azimuthal quantum number"
+},
+{
+  "question": "How many orbitals are present in a d subshell?",
+  "options": ["3", "5", "7", "9"],
+  "answer": "5"
+},
+{
+  "question": "What is the maximum number of electrons in an f subshell?",
+  "options": ["6", "10", "14", "18"],
+  "answer": "14"
+},
+{
+  "question": "Which principle states that no two electrons in an atom can have the same set of four quantum numbers?",
+  "options": ["Hund's rule", "Pauli exclusion principle", "Aufbau principle", "Heisenberg principle"],
+  "answer": "Pauli exclusion principle"
+},
+{
+  "question": "According to Hund's rule, how do electrons occupy degenerate orbitals?",
+  "options": ["They pair immediately", "They occupy orbitals singly before pairing", "They avoid all p orbitals", "They always have opposite spins"],
+  "answer": "They occupy orbitals singly before pairing"
+},
+{
+  "question": "Which element has the ground-state electron configuration [Ar] 3d5 4s1?",
+  "options": ["Chromium", "Manganese", "Iron", "Vanadium"],
+  "answer": "Chromium"
+},
+{
+  "question": "Which element has the highest electronegativity on the Pauling scale?",
+  "options": ["Oxygen", "Fluorine", "Chlorine", "Nitrogen"],
+  "answer": "Fluorine"
+},
+{
+  "question": "Which element has the largest atomic radius among these?",
+  "options": ["Li", "Na", "K", "Rb"],
+  "answer": "Rb"
+},
+{
+  "question": "Which species is isoelectronic with neon?",
+  "options": ["Na+", "Na", "Mg+", "F"],
+  "answer": "Na+"
+},
+{
+  "question": "What type of bond is formed by the electrostatic attraction between oppositely charged ions?",
+  "options": ["Covalent bond", "Ionic bond", "Metallic bond", "Hydrogen bond"],
+  "answer": "Ionic bond"
+},
+{
+  "question": "What is the molecular geometry of methane, CH4?",
+  "options": ["Square planar", "Tetrahedral", "Trigonal planar", "Bent"],
+  "answer": "Tetrahedral"
+},
+{
+  "question": "What is the approximate bond angle in a tetrahedral molecule?",
+  "options": ["90°", "104.5°", "109.5°", "120°"],
+  "answer": "109.5°"
+},
+{
+  "question": "What is the molecular geometry of BF3?",
+  "options": ["Trigonal planar", "Trigonal pyramidal", "Tetrahedral", "Bent"],
+  "answer": "Trigonal planar"
+},
+{
+  "question": "What is the molecular geometry of NH3?",
+  "options": ["Trigonal planar", "Trigonal pyramidal", "Linear", "Square planar"],
+  "answer": "Trigonal pyramidal"
+},
+{
+  "question": "Which hybridization occurs at the carbon atoms in ethyne, C2H2?",
+  "options": ["sp", "sp2", "sp3", "dsp2"],
+  "answer": "sp"
+},
+{
+  "question": "Which hybridization occurs at each carbon atom in ethene, C2H4?",
+  "options": ["sp", "sp2", "sp3", "sp3d"],
+  "answer": "sp2"
+},
+{
+  "question": "How many sigma and pi bonds are present in a carbon-carbon triple bond?",
+  "options": ["1 sigma and 2 pi", "2 sigma and 1 pi", "3 sigma", "3 pi"],
+  "answer": "1 sigma and 2 pi"
+},
+{
+  "question": "Which intermolecular force is especially important between water molecules?",
+  "options": ["Hydrogen bonding", "Ionic bonding", "Metallic bonding", "Covalent bonding between molecules"],
+  "answer": "Hydrogen bonding"
+},
+{
+  "question": "Which molecule is nonpolar despite containing polar bonds?",
+  "options": ["H2O", "NH3", "CO2", "SO2"],
+  "answer": "CO2"
+},
+{
+  "question": "What is the oxidation number of sulfur in H2SO4?",
+  "options": ["+4", "+5", "+6", "+8"],
+  "answer": "+6"
+},
+{
+  "question": "What is the oxidation number of manganese in KMnO4?",
+  "options": ["+2", "+4", "+6", "+7"],
+  "answer": "+7"
+},
+{
+  "question": "What is the oxidation state of chromium in K2Cr2O7?",
+  "options": ["+3", "+4", "+6", "+7"],
+  "answer": "+6"
+},
+{
+  "question": "Which process involves loss of electrons?",
+  "options": ["Reduction", "Oxidation", "Neutralization", "Hydrolysis"],
+  "answer": "Oxidation"
+},
+{
+  "question": "In a redox reaction, what happens to the oxidizing agent?",
+  "options": ["It is reduced", "It is oxidized", "It remains unchanged", "It loses all protons"],
+  "answer": "It is reduced"
+},
+{
+  "question": "At which electrode does oxidation occur in an electrochemical cell?",
+  "options": ["Anode", "Cathode", "Salt bridge", "Electrolyte only"],
+  "answer": "Anode"
+},
+{
+  "question": "At which electrode does reduction occur?",
+  "options": ["Anode", "Cathode", "Salt bridge", "Both electrodes equally"],
+  "answer": "Cathode"
+},
+{
+  "question": "What is the main purpose of a salt bridge in a galvanic cell?",
+  "options": ["Maintain electrical neutrality", "Produce electrons", "Increase electrode mass", "Stop ion movement"],
+  "answer": "Maintain electrical neutrality"
+},
+{
+  "question": "What is the standard electrode potential assigned to the standard hydrogen electrode?",
+  "options": ["-1.00 V", "0.00 V", "+0.50 V", "+1.00 V"],
+  "answer": "0.00 V"
+},
+{
+  "question": "Which equation relates cell potential to concentrations under non-standard conditions?",
+  "options": ["Nernst equation", "Arrhenius equation", "Henderson equation", "Clausius equation"],
+  "answer": "Nernst equation"
+},
+{
+  "question": "What is the pH of a 1.0 × 10^-3 M HCl solution, assuming complete dissociation?",
+  "options": ["2", "3", "4", "11"],
+  "answer": "3"
+},
+{
+  "question": "At 25°C, what is the pH of pure water?",
+  "options": ["0", "5", "7", "14"],
+  "answer": "7"
+},
+{
+  "question": "At 25°C, what is the value of pH + pOH for an aqueous solution?",
+  "options": ["7", "10", "14", "28"],
+  "answer": "14"
+},
+{
+  "question": "According to Brønsted-Lowry theory, an acid is a substance that does what?",
+  "options": ["Accepts a proton", "Donates a proton", "Donates an electron pair", "Produces only hydroxide ions"],
+  "answer": "Donates a proton"
+},
+{
+  "question": "According to Lewis theory, a Lewis acid does what?",
+  "options": ["Accepts an electron pair", "Donates an electron pair", "Always donates H+", "Always contains oxygen"],
+  "answer": "Accepts an electron pair"
+},
+{
+  "question": "Which pair forms a conjugate acid-base pair?",
+  "options": ["NH4+ and NH3", "Na+ and Cl-", "H2 and O2", "Na and Na+"],
+  "answer": "NH4+ and NH3"
+},
+{
+  "question": "Which solution resists changes in pH when small amounts of acid or base are added?",
+  "options": ["Buffer solution", "Saturated solution", "Colloid", "Suspension"],
+  "answer": "Buffer solution"
+},
+{
+  "question": "Which equation is commonly used to calculate the pH of a buffer?",
+  "options": ["Henderson-Hasselbalch equation", "Nernst equation", "Ideal gas equation", "Faraday equation"],
+  "answer": "Henderson-Hasselbalch equation"
+},
+{
+  "question": "What is the conjugate base of H2CO3?",
+  "options": ["HCO3-", "CO3^2-", "H3O+", "OH-"],
+  "answer": "HCO3-"
+},
+{
+  "question": "What is the conjugate acid of NH3?",
+  "options": ["NH2-", "NH4+", "N2H4", "NO3-"],
+  "answer": "NH4+"
+},
+{
+  "question": "What does Le Chatelier's principle predict?",
+  "options": ["How an equilibrium responds to a disturbance", "Atomic orbital shapes", "Radioactive decay rate", "Electron spin"],
+  "answer": "How an equilibrium responds to a disturbance"
+},
+{
+  "question": "For an exothermic equilibrium reaction, increasing temperature generally shifts equilibrium in which direction?",
+  "options": ["Toward reactants", "Toward products", "No direction", "Both directions equally"],
+  "answer": "Toward reactants"
+},
+{
+  "question": "What effect does a catalyst have on the equilibrium constant of a reaction?",
+  "options": ["Increases it", "Decreases it", "Does not change it", "Makes it zero"],
+  "answer": "Does not change it"
+},
+{
+  "question": "What does a catalyst lower?",
+  "options": ["Activation energy", "Reaction enthalpy", "Equilibrium constant", "Energy of products only"],
+  "answer": "Activation energy"
+},
+{
+  "question": "Which equation relates the rate constant to temperature and activation energy?",
+  "options": ["Arrhenius equation", "Nernst equation", "Boyle's law", "Raoult's law"],
+  "answer": "Arrhenius equation"
+},
+{
+  "question": "What is the overall reaction order if rate = k[A]^2[B]?",
+  "options": ["1", "2", "3", "4"],
+  "answer": "3"
+},
+{
+  "question": "What are the units of the rate constant for a first-order reaction?",
+  "options": ["s^-1", "mol L^-1 s^-1", "L mol^-1 s^-1", "mol^2 L^-2"],
+  "answer": "s^-1"
+},
+{
+  "question": "For a first-order reaction, how does the half-life depend on initial concentration?",
+  "options": ["It is independent of initial concentration", "It increases linearly", "It decreases linearly", "It is proportional to concentration squared"],
+  "answer": "It is independent of initial concentration"
+},
+{
+  "question": "Which thermodynamic quantity determines spontaneity at constant temperature and pressure?",
+  "options": ["Gibbs free energy", "Enthalpy alone", "Entropy alone", "Internal pressure"],
+  "answer": "Gibbs free energy"
+},
+{
+  "question": "For a spontaneous process at constant temperature and pressure, what is the sign of ΔG?",
+  "options": ["Positive", "Negative", "Always zero", "Always infinite"],
+  "answer": "Negative"
+},
+{
+  "question": "What is ΔG at equilibrium?",
+  "options": ["Positive", "Negative", "Zero", "Undefined"],
+  "answer": "Zero"
+},
+{
+  "question": "Which thermodynamic quantity measures the dispersal of energy and is often associated with disorder?",
+  "options": ["Entropy", "Enthalpy", "Pressure", "Volume"],
+  "answer": "Entropy"
+},
+{
+  "question": "What is the sign of ΔH for an exothermic reaction?",
+  "options": ["Positive", "Negative", "Zero in every case", "Undefined"],
+  "answer": "Negative"
+},
+{
+  "question": "Which law states that the total enthalpy change is independent of the pathway between initial and final states?",
+  "options": ["Hess's law", "Boyle's law", "Raoult's law", "Graham's law"],
+  "answer": "Hess's law"
+},
+{
+  "question": "What volume does one mole of an ideal gas occupy at 0°C and 1 atm approximately?",
+  "options": ["11.2 L", "22.4 L", "24.5 L", "44.8 L"],
+  "answer": "22.4 L"
+},
+{
+  "question": "Which equation represents the ideal gas law?",
+  "options": ["PV = nRT", "P = nR/V", "V = RT/P only", "PV = RT/n"],
+  "answer": "PV = nRT"
+},
+{
+  "question": "According to Boyle's law at constant temperature, pressure is inversely proportional to what?",
+  "options": ["Volume", "Temperature", "Number of particles", "Molar mass"],
+  "answer": "Volume"
+},
+{
+  "question": "According to Charles's law at constant pressure, gas volume is directly proportional to what?",
+  "options": ["Absolute temperature", "Pressure", "Density", "Molar mass"],
+  "answer": "Absolute temperature"
+},
+{
+  "question": "Which law states that the partial pressures of gases in an ideal mixture add to give the total pressure?",
+  "options": ["Dalton's law", "Henry's law", "Faraday's law", "Hess's law"],
+  "answer": "Dalton's law"
+},
+{
+  "question": "Which law relates the solubility of a gas in a liquid to its partial pressure above the liquid?",
+  "options": ["Henry's law", "Boyle's law", "Charles's law", "Graham's law"],
+  "answer": "Henry's law"
+},
+{
+  "question": "Which colligative property is used in determining molar mass through freezing-point measurements?",
+  "options": ["Freezing-point depression", "Surface tension", "Viscosity", "Density"],
+  "answer": "Freezing-point depression"
+},
+{
+  "question": "What happens to the boiling point of a solvent when a nonvolatile solute is dissolved in it?",
+  "options": ["It increases", "It decreases", "It always becomes 0°C", "It remains unchanged"],
+  "answer": "It increases"
+},
+{
+  "question": "Which element is the most abundant by mass in Earth's crust?",
+  "options": ["Silicon", "Oxygen", "Aluminum", "Iron"],
+  "answer": "Oxygen"
+},
+{
+  "question": "Which metal is the most abundant in Earth's crust?",
+  "options": ["Iron", "Aluminum", "Copper", "Calcium"],
+  "answer": "Aluminum"
+},
+{
+  "question": "Which transition metal is present at the center of the heme group in hemoglobin?",
+  "options": ["Iron", "Copper", "Zinc", "Cobalt"],
+  "answer": "Iron"
+},
+{
+  "question": "Which element is present at the center of chlorophyll molecules?",
+  "options": ["Iron", "Magnesium", "Calcium", "Sodium"],
+  "answer": "Magnesium"
+},
+{
+  "question": "Which element has the chemical symbol W?",
+  "options": ["Tungsten", "Tin", "Titanium", "Tantalum"],
+  "answer": "Tungsten"
+},
+{
+  "question": "Which noble gas has the lowest atomic number?",
+  "options": ["Helium", "Neon", "Argon", "Krypton"],
+  "answer": "Helium"
+},
+{
+  "question": "Which halogen is liquid at room temperature?",
+  "options": ["Fluorine", "Chlorine", "Bromine", "Iodine"],
+  "answer": "Bromine"
+},
+{
+  "question": "Which metal is liquid at ordinary room temperature?",
+  "options": ["Mercury", "Sodium", "Gallium", "Cesium"],
+  "answer": "Mercury"
+},
+{
+  "question": "Which allotrope of carbon consists of a single layer of carbon atoms arranged in a hexagonal lattice?",
+  "options": ["Graphene", "Diamond", "Fullerene", "Charcoal"],
+  "answer": "Graphene"
+},
+{
+  "question": "What is the hybridization of each carbon atom in benzene?",
+  "options": ["sp", "sp2", "sp3", "dsp2"],
+  "answer": "sp2"
+},
+{
+  "question": "How many pi electrons are delocalized in a benzene ring?",
+  "options": ["2", "4", "6", "8"],
+  "answer": "6"
+},
+{
+  "question": "Which rule predicts aromaticity using 4n + 2 pi electrons?",
+  "options": ["Hückel's rule", "Hund's rule", "Markovnikov's rule", "Le Chatelier's principle"],
+  "answer": "Hückel's rule"
+},
+{
+  "question": "Which functional group characterizes aldehydes?",
+  "options": ["-CHO", "-COOH", "-OH", "-NH2"],
+  "answer": "-CHO"
+},
+{
+  "question": "Which functional group characterizes carboxylic acids?",
+  "options": ["-COOH", "-CHO", "-O-", "-CN"],
+  "answer": "-COOH"
+},
+{
+  "question": "What is the IUPAC name of CH3CH2OH?",
+  "options": ["Methanol", "Ethanol", "Ethanal", "Ethanoic acid"],
+  "answer": "Ethanol"
+},
+{
+  "question": "What is the major product when ethene reacts with hydrogen in the presence of a suitable metal catalyst?",
+  "options": ["Ethane", "Ethanol", "Ethyne", "Ethanal"],
+  "answer": "Ethane"
+},
+{
+  "question": "Which polymer is produced from ethene monomers?",
+  "options": ["Polyethylene", "Polystyrene", "PVC", "Nylon-6,6"],
+  "answer": "Polyethylene"
+},
+{
+  "question": "Which analytical technique separates compounds based on their different distributions between stationary and mobile phases?",
+  "options": ["Chromatography", "Calorimetry", "Titration", "Electrolysis"],
+  "answer": "Chromatography"
+},
+  {
     "question": "What is the chemical symbol for oxygen?",
     "options": ["O", "Ox", "Og", "C"],
     "answer": "O"
@@ -1020,6 +1420,406 @@
   }
 ],
 "Biology": [
+{
+  "question": "During which phase of meiosis does crossing over primarily occur?",
+  "options": ["Prophase I", "Metaphase I", "Anaphase II", "Telophase II"],
+  "answer": "Prophase I"
+},
+{
+  "question": "Which enzyme unwinds the DNA double helix during replication?",
+  "options": ["Ligase", "Helicase", "Primase", "Polymerase"],
+  "answer": "Helicase"
+},
+{
+  "question": "Which enzyme joins Okazaki fragments during DNA replication?",
+  "options": ["DNA ligase", "Helicase", "Primase", "Topoisomerase"],
+  "answer": "DNA ligase"
+},
+{
+  "question": "On which strand of DNA are Okazaki fragments formed?",
+  "options": ["Leading strand", "Lagging strand", "Template strand only", "Coding strand only"],
+  "answer": "Lagging strand"
+},
+{
+  "question": "DNA polymerase synthesizes new DNA in which direction?",
+  "options": ["3' to 5'", "5' to 3'", "Both directions", "Neither direction"],
+  "answer": "5' to 3'"
+},
+{
+  "question": "Which enzyme synthesizes the RNA primer required for DNA replication?",
+  "options": ["Primase", "Ligase", "Helicase", "Telomerase"],
+  "answer": "Primase"
+},
+{
+  "question": "What is the function of telomerase?",
+  "options": ["Repairing RNA", "Extending telomeres", "Joining exons", "Breaking peptide bonds"],
+  "answer": "Extending telomeres"
+},
+{
+  "question": "Which nitrogenous base is found in RNA but not DNA?",
+  "options": ["Thymine", "Uracil", "Guanine", "Cytosine"],
+  "answer": "Uracil"
+},
+{
+  "question": "Which bond connects complementary bases between two DNA strands?",
+  "options": ["Peptide bond", "Hydrogen bond", "Glycosidic bond", "Phosphodiester bond"],
+  "answer": "Hydrogen bond"
+},
+{
+  "question": "Which bond links adjacent nucleotides within a DNA strand?",
+  "options": ["Hydrogen bond", "Peptide bond", "Phosphodiester bond", "Disulfide bond"],
+  "answer": "Phosphodiester bond"
+},
+{
+  "question": "Which RNA molecule carries amino acids to the ribosome?",
+  "options": ["mRNA", "tRNA", "rRNA", "snRNA"],
+  "answer": "tRNA"
+},
+{
+  "question": "Which RNA is a major structural and catalytic component of ribosomes?",
+  "options": ["mRNA", "tRNA", "rRNA", "miRNA"],
+  "answer": "rRNA"
+},
+{
+  "question": "Which codon usually initiates translation?",
+  "options": ["UAA", "AUG", "UGA", "UAG"],
+  "answer": "AUG"
+},
+{
+  "question": "Which amino acid is encoded by the AUG start codon in the standard genetic code?",
+  "options": ["Methionine", "Valine", "Leucine", "Glycine"],
+  "answer": "Methionine"
+},
+{
+  "question": "Which of these is a stop codon?",
+  "options": ["AUG", "UGG", "UAA", "GCU"],
+  "answer": "UAA"
+},
+{
+  "question": "Where does transcription occur in a eukaryotic cell?",
+  "options": ["Nucleus", "Golgi apparatus", "Lysosome", "Cell membrane"],
+  "answer": "Nucleus"
+},
+{
+  "question": "Where are nuclear-encoded proteins translated in eukaryotic cells?",
+  "options": ["Ribosomes", "Lysosomes", "Centrioles", "Peroxisomes only"],
+  "answer": "Ribosomes"
+},
+{
+  "question": "Which enzyme synthesizes RNA from a DNA template?",
+  "options": ["DNA ligase", "RNA polymerase", "Reverse transcriptase", "Helicase"],
+  "answer": "RNA polymerase"
+},
+{
+  "question": "Which enzyme synthesizes DNA using RNA as a template?",
+  "options": ["RNA polymerase", "Reverse transcriptase", "DNA ligase", "Primase"],
+  "answer": "Reverse transcriptase"
+},
+{
+  "question": "What are introns?",
+  "options": ["Sequences removed from pre-mRNA during splicing", "Proteins forming ribosomes", "DNA replication enzymes", "Amino acid sequences"],
+  "answer": "Sequences removed from pre-mRNA during splicing"
+},
+{
+  "question": "Which cellular organelle modifies and sorts many proteins for transport?",
+  "options": ["Golgi apparatus", "Nucleolus", "Centriole", "Peroxisome"],
+  "answer": "Golgi apparatus"
+},
+{
+  "question": "Which organelle contains hydrolytic enzymes used for intracellular digestion?",
+  "options": ["Lysosome", "Ribosome", "Nucleolus", "Centrosome"],
+  "answer": "Lysosome"
+},
+{
+  "question": "Which organelle is especially important in detoxifying hydrogen peroxide?",
+  "options": ["Peroxisome", "Ribosome", "Golgi apparatus", "Nucleolus"],
+  "answer": "Peroxisome"
+},
+{
+  "question": "Which organelle contains its own circular DNA and ribosomes in eukaryotic cells?",
+  "options": ["Mitochondrion", "Golgi apparatus", "Lysosome", "Endosome"],
+  "answer": "Mitochondrion"
+},
+{
+  "question": "Which theory explains the evolutionary origin of mitochondria and chloroplasts?",
+  "options": ["Endosymbiotic theory", "Cell theory", "Germ theory", "Chromosomal theory"],
+  "answer": "Endosymbiotic theory"
+},
+{
+  "question": "Which cytoskeletal component forms the mitotic spindle?",
+  "options": ["Microtubules", "Cellulose fibers", "Collagen fibers", "Peptidoglycan"],
+  "answer": "Microtubules"
+},
+{
+  "question": "Which protein is a major component of microfilaments?",
+  "options": ["Actin", "Tubulin", "Keratin only", "Collagen"],
+  "answer": "Actin"
+},
+{
+  "question": "What is programmed cell death called?",
+  "options": ["Apoptosis", "Osmosis", "Phagocytosis", "Mitosis"],
+  "answer": "Apoptosis"
+},
+{
+  "question": "Which checkpoint helps prevent cells with damaged DNA from entering S phase?",
+  "options": ["G1 checkpoint", "Metaphase checkpoint only", "Telophase checkpoint", "Cytokinesis checkpoint"],
+  "answer": "G1 checkpoint"
+},
+{
+  "question": "During which stage of mitosis do sister chromatids separate?",
+  "options": ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+  "answer": "Anaphase"
+},
+{
+  "question": "During meiosis I, which structures separate during anaphase I?",
+  "options": ["Sister chromatids", "Homologous chromosomes", "Nucleotides", "Centromeres only"],
+  "answer": "Homologous chromosomes"
+},
+{
+  "question": "What is nondisjunction?",
+  "options": ["Failure of chromosomes to separate properly", "Exchange of DNA between homologues", "DNA replication", "RNA splicing"],
+  "answer": "Failure of chromosomes to separate properly"
+},
+{
+  "question": "What term describes an organism with more than two complete sets of chromosomes?",
+  "options": ["Polyploid", "Haploid", "Aneuploid only", "Hemizygous"],
+  "answer": "Polyploid"
+},
+{
+  "question": "Which Mendelian law states that two alleles of a gene separate during gamete formation?",
+  "options": ["Law of Segregation", "Law of Dominance", "Hardy-Weinberg Law", "Law of Conservation"],
+  "answer": "Law of Segregation"
+},
+{
+  "question": "A cross between an individual of unknown dominant genotype and a homozygous recessive individual is called what?",
+  "options": ["Test cross", "Dihybrid cross", "Back mutation", "Reciprocal translocation"],
+  "answer": "Test cross"
+},
+{
+  "question": "In incomplete dominance, what phenotype does a heterozygote typically show?",
+  "options": ["An intermediate phenotype", "Only the dominant phenotype", "Only the recessive phenotype", "No phenotype"],
+  "answer": "An intermediate phenotype"
+},
+{
+  "question": "In codominance, what happens in a heterozygote?",
+  "options": ["Both alleles are fully expressed", "Neither allele is expressed", "Only the recessive allele is expressed", "The alleles disappear"],
+  "answer": "Both alleles are fully expressed"
+},
+{
+  "question": "Which term describes one gene influencing multiple phenotypic traits?",
+  "options": ["Pleiotropy", "Polyploidy", "Codominance", "Epistasis only"],
+  "answer": "Pleiotropy"
+},
+{
+  "question": "What is epistasis?",
+  "options": ["One gene affects the phenotypic expression of another gene", "DNA replicates twice", "Chromosomes fail to separate", "Two cells fuse"],
+  "answer": "One gene affects the phenotypic expression of another gene"
+},
+{
+  "question": "Which condition is required for Hardy-Weinberg equilibrium?",
+  "options": ["Random mating", "Strong natural selection", "High mutation rate", "Very small population"],
+  "answer": "Random mating"
+},
+{
+  "question": "Which evolutionary mechanism changes allele frequencies purely by chance?",
+  "options": ["Genetic drift", "Natural selection", "Gene expression", "Translation"],
+  "answer": "Genetic drift"
+},
+{
+  "question": "What is the founder effect?",
+  "options": ["Genetic drift when a new population is established by a small number of individuals", "Selection favoring hybrids", "Mutation caused by radiation", "Migration of every member of a population"],
+  "answer": "Genetic drift when a new population is established by a small number of individuals"
+},
+{
+  "question": "What is a population bottleneck?",
+  "options": ["A sharp reduction in population size that can reduce genetic variation", "Rapid increase in mutation rate", "Formation of a new organ", "Movement of genes between chromosomes"],
+  "answer": "A sharp reduction in population size that can reduce genetic variation"
+},
+{
+  "question": "Which type of natural selection favors intermediate phenotypes?",
+  "options": ["Stabilizing selection", "Directional selection", "Disruptive selection", "Artificial selection"],
+  "answer": "Stabilizing selection"
+},
+{
+  "question": "Which type of selection favors both extremes of a phenotypic distribution?",
+  "options": ["Disruptive selection", "Stabilizing selection", "Directional selection", "Purifying selection only"],
+  "answer": "Disruptive selection"
+},
+{
+  "question": "Which structures have similar underlying anatomy because of common ancestry?",
+  "options": ["Homologous structures", "Analogous structures", "Vestigial molecules only", "Artificial structures"],
+  "answer": "Homologous structures"
+},
+{
+  "question": "The wings of birds and insects are commonly used as an example of what?",
+  "options": ["Analogous structures", "Homologous structures", "Identical genes", "Vestigial organs"],
+  "answer": "Analogous structures"
+},
+{
+  "question": "What is convergent evolution?",
+  "options": ["Independent evolution of similar traits in different lineages", "Formation of species from one population only", "Random loss of alleles", "Inheritance of acquired characteristics"],
+  "answer": "Independent evolution of similar traits in different lineages"
+},
+{
+  "question": "Which type of speciation results from geographic isolation?",
+  "options": ["Allopatric speciation", "Sympatric speciation", "Artificial selection", "Convergent evolution"],
+  "answer": "Allopatric speciation"
+},
+{
+  "question": "Which domain contains organisms with peptidoglycan in their cell walls?",
+  "options": ["Bacteria", "Archaea", "Eukarya", "Viruses"],
+  "answer": "Bacteria"
+},
+{
+  "question": "Which domain includes prokaryotes whose cell walls lack peptidoglycan?",
+  "options": ["Archaea", "Bacteria", "Eukarya", "Protista"],
+  "answer": "Archaea"
+},
+{
+  "question": "What is horizontal gene transfer?",
+  "options": ["Transfer of genetic material between organisms other than parent-to-offspring inheritance", "Inheritance only from mother to offspring", "DNA replication before cell division", "Movement of chromosomes during mitosis"],
+  "answer": "Transfer of genetic material between organisms other than parent-to-offspring inheritance"
+},
+{
+  "question": "What is bacterial conjugation?",
+  "options": ["Direct transfer of DNA between bacterial cells", "Production of ATP", "Formation of bacterial spores only", "Viral replication"],
+  "answer": "Direct transfer of DNA between bacterial cells"
+},
+{
+  "question": "In bacterial transformation, cells acquire genetic material from where?",
+  "options": ["Free DNA in the environment", "Only bacteriophages", "Only their parent cell", "Mitochondria"],
+  "answer": "Free DNA in the environment"
+},
+{
+  "question": "What is transduction in bacteria?",
+  "options": ["Transfer of bacterial DNA by bacteriophages", "Transfer through a pilus", "Uptake of naked DNA", "Binary fission"],
+  "answer": "Transfer of bacterial DNA by bacteriophages"
+},
+{
+  "question": "Which enzyme fixes atmospheric nitrogen in nitrogen-fixing organisms?",
+  "options": ["Nitrogenase", "Rubisco", "Catalase", "Amylase"],
+  "answer": "Nitrogenase"
+},
+{
+  "question": "Which enzyme catalyzes carbon fixation in the Calvin cycle?",
+  "options": ["RuBisCO", "ATP synthase", "Pepsin", "Nitrogenase"],
+  "answer": "RuBisCO"
+},
+{
+  "question": "Where do the light-dependent reactions of photosynthesis occur?",
+  "options": ["Thylakoid membranes", "Stroma only", "Cytosol", "Nucleus"],
+  "answer": "Thylakoid membranes"
+},
+{
+  "question": "Where does the Calvin cycle occur in chloroplasts?",
+  "options": ["Stroma", "Thylakoid lumen", "Outer membrane", "Granum membrane only"],
+  "answer": "Stroma"
+},
+{
+  "question": "Which photosystem is directly responsible for splitting water during oxygenic photosynthesis?",
+  "options": ["Photosystem II", "Photosystem I", "Both equally split water", "Neither photosystem"],
+  "answer": "Photosystem II"
+},
+{
+  "question": "What gas is released when water is split during photosynthesis?",
+  "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"],
+  "answer": "Oxygen"
+},
+{
+  "question": "What is the first stable product of carbon fixation in C4 plants?",
+  "options": ["Oxaloacetate", "3-phosphoglycerate", "Glucose", "Pyruvate"],
+  "answer": "Oxaloacetate"
+},
+{
+  "question": "What is a major advantage of C4 photosynthesis in hot environments?",
+  "options": ["Reduction of photorespiration", "Elimination of ATP use", "No requirement for carbon dioxide", "No requirement for chlorophyll"],
+  "answer": "Reduction of photorespiration"
+},
+{
+  "question": "When do CAM plants typically open their stomata?",
+  "options": ["At night", "At midday only", "Continuously", "Only during rainfall"],
+  "answer": "At night"
+},
+{
+  "question": "Which plant tissue transports water and dissolved minerals from roots?",
+  "options": ["Xylem", "Phloem", "Epidermis", "Cork"],
+  "answer": "Xylem"
+},
+{
+  "question": "Which plant tissue transports sugars from source tissues to sink tissues?",
+  "options": ["Phloem", "Xylem", "Cambium", "Cork"],
+  "answer": "Phloem"
+},
+{
+  "question": "Which plant hormone is strongly associated with phototropism and cell elongation?",
+  "options": ["Auxin", "Ethylene", "Abscisic acid", "Cytokinin"],
+  "answer": "Auxin"
+},
+{
+  "question": "Which plant hormone promotes fruit ripening?",
+  "options": ["Ethylene", "Auxin", "Gibberellin", "Abscisic acid"],
+  "answer": "Ethylene"
+},
+{
+  "question": "Which plant hormone plays a major role in stomatal closure during water stress?",
+  "options": ["Abscisic acid", "Ethylene", "Auxin", "Cytokinin"],
+  "answer": "Abscisic acid"
+},
+{
+  "question": "Which plant hormones are especially associated with promoting cell division?",
+  "options": ["Cytokinins", "Abscisic acid", "Ethylene", "Jasmonates only"],
+  "answer": "Cytokinins"
+},
+{
+  "question": "Double fertilization is characteristic of which plant group?",
+  "options": ["Angiosperms", "Gymnosperms", "Bryophytes", "Ferns"],
+  "answer": "Angiosperms"
+},
+{
+  "question": "In angiosperms, fusion of one sperm nucleus with two polar nuclei produces what?",
+  "options": ["Triploid endosperm", "Diploid embryo", "Haploid pollen", "Seed coat"],
+  "answer": "Triploid endosperm"
+},
+{
+  "question": "Which generation is dominant in mosses?",
+  "options": ["Gametophyte", "Sporophyte", "Both are equally dominant", "Neither"],
+  "answer": "Gametophyte"
+},
+{
+  "question": "Which generation is dominant in ferns?",
+  "options": ["Sporophyte", "Gametophyte", "Endosperm", "Zygote"],
+  "answer": "Sporophyte"
+},
+{
+  "question": "Which ecological interaction benefits both participating species?",
+  "options": ["Mutualism", "Parasitism", "Predation", "Amensalism"],
+  "answer": "Mutualism"
+},
+{
+  "question": "Which ecological relationship benefits one organism while the other is neither significantly helped nor harmed?",
+  "options": ["Commensalism", "Mutualism", "Parasitism", "Competition"],
+  "answer": "Commensalism"
+},
+{
+  "question": "What is primary succession?",
+  "options": ["Community development on a surface initially lacking soil", "Recovery where soil remains after disturbance", "Seasonal migration", "Competition between predators"],
+  "answer": "Community development on a surface initially lacking soil"
+},
+{
+  "question": "Approximately what fraction of energy is commonly transferred from one trophic level to the next?",
+  "options": ["10%", "25%", "50%", "90%"],
+  "answer": "10%"
+},
+{
+  "question": "What is biomagnification?",
+  "options": ["Increasing concentration of certain persistent pollutants at higher trophic levels", "Increase in organism body size over generations", "Rapid population growth", "Conversion of nitrogen into ammonia"],
+  "answer": "Increasing concentration of certain persistent pollutants at higher trophic levels"
+},
+{
+  "question": "Which term describes the maximum population size an environment can sustain over time?",
+  "options": ["Carrying capacity", "Biotic potential", "Trophic level", "Ecological succession"],
+  "answer": "Carrying capacity"
+ },
   {
     "question": "What is the basic unit of life?",
     "options": ["Atom", "Cell", "Tissue", "Organ"],
@@ -1122,6 +1922,406 @@
   }
 ],
   "Mathematics": [
+  {
+  "question": "If x + 1/x = 5, what is the value of x² + 1/x²?",
+  "options": ["21", "23", "25", "27"],
+  "answer": "23"
+},
+{
+  "question": "If 2^x = 32^(x-2), what is x?",
+  "options": ["2", "5/2", "3", "10/3"],
+  "answer": "5/2"
+},
+{
+  "question": "What is the remainder when 7^100 is divided by 10?",
+  "options": ["1", "3", "7", "9"],
+  "answer": "1"
+},
+{
+  "question": "If log₂(x) + log₂(x-2) = 3, what is x?",
+  "options": ["2", "4", "6", "8"],
+  "answer": "4"
+},
+{
+  "question": "What is the sum of the first 20 terms of the arithmetic sequence 3, 7, 11, ...?",
+  "options": ["780", "800", "820", "840"],
+  "answer": "820"
+},
+{
+  "question": "If the roots of x² - 7x + 10 = 0 are α and β, what is α² + β²?",
+  "options": ["19", "25", "29", "39"],
+  "answer": "29"
+},
+{
+  "question": "What is the value of sin²θ + cos²θ for any real θ?",
+  "options": ["0", "1", "2", "Depends on θ"],
+  "answer": "1"
+},
+{
+  "question": "If tan θ = 3/4 and θ is acute, what is sin θ?",
+  "options": ["3/5", "4/5", "3/4", "5/4"],
+  "answer": "3/5"
+},
+{
+  "question": "What is the exact value of cos 60° × sin 30°?",
+  "options": ["1/2", "1/4", "√3/4", "√2/2"],
+  "answer": "1/4"
+},
+{
+  "question": "If sin θ = 5/13 and θ is acute, what is cos θ?",
+  "options": ["5/12", "12/13", "8/13", "13/12"],
+  "answer": "12/13"
+},
+{
+  "question": "What is the sum of the interior angles of a 15-sided polygon?",
+  "options": ["2160°", "2340°", "2520°", "2700°"],
+  "answer": "2340°"
+},
+{
+  "question": "Each interior angle of a regular polygon is 150°. How many sides does it have?",
+  "options": ["10", "12", "15", "18"],
+  "answer": "12"
+},
+{
+  "question": "A circle has area 144π. What is its circumference?",
+  "options": ["12π", "18π", "24π", "36π"],
+  "answer": "24π"
+},
+{
+  "question": "What is the length of the diagonal of a rectangle with sides 9 and 12?",
+  "options": ["13", "14", "15", "16"],
+  "answer": "15"
+},
+{
+  "question": "A right triangle has legs of lengths 7 and 24. What is its hypotenuse?",
+  "options": ["23", "24", "25", "26"],
+  "answer": "25"
+},
+{
+  "question": "What is the area of an equilateral triangle with side length 8?",
+  "options": ["8√3", "12√3", "16√3", "32√3"],
+  "answer": "16√3"
+},
+{
+  "question": "What is the volume of a sphere with radius 3?",
+  "options": ["27π", "36π", "54π", "108π"],
+  "answer": "36π"
+},
+{
+  "question": "A cylinder has radius 4 and height 10. What is its volume?",
+  "options": ["80π", "120π", "160π", "200π"],
+  "answer": "160π"
+},
+{
+  "question": "What is the greatest common divisor of 252 and 198?",
+  "options": ["6", "9", "18", "36"],
+  "answer": "18"
+},
+{
+  "question": "What is the least common multiple of 24, 36, and 54?",
+  "options": ["108", "162", "216", "432"],
+  "answer": "216"
+},
+{
+  "question": "How many positive divisors does 360 have?",
+  "options": ["18", "20", "24", "30"],
+  "answer": "24"
+},
+{
+  "question": "What is the smallest prime number greater than 100?",
+  "options": ["101", "103", "107", "109"],
+  "answer": "101"
+},
+{
+  "question": "What is the remainder when 2^50 is divided by 7?",
+  "options": ["1", "2", "4", "6"],
+  "answer": "4"
+},
+{
+  "question": "If n is an integer and n² is odd, which statement must be true?",
+  "options": ["n is even", "n is odd", "n is prime", "n is negative"],
+  "answer": "n is odd"
+},
+{
+  "question": "What is the sum of all integers from 1 to 100 that are divisible by 5?",
+  "options": ["950", "1000", "1050", "1100"],
+  "answer": "1050"
+},
+{
+  "question": "What is the sum of the infinite geometric series 12 + 6 + 3 + ...?",
+  "options": ["18", "21", "24", "30"],
+  "answer": "24"
+},
+{
+  "question": "In a geometric sequence, the first term is 3 and the common ratio is 2. What is the 8th term?",
+  "options": ["192", "256", "384", "768"],
+  "answer": "384"
+},
+{
+  "question": "If the 5th term of an arithmetic sequence is 18 and the 10th term is 38, what is the common difference?",
+  "options": ["2", "3", "4", "5"],
+  "answer": "4"
+},
+{
+  "question": "What is the coefficient of x³ in the expansion of (1 + x)^6?",
+  "options": ["15", "20", "30", "60"],
+  "answer": "20"
+},
+{
+  "question": "What is the constant term in the expansion of (x + 2)^4?",
+  "options": ["8", "12", "16", "24"],
+  "answer": "16"
+},
+{
+  "question": "If x² + 4x + k is a perfect square, what is k?",
+  "options": ["2", "4", "8", "16"],
+  "answer": "4"
+},
+{
+  "question": "What is the discriminant of 3x² - 5x + 2 = 0?",
+  "options": ["1", "5", "7", "25"],
+  "answer": "1"
+},
+{
+  "question": "If the equation x² - 6x + k = 0 has equal roots, what is k?",
+  "options": ["6", "8", "9", "12"],
+  "answer": "9"
+},
+{
+  "question": "If x - y = 4 and xy = 12, what is x² + y²?",
+  "options": ["32", "36", "40", "48"],
+  "answer": "40"
+},
+{
+  "question": "If a + b = 10 and a² + b² = 58, what is ab?",
+  "options": ["18", "20", "21", "24"],
+  "answer": "21"
+},
+{
+  "question": "Solve |2x - 3| = 7. What is the sum of the two solutions?",
+  "options": ["1", "2", "3", "4"],
+  "answer": "3"
+},
+{
+  "question": "If f(x) = x² - 3x + 5, what is f(-2)?",
+  "options": ["11", "13", "15", "17"],
+  "answer": "15"
+},
+{
+  "question": "If f(x) = 2x + 1 and g(x) = x², what is g(f(2))?",
+  "options": ["16", "25", "36", "49"],
+  "answer": "25"
+},
+{
+  "question": "What is the inverse of f(x) = 3x - 6?",
+  "options": ["(x+6)/3", "(x-6)/3", "3x+6", "x/3-6"],
+  "answer": "(x+6)/3"
+},
+{
+  "question": "What is the domain of f(x) = 1/(x-5)?",
+  "options": ["All real numbers", "x > 5 only", "All real numbers except 5", "x < 5 only"],
+  "answer": "All real numbers except 5"
+},
+{
+  "question": "What is log₁₀(0.001)?",
+  "options": ["-3", "-2", "2", "3"],
+  "answer": "-3"
+},
+{
+  "question": "If log₃81 = x, what is x?",
+  "options": ["3", "4", "5", "9"],
+  "answer": "4"
+},
+{
+  "question": "If 9^x = 27, what is x?",
+  "options": ["1/2", "2/3", "3/2", "2"],
+  "answer": "3/2"
+},
+{
+  "question": "What is the value of 16^(3/4)?",
+  "options": ["4", "6", "8", "12"],
+  "answer": "8"
+},
+{
+  "question": "Simplify √72.",
+  "options": ["3√8", "6√2", "8√2", "12√2"],
+  "answer": "6√2"
+},
+{
+  "question": "What is the rationalized form of 1/√5?",
+  "options": ["√5", "√5/5", "5√5", "1/5"],
+  "answer": "√5/5"
+},
+{
+  "question": "If z = 3 + 4i, what is |z|?",
+  "options": ["3", "4", "5", "7"],
+  "answer": "5"
+},
+{
+  "question": "What is i^2026, where i² = -1?",
+  "options": ["1", "-1", "i", "-i"],
+  "answer": "-1"
+},
+{
+  "question": "What is the probability of obtaining exactly two heads in three fair coin tosses?",
+  "options": ["1/8", "1/4", "3/8", "1/2"],
+  "answer": "3/8"
+},
+{
+  "question": "Two fair dice are rolled. What is the probability that their sum is 8?",
+  "options": ["1/9", "5/36", "1/6", "7/36"],
+  "answer": "5/36"
+},
+{
+  "question": "A card is drawn from a standard 52-card deck. What is the probability of drawing a king or a queen?",
+  "options": ["1/13", "2/13", "4/13", "1/4"],
+  "answer": "2/13"
+},
+{
+  "question": "How many different arrangements can be made using all the letters of the word MATH?",
+  "options": ["12", "16", "20", "24"],
+  "answer": "24"
+},
+{
+  "question": "How many ways can 3 people be selected from 8 people?",
+  "options": ["24", "48", "56", "64"],
+  "answer": "56"
+},
+{
+  "question": "How many distinct permutations are there of the letters in LEVEL?",
+  "options": ["20", "30", "60", "120"],
+  "answer": "30"
+},
+{
+  "question": "What is 8 choose 2?",
+  "options": ["16", "24", "28", "32"],
+  "answer": "28"
+},
+{
+  "question": "If the probability of an event is 0.35, what is the probability that it does not occur?",
+  "options": ["0.35", "0.55", "0.65", "0.75"],
+  "answer": "0.65"
+},
+{
+  "question": "What is the mean of 4, 8, 10, 14, and 19?",
+  "options": ["10", "11", "12", "13"],
+  "answer": "11"
+},
+{
+  "question": "What is the median of 3, 7, 9, 15, 21, 30?",
+  "options": ["9", "11", "12", "15"],
+  "answer": "12"
+},
+{
+  "question": "If the average of 8 numbers is 15, what is their total sum?",
+  "options": ["100", "110", "120", "130"],
+  "answer": "120"
+},
+{
+  "question": "What is the slope of the line through (2, 3) and (8, 15)?",
+  "options": ["1", "2", "3", "4"],
+  "answer": "2"
+},
+{
+  "question": "What is the distance between the points (1, 2) and (7, 10)?",
+  "options": ["8", "10", "12", "14"],
+  "answer": "10"
+},
+{
+  "question": "What is the midpoint of the line segment joining (-2, 4) and (6, 10)?",
+  "options": ["(2, 6)", "(2, 7)", "(4, 7)", "(4, 6)"],
+  "answer": "(2, 7)"
+},
+{
+  "question": "Which equation represents a circle centered at the origin with radius 5?",
+  "options": ["x²+y²=5", "x²+y²=10", "x²+y²=25", "x+y=25"],
+  "answer": "x²+y²=25"
+},
+{
+  "question": "What is the slope of a line perpendicular to y = 3x + 7?",
+  "options": ["3", "-3", "1/3", "-1/3"],
+  "answer": "-1/3"
+},
+{
+  "question": "What is the derivative of x^5 - 3x² + 7?",
+  "options": ["5x⁴-6x", "5x⁴-3x", "4x⁵-6x", "5x⁴+6x"],
+  "answer": "5x⁴-6x"
+},
+{
+  "question": "What is the derivative of ln(x)?",
+  "options": ["x", "1/x", "ln(x)", "e^x"],
+  "answer": "1/x"
+},
+{
+  "question": "What is the derivative of e^x?",
+  "options": ["xe^(x-1)", "e^x", "1/e^x", "ln(x)"],
+  "answer": "e^x"
+},
+{
+  "question": "What is the derivative of sin(x)?",
+  "options": ["-sin(x)", "cos(x)", "-cos(x)", "tan(x)"],
+  "answer": "cos(x)"
+},
+{
+  "question": "What is the derivative of cos(x)?",
+  "options": ["sin(x)", "-sin(x)", "cos(x)", "-cos(x)"],
+  "answer": "-sin(x)"
+},
+{
+  "question": "Evaluate the definite integral of 2x from 0 to 3.",
+  "options": ["6", "9", "12", "18"],
+  "answer": "9"
+},
+{
+  "question": "What is an indefinite integral of 3x²?",
+  "options": ["x³ + C", "3x³ + C", "x² + C", "6x + C"],
+  "answer": "x³ + C"
+},
+{
+  "question": "What is lim(x→2) (x² - 4)/(x - 2)?",
+  "options": ["0", "2", "4", "Does not exist"],
+  "answer": "4"
+},
+{
+  "question": "What is lim(x→0) sin(x)/x when x is measured in radians?",
+  "options": ["0", "1", "-1", "Infinity"],
+  "answer": "1"
+},
+{
+  "question": "If y = x³, what is the slope of the tangent at x = 2?",
+  "options": ["4", "8", "12", "16"],
+  "answer": "12"
+},
+{
+  "question": "What is the determinant of the matrix [[3, 2], [5, 4]]?",
+  "options": ["2", "4", "6", "12"],
+  "answer": "2"
+},
+{
+  "question": "If A is a 2×3 matrix and B is a 3×4 matrix, what is the dimension of AB?",
+  "options": ["2×4", "3×3", "3×4", "2×3"],
+  "answer": "2×4"
+},
+{
+  "question": "What is the determinant of the identity matrix of order 3?",
+  "options": ["0", "1", "3", "-1"],
+  "answer": "1"
+},
+{
+  "question": "If 3x + 2y = 16 and x - y = 2, what is x?",
+  "options": ["2", "3", "4", "5"],
+  "answer": "4"
+},
+{
+  "question": "If x + y + z = 6 and x² + y² + z² = 14, what is xy + yz + zx?",
+  "options": ["9", "10", "11", "12"],
+  "answer": "11"
+},
+{
+  "question": "What is the smallest positive integer n for which 2^n > 1000?",
+  "options": ["8", "9", "10", "11"],
+  "answer": "10"
+ },
   {
     "question": "What is 15 + 27?",
     "options": ["40", "42", "44", "46"],
