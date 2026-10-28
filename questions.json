@@ -3199,41 +3199,6 @@
     "question": "Which country is famous for the ancient pyramids of Giza?",
     "options": ["Egypt", "Greece", "Italy", "India"],
     "answer": "Egypt"
-  },
-  {
-    "question": "Which line divides Earth into the Northern and Southern Hemispheres?",
-    "options": ["Prime Meridian", "Equator", "Tropic of Cancer", "International Date Line"],
-    "answer": "Equator"
-  },
-  {
-    "question": "What is the world's highest mountain above sea level?",
-    "options": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
-    "answer": "Mount Everest"
-  },
-  {
-    "question": "Which country gifted the Statue of Liberty to the United States?",
-    "options": ["France", "Spain", "Germany", "Italy"],
-    "answer": "France"
-  },
-  {
-    "question": "Which city is the capital of Australia?",
-    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
-    "answer": "Canberra"
-  },
-  {
-    "question": "Which international organization establishes rules for trade between nations?",
-    "options": ["WHO", "WTO", "UNICEF", "UNESCO"],
-    "answer": "WTO"
-  },
-  {
-    "question": "Which renewable energy source uses moving air to generate electricity?",
-    "options": ["Solar energy", "Wind energy", "Geothermal energy", "Hydropower"],
-    "answer": "Wind energy"
-  },
-  {
-    "question": "Which continent contains the greatest number of countries?",
-    "options": ["Asia", "Europe", "Africa", "South America"],
-    "answer": "Africa"
   }
 ],
   "Engineering Fundamentals": [
