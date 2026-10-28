@@ -10935,21 +10935,6 @@
     "question": "What is a census?",
     "options": ["An official count and survey of a population", "A national court hearing", "A military exercise", "A parliamentary debate"],
     "answer": "An official count and survey of a population"
-  },
-  {
-    "question": "Which term refers to a proposed change to a constitution or law?",
-    "options": ["Amendment", "Embargo", "Coalition", "Sanction"],
-    "answer": "Amendment"
-  },
-  {
-    "question": "What is the purpose of an opposition party in a democracy?",
-    "options": ["To scrutinize and challenge the government", "To abolish all elections", "To control the courts", "To command the armed forces"],
-    "answer": "To scrutinize and challenge the government"
-  },
-  {
-    "question": "What does 'term of office' mean?",
-    "options": ["The fixed period an official holds a position", "The location of a government office", "The salary of an elected official", "The number of political parties"],
-    "answer": "The fixed period an official holds a position"
   }
 ],
   "Business & Economics": [
