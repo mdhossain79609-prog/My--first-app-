@@ -1,1 +1,20 @@
 
+{
+  "startQuiz": "Start Quiz",
+  "chooseCategory": "Choose a Category",
+  "question": "Question",
+  "score": "Score",
+  "nextQuestion": "Next Question",
+  "backToCategories": "Back to Categories",
+  "quizComplete": "Quiz Complete!",
+  "categories": "Categories",
+  "language": "Language",
+  "settings": "Settings",
+  "home": "Home",
+  "continueQuiz": "Continue Quiz",
+  "excellent": "Excellent!",
+  "greatJob": "Great Job!",
+  "good": "Good!",
+  "keepPracticing": "Keep Practicing!",
+  "completed": "Completed"
+}
