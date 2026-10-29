@@ -2029,7 +2029,13 @@ const languages = {
 let currentLanguage = localStorage.getItem("selectedLanguage") || "en";
 let languageData = {};
 
-languageBtn.addEventListener("click", showLanguageMenu);
+languageBtn.addEventListener("click", function(){
+    document.getElementById("languagePanel").style.display = "block";
+});
+
+document.getElementById("closeLanguage").addEventListener("click", function(){
+    document.getElementById("languagePanel").style.display = "none";
+});
 
 function showLanguageMenu() {
 
