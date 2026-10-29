@@ -1267,7 +1267,7 @@ document.getElementById("closeSettings").onclick = function(){
     /* START QUIZ */
 
 document.getElementById("startQuizBtn").onclick = function(){
-
+history.pushState({page:"categories"}, "", "#categories");
     document.getElementById("homeScreen").style.display = "none";
     document.getElementById("categoryScreen").style.display = "block";
 
@@ -2204,6 +2204,22 @@ loadLanguage(currentLanguage);
         document.getElementById("languagePanel").style.display = "none";
 
     });
+
+});
+    /* PHONE BACK BUTTON: CATEGORY → HOME */
+
+window.addEventListener("popstate", function(){
+
+    const categoryScreen =
+        document.getElementById("categoryScreen");
+
+    if(categoryScreen.style.display === "block"){
+
+        categoryScreen.style.display = "none";
+        document.getElementById("quiz").style.display = "none";
+        document.getElementById("result").style.display = "none";
+        document.getElementById("homeScreen").style.display = "block";
+    }
 
 });
     
