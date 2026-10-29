@@ -1,1 +1,19 @@
-
+{
+  "appName": "वर्ल्ड क्विज़ चैलेंज",
+  "tagline": "दुनिया भर के अपने ज्ञान का परीक्षण करें!",
+  "startQuiz": "क्विज़ शुरू करें",
+  "chooseCategory": "एक श्रेणी चुनें",
+  "question": "प्रश्न",
+  "score": "स्कोर",
+  "nextQuestion": "अगला प्रश्न",
+  "backToCategories": "श्रेणियों पर वापस जाएं",
+  "tryAgain": "फिर से प्रयास करें",
+  "settings": "सेटिंग्स",
+  "sound": "ध्वनि",
+  "language": "भाषा",
+  "notifications": "सूचनाएं",
+  "correct": "सही!",
+  "wrong": "गलत!",
+  "quizCompleted": "क्विज़ पूरा हुआ!",
+  "yourScore": "आपका स्कोर"
+}
