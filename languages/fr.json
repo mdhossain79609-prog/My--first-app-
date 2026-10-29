@@ -1,1 +1,20 @@
 
+{
+  "appName": "Défi Quiz Mondial",
+  "tagline": "Testez vos connaissances sur le monde !",
+  "startQuiz": "Commencer le quiz",
+  "chooseCategory": "Choisissez une catégorie",
+  "question": "Question",
+  "score": "Score",
+  "nextQuestion": "Question suivante",
+  "backToCategories": "Retour aux catégories",
+  "tryAgain": "Réessayer",
+  "settings": "Paramètres",
+  "sound": "Son",
+  "language": "Langue",
+  "notifications": "Notifications",
+  "correct": "Correct !",
+  "wrong": "Incorrect !",
+  "quizCompleted": "Quiz terminé !",
+  "yourScore": "Votre score"
+}
