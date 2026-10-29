@@ -2172,6 +2172,20 @@ function applyLanguage() {
 
 // Load saved language when app starts
 loadLanguage(currentLanguage);
+
+    document.querySelectorAll(".language-option").forEach(function(button){
+
+    button.addEventListener("click", function(){
+
+        const selectedLanguage = this.getAttribute("data-lang");
+
+        loadLanguage(selectedLanguage);
+
+        document.getElementById("languagePanel").style.display = "none";
+
+    });
+
+});
     
 </script>
 
