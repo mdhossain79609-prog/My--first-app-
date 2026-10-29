@@ -1,1 +1,20 @@
 
+{
+  "appName": "Desafío Mundial de Quiz",
+  "tagline": "¡Pon a prueba tus conocimientos sobre el mundo!",
+  "startQuiz": "Iniciar Quiz",
+  "chooseCategory": "Elige una categoría",
+  "question": "Pregunta",
+  "score": "Puntuación",
+  "nextQuestion": "Siguiente pregunta",
+  "backToCategories": "Volver a categorías",
+  "tryAgain": "Intentar de nuevo",
+  "settings": "Configuración",
+  "sound": "Sonido",
+  "language": "Idioma",
+  "notifications": "Notificaciones",
+  "correct": "¡Correcto!",
+  "wrong": "¡Incorrecto!",
+  "quizCompleted": "¡Quiz completado!",
+  "yourScore": "Tu puntuación"
+}
