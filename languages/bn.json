@@ -1,1 +1,19 @@
-
+{
+  "appName": "ওয়ার্ল্ড কুইজ চ্যালেঞ্জ",
+  "tagline": "বিশ্বজুড়ে আপনার জ্ঞান পরীক্ষা করুন!",
+  "startQuiz": "কুইজ শুরু করুন",
+  "chooseCategory": "একটি ক্যাটাগরি নির্বাচন করুন",
+  "question": "প্রশ্ন",
+  "score": "স্কোর",
+  "nextQuestion": "পরবর্তী প্রশ্ন",
+  "backToCategories": "ক্যাটাগরিতে ফিরে যান",
+  "tryAgain": "আবার চেষ্টা করুন",
+  "settings": "সেটিংস",
+  "sound": "সাউন্ড",
+  "language": "ভাষা",
+  "notifications": "নোটিফিকেশন",
+  "correct": "সঠিক!",
+  "wrong": "ভুল!",
+  "quizCompleted": "কুইজ সম্পন্ন হয়েছে!",
+  "yourScore": "আপনার স্কোর"
+}
