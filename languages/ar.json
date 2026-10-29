@@ -1,1 +1,20 @@
 
+{
+  "appName": "تحدي الاختبار العالمي",
+  "tagline": "اختبر معلوماتك من جميع أنحاء العالم!",
+  "startQuiz": "ابدأ الاختبار",
+  "chooseCategory": "اختر فئة",
+  "question": "السؤال",
+  "score": "النتيجة",
+  "nextQuestion": "السؤال التالي",
+  "backToCategories": "العودة إلى الفئات",
+  "tryAgain": "حاول مرة أخرى",
+  "settings": "الإعدادات",
+  "sound": "الصوت",
+  "language": "اللغة",
+  "notifications": "الإشعارات",
+  "correct": "صحيح!",
+  "wrong": "خطأ!",
+  "quizCompleted": "اكتمل الاختبار!",
+  "yourScore": "نتيجتك"
+}
