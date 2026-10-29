@@ -1025,7 +1025,7 @@ body{
 
     <div id="categoryScreen" class="screen">
 
-        <h2>📚 Choose a Category</h2>
+        <h2 id="chooseCategoryTitle">📚 Choose a Category</h2>
 
         <p id="loading">
             Loading categories...
@@ -2154,16 +2154,17 @@ function applyLanguage() {
             startBtn.textContent = languageData.startQuiz;
         }
     }
+    
+if (languageData.chooseCategory) {
 
-    if (languageData.chooseCategory) {
-        const categoryTitle =
-            document.getElementById("categoryTitle");
+    const chooseCategoryTitle =
+        document.getElementById("chooseCategoryTitle");
 
-        if (categoryTitle) {
-            categoryTitle.textContent =
-                languageData.chooseCategory;
-        }
+    if (chooseCategoryTitle) {
+        chooseCategoryTitle.textContent =
+            "📚 " + languageData.chooseCategory;
     }
+}
 
     if (languageData.question) {
 
@@ -2202,6 +2203,10 @@ function applyLanguage() {
                 languageData.backToCategories;
         }
     }
+    // Refresh category names
+if (Object.keys(quizData).length > 0) {
+    createCategories();
+}
 }
 
 // Load saved language when app starts
