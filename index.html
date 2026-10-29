@@ -1934,6 +1934,163 @@ function continueQuiz(){
 
 loadQuestions();
 
+    // ===============================
+// LANGUAGE SYSTEM
+// ===============================
+
+const languageBtn = document.getElementById("languageBtn");
+
+const languages = {
+    en: "English",
+    bn: "বাংলা",
+    hi: "हिन्दी",
+    es: "Español",
+    ar: "العربية",
+    fr: "Français"
+};
+
+let currentLanguage = localStorage.getItem("selectedLanguage") || "en";
+let languageData = {};
+
+languageBtn.addEventListener("click", showLanguageMenu);
+
+function showLanguageMenu() {
+
+    const oldMenu = document.getElementById("languageMenu");
+
+    if (oldMenu) {
+        oldMenu.remove();
+        return;
+    }
+
+    const menu = document.createElement("div");
+    menu.id = "languageMenu";
+
+    menu.style.position = "fixed";
+    menu.style.top = "100px";
+    menu.style.right = "20px";
+    menu.style.background = "white";
+    menu.style.padding = "15px";
+    menu.style.borderRadius = "15px";
+    menu.style.boxShadow = "0 5px 20px rgba(0,0,0,0.2)";
+    menu.style.zIndex = "9999";
+
+    Object.keys(languages).forEach(code => {
+
+        const button = document.createElement("button");
+
+        button.textContent = languages[code];
+
+        button.style.display = "block";
+        button.style.width = "180px";
+        button.style.padding = "12px";
+        button.style.margin = "6px 0";
+        button.style.border = "none";
+        button.style.borderRadius = "10px";
+        button.style.cursor = "pointer";
+
+        button.onclick = () => {
+            loadLanguage(code);
+            menu.remove();
+        };
+
+        menu.appendChild(button);
+    });
+
+    document.body.appendChild(menu);
+}
+
+
+async function loadLanguage(code) {
+
+    try {
+
+        const response = await fetch(`languages/${code}.json`);
+
+        if (!response.ok) {
+            throw new Error("Language file not found");
+        }
+
+        languageData = await response.json();
+
+        currentLanguage = code;
+
+        localStorage.setItem("selectedLanguage", code);
+
+        applyLanguage();
+
+    } catch (error) {
+
+        console.error("Language loading error:", error);
+
+        alert("Language file could not be loaded.");
+    }
+}
+
+
+function applyLanguage() {
+
+    if (languageData.startQuiz) {
+        const startBtn = document.getElementById("startQuizBtn");
+
+        if (startBtn) {
+            startBtn.textContent = languageData.startQuiz;
+        }
+    }
+
+    if (languageData.chooseCategory) {
+        const categoryTitle =
+            document.getElementById("categoryTitle");
+
+        if (categoryTitle) {
+            categoryTitle.textContent =
+                languageData.chooseCategory;
+        }
+    }
+
+    if (languageData.question) {
+
+        document.querySelectorAll(".question-label")
+            .forEach(el => {
+                el.textContent = languageData.question;
+            });
+    }
+
+    if (languageData.score) {
+
+        document.querySelectorAll(".score-label")
+            .forEach(el => {
+                el.textContent = languageData.score;
+            });
+    }
+
+    if (languageData.nextQuestion) {
+
+        const nextBtn =
+            document.getElementById("nextQuestionBtn");
+
+        if (nextBtn) {
+            nextBtn.textContent =
+                languageData.nextQuestion;
+        }
+    }
+
+    if (languageData.backToCategories) {
+
+        const backBtn =
+            document.getElementById("backToCategoriesBtn");
+
+        if (backBtn) {
+            backBtn.textContent =
+                languageData.backToCategories;
+        }
+    }
+}
+
+
+// Load saved language when app starts
+loadLanguage(currentLanguage);
+    
 </script>
 
 </body>
