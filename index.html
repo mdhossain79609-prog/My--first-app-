@@ -1332,7 +1332,22 @@ const data = await response.json();
     }
 }
 
+/* ==========================================
+   CATEGORY TRANSLATION
+   ========================================== */
 
+function getCategoryName(category){
+
+    if(
+        languageData &&
+        languageData.categories &&
+        languageData.categories[category]
+    ){
+        return languageData.categories[category];
+    }
+
+    return category;
+}
 /* ==========================================
    CREATE CATEGORIES
    ========================================== */
@@ -1438,10 +1453,9 @@ function createCategories(){
                 ${icon}
             </span>
 
-            <span class="category-name">
-                ${category}
-            </span>
-
+<span class="category-name">
+    ${getCategoryName(category)}
+</span>
             <span class="quiz-count">
                 ${quizText}
             </span>
