@@ -15,5 +15,28 @@
   "correct": "সঠিক!",
   "wrong": "ভুল!",
   "quizCompleted": "কুইজ সম্পন্ন হয়েছে!",
-  "yourScore": "আপনার স্কোর"
+  "yourScore": "আপনার স্কোর",
+
+  "categories": {
+    "World General Knowledge": "বিশ্ব সাধারণ জ্ঞান",
+    "Medical": "চিকিৎসাবিজ্ঞান",
+    "Engineering Fundamentals": "প্রকৌশলের মৌলিক বিষয়",
+    "Mechanical Engineering": "মেকানিক্যাল ইঞ্জিনিয়ারিং",
+    "Mechanical Technician": "মেকানিক্যাল টেকনিশিয়ান",
+    "Electrical & Electrician": "ইলেকট্রিক্যাল ও ইলেকট্রিশিয়ান",
+    "Civil Engineering": "সিভিল ইঞ্জিনিয়ারিং",
+    "Computer & Technology": "কম্পিউটার ও প্রযুক্তি",
+    "General Science": "সাধারণ বিজ্ঞান",
+    "Physics": "পদার্থবিজ্ঞান",
+    "Chemistry": "রসায়ন",
+    "Biology": "জীববিজ্ঞান",
+    "Mathematics": "গণিত",
+    "Animal": "প্রাণীজগৎ",
+    "World History": "বিশ্ব ইতিহাস",
+    "Space & Astronomy": "মহাকাশ ও জ্যোতির্বিজ্ঞান",
+    "Government & Competitive Exam": "সরকারি ও প্রতিযোগিতামূলক পরীক্ষা",
+    "Business & Economics": "ব্যবসা ও অর্থনীতি",
+    "Sports": "খেলাধুলা",
+    "Brain & Logic": "বুদ্ধি ও যুক্তি"
+  }
 }
